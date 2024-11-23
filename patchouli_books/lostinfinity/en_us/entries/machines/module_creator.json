@@ -1,0 +1,13 @@
+{
+  "name": "Module Creator",
+  "icon": "lostinfinity:module_creator",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:module_creator",
+      "title": "Module Creator",
+      "text": "The Module Creator is used to create the modules required to upgrade the Lost Infinity Armors. Recipes can be found in JEI."
+    }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+	"name": {
+		"text": "Dark Superman"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "dfheroes:textures/icons/red_eyes_icon.png"
+	},
+	
+	"max_level": 1,
+	
+	"capsule_color" : 12910592,
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:toggle_power",
+			"abilities": [  ],
+			"icon": {
+						"type": "texture",
+						"texture": "dfheroes:textures/icons/red_eyes_icon.png"
+					},
+			"required_level": 1
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		{
+			"ability": "lucraftcore:water_breathing"
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 1,
+			"sprint_speed": 6,
+			"rotate_arms": true
+	    },
+		{
+		    "ability": "heroesexpansion:heat_vision",
+			"color": [ 255, 0, 0 ]
+		},
+		{
+			"ability": "lucraftcore:slowfall"
+		},
+		{
+			"ability": "lucraftcore:step_assist",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 5
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 5.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 16,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+
+	"effects": [
+		{
+          "type": "skin_overlay",
+          "texture": "dfheroes:textures/skins/red_eyes.png",
+          "glow": true,
+          "size": 0.5,
+		  "conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}
+	]
+}

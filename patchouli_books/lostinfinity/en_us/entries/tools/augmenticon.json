@@ -1,0 +1,17 @@
+{
+  "name": "Augmenticon Box",
+  "icon": "lostinfinity:augmenticon_box",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:augmenticon_box",
+      "title": "Augmenticon Box",
+      "text": "Box used to summon an Augmenticon, drops and abilities are dependent on which slides are added to this box by way of the Augmenter. The more slides added, the stronger the Augmenticon."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recaugmenticonbox"
+    }
+    ]
+}

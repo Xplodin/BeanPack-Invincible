@@ -1,0 +1,100 @@
+[
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:rotten_flesh"
+  },
+  {
+    "mob": "Zombie",
+    "random": 0.15,
+    "item": "minecraft:rotten_flesh"
+  },
+      {
+    "mob": "Skeleton",
+    "remove": "minecraft:arrow"
+  },
+    {
+    "mob": "Skeleton",
+    "remove": "minecraft:bone"
+  },
+  {
+    "mob": "Skeleton",
+    "random": 0.15,
+    "item": "minecraft:bone"
+  },
+    {
+    "mob": "Spider",
+    "remove": "minecraft:string"
+  },
+  {
+    "mob": "Spider",
+    "random": 0.15,
+    "item": "minecraft:string"
+  },
+    {
+    "mob": "Spider",
+    "remove": "minecraft:spider_eye"
+  },
+  {
+    "mob": "Spider",
+    "random": 0.2,
+    "item": "minecraft:spider_eye"
+  },
+    {
+    "mob": "Creeper",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "Creeper",
+    "random": 0.3,
+    "item": "minecraft:gunpowder"
+  },
+  {
+    "mob": "tradeasteroid:biffbaddy",
+    "random": 0.9,
+    "item": "economy:item_fiveb"
+  },
+  {
+    "mob": "tradeasteroid:biffboss",
+    "item": "tradeasteroid:asteroidbelttrigger"
+  },
+  {
+    "mob": "animalium:bear",
+    "item": "junglemobs:poopcharge"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "random": 0.7,
+    "item": "junglemobs:poopcharge"
+  },
+    {
+    "mob": "animalium:wild_dog",
+    "random": 0.5,
+    "item": "economy:item_oneb"
+  },
+      {
+    "mob": "animalium:bear",
+    "random": 0.9,
+    "item": "economy:item_oneb"
+  },
+  {
+    "mob": "tradeasteroid:aphroditeboss",
+    "item": "tradeasteroid:aphroheart"
+  },
+  {
+    "mob": "tradeasteroid:zeusmob",
+    "item": "variedcommodities:spell_lightning"
+  },
+  {
+    "mob": "armorplus:overlord_of_the_guardians",
+    "item": "variedcommodities:element_water"
+  },
+  {
+    "mob": "armorplus:skeletal_king",
+    "item": "variedcommodities:skull"
+  },
+  {
+    "mob": "draconicevolution:chaosguardian",
+    "item": "variedcommodities:violin"
+  }
+
+]

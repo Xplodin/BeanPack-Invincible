@@ -1,0 +1,113 @@
+{
+	"name": {
+		"text": "Infinity Gauntlet (MCU)"
+	},
+	
+	"armor_material": {
+		"durability": 5000,
+		"damage_reduction_amounts": [20, 20, 20, 20],
+		"enchantibility": 20,
+		"toughness": 4.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+ "description": {
+        "text": "Tier 4 Suit"
+    },
+	
+	"abilities": [
+		{
+            "ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+		    "ability": "heroesexpansion:photon_blast",
+			"title": {"text":"Power Blast"},
+			"cooldown": 20,
+            "color": [255, 0.0, 255]
+		},
+		{
+		    "ability": "lucraftcore:energy_blast",
+			"title": {"text":"Reality Blast"},
+			"cooldown": 20,
+            "damage": 10,
+            "color": [255, 0.0, 0.0]
+		},
+        {
+			"ability": "heroesexpansion:portal",
+			"cooldown": 50
+		},
+		{
+			"ability": "heroesexpansion:grab_entity",
+			"cooldown": 50
+		},
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "the-fifth-world:change_item",
+			"cooldown": 1000,
+			"from": { "item": "minecraft:stick", "data": 0, "count": 1 },
+			"to": { "item": "minecraft:diamond", "data": 0, "count": 1 },
+			"title": {"text":"Alter Reality"}
+		},
+		{
+			"ability": "the-fifth-world:bonemeal_area",
+			"cooldown": 200,
+			"title": {"text":"Terraform Area"}
+		},
+		{
+			"ability": "heroesexpansion:lightning_strike",
+			"title": {"text":"Energy Surge"},
+			"cooldown": 100
+		}
+	],
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Infinity Gauntlet (MCU)"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/gauntlet/right.png",
+				"normal_smallarms": "dfheroes:textures/suits/gauntlet/right.png",
+				"glow": "dfheroes:textures/suits/gauntlet/right_glow.png",
+				"normal_open": "dfheroes:textures/suits/gauntlet/left.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/gauntlet/left.png",
+				"glow_open": "dfheroes:textures/suits/gauntlet/left_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:gauntlet_state"
+			}
+		}
+	}
+}

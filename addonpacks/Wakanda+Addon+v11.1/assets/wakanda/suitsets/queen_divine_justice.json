@@ -1,0 +1,135 @@
+{
+	"name": {
+		"text": "Queen Divine Justice"
+	},
+	
+	"armor_material": {
+		"durability": 80,
+		"damage_reduction_amounts": [6, 6, 8, 4],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "Vol. 3"
+    },
+
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},			
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {	
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},			
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},
+			"amount": 3.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"wall_running": {			
+			"ability": "speedsterheroes:wall_running",
+			"cooldown": 0,			
+			"required_level": 3,
+            "show_in_bar": false,		
+            "title": {"text":"Wall Running"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/wall_running.png"},		
+			"speed": 1.0			
+		},
+		"water_running": {
+			"ability": "speedsterheroes:water_running",
+			"cooldown": 0,
+			"required_level": 4,
+            "show_in_bar": false,		
+            "title": {"text":"Water Skimming"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/water_running.png"},	
+			"speed": 1.0
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Queen Divine Justice's Glasses"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/queen_divine_justice/queen_divine_justices_glasses.png",
+				"normal_open": "wakanda:textures/armor/queen_divine_justice/queen_divine_justices_glasses_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:queen_divine_justice"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Queen Divine Justice's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/queen_divine_justice/queen_divine_justices_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/queen_divine_justice/queen_divine_justices_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:queen_divine_justice"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Queen Divine Justice's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/queen_divine_justice/queen_divine_justices_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:queen_divine_justice"
+			}
+		}
+	}
+}

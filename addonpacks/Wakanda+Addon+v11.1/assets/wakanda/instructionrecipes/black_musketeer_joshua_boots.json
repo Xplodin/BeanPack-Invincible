@@ -1,0 +1,13 @@
+{
+	"output": {
+		"item": "wakanda:black_musketeer_joshua_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 4
+		}
+	]
+
+}

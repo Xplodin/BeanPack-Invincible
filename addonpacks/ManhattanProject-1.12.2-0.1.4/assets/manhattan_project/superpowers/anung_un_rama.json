@@ -1,0 +1,164 @@
+	{
+	"name": {
+		"translate": "manhattan_project.superpower.hellboy"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/bprd_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 16730403,
+
+	"abilities": {
+		"prince": {
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 400,
+			"bar_color": "red",
+			"title": {"text":"Prince of Hell"},
+			"damage": 6.5,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/hell_icon.png"}
+		},
+		"hell_fire": {
+			"ability": "lucraftcore:fire_punch",
+			"cooldown": 400,
+			"title": {"text":"Hell Fire"},
+			"parent_ability": "prince",
+			"show_in_bar": false,
+			"duration": 100
+		},
+		"call_weapon": {
+			"ability": "heroesexpansion:call_weapon",
+			"cooldown": 0
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.7,
+			"operation": 0
+		},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 16,
+			"operation": 0
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3,
+			"operation": 0
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 11,
+			"operation": 0
+		},
+		"resistance":{ 
+			"ability": "lucraftcore:resistance",
+			"amount": 11,
+			"operation": 0
+		},
+		"fire_resistance":{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 40,
+			"operation": 0
+		},
+		"fuck_you_dhavin": {
+			"ability": "the-fifth-world:potion_immunity",
+			"show_in_bar": false,
+			"title": {"text":"Hidden"},
+			"potion": "minecraft:glowing",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/glowing_icon.png"}
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+			"frequency": 35,
+			"amount": 2.5,
+			"required_ability": "prince",
+			"conditions": [{"type": "ability_enabled",
+					"ability": "prince"}]
+		},
+		"particle":{
+			"ability": "lucraftcore:command_loop",
+			"show_in_bar": false,
+			"cooldown": 0,
+			"title": {"text":"Crown of Flames"},
+			"parent_ability":"prince",
+			"required_ability": "prince",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/hell_icon.png"},
+			"commands": ["particle flame ~ ~2 ~ .1 .1 .1 0.3 0 force",
+				"particle smoke ~ ~1.5 ~ .1 .1 .1 0.1 0 force",
+				"particle smoke ~ ~1 ~ .1 .1 .1 0.1 0 force",
+				"particle smoke ~ ~2 ~ .1 .1 .1 0.1 0 force",
+				"effect @p minecraft:resistance 5 1",
+				"effect @p minecraft:saturation 5 5",
+				"effect @p minecraft:night_vision 5 5",
+				"effect @p minecraft:luck 5 5"],
+			"hidden": true
+			},
+		"summon": {
+			"ability": "the-fifth-world:summon_entity",
+			"cooldown": 350,
+			"show_in_bar": true,
+			"title": {"text":"Summon Armies of Hell"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/demon_icon.png"},
+			"bar_color": "light_gray",
+			"entity": "minecraft:blaze",
+			"number": 3,
+			"conditions": [{"type": "lucraftcore:held_item",
+					"item": "minecraft:golden_sword",
+					"hand": "main_hand"}]
+		}
+		
+
+	},
+
+			"effects": [{
+			"type": "skin_change",
+			"texture": "manhattan_project:textures/skins/hellboy_skin.png"
+              },
+              {
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/hand_of_doom.png",
+			"glow": false,
+			"size": 0.5
+			},
+			{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/hellboy_glow.png",
+			"glow": true,
+			"size": 0,
+			"conditions": [{"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"}]
+			},
+			{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/hellboy_horns.png",
+			"glow": false,
+			"size": 0.5,
+			"conditions": [{"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"}]
+			},
+			{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/hellboy_horns.png",
+			"glow": false,
+			"size": 1,
+			"conditions": [{"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"}]
+			},
+			{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/of_doom.png",
+			"glow": false,
+			"size": 0.7
+			}
+		]
+}

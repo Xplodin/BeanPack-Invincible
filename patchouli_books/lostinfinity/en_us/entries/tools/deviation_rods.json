@@ -1,0 +1,37 @@
+{
+  "name": "Deviation Rods",
+  "icon": "lostinfinity:rodofdeviation",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:rodofdeviation",
+      "title": "Rod of Deviation",
+      "text": "Rod that allows forced deviation of a compatible mob."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recroddeviation"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:supermutationrod",
+      "title": "Rod of Super Mutation",
+      "text": "Rod that allows forced super-mutation of a compatible mob."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recrodsupermutation"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:rod_of_ultimatum",
+      "title": "Rod of Ultimatum",
+      "text": "Rod that allows forced deviation and super-mutation of a compatible mob. Can also be used to teleport them to other locations."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recrodultimatum"
+    }
+    ]
+}

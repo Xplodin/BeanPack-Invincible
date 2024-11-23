@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier3_mark_3_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "1 1",
+    "2 2"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    },
+	"2": {
+      "item": "lucraftcore:mv_capacitor"
+    }
+  }
+} 

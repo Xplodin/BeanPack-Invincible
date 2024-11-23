@@ -1,0 +1,13 @@
+{
+  "name": "Grinder",
+  "icon": "lostinfinity:grinder",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:grinder",
+      "title": "Grinder",
+      "text": "The Grinder is used to grind down Sunstone by cleaning the soot off without touching the red box. A powered Gearbox needs to be next to it."
+    }
+    ]
+}

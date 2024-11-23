@@ -1,0 +1,19 @@
+{
+  "name": "Chroma Game",
+  "icon": "lostinfinity:chroma_game",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:chroma_tile",
+    "title": "Chroma Game",
+    "text": "100% Max Health Damage. Blood Toxin."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:frosted_log",
+    "title": "Frosted Log",
+    "text": "100% Max Health Damage. Blood Toxin."
+  }
+  ]
+}

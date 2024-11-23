@@ -1,0 +1,102 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"text": "Quantum Suit"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "MCU"
+	},
+
+"data": {
+		"transition_color_1": {
+			"red": 2,
+			"green": 100,
+			"blue": 255
+		},
+		"transition_color_2": {
+			"red": 1,
+			"green": 255,
+			"blue": 100
+		},
+		"necklace_texture": "dfheroes:textures/suits/quantum/band.png"
+	},
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 0.1,
+			"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    }
+	],
+	
+	"effects": [
+	    {
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/quantum/band_glow.png",
+		"glow": true,
+        "size": 0.51
+		},
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/quantum/suit_glow.png",
+		"glow": true,
+        "size": 0.51,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    }
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Quantum Suit"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/quantum/band.png",
+				"normal_smallarms": "dfheroes:textures/suits/quantum/band.png",
+				"normal_open": "dfheroes:textures/suits/quantum/suit.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/quantum/suit.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:quantum_state"
+			}
+		}
+	}
+}

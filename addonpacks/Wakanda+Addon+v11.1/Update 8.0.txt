@@ -1,0 +1,28 @@
+Update 8.0 Changelog - Intergalatic Update
+--------------------------------------------------------------------
+*Buffed Black Panther & King of The Dead's superpower jump boost to 6 
+*Increased chance to get Klaw's power from extractor 
+*Decreased the level to get flight on Klaw's power 
+*Increased energy blast damage on Vibranium Shielding suit
+*Increased Iron Man's flight speed
+*Updated American Panther's suit texture
+*Changed some suit crafting recipes 
+*Buffed Klaw's Sonic Disruptor 
++Added energy absorption ability to Klaw (Master of Sound) 
++Added Enhanced Senses (Spider Sense) on King of The Dead power 
++Added Luke Cage/Wolverine/Iron Fist/Bullseye Super-Skrull (SW&D) 
++Added Black Panther (Space Suit) 
++Added Slave Outfit from BP Vol. 7 
++Added Slavers outfit from BP Vol. 7 
++Added Maroons Mission Costume from BP Vol. 7 
++Added Nano-Tech Gaunlets on BP Vol. 6 
++Added Blade (Claws) ability on BP MCU Movie suit 
++Added Claws on Erik Killmonger Golden Jaguar suit 
++Added Kinetic Energy Absorption on Jakarra superpower 
++Added Black Panther (New Avengers) suit 
++Added description to MCU Black Panther's necklace  
++Added fire resistance to Black Panther Vol 4's suit 
++Added invisibility on Vibranium Shielding suit 
++Added Zawavari's outfit 
++Added B'Tumba 
++Added Jiru 

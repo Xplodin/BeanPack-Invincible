@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:sombre_jungle_action_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_purple",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_orange",
+		    "amount": 2
+		}
+	]
+
+}

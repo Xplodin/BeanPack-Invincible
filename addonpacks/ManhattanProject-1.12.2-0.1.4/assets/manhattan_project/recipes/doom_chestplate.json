@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "manhattan_project:doom_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "212",
+    "232",
+    "222"
+  ],
+  "key": {
+	"1": {
+      "item": "lucraftcore:basic_circuit"
+    },
+    "2": {
+      "item": "lucraftcore:ingot_titanium"
+    },
+    "3":{
+	"item": "minecraft:iron_chestplate"
+	}
+  }
+}

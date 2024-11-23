@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:bullseye_back",
+
+  "result": {
+    "item": "prime_homelander_legs"
+  },
+
+  "original": "manhattan_project:homelander_legs",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLUE"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:homelander_legs",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:prime_homelander_legs",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

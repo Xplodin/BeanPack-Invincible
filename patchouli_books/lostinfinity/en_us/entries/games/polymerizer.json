@@ -1,0 +1,61 @@
+{
+  "name": "Polymerizer Game",
+  "icon": "lostinfinity:polymerization_device",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:polymerization_device",
+    "title": "Polymerizer Game",
+    "text": "The Polymerizer Game requires some searching. You need to find the Monomer Samples out in the Labyrinth to complete it."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:monomer_collector",
+    "title": "Monomer Collector",
+    "text": "The Monomer Collector is given for you to collect Monomer Samples from deposits."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:purple_monomer_sample",
+    "title": "Purple Monomer",
+    "text": "The Purple Monomer Sample."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:red_monomer_sample",
+    "title": "Red Monomer",
+    "text": "The Red Monomer Sample."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:blue_monomer_sample",
+    "title": "Blue Monomer",
+    "text": "The Blue Monomer Sample."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:yellow_monomer_sample",
+    "title": "Yellow Monomer",
+    "text": "The Yellow Monomer Sample."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:green_monomer_sample",
+    "title": "Green Monomer",
+    "text": "The Green Monomer Sample."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:rainfall_collector_full",
+    "title": "Rainfall Collector [Full]",
+    "text": "A full Rainfall Collector bottle is used to start this game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:dimensional_polymer",
+    "title": "Dimensional Polymer",
+    "text": "Dimensional Polymer is given for succesfully completing the game."
+  }
+  ]
+}

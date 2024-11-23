@@ -1,0 +1,17 @@
+{
+  "name": "Solar Globe",
+  "icon": "lostinfinity:solar_globe",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:solar_globe",
+      "title": "Solar Globe",
+      "text": "Teleports the user to the Cartographer's Labyrinth. The floor can be chosen by using the swap action key. The color of the item indicates the floor teleported to."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsolarglobe"
+    }
+    ]
+}

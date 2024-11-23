@@ -1,0 +1,68 @@
+{
+	"name": {
+		"text": "Everett Ross's Tuxedo"
+	},
+
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [1, 2, 3, 1],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+	"description": {
+		"text": "MCU"
+	},
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Everett Ross's Jacket"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_jacket.png",
+				"normal_smallarms": "wakanda:textures/armor/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_jacket_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tuxedo_everett_ross_mcu"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Everett Ross's Pants"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_pants.png"
+
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tuxedo_everett_ross_mcu"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Everett Ross's Shoes"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_shoes.png"
+
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tuxedo_everett_ross_mcu"
+			}
+		}
+	}
+}

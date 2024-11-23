@@ -1,0 +1,25 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"head": [{
+			"textures": {
+				"layer0": "wakanda:items/sombre_vol_3/sombre_vol_3_mask"
+			}
+		}],
+		
+		"chest": [{
+			"textures": {
+				"layer0": "wakanda:items/sombre_vol_3/sombre_vol_3_robe"
+			}
+		}]
+	}
+}

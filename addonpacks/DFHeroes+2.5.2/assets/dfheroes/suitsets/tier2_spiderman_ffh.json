@@ -1,0 +1,115 @@
+{
+	"name": {
+		"text": "Spider-Man (FFH)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "Far From Home"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 3.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "heroesexpansion:web_wings"
+		}
+
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Mask"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spider_man_ffh/helmet.png",
+				"normal_open": "dfheroes:textures/suits/spider_man_ffh/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spider_man_ffh_suit"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spider_man_ffh/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/spider_man_ffh/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spider_man_ffh_suit"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spider_man_ffh/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spider_man_ffh_suit"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spider_man_ffh/boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spider_man_ffh_suit"
+			}
+		}
+	},
+	
+	"effects": [
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/spiderman_stark_hud.png",
+			"conditions": [
+                {
+                    "type": "open_armor",
+                    "slot": "helmet"
+                }
+            ]
+        }
+	]
+}

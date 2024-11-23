@@ -1,0 +1,113 @@
+{
+	"name": {
+		"text": "Vision: MCU"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "dfheroes:textures/icons/mind_stone_icon.png"
+	},
+	
+	"max_level": 1,
+	
+	"capsule_color" : 16770048,
+
+	"abilities": [
+		{
+			"ability": "heroesexpansion:god_mode",
+			"damage": 0,
+			"icon": {
+						"type": "texture",
+						"texture": "dfheroes:textures/icons/wip_icon.png"
+					}
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		{
+			"ability": "lucraftcore:water_breathing"
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 4,
+			"rotate_arms": false
+	    },
+		{
+		    "ability": "heroesexpansion:heat_vision",
+			"color": [ 1, 1, 0 ]
+		},
+		{
+			"ability": "lucraftcore:slowfall"
+		},
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 15
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 5.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 16,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+
+	"effects": [
+	    {
+		"type": "skin_change",
+        "texture": "dfheroes:textures/skins/vision_skin.png",
+		"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+	    },
+		{
+          "type": "skin_overlay",
+          "texture": "dfheroes:textures/skins/vision_glow.png",
+          "glow": true,
+          "size": 0.0,
+		  "conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		}
+	]
+}

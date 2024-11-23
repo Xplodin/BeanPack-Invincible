@@ -1,0 +1,797 @@
+{
+  "name": "dinosaur_construct",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+	  "color_texture": "wakanda:textures/constructs/dinosaur_bw.png",
+	  "texture": "wakanda:textures/constructs/dinosaur.png"
+  },
+  "model_cubes": [
+    {
+      "cube_name": "forward leg 1",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        6.0,
+        16.0,
+        -6.0
+      ],
+      "offset": [
+        -2.0,
+        0.0,
+        -2.0
+      ],
+      "dimensions": [
+        4,
+        6,
+        4
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "forward leg 2",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        6.0,
+        21.3,
+        -6.0
+      ],
+      "offset": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        4,
+        2
+      ],
+      "rotation_angles": [
+        -45.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "forward leg 3",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        -6.0,
+        16.0,
+        -6.0
+      ],
+      "offset": [
+        -2.0,
+        0.0,
+        -2.0
+      ],
+      "dimensions": [
+        4,
+        6,
+        4
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "forward leg 4",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        -6.0,
+        21.3,
+        -6.0
+      ],
+      "offset": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        4,
+        2
+      ],
+      "rotation_angles": [
+        -45.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "backward leg 1",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        6.0,
+        16.0,
+        6.0
+      ],
+      "offset": [
+        -2.0,
+        0.0,
+        -2.0
+      ],
+      "dimensions": [
+        4,
+        6,
+        4
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "backward leg 2",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        6.0,
+        21.3,
+        6.0
+      ],
+      "offset": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        4,
+        2
+      ],
+      "rotation_angles": [
+        -45.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "backward leg 3",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        -6.0,
+        16.0,
+        6.0
+      ],
+      "offset": [
+        -2.0,
+        0.0,
+        -2.0
+      ],
+      "dimensions": [
+        4,
+        6,
+        4
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "backward leg 4",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        -6.0,
+        21.3,
+        6.0
+      ],
+      "offset": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        4,
+        2
+      ],
+      "rotation_angles": [
+        -45.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "body",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        13.0,
+        -9.0
+      ],
+      "offset": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        10,
+        6,
+        14
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "body 2",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        10.0,
+        5.0
+      ],
+      "offset": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        10,
+        6,
+        5
+      ],
+      "rotation_angles": [
+        -10.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        10.8,
+        9.8
+      ],
+      "offset": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        4,
+        4,
+        4
+      ],
+      "rotation_angles": [
+        -32.5,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail 2",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        12.95,
+        13.18
+      ],
+      "offset": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3,
+        4,
+        3
+      ],
+      "rotation_angles": [
+        -60.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "neck",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        14.0,
+        -12.0
+      ],
+      "offset": [
+        -4.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        8,
+        4,
+        3
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "neck 2",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        14.0,
+        -12.0
+      ],
+      "offset": [
+        -6.0,
+        -6.0,
+        0.0
+      ],
+      "dimensions": [
+        12,
+        10,
+        1
+      ],
+      "rotation_angles": [
+        -23.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "head",
+      "texture_offset": [
+        0,
+        22
+      ],
+      "position": [
+        0.0,
+        16.0,
+        -13.0
+      ],
+      "offset": [
+        -2.5,
+        -2.0,
+        -4.0
+      ],
+      "dimensions": [
+        5,
+        5,
+        5
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "nose",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        18.25,
+        -17.4
+      ],
+      "offset": [
+        -1.0,
+        -1.5,
+        -3.0
+      ],
+      "dimensions": [
+        2,
+        3,
+        4
+      ],
+      "rotation_angles": [
+        23.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "nose horn",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        18.55,
+        -19.7
+      ],
+      "offset": [
+        -0.5,
+        -1.5,
+        -0.5
+      ],
+      "dimensions": [
+        1,
+        2,
+        1
+      ],
+      "rotation_angles": [
+        11.5,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "mouth",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        19.25,
+        -15.4
+      ],
+      "offset": [
+        -1.0,
+        -0.5,
+        -2.1
+      ],
+      "dimensions": [
+        2,
+        1,
+        3
+      ],
+      "rotation_angles": [
+        45.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "horn 1",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        1.5,
+        14.5,
+        -15.0
+      ],
+      "offset": [
+        -0.5,
+        -5.0,
+        0.0
+      ],
+      "dimensions": [
+        1,
+        5,
+        1
+      ],
+      "rotation_angles": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "horn 2",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        -1.5,
+        14.5,
+        -15.0
+      ],
+      "offset": [
+        -0.5,
+        -5.0,
+        0.0
+      ],
+      "dimensions": [
+        1,
+        5,
+        1
+      ],
+      "rotation_angles": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "body 3",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        12.0,
+        -5.0
+      ],
+      "offset": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        10,
+        1,
+        10
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "body 4",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        11.0,
+        -4.0
+      ],
+      "offset": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        10,
+        1,
+        9
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "body 5",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        10.0,
+        -3.0
+      ],
+      "offset": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        10,
+        1,
+        8
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail 3",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        15.54,
+        14.65
+      ],
+      "offset": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3,
+        4,
+        3
+      ],
+      "rotation_angles": [
+        -82.5,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail 4",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        16.2,
+        13.95
+      ],
+      "offset": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3,
+        4,
+        3
+      ],
+      "rotation_angles": [
+        -45.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail 5",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        18.15,
+        13.28
+      ],
+      "offset": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        3,
+        3,
+        3
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail 6",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        18.65,
+        16.28
+      ],
+      "offset": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2,
+        2,
+        2
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    },
+    {
+      "cube_name": "tail 7",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        0.0,
+        19.15,
+        18.28
+      ],
+      "offset": [
+        -0.5,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1,
+        1,
+        1
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false
+    }
+  ]
+}

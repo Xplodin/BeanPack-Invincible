@@ -1,0 +1,17 @@
+{
+  "name": "Forgefire Pickaxe",
+  "icon": "lostinfinity:forgefirepickaxe",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:forgefirepickaxe",
+      "title": "Forgefire Pickaxe",
+      "text": "Pickaxe that is charged to mine specific ores, the charge provided to it deems what ores can be mined. The Pickaxe Charger is used to apply these charges."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recforgefirepickaxe"
+    }
+    ]
+}

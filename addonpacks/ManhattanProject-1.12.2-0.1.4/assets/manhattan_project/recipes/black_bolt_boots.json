@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:black_bolt_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "1 1",
+    "2 2"
+  ],
+  "key": {
+	 "1": {
+      "item": "lucraftcore:tri_polymer_white"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+}

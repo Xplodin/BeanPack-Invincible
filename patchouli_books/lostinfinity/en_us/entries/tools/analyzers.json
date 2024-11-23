@@ -1,0 +1,37 @@
+{
+  "name": "Analyzers",
+  "icon": "lostinfinity:variantanalyzerempty",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:variantanalyzerempty",
+      "title": "DNA Analyzer",
+      "text": "Core for the Rod of Deviation. Charge it by scanning the following mobs near you all at the same time: Creeper, Skeleton, Chicken, Cow, and Enderman."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recdna"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:deviationanalyzerempty",
+      "title": "Deviation Analyzer",
+      "text": "Core for the Rod of Super Mutation. Charge it by scanning the following deviated mobs near you all at the same time: Creeper, Skeleton, Shulker, and Enderman."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recdevanalyzer"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:ultimatum_analyzer_empty",
+      "title": "Ultimatum Analyzer",
+      "text": "Core for the Rod of Ultimatum. Charge it by scanning the following fully super-mutated mobs near you all at the same time: Vex, Stray, Creeper, Witch, Magma Cube, Slime Strider, Slime, Piglin, Skeleton, and Llama."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recultimatumanalyzer"
+    }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+	"name": {
+		"text": "Sombre"
+	},
+	
+	"armor_material": {
+		"durability": 40,
+		"damage_reduction_amounts": [3, 4, 5, 6],
+		"enchantibility": 0,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "Jungle Action"
+    },
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Sombre"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Sombre's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/sombre_jungle_action/sombre_jungle_action_mask.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:sombre_jungle_action"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Sombre's Robe"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/sombre_jungle_action/sombre_jungle_action_robe.png",
+				"normal_smallarms": "wakanda:textures/armor/sombre_jungle_action/sombre_jungle_action_robe_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:sombre_jungle_action"
+			}
+		}
+	}
+}

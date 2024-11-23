@@ -1,0 +1,92 @@
+{
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [3, 3, 3, 3],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "panther_habit",
+	
+ "description": {
+        "text": "19th"
+    },
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.125,
+			"name": {
+				"text": "Black Panther's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_19th/black_panther_19th_head.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_19th"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.063,
+			"name": {
+				"text": "Black Panther's Torso"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_19th/black_panther_19th_torso.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_19th/black_panther_19th_torso_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_19th"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.0625,
+			"name": {
+				"text": "Black Panther's Legs"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_19th/black_panther_19th_legs.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_19th"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.063,
+			"name": {
+				"text": "Black Panther's Feet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_19th/black_panther_19th_feet.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_19th"
+			}
+		}
+	}
+}

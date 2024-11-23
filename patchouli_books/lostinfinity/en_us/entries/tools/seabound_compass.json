@@ -1,0 +1,17 @@
+{
+  "name": "Seabound Compass",
+  "icon": "lostinfinity:seabound_compass",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:seabound_compass",
+      "title": "Seabound Compass",
+      "text": "Teleports the player back to the Overworld out of the Shadow Sea."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recseaboundcompass"
+    }
+    ]
+}

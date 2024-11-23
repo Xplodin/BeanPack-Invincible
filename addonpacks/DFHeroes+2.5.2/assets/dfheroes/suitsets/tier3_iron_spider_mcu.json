@@ -1,0 +1,123 @@
+{
+	"parent": "heroesexpansion:black_panther",
+	
+	"name": {
+		"text": "Iron Spider (MCU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "MCU"
+	},
+"data": {
+		"transition_color_1": {
+			"red": 0,
+			"green": 100,
+			"blue": 255
+		},
+		"transition_color_2": {
+			"red": 1,
+			"green": 100,
+			"blue": 255
+		},
+		"necklace_texture": "dfheroes:textures/suits/spider_man_iw/suit_off.png"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:tough_lungs",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		}
+	],
+
+	"armor_parts": {
+		
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Iron Spider's Suit"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spider_man_iw/suit.png",
+				"normal_smallarms": "dfheroes:textures/suits/spider_man_iw/suit.png",
+				"glow": "dfheroes:textures/suits/spider_man_iw/suit_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits/spider_man_iw/suit_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spider_man_iw_state"
+			}
+		}
+
+	},
+	
+	"effects": [
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/spiderman_stark_hud.png",
+			"conditions": [
+                {
+                    "type": "open_armor",
+                    "slot": "chest"
+                }
+            ]
+        },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/spider_man_iw/suit_glow.png",
+		"glow": true,
+        "size": 0.51,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:kiber_the_cruel_android_vol_1_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_yellow",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_red",
+		    "amount": 2
+		}
+	]
+
+}

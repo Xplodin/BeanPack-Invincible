@@ -1,0 +1,17 @@
+{
+  "name": "Murky Mirror",
+  "icon": "lostinfinity:murky_mirror",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:murky_mirror",
+      "title": "Murky Mirror",
+      "text": "Used to teleport the player to the Infinite Murk."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recmurkymirror"
+    }
+    ]
+}

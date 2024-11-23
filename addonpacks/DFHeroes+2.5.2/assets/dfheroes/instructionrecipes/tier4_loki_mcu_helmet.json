@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier4_loki_mcu_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_green",
+		    "amount": 2
+		}
+	]
+
+}

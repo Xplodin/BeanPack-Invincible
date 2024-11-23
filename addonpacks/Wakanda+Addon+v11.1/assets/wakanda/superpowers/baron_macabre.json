@@ -1,0 +1,76 @@
+{
+	"name" : {
+		"text": "Baron Macabre"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 16753467,
+	
+	"effects": [
+		{
+			"type": "skin_change",
+			"texture": "wakanda:textures/skins/baron_macabre_smallarms.png"
+		},
+			 
+		{
+            "type": "name_change",
+            "name": {
+                "text": "Baron Macabre"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},					
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},		
+			"amount": 1.2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},					
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},				
+			"amount": 12,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},			
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		}
+	}
+}

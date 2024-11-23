@@ -1,0 +1,148 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"text": "Golden Jaguar (MCU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [6, 7, 8, 6],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+
+"data": {
+		"transition_color_1": {
+			"red": 1,
+			"green": 1,
+			"blue": 0
+		},
+		"transition_color_2": {
+			"red": 1,
+			"green": 1,
+			"blue": 0
+		},
+		"necklace_texture": "dfheroes:textures/suits/golden_jaguar_mcu/necklace.png"
+	},
+
+	"description": {
+		"text": "MCU"
+	},
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]	
+		},
+		{
+			"ability": "heroesexpansion:kinetic_energy_absorption",
+			"max_energy": 100,
+			"color": [ 1, 1, 0 ],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		}
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Golden Jaguar's Necklace"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/golden_jaguar_mcu/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/golden_jaguar_mcu/chestplate.png",
+				"glow": "dfheroes:textures/suits/golden_jaguar_mcu/glow.png",
+				"glow_smallarms": "dfheroes:textures/suits/golden_jaguar_mcu/glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:golden_jaguar_state"
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "inventory": {
+    "0:1": "yoyos:yoyo,1,0,{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:0.0f,FreeModifiers:3,ChordLength:6.0f,Durability:139,HarvestLevel:0,Duration:666,Attack:3.5f,Weight:3.1f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:0.0f,FreeModifiers:3,ChordLength:6.0f,Durability:111,HarvestLevel:0,Duration:666,Attack:3.5f,Weight:3.1f},Special:{Categories:[\"weapon\",\"no_melee\",\"tool\",\"harvest\",\"projectile\"]},TinkerData:{Materials:[\"string\",\"stone\",\"wood\",\"obsidian\"],Modifiers:[\"tinkertweaks\"]},Modifiers:[{identifier:\"cheapskate\",color:-6710887,level:1},{identifier:\"ecological\",color:-7444965,level:1},{identifier:\"duritos\",color:-10478396,level:1},{identifier:\"tinkertweaks\",color:16777215,level:1}],Traits:[\"cheapskate\",\"ecological\",\"duritos\",\"tinkertweaks\"]}",
+    "0:2": "minecraft:written_book,1,0,{pages:[\"{\\\"text\\\":\\\"Dont throw away the tome, it has important guides for you!\\\\n\\\\nAlso theres only one!\\\\nHave some starter gear. \\\\n-Bean\\\"}\"],author:\"KillianPC\",title:\"For the Player\"}",
+    "0:0": "minecraft:wooden_pickaxe"
+  }
+}

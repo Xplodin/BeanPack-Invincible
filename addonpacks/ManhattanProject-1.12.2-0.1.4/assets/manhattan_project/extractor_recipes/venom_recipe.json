@@ -1,0 +1,23 @@
+{
+    "input": {
+        "item": "minecraft:fermented_spider_eye"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "radioactive_acid",
+        "amount": 2000
+   },
+    
+    "energy": 10000,
+    
+    "outputs": {
+        "primary": {
+            "item": "manhattan_project:venom_suit",
+            "chance": 0.4
+        }
+    }
+}

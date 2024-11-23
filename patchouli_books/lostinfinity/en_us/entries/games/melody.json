@@ -1,0 +1,25 @@
+{
+  "name": "Melody Game",
+  "icon": "lostinfinity:melody_button",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:melodic_sequencer",
+    "title": "Melody Game",
+    "text": "Listen and Follow along. A game of Simon! You can press on the notes to hear what instrument they play beforehand!"
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:blank_optical_disc",
+    "title": "Blank Optical Disc",
+    "text": "A Blank Optical Disc needs to be inserted into the Sequencer to start the melody sequence."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:audio_synchronized_disc",
+    "title": "Audio Synchronized Disc",
+    "text": "An Audio Synchronized Disc is given for succesfully completing the game."
+  }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+	"name" : {
+		"translate":"manhattan_project.superpower.speed"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/speed_icon.png"
+	},
+	
+	"max_level": 1,
+	
+	"capsule_color" : 16769814,
+	
+	"abilities": {
+		"speed":{
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text":"Speed"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/run_icon.png"}
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 10,
+			"required_ability": "speed"
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 8
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 65,
+			"operation": 0
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 12,
+			"operation": 0
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 7,
+			"operation": 0,
+			"required_ability": "speed"
+		},
+		"potion":{
+			"ability": "lucraftcore:command_loop",
+			"hidden": "true",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_icon.png"},
+			"commands": ["effect @p minecraft:haste 2",
+					"effect @p minecraft:hunger 2"]	
+		},	
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		"step_assist":{
+			"ability": "lucraftcore:step_assist",
+			"amount": 1
+		}
+	},
+		"effects":[{
+			"type": "trail",
+			"trail_type": "normal",
+			"color": [1, 1, 1],
+			"use_suit_trail": false,
+			"conditions": [{"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"},
+				{"type": "moving"}]
+			},
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [0, 0, 0],
+			"use_suit_trail": false,
+			"conditions": [{"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"},
+			{"type": "moving"}]
+			}
+			]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Get Stoned",
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"aef5e784"
+	],
+	tasks: [{
+		uid: "569a5a4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c96f0ad5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

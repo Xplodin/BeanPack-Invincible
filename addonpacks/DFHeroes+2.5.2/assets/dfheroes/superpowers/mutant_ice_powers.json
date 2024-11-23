@@ -1,0 +1,58 @@
+{
+    "name" : {
+        "text": "Ice Powers"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/freeze_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 12183275,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 20,
+			"damage": 5,
+			"color": [50, 100, 100],
+			"title": {"text":"Ice Blast"}
+		},
+		{
+			"ability": "lucraftcore:potion_punch",
+			"cooldown": 50,
+			"title": {"text":"Freeze Entity"},
+			"potion": "minecraft:slowness",
+			"amplifier": 1,
+			"duration": 100,
+			"icon": {
+				"type": "texture",
+				"texture": "dfheroes:textures/icons/freeze_icon.png"
+			}
+		}
+    ],
+	
+	"effects": [
+		{
+			"type": "glowing_hand",
+			"color": [0.1, 0.2, 0.2],
+			"size": 1,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:potion_punch"
+				}
+			]
+		}
+
+	]
+	
+}

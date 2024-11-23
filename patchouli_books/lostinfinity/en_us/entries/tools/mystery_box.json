@@ -1,0 +1,13 @@
+{
+  "name": "Mystery Box",
+  "icon": "lostinfinity:mystery_box",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:mystery_box",
+      "title": "Mystery Box",
+      "text": "Mystery Boxes can be obtained by all game vendors within the Grandmaster Outpost. They can provide a random amount of a random kind of Zirconia."
+    }
+    ]
+}

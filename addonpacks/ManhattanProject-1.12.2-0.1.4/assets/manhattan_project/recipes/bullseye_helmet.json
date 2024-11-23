@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:bullseye",
+
+  "result": {
+    "item": "manhattan_project:bullseye_helmet"
+  },
+
+  "original": "heroesexpansion:daredevil_helmet",
+
+  "ingredients": [
+   {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEWHITE"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:bullseye_helmet",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_helmet",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

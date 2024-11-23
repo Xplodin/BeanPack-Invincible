@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:hatut_zeraze_vol3_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_white",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_black",
+		    "amount": 2
+		}
+	]
+
+}

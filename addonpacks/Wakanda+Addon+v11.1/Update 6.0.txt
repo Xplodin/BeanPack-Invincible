@@ -1,0 +1,24 @@
+Update 6.0 Changelog 
+--------------------------------------------------------------------+
+*More minor skin edits and fixes 
+*Updated Black Panther Infinity War suit 
+*Updated Erik Killmonger (MCU)'s item textures 
+*Fixed extractor recipe chances 
+*Buffed Djalia Griot superpower's speed from 0.06 to 0.09 
+*Fixed toggleable underglow for Black Panther (Vol. 3) 
+*Fixed chestplate (smallarms) for Black Panther (Ceremonial v2) 
+*Changed Black Panther MCU V2 suit to a necklace 
+*Changed Golden Jaguar suit to a necklace 
+*Buffed Asha's energy blast power 
+*Buffed Vibravore's Size Change from 12 to 16 
+-Removed Time Remnant ability from Klaw (Master of Sound) 
+-Removed Extractor Recipes (Will fix next update)
++Added electricity trail to Storm when using god mode 
++Added Black Panther (Earth's Mightiest Heroes) 
++Added Wall Climbing to some Black Panther suits 
++Added Wall Climbing to the White Tiger suits 
++Added Kinetic Energy Absorption to Bast' superpower 
++Added Kinetic Energy Absorption to Vibravore 
++Added sprint speed to Achebe 
++Added sprint speed to Zenzi 
++Added Zawavari (Superpower) 

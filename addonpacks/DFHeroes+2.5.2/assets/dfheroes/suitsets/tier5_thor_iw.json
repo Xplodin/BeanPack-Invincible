@@ -1,0 +1,117 @@
+{
+	"name": {
+		"text": "Thor (IW)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [7, 8, 9, 7],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+
+	"description": {
+		"text": "Infinity War"
+	},
+		
+	"abilities": [
+		{
+			"ability": "lucraftcore:toggle_power",
+			"icon": {"type": "texture","texture": "dfheroes:textures/icons/eye_patch_icon.png"},
+			"title": {"text":"Eye Patch"}
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+	
+	"effects": [
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/thor_iw/thor_eye_patch.png",
+		"glow": false,
+        "size": 0.1,
+		"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/thor_iw/glow.png",
+		"glow": true,
+        "size": 0.51,
+		"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+	    }
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Thor's Chestplate"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_iw/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/thor_iw/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/thor_iw/chestplate_open.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/thor_iw/chestplate_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_iw_suit"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_iw/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_iw_suit"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_iw/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_iw_suit"
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier4_mark_85_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " 2 ",
+    "212",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "item": "dfheroes:tier4_mark_50_suit"
+    },
+	"2": {
+      "item": "lucraftcore:plate_gold"
+    }
+  }
+} 

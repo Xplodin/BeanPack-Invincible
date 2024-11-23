@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:jessica_jones_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "1 1",
+    "2 2"
+  ],
+  "key": {
+	 "1": {
+      "item": "lucraftcore:tri_polymer_gray"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:black_canary",
+
+  "result": {
+    "item": "black_canary_chest"
+  },
+
+  "original": "manhattan_project:jessica_jones_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEYELLOW"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:jessica_jones_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:black_canary_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

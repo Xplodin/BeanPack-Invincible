@@ -1,0 +1,21 @@
+﻿Update 3.0 Changelog
+--------------------------------------------------------------------
+*Some minor skin edits and fixes
+*Buffed some armor durability
+*Fixed Storm (Modern)'s boots
+*Changed Black Panther Man Ape's,and Djalia Griot(Shuri)'s healing
+*Changed Man Ape's Step Assist from 1.1 to 0.5
+*Reduced the cooldown and nerfed Black Panther (Vol. 3)'s Energy Blast
+-Removed Flight from Klaw
++Added a superpower icon for Storm instead of a logo (W.I.P.)
++Added Tough Lungs to Klaw and Shuri's Heavenly Armor
++Added Size Changing to Gentle and Jakarra
++Added more health for Black Panther,Vibraxas,Klaw,and Solomon Prey
++Added God Mode to Storm
++Added Kiber the Cruel (Frederick Kiber)
++Added Kiber the Cruel's Androids
++Added the Death Tiger
++Added The Lightning Lancers
++Added Sombre (Jungle Action) & Vol 3
++Added Vibravore
++Added Achebe

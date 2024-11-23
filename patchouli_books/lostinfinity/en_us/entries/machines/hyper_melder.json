@@ -1,0 +1,19 @@
+{
+    "name": "Hyper Melder",
+    "icon": "lostinfinity:hyper_melder_unpowered",
+    "category": "patchouli:machines_category",
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "lostinfinity:hyper_melder_powered",
+        "title": "Hyper Melder",
+        "text": "Give power to the Hyper Melder by charging the Hyper Generators and keeping them charged until all 4 Melders are glowing. Throw in 10 Colvinite Power Banks and 20 Electron Recyclers to recieve an Clovinite Power Hub."
+      },
+      {
+        "type": "spotlight",
+        "item": "lostinfinity:hyper_generator_powered",
+        "title": "Hyper Generator",
+        "text": "Use External Colvinite Battery on all 10 Generators and keep them active by adding more. A mob will spawn turning them off. Turn them back on until the Melder is active!"
+      }
+      ]
+}

@@ -1,0 +1,40 @@
+﻿Update 5.0 Changelog - Long Changelog Update
+--------------------------------------------------------------------
+*Even more minor skin edits and fixes 
+*Buffed a lot of suits armor values 
+*Fixed the lang for the suit abilities tab 
+*Fixed Black Panther (Classic) smallarms 
+*Buffed Black Panther's speed from 0.07 to 0.08 
+*Buffed Black Panther & Man Ape's jump boost from 5.2 to 5.5 
+*Reduced Man Ape's speed from 0.05 to 0.04 (Size change affects speed) 
+*Buffed King of The Dead' speed from 0.08 to 0.09 
+*Buffed Kiber the Cruel's androids strength from 2.5 to 3.5 
+*Buffed Kiber the Cruel's androids phasing time limit/cooldown 
+*Buffed Salamander K'Ruel's punch damage from 1 to 1.5 
+*Reduced Vibraxas' (Master of Vibration)'s jump boost from 4 to 3 
+*Reduced amplifier on Salamander K'Ruel's potion punch from 2 to 1 
+*Reduced jump boost on Venomm (Jungle Action) from 3.5 to 2.5 
+*Reduced Bast' strength from 30 to 25 
+*Reduced Gentle's step assist from 1 to 0.5 
+*Reduced Gentle's sprint speed from 0.3 to 0.001 
+*Decreased the armor scale on T'Challa (Doomwar) so it's on your skin layers 
+*Decreased potion punch ability cooldowns on Sombre' superpower 
+-Removed Achebe superpower (It comes with the suit now) 
+-Removed sprint speed on Jakarra 
+-Removed Size Change from Man Ape (Vol. 3) suit,added it to power instead 
+-Removed potion punch ability from Bast' superpower 
++Added neck collar to Black Panther's chestpiece (Kevin Cole,Vol. 2,Vol. 3, Vol. 4,Vol. 5,and Ceremonial) 
++Added some Instruction Recipes (Not for all just yet) 
++Added the Wakandan Army/Military outfit 
++Added Invisibility to Asha and White Wolf 
++Added Size Change to Icon and Man Ape (Superpower) 
++Added cooldown for Asha's energy beams 
++Added wall running to Black Panther (Kevin) 
++Added fire resistance to Gentle (Superpower)
++Added fire resistance to Man Ape (Classic), Man Ape (Vol 3), Black Panther (Kevin),
+Black Panther (Vol. 4), Black Panther (Vol. 5), Black Panther (TMDMA Shuri), 
+Black Panther (KoTP), Black Panther (TMDMA), and Black Panther (TMWF)
++Added option to toggle Vibraxas's crown-thing off 
++Added toggleable underglow for Black Panther (Vol. 3)'s boots 
++Added toggleable glowing eyes for Man Ape' (Vol. 3) suit 
++Added Kinetic Energy Absorption to many Black Panther suits

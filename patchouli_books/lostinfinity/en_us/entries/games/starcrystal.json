@@ -1,0 +1,31 @@
+{
+  "name": "Starcrystal Game",
+  "icon": "lostinfinity:labyrinth_charger_core",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_charger_core",
+    "title": "Starcrystal Game",
+    "text": "The Starcrystal Game is a memory game. The NPC serves as a buffer in between selections. All lights are used in a single round."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:unpowered_starcrystal",
+    "title": "Unpowered Starcrystal",
+    "text": "Used to start the game, right-click with it on the Starcrystal Core, then give it to the NPC that appears to start the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:electrified_quartz",
+    "title": "Electrified Quartz",
+    "text": "Electrified Quartz is used to charge the blocks you are selecting, consuming it in the process. Bring plenty!"
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:starcrystal_capacitor",
+    "title": "Starcrystal Capacitor",
+    "text": "A Starcrystal Capacitor is given for succesfully completing the game."
+  }
+  ]
+}

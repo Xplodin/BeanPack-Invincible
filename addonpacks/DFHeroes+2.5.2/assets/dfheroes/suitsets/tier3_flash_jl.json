@@ -1,0 +1,134 @@
+{
+	"name": {
+		"text": "The Flash (DCEU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 15,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+"data": {
+    "trail": {
+        "red": 0,
+        "green": 0.5,
+        "blue": 1
+    	},	
+		"flicker": {
+		"red": 0,
+		"green": 0.5,
+		"blue": 1
+		},
+	"speed_levels": 10
+},
+
+	"description": {
+		"text": "DCEU"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "electricity",
+			"color": [0, 0.5, 1],
+			"use_suit_flicker": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:super_speed"
+				}
+			]
+		}
+
+
+	],
+	
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Flash's Cowl"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_jl/helmet.png",
+				"normal_open": "dfheroes:textures/suits/flash_jl/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:flash_jl_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Flash's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_jl/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/flash_jl/chestplate_open.png",
+				"normal_smallarms": "dfheroes:textures/suits/flash_jl/chestplate.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/flash_jl/chestplate_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:flash_jl_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Flash's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_jl/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:flash_jl_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Flash's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_jl/boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:flash_jl_state"
+			}
+		}
+	}
+}

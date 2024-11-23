@@ -1,0 +1,17 @@
+{
+  "name": "Ultragrowth Crystallized Gel",
+  "icon": "lostinfinity:ultragrowth_crystal_gel",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:ultragrowth_crystal_gel",
+      "title": "Ultragrowth Crystallized Gel",
+      "text": "Causes the Spyker, Reflectal, and Clyster to have growth defects when thrown at them."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recultracyrstalgel"
+    }
+    ]
+}

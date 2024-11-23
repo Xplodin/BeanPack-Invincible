@@ -1,0 +1,91 @@
+{
+	"parent": "heroesexpansion:green_arrow",
+
+	"name": {
+		"translate": "manhattan_project.suitset.bullseye"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.bullseye.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 8,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"effects": [
+		{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			}
+		}
+	],
+
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.bullseye.helmet"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/bullseye/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:bullseye_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.bullseye.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/bullseye/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/bullseye/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:bullseye_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.bullseye.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/bullseye/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:bullseye_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.bullseye.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/bullseye/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:bullseye_suit"
+			}
+		}
+	}
+}

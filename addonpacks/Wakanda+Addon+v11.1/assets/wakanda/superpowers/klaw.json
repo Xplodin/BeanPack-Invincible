@@ -1,0 +1,270 @@
+{
+	"name" : {
+		"text": "Master of Sound"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 5,
+	
+	"capsule_color" : 13189179,
+	
+	"effects": [
+		{
+			"type": "vibrating",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:phasing"
+				}
+			]
+		},
+		
+		{
+			"type": "skin_change",
+			"texture": "wakanda:textures/skins/klaw_comics.png"
+		},
+		
+		{
+			"type": "skin_change",
+            "texture": "wakanda:textures/skins/klaw_comics_flight.png",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:flight"
+				}
+			]
+		},
+		
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/overlays/klaw_comics_mouth_open.png",
+			"size": 0.11,
+			"glow": false,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "the-fifth-world:screech"
+				}
+			]
+		},
+		
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Klaw"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 12,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {	
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},			
+			"frequency": 20,
+			"amount": 0.5		
+		},
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},			
+			"amount": 17,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {	
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},				
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {	
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {	
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},			
+			"amount": 30,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {	
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 0.05,
+			"operation": 1,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"knockback_resistance": {	
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},					
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},			
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"water_breathing": {	
+			"ability": "lucraftcore:water_breathing",
+            "show_in_bar": false,		
+            "title": {"text":"Water Breathing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/water_breathing.png"}	
+		},
+		"fire_resistance": {	
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		},
+		"tough_lungs": {	
+			"ability": "lucraftcore:tough_lungs",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Lungs"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_lungs.png"}
+		},			
+		"slowness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Slowness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:slowness"
+		},
+		"fatigue_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Fatigue Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:mining_fatigue"
+		},	
+		"nausea_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Nausea Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:nausea"
+		},			
+		"hunger_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Hunger Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:hunger"			
+		},			
+		"weakness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Weakness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:weakness"
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:wither"
+		},
+		"radiation_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "lucraftcore:radiation"	
+		},
+		"chitauri_immunity": {
+            "ability": "the-fifth-world:potion_immunity",					
+            "show_in_bar": false,		
+            "title": {"text":"Chitauri Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "heroesexpansion:chitauri_virus"					
+		},		
+		"self_sustenance": {
+			"ability": "lucraftcore:command_loop",
+            "show_in_bar": false,				
+			"title": {"text":"Self-Sustenance"},
+			"commands": ["/effect @s minecraft:saturation 1 0 true"],
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/saturation.png"}			
+		},
+		"sound_redirection": {		
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": true,		
+            "title": {"text":"Sound Redirection"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/basic_icon.png"},
+            "bar_color": "red",				
+            "max_energy": 250,
+			"color": [255, 0, 0]			
+		},
+		"phasing": {	
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 0,
+            "show_in_bar": true,	
+            "title": {"text":"Phasing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/phasing.png"},
+            "bar_color": "red"			
+		},
+		"sonic_screech": {
+			"ability": "the-fifth-world:screech",
+			"cooldown": 60,
+            "show_in_bar": true,		
+            "title": {"text":"Sonic Screech"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/sonic_screech.png"},
+            "bar_color": "red",				
+            "damage": 30.0			
+		},
+		"flight": {			
+			"ability": "lucraftcore:flight",
+            "cooldown": 0,			
+            "show_in_bar": true,
+            "title": {"text":"Flight"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/flight.png"},
+            "bar_color": "red",			
+			"speed": 1.5,
+            "sprint_speed": 4.5,
+			"rotate_arms": false		
+		}
+	}
+}

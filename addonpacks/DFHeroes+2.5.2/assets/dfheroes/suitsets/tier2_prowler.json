@@ -1,0 +1,130 @@
+{
+	"name": {
+		"text": "Prowler"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "Into the Spiderverse"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "heroesexpansion:wall_crawling",
+			"cooldown": 0,
+			"title": { "text": "Anti-Gravity Climbers" }
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Prowler's Mask"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/prowler/helmet.png",
+				"normal_open": "dfheroes:textures/suits/prowler/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:prowler_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Prowler's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/prowler/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/prowler/chestplate.png",
+				"glow": "dfheroes:textures/suits/prowler/chestplate_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits/prowler/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:prowler_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Prowler's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/prowler/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:prowler_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Prowler Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/prowler/boots.png",
+				"glow": "dfheroes:textures/suits/prowler/boots_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:prowler_state"
+			}
+		}
+	}
+}

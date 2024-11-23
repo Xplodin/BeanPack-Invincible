@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier2_quicksilver_mcu_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_light_blue",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_blue",
+		    "amount": 2
+		}
+	]
+
+}

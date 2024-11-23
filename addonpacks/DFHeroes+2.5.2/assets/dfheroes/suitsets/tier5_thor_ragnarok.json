@@ -1,0 +1,112 @@
+{
+	"name": {
+		"text": "Thor (Ragnarok)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [7, 8, 9, 7],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+	
+"creative_tab": "marvel",
+
+	"description": {
+		"text": "Ragnarok"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"effects": [
+		{
+			"type": "glowing_hand",
+			"color": [0, 1, 1],
+			"size": 1.5,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		}
+
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Thor's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_ragnar/helmet.png",
+				"normal_open": "dfheroes:textures/suits/thor_ragnar/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_ragnar_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Chestplate"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_ragnar/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_ragnar_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_ragnar/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_ragnar_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_ragnar/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_ragnar_state"
+			}
+		}
+	}
+}

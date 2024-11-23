@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:supergirl",
+
+  "result": {
+    "item": "manhattan_project:supergirl_boots"
+  },
+
+  "original": "heroesexpansion:superman_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLUE"
+    },
+    {
+      "item": "#DYEYELLOW"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:supergirl_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

@@ -1,0 +1,21 @@
+{
+	"output": {
+		"item": "dfheroes:tier2_spiderman_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 8
+		},
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 3
+		},
+		{
+			"item": "lucaftcore:advanced_circuit",
+			"amount": 1
+		}
+	]
+
+}

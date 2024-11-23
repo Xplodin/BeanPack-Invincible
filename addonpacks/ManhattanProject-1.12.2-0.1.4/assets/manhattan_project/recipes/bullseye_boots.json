@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:bullseye",
+
+  "result": {
+    "item": "manhattan_project:bullseye_boots"
+  },
+
+  "original": "heroesexpansion:daredevil_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEWHITE"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:bullseye_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

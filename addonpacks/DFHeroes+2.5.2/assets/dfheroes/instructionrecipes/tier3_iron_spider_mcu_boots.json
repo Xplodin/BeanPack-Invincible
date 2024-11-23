@@ -1,0 +1,13 @@
+{
+	"output": {
+		"item": "wakanda:tier3_iron_spider_mcu_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		}
+	]
+
+}

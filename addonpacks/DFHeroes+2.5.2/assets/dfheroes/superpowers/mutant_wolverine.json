@@ -1,0 +1,211 @@
+{
+    "name" : {
+        "text": "Wolverine"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/claws_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 14713,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:toggle_power",
+			"abilities": [  ],
+			"title": {"text":"Bone Claws"},
+			"icon": {
+						"type": "texture",
+						"texture": "dfheroes:textures/icons/claws_icon.png"
+					}
+		},
+		{
+			"ability": "heroesexpansion:wall_crawling",
+			"cooldown": 0,
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:health",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:healing",
+			"frequency": 3,
+			"amount": 10
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+    ],
+	
+	"effects": [
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws1.png",
+			"glow": false,
+			"size": 0.1,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws2.png",
+			"glow": false,
+			"size": 0.2,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws3.png",
+			"glow": false,
+			"size": 0.3,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws4.png",
+			"glow": false,
+			"size": 0.4,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws5.png",
+			"glow": false,
+			"size": 0.5,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws6.png",
+			"glow": false,
+			"size": 0.6,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws7.png",
+			"glow": false,
+			"size": 0.7,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws8.png",
+			"glow": false,
+			"size": 0.8,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws9.png",
+			"glow": false,
+			"size": 0.9,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/wolverine/bone_claws10.png",
+			"glow": false,
+			"size": 1.0,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}
+
+	]
+	
+}

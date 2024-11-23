@@ -1,0 +1,79 @@
+{
+	"name" : {
+		"text": "Stupendous Man"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "dfheroes:textures/icons/stupendous_icon.png"
+	},
+	
+	"max_level": 1,
+	
+	"capsule_color" : 16711680,
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		{
+            "ability": "lucraftcore:fire_resistance"
+        },
+        {
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 5
+        },
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 6,
+			"rotate_arms": true
+	    }
+		
+
+    ],
+	
+	"effects": [
+	    {
+		"type": "skin_change",
+        "texture": "dfheroes:textures/skins/stupendous_skin.png"
+	    }
+	]
+}

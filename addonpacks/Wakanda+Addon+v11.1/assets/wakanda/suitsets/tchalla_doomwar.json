@@ -1,0 +1,95 @@
+{
+	"name": {
+		"text": "T'Challa"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [4, 5, 6, 3],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "wakanda",	
+ 
+ "description": {
+        "text": "Doomwar"
+    },
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "T'Challa"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.125,
+			"name": {
+				"text": "T'Challa's Head"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_head.png",
+				"glow": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_head_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tchalla_doomwar"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.063,
+			"name": {
+				"text": "T'Challa's Torso"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_torso.png",
+				"normal_smallarms": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_torso_small.png",
+				"glow": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_torso_glow.png",
+				"glow_smallarms": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_torso_small_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tchalla_doomwar"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.0625,
+			"name": {
+				"text": "T'Challa's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_legs.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tchalla_doomwar"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.063,
+			"name": {
+				"text": "T'Challa's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/tchalla_doomwar/tchalla_doomwar_feet.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:tchalla_doomwar"
+			}
+		}
+	}
+}

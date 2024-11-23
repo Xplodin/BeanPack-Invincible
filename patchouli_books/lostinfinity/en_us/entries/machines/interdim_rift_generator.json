@@ -1,0 +1,19 @@
+{
+    "name": "Inter-Dimensional Rift Generator",
+    "icon": "lostinfinity:cthulhu_spawner",
+    "category": "patchouli:machines_category",
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "lostinfinity:cthulhu_spawner",
+        "title": "Inter-Dimensional Rift Generator",
+        "text": "5 Rift Generators need to be placed. One in the center, and 1 in each Cardinal direction 30 blocks away. Then powered by Eterno Cells."
+      },
+      {
+        "type": "spotlight",
+        "item": "lostinfinity:eterno_cell",
+        "title": "Eterno Cell",
+        "text": "Eterno Cells are used to charge the Rift Generators to spawn the final boss."
+      }
+      ]
+}

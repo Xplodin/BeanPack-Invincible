@@ -1,0 +1,17 @@
+{
+  "name": "Explosive Strapped Firework",
+  "icon": "lostinfinity:explosive_strapped_firework",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:explosive_strapped_firework",
+      "title": "Explode Strapped Firework",
+      "text": "Explosives attached to a firework, used to attack airborne enemies."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recexplosivefirework"
+    }
+    ]
+}

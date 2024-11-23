@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:doom_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "232",
+    "2 2"
+  ],
+  "key": {
+    "2": {
+      "item": "lucraftcore:ingot_titanium"
+    },
+	"3":{
+	"item": "minecraft:iron_boots"
+	}
+  }
+}

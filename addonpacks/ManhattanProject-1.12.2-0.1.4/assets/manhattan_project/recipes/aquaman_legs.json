@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:aquaman_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "111",
+    "1 1",
+    "2 2"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_green"
+    },
+    "2": {
+      "item": "lucraftcore:plate_gold"
+    }
+  }
+}

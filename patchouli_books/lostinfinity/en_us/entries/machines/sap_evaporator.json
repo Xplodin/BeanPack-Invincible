@@ -1,0 +1,13 @@
+{
+  "name": "Sap Evaporator",
+  "icon": "lostinfinity:sap_evaporator",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:sap_evaporator",
+      "title": "Sap Evaporator",
+      "text": "The Sap Evaporator is used to create Sunder Syrup from Sap. Recipes can be found in JEI."
+    }
+    ]
+}

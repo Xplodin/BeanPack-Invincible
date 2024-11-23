@@ -1,0 +1,227 @@
+{
+	"parent": "heroesexpansion:black_panther",
+	
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"creative_tab": "panther_habit",
+	
+	"armor_material": {
+		"durability": 500,
+		"damage_reduction_amounts": [4, 4, 4, 4],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+ "description": {
+        "text": "Vol. 6"
+    },
+	
+	"data": {
+		"spider_sense": true,	
+		"transition_color_1": {
+			"red": 134,
+			"green": 45,
+			"blue": 255
+		},
+		"transition_color_2": {
+			"red": 107,
+			"green": 36,
+			"blue": 255
+		},
+		"necklace_texture": "wakanda:textures/armor/black_panther_vol6_necklace/black_panther_vol6_necklace.png"
+	},
+	
+    "effects": [
+		{
+			"type": "glowing_hand",
+			"color": [0.5, 0, 1],
+			"size": 1.4,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				},
+				{
+					"type": "always"
+				}
+			]
+		},		
+		
+		{
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},	
+			"amount": 0.3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"},	
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},		
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:poison",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},				
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:wither",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},				
+		"vibranium_microweave_mesh": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",		
+            "show_in_bar": true,				
+            "title": {"text":"Vibranium Microweave Mesh"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},		
+            "max_energy": 100,
+            "color": [180, 60, 180],
+            "bar_color": "purple",				
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"anti_metal_claws": {		
+			"ability": "speedsterheroes:blade",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Anti-Metal Claws"},
+            "bar_color": "black",			
+			"icon": { "type": "texture", "texture": "wakanda:textures/icons/abilities/panther_habit/claws/anti_metal_claws_silver.png" },
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"wall_scaling": {
+			"ability": "heroesexpansion:wall_crawling",
+			"required_ability": "anti_metal_claws",				
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wall Scaling"},	
+            "bar_color": "black",			
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/wall_crawling.png"},
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},	
+		"kinetic_energy_fist": {		
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 100,
+			"damage": 4,
+            "show_in_bar": true,
+            "title": {"text":"Kinetic Energy Fist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_gaunlets_purple.png"},
+            "bar_color": "purple",			
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"energy_daggers": {
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Energy Daggers"},	
+            "bar_color": "purple",		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast_purple.png"},		
+            "damage": 5,
+            "color": [180, 60, 180],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		}	
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Necklace"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol6_necklace/black_panther_vol6_suit.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_vol6_necklace/black_panther_vol6_suit_small.png",
+				"glow": "wakanda:textures/armor/black_panther_vol6_necklace/black_panther_vol6_suit_glow.png",
+				"glow_smallarms": "wakanda:textures/armor/black_panther_vol6_necklace/black_panther_vol6_suit_small_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol6_necklace"
+			}
+		}
+	}
+}

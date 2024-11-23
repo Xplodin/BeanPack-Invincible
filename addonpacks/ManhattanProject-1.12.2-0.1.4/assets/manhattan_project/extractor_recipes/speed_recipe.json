@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "minecraft:golden_carrot"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "super_soldier_serum",
+        "amount": 2000
+    },
+    
+    "energy": 10000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"manhattan_project:hyper_metabolism\"}",
+            "chance": 0.6
+        }
+    }
+}

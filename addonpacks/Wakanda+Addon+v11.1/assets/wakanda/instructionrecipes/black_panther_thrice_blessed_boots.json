@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:black_panther_thrice_blessed_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_gray",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_black",
+		    "amount": 2
+		}
+	]
+
+}

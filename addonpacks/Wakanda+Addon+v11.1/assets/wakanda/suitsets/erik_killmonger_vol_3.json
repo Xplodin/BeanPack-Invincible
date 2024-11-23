@@ -1,0 +1,90 @@
+{
+	"name": {
+		"text": "Erik Killmonger"
+	},
+	
+	"armor_material": {
+		"durability": 45,
+		"damage_reduction_amounts": [5, 6, 6, 3],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",	
+	
+ "description": {
+        "text": "Vol. 3"
+    },
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Erik Killmonger"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"energy_blast": {
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wrist-Mounted Blasters"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast_yellow.png"},
+            "bar_color": "yellow",				
+            "damage": 8,
+            "color": [230, 230, 110]
+		}
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_vol_3/erik_killmonger_vol_3_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/erik_killmonger_vol_3/erik_killmonger_vol_3_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_vol_3"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Erik Killmonger's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_vol_3/erik_killmonger_vol_3_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_vol_3"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_vol_3/erik_killmonger_vol_3_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_vol_3"
+			}
+		}
+	}
+}

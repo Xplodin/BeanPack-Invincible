@@ -1,0 +1,17 @@
+{
+  "name": "Bag of Slime",
+  "icon": "lostinfinity:bagofslime",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:bagofslime",
+      "title": "Bag of Slime",
+      "text": "When used within water, Slime Striders are spawned."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recbagslime"
+    }
+    ]
+}

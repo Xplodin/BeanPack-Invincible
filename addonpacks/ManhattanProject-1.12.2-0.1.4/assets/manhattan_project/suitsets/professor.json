@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.professor"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.professor.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.professor.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/professor/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/professor/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:professor_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.professor.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/professor/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:professor_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.professor.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/professor/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:professor_suit"
+			}
+		}
+	}
+}

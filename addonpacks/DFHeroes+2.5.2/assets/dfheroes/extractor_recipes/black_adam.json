@@ -1,0 +1,26 @@
+{
+    "input": {
+        "item": "minecraft:coal",
+		"data": 0
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection",
+		"nbt": "{\"Injection\": \"dfheroes:tier5_shazam\"}"
+    },
+    
+    "input_fluid": {
+        "fluid": "water",
+        "amount": 1000
+    },
+    
+    "energy": 100,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"dfheroes:tier5_black_adam\"}",
+            "chance": 0.99
+        }
+    }
+}

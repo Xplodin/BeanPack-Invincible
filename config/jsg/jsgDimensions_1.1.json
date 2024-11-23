@@ -1,0 +1,356 @@
+{
+  "moon.miranda": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.moon": {
+    "energyToOpen": 7372800,
+    "keepAlive": 3200,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.ceres": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "overworld": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {}
+  },
+  "planet.barnarda_c": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:vethea": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:mortum": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "Omothol": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.koentus": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "Deep Dark": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.nibiru": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.proxima_b": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "EREBUS": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "The Dreadlands": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "the_end": {
+    "energyToOpen": 5529600,
+    "keepAlive": 2400,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 1
+    }
+  },
+  "Storage Cell": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.triton": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.enceladus": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "nc_wasteland": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "limbo": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "dungeon_pockets": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:wildwood": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "CompactMachines": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.kuiperbelt": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.callisto": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.phobos": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.asteroids": {
+    "energyToOpen": 14745600,
+    "keepAlive": 6400,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "ExtraUtils2_Quarry_Dim": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "Ratlantis": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:iceika": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "private_pockets": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "the_nether": {
+    "energyToOpen": 3686400,
+    "keepAlive": 1600,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {
+      "NORMAL": 2
+    }
+  },
+  "midnight": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.mars": {
+    "energyToOpen": 11059200,
+    "keepAlive": 4800,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 4
+    }
+  },
+  "End": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:apalachia": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.io": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.ganymede": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.titan": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "public_pockets": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "The Abyssal Wasteland": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "The Dark Realm": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.example_planet": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:eden": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.fronos": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.mercury": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:arcana": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "moon.europa": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "Spectre": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.chalos": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.diona": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.haumea": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.venus": {
+    "energyToOpen": 12288000,
+    "keepAlive": 5334,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 4
+    }
+  },
+  "planet.pluto": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet.tauceti_f": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "divinerpg:skythern": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "mahoutsukai": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  }
+}

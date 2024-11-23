@@ -1,0 +1,25 @@
+{
+  "name": "Light Tile Game",
+  "icon": "lostinfinity:light_tile_randomizer",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:high_powered_charger",
+    "title": "Light Tile Game",
+    "text": "Activate the Light Tile Randomizer block to begin the game. Right-Clicking a Light Tile causes the selected tile and all adjacent tiles to swap states. Fill the board with lit yellow tiles."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:superchargedcell",
+    "title": "Supercharged Cell",
+    "text": "The Supercharged Cell is used to finish the game once the board is all yellow. Right-Click the High Powered Charger. BE CAREFUL NOT TO RE-RANDOMIZE."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:overcharged_cell",
+    "title": "Overcharged Cell",
+    "text": "The Overcharged Cell is given for succesfully completing the game."
+  }
+  ]
+}

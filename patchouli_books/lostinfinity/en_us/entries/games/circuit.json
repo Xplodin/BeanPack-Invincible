@@ -1,0 +1,25 @@
+{
+  "name": "Circuit Game",
+  "icon": "lostinfinity:circuit_calibrator",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:circuit_calibrator",
+    "title": "Circuit Game",
+    "text": "Circuit is a timing based game, react quickly to right-click the screen behind you when it turns green."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:time_trigger",
+    "title": "Time Trigger",
+    "text": "Used to start the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:biosynced_clock",
+    "title": "Bio-Synced Clock",
+    "text": "A Bio-Synced Clock is given for succesfully completing the game. 15 Score is required to win."
+  }
+  ]
+}

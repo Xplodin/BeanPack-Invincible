@@ -1,0 +1,34 @@
+{
+	"curse":
+	[
+		{
+			"addonId": 1108494,
+			"fileId": 5751754,
+			"installationPolicy": 
+				{
+					"continueOnFailedDownload": false,
+					"selectedByDefault": true,
+					"name": "LOST INFINITY STONES - REQUIRED",
+					"description": "This mod is required for the modpack. It is downloaded from CurseForge's archives and is not hosted anywhere else."
+				},
+			"fileName": "Lost-Infinity-Stones_1.16.4_1.12.2.jar"
+		}
+	],
+    "url": 
+	[
+		{
+			"url": "http://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
+			"follows": ["OptiFine 1.12.2 HD U G6 pre1"],
+			"fileName": "Optifine_1.12.2_HD_U_G6.jar",
+			"installationPolicy": {
+				"continueOnFailedDownload": true,
+				"optionalKey": "$",
+				"selectedByDefault": false,
+				"description": "Optional, could break things, use is mainly for the included shaderpack"
+			},
+			"options": {
+				"launchwrapperTweakerForceNext": true
+			}
+		}
+	]
+}

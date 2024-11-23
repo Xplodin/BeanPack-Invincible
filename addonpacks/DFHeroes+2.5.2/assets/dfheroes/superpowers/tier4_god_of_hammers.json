@@ -1,0 +1,151 @@
+{
+    "name" : {
+        "text": "God of Hammers"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/hammer_icon.png"
+    },
+
+    "max_level": 5,
+
+    "capsule_color" : 3131636,
+
+    "abilities": [
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 5
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 10.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 16,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 14,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 11,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 11,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:step_assist",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		{
+			"ability": "lucraftcore:water_breathing"
+		},
+		{
+			"ability": "heroesexpansion:call_weapon"
+		},
+		{
+			"ability": "heroesexpansion:lightning_strike",
+			"cooldown": 0,
+			"required_level": 5
+		},
+		{
+			"ability": "heroesexpansion:lightning_attack",
+			"damage": 10.0,
+			"cooldown": 20,
+			"required_level": 5
+		},
+		{
+			"ability": "the-fifth-world:create_item",
+			"cooldown": 1000,
+			"item": { "item": "heroesexpansion:mjolnir", "data": 0, "count": 1 },
+			"required_level": 2
+		},
+		{
+			"ability": "heroesexpansion:god_mode",
+			"damage": 10,
+			"cooldown": 100,
+			"required_level": 5
+		}
+	],
+	
+	"effects": [
+        {
+			"type": "flickering",
+			"color": [0, 1, 1],
+			"use_suit_flicker": false,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		},
+		{
+			"type": "trail",
+			"trail_type": "electricity",
+			"color": [0, 0.5, 1],
+			"use_suit_flicker": false,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		},
+		{
+			"type": "glowing_hand",
+			"color": [0, 1, 1],
+			"size": 1,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/thor_eyes.png",
+			"glow": true,
+			"size": 0.0,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		}
+    ]
+}

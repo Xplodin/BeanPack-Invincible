@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier3_nomad_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_red",
+		    "amount": 2
+		}
+	]
+
+}

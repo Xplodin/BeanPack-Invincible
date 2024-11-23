@@ -1,0 +1,59 @@
+{
+    "name" : {
+        "text": "Kree"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/kree_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 12419,
+
+    "abilities": [
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 2
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 7,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 7,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+    ]
+	
+}

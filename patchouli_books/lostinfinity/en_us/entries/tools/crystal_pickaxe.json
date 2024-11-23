@@ -1,0 +1,17 @@
+{
+  "name": "Crystal Pickaxe",
+  "icon": "lostinfinity:crystal_pickaxe",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:crystal_pickaxe",
+      "title": "Crystal Pickaxe",
+      "text": "Used to mine fragile ores like: Incandescite, Auradine, Catatonite, Cellular, Gloominessence, Hivenite, Ionite, Luminescent, Myrite, Phototenzyte, Prismosis, Serpentine, and Synchronite."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reccrystalpickaxe"
+    }
+    ]
+}

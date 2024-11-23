@@ -1,0 +1,25 @@
+{
+    "input": {
+        "item": "minecraft:dye",
+		"data": 5
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "water",
+        "amount": 5000
+    },
+    
+    "energy": 70000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"dfheroes:tier4_titan\"}",
+            "chance": 0.5
+        }
+    }
+}

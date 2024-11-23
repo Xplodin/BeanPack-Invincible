@@ -1,0 +1,107 @@
+[
+    {
+    "dimension": -28,
+    "mobs": [
+      {
+        "mob": "mountainmobs:yale",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+  ]
+  },
+    {
+    "dimension": -28,
+    "mobs": [
+      {
+        "mob": "elementalmobs:argus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+  ]
+  },
+    {
+    "dimension": -31,
+    "mobs": [
+      {
+        "mob": "infernomobs:gorger",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+  ]
+  },
+    {
+    "dimension": -31,
+    "mobs": [
+      {
+        "mob": "infernomobs:ignibus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+  ]
+  },
+      {
+    "dimension": -17,
+    "mobs": [
+      {
+        "mob": "shadowmobs:geist",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+  ]
+  },
+      {
+    "dimension": -17,
+    "mobs": [
+      {
+        "mob": "mountainmobs:barghest",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+  ]
+  },
+      {
+    "dimension": -22,
+    "mobs": [
+      {
+        "mob": "junglemobs:uvaraptor",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+  ]
+  },
+      {
+    "dimension": -22,
+    "mobs": [
+      {
+        "mob": "forestmobs:arisaur",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+  ]
+  },
+  {
+    "dimension": 5,
+    "mobs": [
+            {
+        "mob": "junglemobs:concapede",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+            {
+        "mob": "junglemobs:vespid",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+}
+      ]

@@ -1,0 +1,286 @@
+{
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"armor_material": {
+		"durability": 250,
+		"damage_reduction_amounts": [3, 3, 3, 3],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "panther_habit",
+	
+ "description": {
+        "text": "Vol. 3 V1"
+    },
+	
+	"data": {
+		"spider_sense": true
+	},
+	
+	"effects": [
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_claws.png",
+			"size": 0.4,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:wall_crawling"
+				}
+			]
+		},
+		
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_claws.png",
+			"size": 0.4,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:blade"
+				}
+			]
+		},
+		
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_boots_glow.png",
+			"size": 0.51,
+			"glow": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:wall_running"
+				}
+			]
+		},
+		
+		{
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+			},
+			"conditions": [
+				{
+					"type": "not",
+					"conditions": [
+						{
+							"type": "open_armor",
+							"slot": "helmet"
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_mask.png",
+		    "glow": false,			
+			"size": 0.51,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_mask_glow.png",
+			"size": 0.51,
+			"glow": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"toggle_mask": {
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text":"Toggle Mask"},
+			"icon": { "type": "texture", "texture": "wakanda:textures/items/black_panther_vol3v1/black_panther_vol3v1_mask.png" },		
+            "bar_color": "black"
+		},	
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},			
+			"amount": 0.3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:wither"			
+		},
+		"water_skimming": {
+			"ability": "speedsterheroes:water_running",
+			"cooldown": 0,
+            "show_in_bar": false,		
+            "title": {"text":"Water Skimming"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/water_running.png"},	
+			"speed": 1.0
+		},	
+		"wall_running": {		
+			"ability": "speedsterheroes:wall_running",
+			"cooldown": 0,			
+            "show_in_bar": true,		
+            "title": {"text":"Wall Running"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/wall_running.png"},	
+            "bar_color": "black",				
+			"speed": 1.0			
+		},
+		"vibranium_microweave_mesh": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",			
+            "show_in_bar": false,				
+            "title": {"text":"Vibranium Microweave Mesh"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},			
+            "max_energy": 0,
+            "color": [0, 0, 0]
+		},
+		"anti_metal_claws": {
+			"ability": "speedsterheroes:blade",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Anti-Metal Claws"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/panther_habit/claws/anti_metal_claws_gold.png"},
+            "bar_color": "black"	
+		},
+		"wall_scaling": {
+			"ability": "heroesexpansion:wall_crawling",
+			"required_ability": "anti_metal_claws",					
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wall Scaling"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/wall_crawling.png"},
+            "bar_color": "black"			
+		},
+	    "wrist_mounted_blasters": {		
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wrist-Mounted Blasters"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast_yellow.png"},
+            "bar_color": "yellow",				
+            "damage": 5,
+			"color": [183, 145, 0]	
+		},			
+		"suit_cloaking": {	
+	        "ability": "lucraftcore:command",				
+			"cooldown": 0,
+            "show_in_bar": true,	
+            "title": {"text":"Suit Cloaking"},	
+            "bar_color": "black",				
+			"icon": { "type": "texture", "texture": "wakanda:textures/icons/abilities/panther_habit/black_panther_vol3v1_cloaked.png" },					
+            "commands": ["/replaceitem entity @s slot.armor.head wakanda:black_panther_vol3v1_helmet_cloaked", "/replaceitem entity @s slot.armor.chest wakanda:black_panther_vol3v1_chest", "/replaceitem entity @s slot.armor.legs wakanda:black_panther_vol3v1_legs", "/replaceitem entity @s slot.armor.feet wakanda:black_panther_vol3v1_boots"]								
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Black Panther's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol3v1/cloak.png",
+				"normal_open": "wakanda:textures/armor/black_panther_vol3v1/cloak.png",
+                "glow": "wakanda:textures/armor/black_panther_vol3v1/cloak.png",
+		        "glow_open": "wakanda:textures/armor/black_panther_vol3v1/cloak.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol3v1"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_chestpiece_claws.png",
+				"normal_smallarms_open": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_chestpiece_small_claws.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol3v1"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Black Panther's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_leggings.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol3v1"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_boots.png",
+				"normal_open": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_boots_open.png",
+				"glow": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_boots_glow.png",
+				"glow_open": "wakanda:textures/armor/black_panther_vol3v1/black_panther_vol3v1_boots_glow_open.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol3v1"
+			}
+		}
+	}
+}

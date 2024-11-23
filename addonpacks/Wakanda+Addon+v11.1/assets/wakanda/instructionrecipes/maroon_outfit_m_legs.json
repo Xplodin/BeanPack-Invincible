@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:maroon_outfit_m_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_pink",
+		    "amount": 2
+		}
+	]
+
+}

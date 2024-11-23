@@ -1,0 +1,62 @@
+{
+	"name": {
+		"text": "Kiber the Cruel"
+	},
+	
+	"armor_material": {
+		"durability": 30,
+		"damage_reduction_amounts": [4, 5, 5, 4],
+		"enchantibility": 5,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Kiber the Cruel's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/kiber_the_cruel/kiber_the_cruels_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/kiber_the_cruel/kiber_the_cruels_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:kiber_the_cruel"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Kiber the Cruel's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/kiber_the_cruel/kiber_the_cruels_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:kiber_the_cruel"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Kiber the Cruel's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/kiber_the_cruel/kiber_the_cruels_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:kiber_the_cruel"
+			}
+		}
+	}
+}

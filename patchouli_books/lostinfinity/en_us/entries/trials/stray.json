@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Stray",
+  "icon": "lostinfinity:trialstray",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialstray",
+    "title": "Trial of the Stray",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Stray."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialstray"
+  }
+  ]
+}

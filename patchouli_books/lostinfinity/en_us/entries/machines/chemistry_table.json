@@ -1,0 +1,13 @@
+{
+  "name": "Chemistry Table",
+  "icon": "lostinfinity:chemistry_table",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:chemistry_table",
+      "title": "Chemistry Table",
+      "text": "The Chemistry Table is used to create Isotopes by combining the correct amount and type of an item. Recipes can be found in JEI."
+    }
+    ]
+}

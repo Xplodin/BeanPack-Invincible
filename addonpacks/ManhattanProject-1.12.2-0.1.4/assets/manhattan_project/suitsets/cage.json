@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.cage"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.cage.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 9,
+		"damage_reduction_amounts": [3, 5, 4, 3],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.cage.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/cage/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/cage/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:cage_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.cage.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/cage/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:cage_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.cage.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/cage/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:cage_suit"
+			}
+		}
+	}
+}

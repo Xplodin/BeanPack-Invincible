@@ -1,0 +1,21 @@
+{
+	"output": {
+		"item": "wakanda:black_musketeer_khanata_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 4
+		},
+		{
+			"item":"lucraftcore:tri_polymer_green",
+			"amount":2
+		},
+		{
+			"item":"lucraftcore:tri_polymer_yellow",
+			"amount":1
+		}
+	]
+
+}

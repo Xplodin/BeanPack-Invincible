@@ -1,0 +1,144 @@
+{
+    "name" : {
+        "text": "Yondu"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/yondu_fin_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 12419,
+
+    "abilities": [
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 2
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 7,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 7,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:toggle_power",
+			"abilities": [  ],
+			"title": {"text":"Activate Fin"},
+			"icon": {
+						"type": "texture",
+						"texture": "dfheroes:textures/icons/3d_icon.png"
+					}
+		},
+		{
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 20,
+			"damage": 10.0,
+			"color": [100, 50, 0]
+		}
+    ],
+	
+	"effects": [
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/yondu_fin.png",
+			"glow": false,
+			"size": 0.1
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/yondu_fin1.png",
+			"glow": false,
+			"size": 0.2,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/yondu_fin2.png",
+			"glow": true,
+			"size": 0.3,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/yondu_fin2.png",
+			"glow": false,
+			"size": 0.4,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/yondu_fin3.png",
+			"glow": true,
+			"size": 0.5,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "dfheroes:textures/skins/yondu_fin3.png",
+			"glow": false,
+			"size": 0.6,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}
+		
+	]
+	
+}

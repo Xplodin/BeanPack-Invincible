@@ -1,0 +1,113 @@
+{
+	"name": {
+		"text": "Shadow of Pan (OUAT)"
+	},
+	
+	"icon": {
+		"type": "texture",
+		"texture": "dfheroes:textures/icons/ender_icon.png"
+	},
+	
+	"max_level": 1,
+	
+	"capsule_color" : 1179677,
+
+	"abilities": [
+		{
+			"ability": "heroesexpansion:god_mode",
+			"title": {"text":"Shadow"},
+			"cooldown": 500,
+			"damage": 0,
+			"icon": {
+						"type": "texture",
+						"texture": "dfheroes:textures/icons/ender_icon.png"
+					}
+		},
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:water_breathing",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 2,
+			"rotate_arms": false,
+			"required_ability": "god_mode"
+	    },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 50,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "god_mode"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "god_mode"
+		}
+	],
+	
+	"effects": [
+		{
+		"type": "skin_change",
+        "texture": "dfheroes:textures/skins/pan_skin.png",
+		"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/skins/pan_glow.png",
+		"glow": true,
+        "size": 0.1,
+		"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		}
+	]
+}

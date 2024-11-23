@@ -1,0 +1,64 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.utopian"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.utopian.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.utopian.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/utopian/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/utopian/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:utopian_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.utopian.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/utopian/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:utopian_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.utopian.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/utopian/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:utopian_suit"
+			}
+		}
+	}
+}

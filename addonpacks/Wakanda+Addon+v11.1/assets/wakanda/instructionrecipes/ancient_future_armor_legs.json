@@ -1,0 +1,13 @@
+{
+	"output": {
+		"item": "wakanda:ancient_future_armor_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 5
+		}
+	]
+
+}

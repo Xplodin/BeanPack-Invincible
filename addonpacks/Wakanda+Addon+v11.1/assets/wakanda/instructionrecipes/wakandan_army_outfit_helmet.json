@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:wakandan_army_outfit_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_green",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_white",
+		    "amount": 2
+		}
+	]
+
+}

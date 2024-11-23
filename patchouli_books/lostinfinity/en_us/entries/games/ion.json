@@ -1,0 +1,25 @@
+{
+  "name": "Ion Game",
+  "icon": "lostinfinity:whack_game",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:whack_game",
+    "title": "Ion Game",
+    "text": "The Ion Game is a whack-a-mole game. 13 rounds of disabling the lights across the room. The higher the round, the more lights are lit."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:ion_cell",
+    "title": "Ion Cell",
+    "text": "An Ion Cell is used to start the game at the Ion Converter block. Talk to the NPC to start the process."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:rewired_ion_cell",
+    "title": "Rewired Ion Cell",
+    "text": "A Rewired Ion Cell is given for succesfully completing the game."
+  }
+  ]
+}

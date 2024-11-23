@@ -1,0 +1,17 @@
+{
+  "name": "Thermosaw",
+  "icon": "lostinfinity:thermosaw",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:thermosaw",
+      "title": "Thermosaw",
+      "text": "Used to mine Darksteel and Sunstone Ore."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recthermosaw"
+    }
+    ]
+}

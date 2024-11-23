@@ -1,0 +1,13 @@
+{
+  "name": "Fusion Table",
+  "icon": "lostinfinity:fusion_table",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:fusion_table",
+      "title": "Fusion Table",
+      "text": "The Fusion Table is used to create Polyionite. Make a 2x2 of the given blocks in multiple rounds to complete the crafting. Recipes can be found in JEI."
+    }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+	"input": {
+		"item": "heroesexpansion:heart_shaped_herb"
+	},
+	
+	"input_container": {
+		"item": "lucraftcore:injection"
+	},
+	
+	"input_fluid": {
+		"fluid": "water",
+		"amount": 1000
+	},
+	
+	"energy": 5000,
+	
+	"outputs": {
+		"primary": {
+			"item": "lucraftcore:injection",
+			"nbt": "{\"Injection\": \"wakanda:black_panther\"}",
+			"chance": 100
+		}
+	}
+}

@@ -1,0 +1,112 @@
+{
+	title: "BeanBox",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "avaritia:resource 1 2",
+		count: 3
+	},
+	{
+		item: "avaritia:resource 1 7"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dankstorage:dank_2"
+		}
+	},
+	{
+		item: "draconicevolution:generator"
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 6
+	},
+	{
+		xp: 500,
+		type: "xp"
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels"
+	},
+	{
+		item: "xreliquary:glowing_bread",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:block_coal_generator"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidantimatter",
+				Amount: 1000,
+				display: {
+					Name: "Bucket of 'FUCK YOU'"
+				}
+			}
+		}
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 150L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 200L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "avaritia:cosmic_meatballs"
+	},
+	{
+		item: "harvestcraft:spagettiandmeatballsitem",
+		count: 5
+	},
+	{
+		item: "randomthings:beans 1 2"
+	},
+	{
+		item: "harvestcraft:beansontoastitem"
+	},
+	{
+		item: "harvestcraft:refriedbeansitem"
+	},
+	{
+		item: "harvestcraft:beanburritoitem"
+	},
+	{
+		item: "harvestcraft:threebeansaladitem"
+	},
+	{
+		item: "harvestcraft:bakedbeansitem"
+	},
+	{
+		item: "harvestcraft:beansandriceitem"
+	}],
+	loot_crate: {
+		string_id: "beanbox",
+		item_name: "BeanBox",
+		color: 0,
+		glow: true,
+		drops: {
+			boss: 1,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

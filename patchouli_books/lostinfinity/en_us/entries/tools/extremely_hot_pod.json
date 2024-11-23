@@ -1,0 +1,17 @@
+{
+  "name": "Extremely Hot Pod",
+  "icon": "lostinfinity:extremely_hot_pod",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:extremely_hot_pod",
+      "title": "Extremely Hot Pod",
+      "text": "Causes Fungal Blockage to dissolve when thrown at."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recextremlyhotpod"
+    }
+    ]
+}

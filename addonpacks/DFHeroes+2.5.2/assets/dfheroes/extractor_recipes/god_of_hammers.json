@@ -1,0 +1,25 @@
+{
+    "input": {
+        "item": "lucraftcore:ingot_uru"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection",
+		"nbt": "{\"Injection\": \"heroesexpansion:god_of_thunder\"}"
+    },
+    
+    "input_fluid": {
+        "fluid": "uru",
+        "amount": 2000
+    },
+    
+    "energy": 800000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"dfheroes:tier4_god_of_hammers\"}",
+            "chance": 0.6
+        }
+    }
+}

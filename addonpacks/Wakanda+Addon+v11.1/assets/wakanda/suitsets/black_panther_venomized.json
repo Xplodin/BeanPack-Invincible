@@ -1,0 +1,369 @@
+{
+	"parent": "heroesexpansion:black_panther",
+	
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"creative_tab": "panther_habit",
+	
+	"armor_material": {
+		"durability": 300,
+		"damage_reduction_amounts": [5, 5, 5, 5],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+ "description": {
+        "text": "Venomized"
+    },
+	
+	"data": {
+		"spider_sense": true,	
+		"transition_color_1": {
+			"red": 134,
+			"green": 45,
+			"blue": 255
+		},
+		"transition_color_2": {
+			"red": 107,
+			"green": 36,
+			"blue": 255
+		},
+		"necklace_texture": "wakanda:textures/armor/black_panther_venomized/black_panther_venomized_symbiote.png"
+	},
+	
+    "effects": [
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/armor/black_panther_venomized/black_panther_venomized_shield.png",
+			"size": 1.2,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		},
+		
+		{
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+            },
+			"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},
+			"frequency": 20,
+			"amount": 0.5,
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},		
+		"strength": {	
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},			
+			"amount": 14,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},			
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},			
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",		
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},				
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},
+			"amount": 1,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},	
+		"increased_resistance": {
+			"ability": "lucraftcore:resistance",
+			"required_ability": "shield_construct",
+            "show_in_bar": false,		
+            "title": {"text":"Increased Resistance"},		
+			"icon": { "type": "texture", "texture": "nihility:textures/icons/abilities/stats/increased_resistance.png" },			
+			"amount": 30,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},			
+		"water_breathing": {	
+			"ability": "lucraftcore:water_breathing",		
+            "show_in_bar": false,		
+            "title": {"text":"Water Breathing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/water_breathing.png"},
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},	
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs",			
+            "show_in_bar": false,		
+            "title": {"text":"Tough Lungs"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_lungs.png"},
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},			
+		"slowness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Slowness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:slowness",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"fatigue_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Fatigue Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:mining_fatigue",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},	
+		"nausea_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Nausea Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:nausea",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"blindness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Blindness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:blindness",					
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},	
+		"hunger_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Hunger Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:hunger",			
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},			
+		"weakness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Weakness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:weakness",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},	
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:poison",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:wither",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},		
+		"radiation_immunity": {
+            "ability": "the-fifth-world:potion_immunity",			
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "lucraftcore:radiation",	
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},				
+		"tough_skin": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",	
+            "show_in_bar": false,				
+            "title": {"text":"Tough Skin"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},			
+            "max_energy": 0,
+            "color": [0, 0, 0],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"symbiote_shield": {
+			"ability": "lucraftcore:toggle_power",		
+            "title": {"text":"Symbiote Shield"},
+			"icon": { "type": "texture", "texture": "wakanda:textures/icons/abilities/powers/symbiote_shield.png" },
+			"bar_color": "black",		
+		    "cooldown": 125,		
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},		
+		"wall_crawling": {
+			"ability": "heroesexpansion:wall_crawling",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wall Crawling"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/wall_crawling.png"},
+			"bar_color": "black",			
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"spider_sense": {
+			"ability": "heroesexpansion:spider_sense",
+            "show_in_bar": false,		
+            "title": {"text":"Spider Sense"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/spider_sense.png"},
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		}			
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Symbiote"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_venomized/black_panther_venomized_suit.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_venomized/black_panther_venomized_suit_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_venomized"
+			}
+		}
+	}
+}

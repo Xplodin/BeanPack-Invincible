@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "dfheroes:tier2_deathstroke_jl_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "111",
+    "1 1",
+    "1 1"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+} 

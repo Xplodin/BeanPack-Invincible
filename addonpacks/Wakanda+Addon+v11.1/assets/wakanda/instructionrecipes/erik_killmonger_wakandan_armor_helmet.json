@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:erik_killmonger_wakandan_armor_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_orange",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_red",
+		    "amount": 2
+		}
+	]
+
+}

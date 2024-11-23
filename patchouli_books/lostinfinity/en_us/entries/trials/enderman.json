@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Enderman",
+  "icon": "lostinfinity:trialenderman",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialenderman",
+    "title": "Trial of the Enderman",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Enderman."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialenderman"
+  }
+  ]
+}

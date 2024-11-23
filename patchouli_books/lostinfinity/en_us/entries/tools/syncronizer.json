@@ -1,0 +1,27 @@
+{
+  "name": "Synchronizer",
+  "icon": "lostinfinity:synchronizer",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:synchronizer",
+      "title": "Synchronizer",
+      "text": "Cures the player of Dimensional Tear caused by unstable dimensions."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsynchronizer"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:advanced_synchronizer",
+      "title": "Advanced Synchronizer",
+      "text": "Cures the player of Dimensional Tear caused by unstable dimensions."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recadvancedsynchronizer"
+    }
+    ]
+}

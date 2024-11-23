@@ -1,0 +1,28 @@
+{
+	"input": {
+		"item": "minecraft:rabbit_foot"
+	},
+	
+	"input_container": {
+		"item": "lucraftcore:injection"
+	},
+	
+	"input_fluid": {
+		"fluid": "water",
+		"amount": 2000
+	},
+	
+	"energy": 5000,
+	
+	"outputs": {
+		"primary": {
+			"item": "lucraftcore:injection",
+			"nbt": "{\"Injection\": \"wakanda:man-ape\"}",
+			"chance": 0.3
+		},
+		"secondary": {
+			"item": "minecraft:rabbit_hide",
+			"chance": 0.6
+		}
+	}
+}

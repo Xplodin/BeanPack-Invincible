@@ -1,0 +1,362 @@
+{
+	"name" : {
+		"text": "Enchanted Infinity"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/infinity_gems/mind_gem.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 590032,
+	
+	"effects": [
+		{
+			"type": "vibrating",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:phasing"
+				}
+			]
+		}  
+    ],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 5000,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Soul Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},				
+			"frequency": 2,
+			"amount": 20
+		},
+		"damage": {
+			"ability": "lucraftcore:punch",
+            "show_in_bar": false,		
+            "title": {"text":"Punch"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/punch.png"},						
+			"amount": 2147483647,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"		
+	    },
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},						
+			"amount": 2147483647,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {		
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Power Sprint"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},			
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},					
+			"amount": 2147483647,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 2000,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},						
+			"amount": 5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},				
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing",
+            "show_in_bar": false,		
+            "title": {"text":"Water Breathing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/water_breathing.png"}		
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}		
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Lungs"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_lungs.png"}
+		},		
+		"saturation": {
+            "ability": "infinity:saturation",
+            "show_in_bar": false,		
+            "title": {"text":"Saturation"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/saturation.png"}			
+		},
+		"tough_skin": {			
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Skin"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},		
+            "max_energy": 0,
+            "color": [0, 0, 0]
+		},			
+		"night_vision": {
+			"ability": "the-fifth-world:give_potion",
+            "show_in_bar": false,				
+			"title": {"text":"Night Vision"},
+			"potion": "minecraft:night_vision",
+			"amplifier": 1,
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/night_vision.png"}	
+		},
+		"speed_boost": {
+			"ability": "the-fifth-world:give_potion",
+            "show_in_bar": false,				
+			"title": {"text":"Swiftness"},
+			"potion": "minecraft:speed",
+			"amplifier": 2,
+			"icon": {"type": "internal"}	
+		},
+		"water_running": {
+			"ability": "speedsterheroes:water_running",				
+            "show_in_bar": false,		
+            "title": {"text":"Water Running"},		
+			"icon": { "type": "texture", "texture": "nihility:textures/icons/abilities/powers/water_running.png" },		
+			"speed": 1.0				
+		},
+		"telekinesis": {
+			"ability": "heroesexpansion:grab_entity",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Telekinesis"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/telekinesis.png"},				
+            "bar_color": "light_blue"				
+		},
+		"teleport": {	
+		    "ability": "lucraftcore:teleport",
+		    "cooldown": 5,
+		    "distance": 150,		
+            "show_in_bar": true,
+			"title": {"text": "Teleport"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/teleport.png"},				
+            "bar_color": "light_blue"				
+		},
+		"permanant_portal": {
+			"ability": "heroesexpansion:portal",
+			"cooldown": 250,
+			"show_in_bar": true,
+            "title": {"text":"Space Portal"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/perma_portal.png"},				
+            "bar_color": "light_blue",
+            "color": [203, 113, 69]
+		},
+		"black_hole": {
+			"ability": "heroesexpansion:black_hole",
+			"cooldown": 20,
+			"show_in_bar": true,
+            "title": {"text":"Black Hole"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "light_blue"			
+		},
+		"forcefield": {
+			"ability": "heroesexpansion:force_field",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Force Field"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "light_blue",
+			"color": [65, 105, 225]
+		},
+		"energy_blast": {
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Energy Blast"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast_orange.png"},		
+            "bar_color": "purple",				
+            "damage": 2147483647,
+            "color": [255, 0, 255]
+		},
+		"instant_portal": {
+			"ability": "speedsterheroes:dimension_breach",
+			"cooldown": 50,
+			"show_in_bar": true,
+            "title": {"text":"Dimension Shatter"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/tempa_portal.png"},				
+            "bar_color": "yellow"			
+		},
+		"world_warp": {
+			"ability": "the-fifth-world:screech",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Warp World"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "yellow"			
+		},
+		"weapon_call": {
+			"ability": "heroesexpansion:call_weapon",
+			"cooldown": 5,
+			"show_in_bar": true,
+            "title": {"text":"Thor's Recall"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "orange"			
+		},
+		"god_mode": {
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 50,
+			"show_in_bar": true,
+            "title": {"text":"Norse God"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "orange"			
+		},
+		"bubble_party": {
+			"ability": "speedsterheroes:turn_into_bubbles",
+			"cooldown": 5,
+			"show_in_bar": true,
+            "title": {"text":"Bubbles"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "red"			
+		},
+		"hologram": {
+			"ability": "speedsterheroes:time_remnant",
+			"cooldown": 20,
+			"show_in_bar": true,
+            "title": {"text":"Hologram"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "red"			
+		},
+		"time_forward": {
+			"ability": "infinity:fast_forward",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Time Speed Up"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "green"			
+		},
+		"time_stop": {
+			"ability": "infinity:stop_time",
+			"cooldown": 20,
+			"show_in_bar": true,
+            "title": {"text":"Time Stop"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "green"			
+		},
+		"vibrational_shockwave": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": true,		
+            "title": {"text":"Vibrational Shockwave"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/vibrational_shockwave.png"},		
+            "bar_color": "gray",				
+            "max_energy": 250,
+			"color": [255, 240, 150]
+		},
+		"molecular_vibration": {
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 0,			
+            "show_in_bar": true,	
+            "title": {"text":"Molecular Vibration"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/molecular_vibration.png"},
+            "bar_color": "gray"	
+		},
+		"intangibility": {
+		    "ability": "heroesexpansion:force_field",			
+			"cooldown": 0,
+            "show_in_bar": true,
+            "title": {"text":"Intangibility"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/basic_icon.png"},
+			"parent_ability": "molecular_vibration",			
+            "bar_color": "gray",				
+			"color": [0, 0, 0]			
+		},
+		"sun_storm": {
+			"ability": "lucraftcore:command",
+			"title": {"text": "Solar Storm"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/solar_icon.png"},
+			"commands": ["execute @e[rm=7,r=55] ~ ~ ~ /summon mowziesmobs:sunstrike"],
+			"cooldown": 50,			
+            "bar_color": "black"
+		},
+		"wither_jump":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Wither Cloud"},
+			"cooldown": 20,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/leap_icon.png"},
+			"commands": ["effect @p minecraft:levitation 1 20", "execute @s ~ ~ ~ /particle smoke ~ ~ ~ 2 2 2 0.0001 8000 force", 
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=10] ~ ~ ~ effect @s minecraft:wither 4 3", 
+			"particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 8000",
+			"playsound entity.blaze.death ambient @a[r=10] ~ ~ ~"],			
+            "bar_color": "black"
+		},
+		"freeze_aura":{
+			"ability": "lucraftcore:command_toggle",
+			"title": {"text": "Freeze Aura"},
+			"cooldown": 60,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/freeze_icon.png"},
+			"commands": ["particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 45", 
+			"execute @p ~ ~ ~ /execute @e[type=!item,rm=7,r=30] ~ ~ ~ /particle snowshovel ~ ~ ~ 1 1 1 0.1 20",
+			"execute @s ~ ~ ~ /execute @e[rm=7,r=30] ~ ~ ~ effect @s heroesexpansion:frozen 5 5",
+			"execute @s ~ ~ ~ /execute @e[rm=7,r=30] ~ ~ ~ effect @s mowziesmobs:frozen 5 5",
+			"effect @s[r=1] minecraft:weakness 2 255"],			
+            "bar_color": "black"
+		},
+		"reveal":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Reveal"},
+			"cooldown": 250,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/reveal_icon.png"},
+			"commands": ["execute @s ~ ~ ~ /execute @e[rm=7,r=100] ~ ~ ~ effect @s minecraft:glowing 30 50", 
+					"playsound entity.elder_guardian.curse ambient @a[r=65] ~ ~ ~",
+					"particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 45"],			
+            "bar_color": "black"
+		}
+	}
+}

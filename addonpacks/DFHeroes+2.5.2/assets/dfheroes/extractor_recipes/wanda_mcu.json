@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "minecraft:nether_wart"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "lava",
+        "amount": 1000
+    },
+    
+    "energy": 40000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"dfheroes:mutant_wanda_mcu\"}",
+            "chance": 1.0
+        }
+    }
+}

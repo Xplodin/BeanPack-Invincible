@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "minecraft:dragon_breath"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "lava",
+        "amount": 5000
+   },
+    
+    "energy": 50000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"manhattan_project:chi_magic\"}",
+            "chance": 0.35
+        }
+    }
+}

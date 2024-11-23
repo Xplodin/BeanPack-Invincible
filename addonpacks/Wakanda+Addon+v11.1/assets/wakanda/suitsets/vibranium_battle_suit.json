@@ -1,0 +1,130 @@
+{
+	"name": {
+		"text": "Vibranium Battle Suit"
+	},
+	
+	"armor_material": {
+		"durability": 125,
+		"damage_reduction_amounts": [3, 3, 3, 3],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},				
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},					
+			"amount": 0.3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:wither"				
+		},	
+		"vibranium_microweave_mesh": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": false,				
+            "title": {"text":"Vibranium Microweave Mesh"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},		
+            "max_energy": 0,
+            "color": [0, 0, 0]
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Vibranium Battle Suit Helmet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_helmet.png",
+				"normal_open": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_helmet_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibranium_battle_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Vibranium Battle Suit Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_chestpiece_small.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibranium_battle_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Vibranium Battle Suit Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_leggings.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibranium_battle_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Vibranium Battle Suit Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_boots.png",
+				"normal_open": "wakanda:textures/armor/vibranium_battle_suit/vibranium_battle_suit_boots_open.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibranium_battle_suit"
+			}
+		}
+	}
+}

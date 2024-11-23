@@ -1,0 +1,62 @@
+{
+	"name": {
+		"text": "Vibranium Strike Gauntlets"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [0, 0, 2, 0],
+		"enchantibility": 10,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "MCU"
+    },
+	
+	"abilities": {
+		"vibrational_beam": {
+		    "ability": "heroesexpansion:photon_blast",
+			"cooldown": 10,
+            "show_in_bar": true,
+            "title": {"text":"Vibrational Beam"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_beam_blue.png"},		
+            "bar_color": "blue",			
+            "color": [50, 125, 200]
+		},
+		"vibrational_beam_damage": {
+		    "ability": "lucraftcore:punch",
+			"parent_ability": "vibrational_gauntlets",			
+            "show_in_bar": false,
+            "title": {"text":"Vibrational Beam Damage"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_strength.png"},		
+			"amount": 9,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		}
+	},
+	
+	"armor_parts": {
+	
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Vibranium Strike Gauntlets"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibranium_strike_gauntlets/vibranium_strike_gauntlets.png",
+				"normal_smallarms": "wakanda:textures/armor/vibranium_strike_gauntlets/vibranium_strike_gauntlets_small.png",			
+				"glow": "wakanda:textures/armor/vibranium_strike_gauntlets/vibranium_strike_gauntlets_glow.png",
+				"glow_smallarms": "wakanda:textures/armor/vibranium_strike_gauntlets/vibranium_strike_gauntlets_small_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:shuri_mcu"
+			}
+		}
+	}
+}

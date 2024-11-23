@@ -1,0 +1,47 @@
+{
+  "name": "Beacons and Binders",
+  "icon": "lostinfinity:lightbinder",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:lightbinder",
+      "title": "Lightbinder",
+      "text": "When used on Lumio Leaves containing a Wisp, a Heart of Light is dropped."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reclightbinder"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:darkbinder",
+      "title": "Darkbinder",
+      "text": "When used on Darkborn Leaves containing a Wisp, a Heart of Darkness is dropped."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recdarkbinder"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:beacon_of_light",
+      "title": "Beacon of Light",
+      "text": ""
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recbeaconoflight"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:beacon_of_darkness",
+      "title": "Beacon of Darkness",
+      "text": "Allows Skyre's to be given targets. Sets Whispers to target the player."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recbeaconofdarkness"
+    }
+    ]
+}

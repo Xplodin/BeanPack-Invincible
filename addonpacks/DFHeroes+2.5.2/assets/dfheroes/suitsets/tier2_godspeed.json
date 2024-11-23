@@ -1,0 +1,164 @@
+{
+	"name": {
+		"text": "Godspeed (Comics)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+"data": {
+    "trail": {
+        "red": 1,
+        "green": 1,
+        "blue": 0
+    	},	
+		"flicker": {
+		"red": 1,
+		"green": 1,
+		"blue": 0
+		},
+	"speed_levels": 10
+},
+
+	"description": {
+		"text": "Comics"
+	},
+	
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [1,1,0],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "flickering",
+			"color": [1,1,0],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "name_change",
+			"name": {
+				"text": "Godspeed"
+			}
+		}
+	],
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_superpower": "dfheroes:mutant_speedforce"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Godspeed's Cowl"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_godspeed/helmet.png",
+				"normal_open": "dfheroes:textures/suits/flash_godspeed/helmet_open.png",
+				"glow": "dfheroes:textures/suits/flash_godspeed/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits/flash_godspeed/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:godspeed_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Godspeed's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_godspeed/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/flash_godspeed/chestplate_open.png",
+				"normal_smallarms": "dfheroes:textures/suits/flash_godspeed/chestplate.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/flash_godspeed/chestplate_open.png",
+				"glow": "dfheroes:textures/suits/flash_godspeed/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:godspeed_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Godspeed's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_godspeed/legs.png",
+				"glow": "dfheroes:textures/suits/flash_godspeed/legs_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:godspeed_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Godspeed's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_godspeed/boots.png",
+				"glow": "dfheroes:textures/suits/flash_godspeed/boots_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:godspeed_state"
+			}
+		}
+	}
+}

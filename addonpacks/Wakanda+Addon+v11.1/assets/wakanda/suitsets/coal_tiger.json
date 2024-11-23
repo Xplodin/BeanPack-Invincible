@@ -1,0 +1,79 @@
+{
+	"name": {
+		"text": "Coal Tiger"
+	},
+	
+	"armor_material": {
+		"durability": 60,
+		"damage_reduction_amounts": [4, 5, 6, 2],
+		"enchantibility": 10,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "T'Challa"
+    },
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Coal Tiger"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Coal Tiger's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/coal_tiger/coal_tigers_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/coal_tiger/coal_tigers_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/coal_tiger/coal_tigers_chestpiece_open.png",
+				"normal_smallarms_open": "wakanda:textures/armor/coal_tiger/coal_tigers_chestpiece_small_open.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:coal_tiger"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Coal Tiger's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/coal_tiger/coal_tigers_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:coal_tiger"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Coal Tiger's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/coal_tiger/coal_tigers_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:coal_tiger"
+			}
+		}
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"name": {"text": "Black Panther (MCU)"},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 15,
+		"toughness": 1.5,
+		"sound": "item.armor.equip_generic"
+	},
+	
+	"creative_tab": "marvel",
+
+	"description": {"text": "MCU"},
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Black Panther's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/black_panther_mcu/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:black_panther_mcu_state"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Black Panther's Chest"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/black_panther_mcu/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/black_panther_mcu/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:black_panther_mcu_state"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Black Panther's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/black_panther_mcu/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:black_panther_mcu_state"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Black Panther's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/black_panther_mcu/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:black_panther_mcu_state"
+			}
+		}
+	}
+}

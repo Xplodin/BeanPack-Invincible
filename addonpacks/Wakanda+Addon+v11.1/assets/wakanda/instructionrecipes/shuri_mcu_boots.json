@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:shuri_mcu_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_yellow",
+		    "amount": 2
+		}
+	]
+
+}

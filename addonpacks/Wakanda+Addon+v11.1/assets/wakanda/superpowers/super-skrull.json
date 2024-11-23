@@ -1,0 +1,171 @@
+{
+	"name" : {
+		"text": "Super-Skrull"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 16751104,
+	
+	"effects": [
+		{
+			"type": "glowing_hand",
+			"color": [1, 0.7, 0],
+			"size": 1.3,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				},
+				{
+					"type": "always"
+				}
+			]
+		},
+		
+		{
+			"type": "skin_change",
+			"texture": "wakanda:textures/skins/super_skrull.png"
+		},
+
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Super Skrull"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},			
+			"amount": 12,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},			
+			"frequency": 100,
+			"amount": 0.5		
+		},
+		"strength": {	
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},			
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {	
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},				
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},		
+			"amount": 3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 25,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 20,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistancek.png"},			
+			"amount": 5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:poison"
+		},
+		"precision": {
+			"ability": "heroesexpansion:precision",
+            "show_in_bar": false,		
+            "title": {"text":"Precision"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/precision.png"}		
+		},
+		"tough_skin": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": false,
+            "title": {"text":"Tough Skin"},			
+			"icon": { "type": "texture", "texture": "wakanda:textures/icons/abilities/tough_skin.png" },		
+            "max_energy": 0,
+            "color": [0, 0, 0]				
+		}, 
+		"size_change": {
+			"ability": "lucraftcore:size_change",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Size Change"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/size_change.png"},			
+			"size": 1.65,
+            "size_changer": "lucraftcore:default"
+		},
+		"iron_fist": {
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 0,
+			"damage": 10,
+            "show_in_bar": true,
+            "title": {"text":"Iron Fist"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/iron_fist.png"},
+            "bar_color": "yellow"						
+		}
+	}
+}

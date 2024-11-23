@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:black_panther_vibranium_armor_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_cyan",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_gray",
+		    "amount": 2
+		}
+	]
+
+}

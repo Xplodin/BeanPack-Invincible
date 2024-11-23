@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "dfheroesexpansion:jarnbjorn"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " 11",
+    " 21",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:ingot_uru"
+    },
+	"2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "conditions": [
+    {
+      "item": "dfheroesexpansion:jarnbjorn",
+      "type": "minecraft:item_exists"
+    }
+  ]
+} 

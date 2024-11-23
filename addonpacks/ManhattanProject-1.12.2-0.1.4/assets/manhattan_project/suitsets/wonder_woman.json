@@ -1,0 +1,77 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.wonder_woman"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.wonder_woman.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.wonder_woman.head"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/wonder_woman/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:wonder_woman_suit"
+			}
+		},
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.wonder_woman.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/wonder_woman/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/wonder_woman/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:wonder_woman_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.wonder_woman.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/wonder_woman/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:wonder_woman_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.wonder_woman.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/wonder_woman/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:wonder_woman_suit"
+			}
+		}
+	}
+}

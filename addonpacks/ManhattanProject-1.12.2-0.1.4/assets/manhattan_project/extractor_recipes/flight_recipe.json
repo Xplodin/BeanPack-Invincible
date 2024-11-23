@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "minecraft:feather"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "super_soldier_serum",
+        "amount": 2000
+    },
+    
+    "energy": 10000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"manhattan_project:flight\"}",
+            "chance": 0.7
+        }
+    }
+}

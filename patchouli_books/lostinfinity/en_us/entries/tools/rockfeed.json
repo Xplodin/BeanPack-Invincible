@@ -1,0 +1,17 @@
+{
+  "name": "Rockfeed",
+  "icon": "lostinfinity:rockfeed",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:rockfeed",
+      "title": "Rockfeed",
+      "text": "Feed to a Rock Slug to have it hurl it back out."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recrockfeed"
+    }
+    ]
+}

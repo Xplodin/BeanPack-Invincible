@@ -1,0 +1,17 @@
+{
+  "name": "Echo Bomb",
+  "icon": "lostinfinity:echo_bomb",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:echo_bomb",
+      "title": "Echo Bomb",
+      "text": "Unleashes an audible shockwave. Awakens nearby Rockworms."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recechobomb"
+    }
+    ]
+}

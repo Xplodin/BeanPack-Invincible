@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:blocks_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_white",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_light_blue",
+		    "amount": 2
+		}
+	]
+
+}

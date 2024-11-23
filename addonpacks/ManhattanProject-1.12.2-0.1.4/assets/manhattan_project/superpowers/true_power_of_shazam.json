@@ -1,0 +1,166 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.adam"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/shazam_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 0,
+
+	"abilities": {
+		"black_adam": {
+			"ability": "lucraftcore:command",
+			"title": {
+				"text": "Shazam!"
+			},
+			"bar_color": "yellow",
+			"potion_weakness":"minecraft:nausea",
+			"uuid": "a0e1ffec-9c53-11ea-8d94-53b9f95fdef2",
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/shazam_power.png"
+			},
+			"commands": ["say ", "summon minecraft:lightning_bolt ~ ~3 ~", "weather clear",  
+			"sizechange @p 1", "superpower @p manhattan_project:true_power_of_shazam_1",
+			"particle cloud ~ ~ ~ 1 1 1 0.1 600 force",
+			"particle angryVillager ~ ~ ~ 1 1 1 1 50 block @a force"]
+		},
+		"flight": {
+			"ability": "lucraftcore:flight",
+			"speed": 0.7,
+			"sprint_speed": 2,
+			"rotate_arms": true
+		},
+		"energy_blast_adam": {
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 200,
+			"title": {"text": "Lightning Blast"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/lightning_blast_icon.png"},
+			"damage": 0.0,
+			"color": [0, 100, 255],
+			"play_sound": false,
+			"invisible": true
+			
+		},
+		"energy_tag_adam": {
+			"ability": "lucraftcore:command",
+			"commands": [
+				"scoreboard players tag @e[type=lucraftcore:energy_blast,r=10] add lightning_adam"
+			],
+			"show_in_bar": false,
+			"parent_ability": "energy_blast_adam",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/lightning_blast_icon.png"}
+		},
+		"blast": {
+			"ability": "lucraftcore:command_toggle",
+			"cooldown": 100,
+			"commands": ["execute @e[tag=lightning_adam,type=lucraftcore:energy_blast,rm=5] ~ ~ ~ particle magicCrit ~ ~ ~ 2.1 2.1 2.1 5.3 100 force",
+				"execute @e[tag=lightning_adam],type=lucraftcore:energy_blast,rm=5] ~ ~ ~ particle angryVillager ~ ~ ~ 2.1 2.1 2.1 5.3 700 force",
+				"execute @e[tag=lightning_adam,type=lucraftcore:energy_blast,rm=5] ~ ~ ~ summon lightning_Bolt ~ ~ ~"
+			],
+			"show_in_bar": false,
+			"parent_ability": "energy_blast_adam",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/lightning_blast_icon.png"}
+		},
+		"strike": {
+			"ability": "heroesexpansion:lightning_strike",
+			"cooldown": 100
+		},
+		"attack": {
+			"ability": "heroesexpansion:lightning_attack",
+			"cooldown": 100,
+			"damage": 15.0
+		},
+		"lightning_storm": {
+			"ability": "lucraftcore:command",
+			"title": {"text": "Lightning Storm"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/thunder_icon.png"},
+			"commands": ["execute @e[rm=10,r=55] ~ ~ ~ /summon Lightning_bolt"],
+			"cooldown": 250,
+			"uuid": "ad560a2a-9c53-11ea-a3ca-6fcfdada3aaf"
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance"
+		},
+		"health": {
+			"ability": "lucraftcore:health",
+			"amount": 16
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 14
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+			"amount": 1
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 10
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 60
+		},
+		"precision": {
+			"ability": "heroesexpansion:precision"
+		},
+		"hidden": {
+			"ability": "the-fifth-world:potion_immunity",
+			"show_in_bar": false,
+			"title": {"text":"Hidden"},
+			"potion": "minecraft:glowing",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/glowing_icon.png"}
+		}
+	},
+
+
+
+	"effects": [{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/adam_skin.png",
+			"glow": false,
+			"size": 0.3
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/adam_glow.png",
+			"glow": true,
+			"size": 0.5
+
+		},
+		{
+			"type": "flickering",
+			"color": [1, 1, 0],
+			"use_suit_flicker": false
+		},
+		{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			},
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		}
+
+
+
+
+	]
+}

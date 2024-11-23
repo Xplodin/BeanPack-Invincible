@@ -1,0 +1,134 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.atlantian"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/atlantian_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 16749824,
+
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 11
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 10
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 55
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing"
+		},
+		"swim_loop": {
+			"ability": "lucraftcore:command_loop",
+			"commands": ["execute @s ~ ~ ~ detect ~ ~ ~ minecraft:water * /effect @s minecraft:luck 1 1 true",
+				"effect @s minecraft:night_vision 1 1 true"
+			]
+		},
+		"knockback": {
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 4
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+			"amount": 0.08
+		},
+		"anti_freeze": {
+			"ability": "the-fifth-world:potion_immunity",
+			"title": {
+				"text": "Freeze Immunity"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/anti_freeze_icon.png"
+			},
+			"potion": "heroesexpansion:frozen"
+		},
+		"anti_freeze_2": {
+			"ability": "the-fifth-world:potion_immunity",
+			"title": {
+				"text": "Freeze Immunity"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/anti_freeze_icon.png"
+			},
+			"potion": "mowziesmobs:frozen"
+		},
+		"screech": {
+			"ability": "the-fifth-world:screech",
+			"cooldown": 150,
+			"show_in_bar": true,
+			"damage": 5.0,
+			"title": {
+				"text": "Call of the Ocean"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/screech_icon.png"
+			},
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "luck"
+				}]
+			}]
+		},
+		"swim": {
+			"ability": "lucraftcore:flight",
+			"cooldown": 0,
+			"title": {
+				"text": "Speed Swim"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/swim_icon.png"
+			},
+			"speed": 0.75,
+			"sprint_speed": 1.2,
+			"rotate_arms": false,
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "luck"
+				}]
+			}]
+		},
+		"kinetic_energy": {
+			"ability": "heroesexpansion:kinetic_energy_absorption",
+			"cooldown": 0,
+			"title": {
+				"text": "Water Explosion"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/kinetic_icon.png"
+			},
+			"max_energy": 100,
+			"color": [255, 255, 255]
+		}
+
+
+
+
+	}
+}

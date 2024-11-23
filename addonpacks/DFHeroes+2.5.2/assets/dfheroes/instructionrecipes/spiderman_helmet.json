@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "dfheroes:tier2_spiderman_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 5
+		},
+		{
+			"item": "lucaftcore:advanced_circuit",
+			"amount": 1
+		}
+	]
+
+}

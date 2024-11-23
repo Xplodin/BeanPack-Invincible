@@ -1,0 +1,161 @@
+{
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"armor_material": {
+		"durability": 80,
+		"damage_reduction_amounts": [5, 6, 6, 5],
+		"enchantibility": 10,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "panther_habit",
+	
+ "description": {
+        "text": "KoTP"
+    },
+	
+	"data": {
+		"spider_sense": true
+	},
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+			},
+			"conditions": [
+				{
+					"type": "not",
+					"conditions": [
+						{
+							"type": "open_armor",
+							"slot": "helmet"
+						}
+					]
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"anti_metal_claws": {
+			"ability": "lucraftcore:punch",
+            "show_in_bar": false,		
+            "title": {"text":"Anti-Metal Claws"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/punch.png"},			
+			"amount": 2.3,
+			"operation": 1,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd",	
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"wall_scaling": {
+			"ability": "heroesexpansion:wall_crawling",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wall Scaling"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/wall_crawling.png"},
+			"bar_color": "black",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]	
+		},
+		"molecular_desintegrator": {		
+		    "ability": "heroesexpansion:photon_blast",
+			"cooldown": 50,
+            "show_in_bar": true,
+            "title": {"text":"Molecular Desintegrator"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_beam_yellow.png"},		
+			"bar_color": "yellow",
+            "amount": 5,
+            "color": [230, 230, 110]
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Black Panther's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_mask.png",
+				"normal_open": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_mask_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_kotp"
+			}
+		},
+		
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_chestpiece.png",
+				"normal_smallarms_open": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_chestpiece_small.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_kotp"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Black Panther's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_kotp"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_kotp/black_panther_kotp_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_kotp"
+			}
+		}
+	}
+}

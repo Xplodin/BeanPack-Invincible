@@ -1,0 +1,14 @@
+#Tabs
+itemGroup.panther_habit=Panther Habit
+itemGroup.hatut_zeraze=Hatut Zeraze
+itemGroup.wakanda=Wakanda
+
+#Constructs
+wakanda.entity.wolf.name=Wolf
+wakanda.entity.wolf.desc=Create a wolf construct that will knock your enemy back.
+wakanda.entity.bear.name=Bear
+wakanda.entity.bear.desc=Create a bear construct that will knock your enemy back.
+wakanda.entity.dinosaur.name=Dinosaur
+wakanda.entity.dinosaur.desc=Create a dinosaur construct that will knock your enemy back.
+wakanda.entity.plane.name=Plane
+wakanda.entity.plane.desc=Create a plane construct to crash into your enemies, causing an explosion.

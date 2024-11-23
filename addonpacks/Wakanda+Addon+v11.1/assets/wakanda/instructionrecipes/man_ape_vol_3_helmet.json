@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:man_ape_vol_3_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_white",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_orange",
+		    "amount": 2
+		}
+	]
+
+}

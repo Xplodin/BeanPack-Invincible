@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "55114a8c",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c0a92b32",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	}]
+}

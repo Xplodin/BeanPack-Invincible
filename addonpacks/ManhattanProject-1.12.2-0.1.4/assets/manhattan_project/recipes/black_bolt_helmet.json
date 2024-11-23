@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "manhattan_project:black_bolt_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "212",
+    "232",
+    "   "
+  ],
+  "key": {
+	 "1": {
+      "item": "minecraft:quartz"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+	 "3": {
+      "item": "minecraft:iron_helmet"
+    }
+  }
+}

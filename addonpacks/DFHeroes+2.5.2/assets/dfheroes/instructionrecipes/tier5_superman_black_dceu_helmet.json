@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier5_superman_black_dceu_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_white",
+		    "amount": 2
+		}
+	]
+
+}

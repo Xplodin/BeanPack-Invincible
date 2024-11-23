@@ -1,0 +1,25 @@
+{
+	title: "MANAAAAAAAAAAAAA",
+	x: -4.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "15386e77",
+		type: "botania_mana",
+		value: 100000000L
+	}],
+	rewards: [{
+		uid: "a16e18a3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artifacts:everlasting_cooked_beef"
+		}
+	},
+	{
+		uid: "12eebdc0",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

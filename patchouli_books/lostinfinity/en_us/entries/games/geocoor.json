@@ -1,0 +1,49 @@
+{
+  "name": "Geolocator Game",
+  "icon": "lostinfinity:labyrinth_geolocator_core",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_geolocator_core",
+    "title": "Geolocator Game",
+    "text": "A game of exploration. Find your way through the Labyrinth to gain data from Geolocators."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviant_globe",
+    "title": "Geo-Coordinated Orb",
+    "text": "Used to activate the Geolocator Game at the core. Bring the Geolocation Orb to the next Geolocator it asks for in it's lore."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_geolocator_blue",
+    "title": "Geolocator Blue",
+    "text": "The Blue Triangle Geolocation Block."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_geolocator_green",
+    "title": "Geolocator Green",
+    "text": "The Green Pentagon Geolocation Block."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_geolocator_red",
+    "title": "Geolocator Red",
+    "text": "The Red Square Geolocation Block."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_geolocator_yellow",
+    "title": "Geolocator Yellow",
+    "text": "The Yellow Circle Geolocation Block."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:geocoordinated_orb",
+    "title": "Geo-Coordinated Orb",
+    "text": "Geo-Coordinated Orb is given for succesfully completing the game."
+  }
+  ]
+}

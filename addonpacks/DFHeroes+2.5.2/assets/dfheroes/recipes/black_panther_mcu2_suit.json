@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier4_black_panther_mcu2_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "21 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "heroesexpansion:black_panther_suit"
+    },
+	"2": {
+      "item": "lucraftcore:plate_vibranium"
+    }
+  }
+} 

@@ -1,0 +1,83 @@
+{
+	"name": {
+		"text": "Thor (Unworthy)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [6, 7, 8, 6],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+	
+"creative_tab": "marvel",
+
+	"description": {
+		"text": "Unworthy"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Chestplate"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_unworthy/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/thor_unworthy/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_unworthy_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_unworthy/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_unworthy_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thor's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thor_unworthy/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thor_unworthy_state"
+			}
+		}
+	}
+}

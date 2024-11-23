@@ -1,0 +1,119 @@
+{
+	"name": {
+		"text": "Batman (New 52)"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+ "description": {
+        "text": "New 52"
+    },
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:web_wings"
+		}
+	],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Batman's Cowl"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_52/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_52_state"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Batman's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_52/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/batman_52/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_52_state"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Batman's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_52/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_52_state"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Batman's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_52/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_52_state"
+			}
+		}
+	}
+}

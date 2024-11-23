@@ -1,0 +1,69 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.zod"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.zod.desc"
+	},
+	
+	"data": {
+		"solar_energy_multiplier": 2
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.zod.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/zod/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/zod/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:zod_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.zod.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/zod/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:zod_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.zod.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/zod/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:zod_suit"
+			}
+		}
+	}
+}

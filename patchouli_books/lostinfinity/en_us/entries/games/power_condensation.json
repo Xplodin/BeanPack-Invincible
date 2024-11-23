@@ -1,0 +1,43 @@
+{
+  "name": "Power Condensation Game",
+  "icon": "lostinfinity:cell_game",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:cell_game",
+    "title": "Power Condensation Game",
+    "text": "In Power Condensation, the goal of the game is to fill each panel with the correct amount of dots, using a Power Analyzer to view the needed quality as well as to select a block to transfer dots from. Your open hand is used to select the block to transfer dots to. Dots are transfered either until the block is full or the donor block is empty."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:power_analyzer",
+    "title": "Power analyzer",
+    "text": "Item used to view the current progress of the blocks as well as mark a block to give dots."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:clovinite_power_bank",
+    "title": "Clovinite Power Bank",
+    "text": "Using 4 of these to start the game starts the version of the game that rewards a Power Blade."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:power_blade",
+    "title": "Power Blade",
+    "text": "A Power Blade is given for succesfully completing the game when started with 4 Clovinite Power Banks."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:reinforced_blade",
+    "title": "Reinforced Blade",
+    "text": "Using 1 of these to start the game starts the version of the game that rewards a Microstorage Power Cluster."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:microstorage_power_cluster",
+    "title": "Microstorage Power Cluster",
+    "text": "A Microstorage Power Cluster is given for succesfully completing the game when started with a Reinforced Blade."
+  }
+  ]
+}

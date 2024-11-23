@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Magma Cube",
+  "icon": "lostinfinity:trialmagmacube",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialmagmacube",
+    "title": "Trial of the Magma Cube",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Magma Cube."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialmagmacube"
+  }
+  ]
+}

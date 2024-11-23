@@ -1,0 +1,17 @@
+{
+  "name": "Bio-Energizer",
+  "icon": "lostinfinity:bio_energizer",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:bio_energizer",
+      "title": "Bio-Energizer",
+      "text": "Energizes Luminecent Cubes or Blight Cubes to create Florocite or Anthocite respectfully."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recbioenergizer"
+    }
+    ]
+}

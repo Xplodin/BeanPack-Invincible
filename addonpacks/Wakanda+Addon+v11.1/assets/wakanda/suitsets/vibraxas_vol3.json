@@ -1,0 +1,97 @@
+{
+	"name": {
+		"text": "Vibraxas"
+	},
+	
+	"armor_material": {
+		"durability": 250,
+		"damage_reduction_amounts": [3, 3, 3, 3],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "Vol. 3"
+    },
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Vibraxas"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},				
+			"amount": 25,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		}
+	},
+	
+	"armor_parts": {
+	
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Vibraxas's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibraxas_vol3/vibraxas_vol3_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/vibraxas_vol3/vibraxas_vol3_chestpiece_small.png",	
+				"normal_open": "wakanda:textures/armor/vibraxas_vol3/vibraxas_vol3_chestpiece_open.png",
+				"normal_smallarms_open": "wakanda:textures/armor/vibraxas_vol3/vibraxas_vol3_chestpiece_small_open.png"	
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibraxas_vol3"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Vibraxas's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibraxas_vol3/vibraxas_vol3_leggings.png"		
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibraxas_vol3"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Vibraxas's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/vibraxas_vol3/vibraxas_vol3_boots.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:vibraxas_vol3"
+			}
+		}
+	}
+}

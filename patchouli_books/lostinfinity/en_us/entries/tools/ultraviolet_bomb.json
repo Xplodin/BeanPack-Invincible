@@ -1,0 +1,17 @@
+{
+  "name": "Ultraviolet Bomb",
+  "icon": "lostinfinity:ultraviolet_bomb",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:ultraviolet_bomb",
+      "title": "Ultraviolet Bomb",
+      "text": "Reveals hidden Leer mobs nearby the player when thrown."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recultravioletbomb"
+    }
+    ]
+}

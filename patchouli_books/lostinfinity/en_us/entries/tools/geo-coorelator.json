@@ -1,0 +1,17 @@
+{
+  "name": "Geo-Correlator",
+  "icon": "lostinfinity:geocorrelator",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:geocorrelator",
+      "title": "Geo-Correlator",
+      "text": "Used to find an Unstable Merchant. An Interdimensional Traveller is summoned to give you the location coordinates."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recgeocorrelator"
+    }
+    ]
+}

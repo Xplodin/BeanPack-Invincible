@@ -1,0 +1,13 @@
+{
+  "name": "Nicronium Infuser",
+  "icon": "lostinfinity:nicronium_infuser",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:nicronium_infuser",
+      "title": "Nicronium Infuser",
+      "text": "The Nicronium Infuser serves only to infuse Nicronium with a Powerful Polarcronite. Recipes can be found in JEI."
+    }
+    ]
+}

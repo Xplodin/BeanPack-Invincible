@@ -1,0 +1,115 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.black_bolt"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.black_bolt.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 8,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"effects": [{
+			"type": "name_change",
+			"name": {"text": "???"}
+		}],
+
+	"abilities": {
+		"sound_2":{
+			"ability": "lucraftcore:command_held",
+			"show_in_bar": false,
+			"hidden": true,
+			"required_superpower": "manhattan_project:sonic_scream",
+			"cooldown": 0,
+			"parent_ability":"tune",
+			"commands": ["playsound entity.ghast.scream block @a[r=10] ~ ~ ~"]	
+			},
+		"flight":{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"required_superpower": "manhattan_project:sonic_scream",
+			"sprint_speed": 2,
+			"rotate_arms": false
+			},
+		"wings": {
+			"ability": "heroesexpansion:web_wings",
+			"cooldown": 0,
+			"parent_ability": "flight",
+			"show_in_bar": false
+			}
+
+			
+
+
+		
+	},
+
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_bolt.head"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_bolt/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_bolt_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_bolt.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_bolt/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/black_bolt/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_bolt_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_bolt.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_bolt/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_bolt_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_bolt.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_bolt/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_bolt_suit"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"output": {
+		"item": "dfheroes:tier2_spiderman_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 4
+		},
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 2
+		},
+		{
+			"item": "lucaftcore:advanced_circuit",
+			"amount": 1
+		}
+	]
+
+}

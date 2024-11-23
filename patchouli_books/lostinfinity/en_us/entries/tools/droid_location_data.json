@@ -1,0 +1,31 @@
+{
+  "name": "Droid Location Data",
+  "icon": "lostinfinity:droidlocationdata_o",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:droidlocationdata_o",
+      "title": "Droid Location Data [O]",
+      "text": "Droid data left behind after a droid dies while fighting in the Overworld."
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:droidlocationdata_n",
+      "title": "Droid Location Data [N]",
+      "text": "Droid data left behind after a droid dies while fighting in the Nether."
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:droidlocationdata_e",
+      "title": "Droid Location Data [E]",
+      "text": "Droid data left behind after a droid dies while fighting in The End."
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:droidlocationdata_d",
+      "title": "Droid Location Data [D]",
+      "text": "Droid data left behind after a droid dies while fighting a Deviant."
+    }
+    ]
+}

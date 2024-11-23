@@ -1,0 +1,67 @@
+{
+    "name" : {
+        "text": "Scarlet Witch"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/wip_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 12910592,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 10,
+			"damage": 6,
+			"color": [255,0,0]
+		},
+		{
+			"ability": "heroesexpansion:grab_entity",
+			"cooldown": 50
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 2,
+			"rotate_arms": false,
+			"cooldown": 40
+	    }
+    ],
+	
+	"effects": [
+		{
+			"type": "glowing_hand",
+			"color": [1,0,0],
+			"size": 1,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:flight"
+				}
+			]
+		},
+		{
+			"type": "glowing_hand",
+			"color": [1,0,0],
+			"size": 1,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:energy_blast"
+				}
+			]
+		}
+
+	]
+	
+}

@@ -1,0 +1,37 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.underwear"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.underwear.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 4, 4, 2],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.underwear.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/underwear/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/underwear/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:underwear_suit"
+			}
+			}
+		}
+	}

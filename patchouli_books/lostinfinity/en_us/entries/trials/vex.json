@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Vex",
+  "icon": "lostinfinity:trialvex",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialvex",
+    "title": "Trial of the Vex",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Vex."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialvex"
+  }
+  ]
+}

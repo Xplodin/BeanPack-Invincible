@@ -1,0 +1,51 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.hellboy"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.hellboy.desc"
+	},
+	
+	"creative_tab": "magic",
+	
+	"armor_material": {
+		"durability": 8,
+		"damage_reduction_amounts": [1, 3, 4, 1],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.hellboy.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/hellboy/trenchcoat.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/hellboy/trenchcoat.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:hellboy_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.hellboy.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/hellboy/belt.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:hellboy_suit"
+			}
+		}
+	}
+}

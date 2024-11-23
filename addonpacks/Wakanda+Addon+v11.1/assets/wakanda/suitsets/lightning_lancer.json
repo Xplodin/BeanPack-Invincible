@@ -1,0 +1,128 @@
+{
+	"name": {
+		"text": "Lightning Lancer"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 5,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},					
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},		
+			"amount": 1.2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},				
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},				
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Lightning Lancer' Helmet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/lightning_lancer/lightning_lancer_helmet.png",
+				"normal_open": "wakanda:textures/armor/lightning_lancer/lightning_lancer_helmet_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:lightning_lancer"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Lightning Lancer' Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/lightning_lancer/lightning_lancer_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/lightning_lancer/lightning_lancer_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:lightning_lancer"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Lightning Lancer' Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/lightning_lancer/lightning_lancer_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:lightning_lancer"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Lightning Lancer' Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/lightning_lancer/lightning_lancer_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:lightning_lancer"
+			}
+		}
+	}
+}

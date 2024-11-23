@@ -1,0 +1,25 @@
+{
+  "name": "Light Switch Game",
+  "icon": "lostinfinity:light_switch_game",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:light_switch_game",
+    "title": "Light Switch Game",
+    "text": "the Light Switch Game, using the levers find the correct combination to turn all the lights on the opposite side to their lit state."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:digital_panel",
+    "title": "Digital Panel",
+    "text": "The Digital Panel is used to start the Light Switch Game. Interact with the block to start and the NPC with it to finish."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:holoscreen",
+    "title": "Holoscreen",
+    "text": "A Holoscreen is given for succesfully completing the game."
+  }
+  ]
+}

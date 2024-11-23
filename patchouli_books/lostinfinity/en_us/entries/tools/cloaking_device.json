@@ -1,0 +1,17 @@
+{
+  "name": "Cloaking Device",
+  "icon": "lostinfinity:cloaking_device",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:cloaking_device",
+      "title": "Cloaking Device",
+      "text": "Toggle a cloaking device that lets you avoid radar detection."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reccloakingdevice"
+    }
+    ]
+}

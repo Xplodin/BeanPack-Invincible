@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "manhattan_project:jessica_jones_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "2 2",
+    "232",
+    "212"
+  ],
+  "key": {
+	 "1": {
+      "item": "lucraftcore:tri_polymer_blue"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+	 "3": {
+      "item": "minecraft:leather_chestplate"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Super-Charged Injection",
+  "icon": "lostinfinity:super_charged_injection",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:super_charged_injection",
+      "title": "Super-Charged Injection",
+      "text": "Inject another player to grant them Super-Charged. Grants the player 10 lives, 50% dodge change, rapid healing, and a damage aura that deals 25% max health twice a second."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsuperchargedinjection"
+    }
+    ]
+}

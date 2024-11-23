@@ -1,0 +1,101 @@
+{
+	"name" : {
+		"text": "The Negative Speedforce"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "dfheroes:textures/icons/negative_speedforce_icon.png"
+	},
+	
+	"max_level": 5,
+	
+	"capsule_color" : 13762560,
+	
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [1,0,0],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		}
+	],
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text":"Super Speed"},
+			"abilities": [  ],
+			"icon": {
+						"type": "texture",
+						"texture": "dfheroes:textures/icons/negative_speedforce_icon.png"
+					}
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "lucraftcore:healing",
+			"frequency": 10,
+			"amount": 0.5
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e",
+			"required_level": 2
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e",
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "lucraftcore:step_assist",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "heroesexpansion:kinetic_energy_absorption",
+			"max_energy": 200,
+			"color": [255,0,0],
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "heroesexpansion:portal",
+			"cooldown": 200,
+			"required_ability": "toggle_power",
+			"required_level": 5
+		}
+	]
+}

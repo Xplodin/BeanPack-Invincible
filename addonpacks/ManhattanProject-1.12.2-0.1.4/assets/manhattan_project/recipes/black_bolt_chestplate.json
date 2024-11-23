@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "manhattan_project:black_bolt_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "2 2",
+    "131",
+    "212"
+  ],
+  "key": {
+	 "1": {
+      "item": "lucraftcore:tri_polymer_white"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+	 "3": {
+      "item": "minecraft:iron_chestplate"
+    }
+  }
+}

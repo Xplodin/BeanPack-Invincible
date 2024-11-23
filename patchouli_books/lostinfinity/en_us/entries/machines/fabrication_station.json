@@ -1,0 +1,13 @@
+{
+  "name": "Fabrication Table",
+  "icon": "lostinfinity:fabrication_table",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:fabrication_table",
+      "title": "Fabrication Table",
+      "text": "The Fabrication Table is used to create Lost Infinity Armor using Condensed Ingots. Recipes can be found in JEI."
+    }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Compression Table",
+  "icon": "lostinfinity:compressiontable",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:compressiontable",
+      "title": "Compression Table",
+      "text": "The Compression Table is used to combine 25 Raw Ingots into a Condensed form. Recipes can be found in JEI."
+    }
+    ]
+}

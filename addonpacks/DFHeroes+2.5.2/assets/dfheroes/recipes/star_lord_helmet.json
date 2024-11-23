@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "dfheroes:tier2_star_lord_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "1 1",
+    "232",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_steel"
+    },
+	"2": {
+      "item": "lucraftcore:advanced_circuit"
+    },
+	"3": {
+      "item": "lucraftcore:plate_gold"
+    }
+  }
+} 

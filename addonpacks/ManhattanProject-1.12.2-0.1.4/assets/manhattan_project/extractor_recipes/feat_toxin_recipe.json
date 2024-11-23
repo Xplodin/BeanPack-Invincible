@@ -1,0 +1,24 @@
+{
+	"input": {
+		"item": "minecraft:blaze_powder"
+	},
+
+	"input_container": {
+		"item": "minecraft:glass_bottle"
+	},
+
+	"input_fluid": {
+		"fluid": "water",
+		"amount": 1000
+	},
+
+	"energy": 10000,
+
+	"outputs": {
+		"primary": {
+			"item": "minecraft:lingering_potion",
+			"nbt": "{CustomPotionEffects:[{Id:4,Duration:300},{Id:9,Duration:300},{Id:15,Duration:300},{Id:19,Duration:300}],CustomPotionColor:16763167,display:{Name:\"Fear Toxin\"}}",
+			"chance": 0.85
+		}
+	}
+}

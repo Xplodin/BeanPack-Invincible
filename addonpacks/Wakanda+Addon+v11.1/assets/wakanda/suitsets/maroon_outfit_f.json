@@ -1,0 +1,84 @@
+{
+	"name": {
+		"text": "Maroon Outfit"
+	},
+	
+	"armor_material": {
+		"durability": 40,
+		"damage_reduction_amounts": [6, 7, 8, 5],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "Female"
+    },
+
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Maroon Outfit Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/maroon_outfit_f/maroon_outfit_f_mask.png",
+				"normal_open": "wakanda:textures/armor/maroon_outfit_f/maroon_outfit_f_mask_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:maroon_outfit_f"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Maroon Outfit Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/maroon_outfit_f/maroon_outfit_f_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/maroon_outfit_f/maroon_outfit_f_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:maroon_outfit_f"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Maroon Outfit Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/maroon_outfit_f/maroon_outfit_f_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:maroon_outfit_f"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Maroon Outfit Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/maroon_outfit_f/maroon_outfit_f_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:maroon_outfit_f"
+			}
+		}
+	}
+}

@@ -1,0 +1,309 @@
+{
+	"parent": "heroesexpansion:black_panther",
+	
+	"name": {
+		"text": "Rescue (MCU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [6, 7, 8, 6],
+		"enchantibility": 15,
+		"toughness": 4,
+		"sound": "item.armor.equip_diamond"
+	},
+	
+"data": {
+	"transition_color_1": {
+		"red": 2,
+		"green": 10,
+		"blue": 255
+	},
+	"transition_color_2": {
+		"red": 1,
+		"green": 255,
+		"blue": 255
+	},
+	"necklace_texture": "dfheroes:textures/suits_ironman/mark_85/suit_off.png"
+},
+	
+"creative_tab": "ironmen",
+	"description": {
+		"text": "Endgame"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text":"Shield"},
+			"cooldown": 50,
+			"icon": {"type": "texture","texture": "dfheroes:textures/icons/mk50_shield_icon.png"},
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 14,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "toggle_power",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 1.5,
+			"operation": 0,
+			"uuid": "2145e01b-30bf-434d-b7e1-994dacc52f19",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "heroesexpansion:precision",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:tough_lungs",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:water_breathing",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]	
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"speed": 0.5,
+			"sprint_speed": 4,
+			"show_in_bar": true,
+			"rotate_arms": false,
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		    "ability": "lucraftcore:energy_blast",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"cooldown": 100,
+			"show_in_bar": true,
+            "damage": 15,
+            "color": [0, 85, 255],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+		    "ability": "heroesexpansion:photon_blast",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"cooldown": 50,
+			"show_in_bar": true,
+            "color": [0, 85, 255],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		}
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Rescue Nanosuit"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/rescue_mcu/suit_off.png",
+				"normal_smallarms": "dfheroes:textures/suits_ironman/rescue_mcu/suit_off.png",
+				"normal_open": "dfheroes:textures/suits_ironman/rescue_mcu/suit.png",
+				"normal_smallarms_open": "dfheroes:textures/suits_ironman/rescue_mcu/suit.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:rescue_mcu_state"
+			}
+		}
+	},
+	
+	"effects": [
+	    {
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits_ironman/rescue_mcu/suit_glow.png",
+		"glow": true,
+        "size": 0.51,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud.png",
+            "conditions": [
+                {
+                    "type": "open_armor",
+                    "slot": "chest"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_repulsor.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "heroesexpansion:photon_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_chest_rt.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:energy_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_flight.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:flight"
+                }
+            ]
+        },
+		{
+          "type": "skin_overlay",
+          "texture": "dfheroes:textures/suits_ironman/mark_85/mk_85_shield.png",
+          "glow": true,
+          "size": 2,
+		  "conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}
+	]
+}

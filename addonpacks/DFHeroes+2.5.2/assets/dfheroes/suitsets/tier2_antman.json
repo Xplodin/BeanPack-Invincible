@@ -1,0 +1,110 @@
+{
+	"name": {
+		"text": "Ant-Man (MCU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "MCU"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 0.1,
+			"size_changer": "lucraftcore:default"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 16,
+			"size_changer": "lucraftcore:default"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Ant-Man's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/antman/helmet.png",
+				"normal_open": "dfheroes:textures/suits/antman/helmet_open.png",
+				"glow": "dfheroes:textures/suits/antman/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits/antman/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:antman_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Ant-Man's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/antman/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/antman/chestplate.png",
+				"glow": "dfheroes:textures/suits/antman/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:antman_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Ant-Man's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/antman/legs.png",
+				"glow": "dfheroes:textures/suits/antman/legs_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:antman_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Ant-Man's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/antman/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:antman_state"
+			}
+		}
+	}
+}

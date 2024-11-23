@@ -1,0 +1,14 @@
+Update 11.0 Changelog - Final 1.12.2 Update
+--------------------------------------------------------------------
+* FINALLY FIXED THE RECIPE CRASHES
+* Increased the Deadpool power healing rate
+* Updated Vibraxas and Lightning Lancer suit textures
+- Removed the Cannibal power
++ Added EXTRACTOR RECIPES for FOLLOWING POWERS: King of The Dead, Djalia Enhancements, Deadpool, Jakarra, Gentle, Salamander K'Ruel, Asha
++ Added telekinesis to the Bast power (Heroes Expansion needed) 
++ Added energy blast to the Vibraxas (Master of Vibration) power
++ Added new power icons for the Vibraxas (Master of Vibration) power
++ Added dimension breach to the Bast power (SpeedsterHeroes needed)
++ Added new power icons for the Bast power
++ Added night vision to the Iron Man Model 21 suit and the powers: Bast, Black Panther, and King of The Dead
++ Added size change to the Djalia Enhancements power

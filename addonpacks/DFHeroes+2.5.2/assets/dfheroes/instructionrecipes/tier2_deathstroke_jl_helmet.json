@@ -1,0 +1,13 @@
+{
+	"output": {
+		"item": "wakanda:tier2_deathstroke_jl_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		}
+	]
+
+}

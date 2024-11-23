@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:venomm_jungle_action_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_yellow",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_white",
+		    "amount": 2
+		}
+	]
+
+}

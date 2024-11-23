@@ -1,0 +1,85 @@
+{
+    "name" : {
+        "text": "Magic"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/magic_icon.png"
+    },
+
+    "max_level": 4,
+
+    "capsule_color" : 16747520,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:water_breathing"
+		},
+		{
+			"ability": "lucraftcore:healing",
+			"frequency": 10,
+			"amount": 2
+		},
+		{
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 100,
+            "damage": 20,
+            "color": [1.0, 0.5, 0.0],
+			"required_level": 1
+		},
+		{
+            "ability": "lucraftcore:potion_punch",
+		    "potion": "minecraft:levitation",
+            "amplifier": 0,
+            "duration": 50,
+            "cooldown": 50,
+			"required_level": 2
+	    },
+		{
+			"ability": "heroesexpansion:grab_entity",
+			"cooldown": 100,
+			"required_level": 3
+		},
+		{
+            "ability": "lucraftcore:potion_punch",
+		    "potion": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 30,
+            "cooldown": 50,
+			"required_level": 3
+	    },
+		{
+            "ability": "lucraftcore:potion_punch",
+		    "potion": "minecraft:wither",
+            "amplifier": 0,
+            "duration": 30,
+            "cooldown": 50,
+			"required_level": 3
+	    },
+		{
+			"ability": "the-fifth-world:create_item",
+			"cooldown": 500,
+			"item": { "item": "minecraft:iron_sword", "data": 1, "count": 1 },
+			"required_level": 1
+		},
+		{
+			"ability": "the-fifth-world:change_item",
+			"cooldown": 200,
+			"from": { "item": "minecraft:coal", "data": 1, "count": 1},
+			"to": { "item": "minecraft:diamond", "data": 1, "count": 1},
+			"required_level": 4
+		},
+		{
+			"ability": "the-fifth-world:summon_entity",
+			"cooldown": 200,
+			"entity": "minecraft:bat",
+			"number": 5,
+			"required_level": 4
+		}
+	]
+	
+}

@@ -1,0 +1,59 @@
+{
+	"name": {
+		"text": "Zenzi"
+	},
+	
+	"armor_material": {
+		"durability": 40,
+		"damage_reduction_amounts": [2, 4, 5, 1],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "wakanda",	
+	
+ "description": {
+        "text": "Revealer"
+    },
+
+	"armor_parts": {
+	
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Zenzi's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/zenzi/zenzis_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/zenzi/zenzis_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/zenzi/zenzis_chestpiece_toggle.png",
+				"normal_smallarms_open": "wakanda:textures/armor/zenzi/zenzis_chestpiece_small_toggle.png",
+				"glow": "wakanda:textures/armor/zenzi/zenzis_chestpiece_no_glow.png",
+				"glow_smallarms": "wakanda:textures/armor/zenzi/zenzis_chestpiece_no_glow.png",
+				"glow_open": "wakanda:textures/armor/zenzi/zenzis_chestpiece_toggle_glow.png",
+				"glow_smallarms_open": "wakanda:textures/armor/zenzi/zenzis_chestpiece_small_toggle_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:zenzi"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Zenzi's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/zenzi/zenzis_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:zenzi"
+			}
+		}
+	}
+}

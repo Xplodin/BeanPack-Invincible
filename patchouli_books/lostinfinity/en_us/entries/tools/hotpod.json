@@ -1,0 +1,17 @@
+{
+  "name": "Hot Pod",
+  "icon": "lostinfinity:hot_pod",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:hot_pod",
+      "title": "Hot Pod",
+      "text": "Used to melt Honey Gel when thrown at it."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:rechotpod"
+    }
+    ]
+}

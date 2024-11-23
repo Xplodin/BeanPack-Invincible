@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier2_ronin_endgame_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "111",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+	"2": {
+      "item": "lucraftcore:tri_polymer_yellow"
+    }
+  }
+} 

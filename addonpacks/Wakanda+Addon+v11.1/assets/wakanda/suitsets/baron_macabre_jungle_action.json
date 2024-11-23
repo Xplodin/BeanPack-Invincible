@@ -1,0 +1,61 @@
+{
+	"name": {
+		"text": "Baron Macabre"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [0, 0, 6, 0],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "Jungle Action"
+    },
+
+	"abilities": {
+		"energy_beam": {
+		    "ability": "heroesexpansion:photon_blast",
+			"cooldown": 10,
+            "show_in_bar": true,
+            "title": {"text":"Energy Beam"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_beam_yellow.png"},				
+			"color": [183, 145, 0]	
+		},
+		"energy_beam_damage": {
+		    "ability": "lucraftcore:punch",
+			"parent_ability": "energy_beam",			
+            "show_in_bar": false,
+            "title": {"text":"Energy Beam Damage"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_strength.png"},		
+			"amount": 9,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"				
+		}
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Baron Macabre's Garb"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/baron_macabre_jungle_action/baron_macabre_jungle_action_garb.png",
+				"normal_smallarms": "wakanda:textures/armor/baron_macabre_jungle_action/baron_macabre_jungle_action_garb_small.png",
+				"normal_open": "wakanda:textures/armor/baron_macabre_jungle_action/baron_macabre_jungle_action_garb_open.png",
+				"normal_smallarms_open": "wakanda:textures/armor/baron_macabre_jungle_action/baron_macabre_jungle_action_garb_small_open.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:baron_macabre_jungle_action"
+			}
+		}
+	}
+}

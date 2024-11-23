@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:white_wolf_mcu_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_gray",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_black",
+		    "amount": 2
+		}
+	]
+
+}

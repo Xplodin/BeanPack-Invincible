@@ -1,0 +1,113 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.nightwing"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.nightwing.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 8,
+		"toughness": 3.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"effects": [{
+			"type": "name_change",
+			"name": {"text": "???"}
+		}],
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1,
+			"operation": 0
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 4,
+			"operation": 0
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 5,
+			"operation": 0
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5,
+			"operation": 0
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		}
+
+		
+	],
+
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.nightwing.head"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/nightwing/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:nightwing_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.nightwing.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/nightwing/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/nightwing/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:nightwing_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.nightwing.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/nightwing/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:nightwing_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.nightwing.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/nightwing/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:nightwing_suit"
+			}
+		}
+	}
+}

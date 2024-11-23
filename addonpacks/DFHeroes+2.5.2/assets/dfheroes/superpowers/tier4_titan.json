@@ -1,0 +1,82 @@
+{
+    "name" : {
+        "text": "Thanos"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/thanos_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 15073989,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 1.5,
+			"size_changer": "lucraftcore:default"
+		},
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 5
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 5.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 16,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 14,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 11,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 11,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:step_assist",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+	
+	"effects": [
+	    {
+		"type": "skin_change",
+		"texture": "dfheroes:textures/skins/thanos_skin.png"
+	    }
+	]
+}

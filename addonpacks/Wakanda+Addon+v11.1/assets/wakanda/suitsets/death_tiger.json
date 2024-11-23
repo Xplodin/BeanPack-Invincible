@@ -1,0 +1,98 @@
+{
+	"name": {
+		"text": "Death Tiger"
+	},
+	
+	"armor_material": {
+		"durability": 125,
+		"damage_reduction_amounts": [6, 7, 8, 5],
+		"enchantibility": 0,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Death Tiger"
+				{
+					"type": "not",
+					"conditions": [
+						{
+							"type": "open_armor",
+							"slot": "helmet"
+						}
+					]
+				}
+			]
+		}
+	],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Death Tiger's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/death_tiger/death_tigers_mask.png",
+				"normal_open": "wakanda:textures/armor/death_tiger/death_tigers_mask_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:death_tiger"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Death Tiger's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/death_tiger/death_tigers_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/death_tiger/death_tigers_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:death_tiger"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Death Tiger's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/death_tiger/death_tigers_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:death_tiger"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Death Tiger's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/death_tiger/death_tigers_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:death_tiger"
+			}
+		}
+	}
+}

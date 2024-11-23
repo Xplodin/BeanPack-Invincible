@@ -1,0 +1,44 @@
+{
+	"name": {
+		"text": "Power Glove"
+	},
+	
+	"armor_material": {
+		"durability": 70,
+		"damage_reduction_amounts": [0, 0, 0, 0],
+		"enchantibility": 5,
+		"toughness": 0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+	"abilities": {
+		"punch": {
+			"ability": "lucraftcore:punch",
+            "show_in_bar": false,		
+            "title": {"text":"Punch"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/punch.png"},			
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		}
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Power Glove"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/power_glove/power_glove.png",
+				"normal_smallarms": "wakanda:textures/armor/power_glove/power_glove_small.png"		
+			},
+			"item_texture": {
+				"blockstate": "wakanda:power_glove"
+			}
+		}
+	}
+}

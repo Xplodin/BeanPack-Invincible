@@ -1,0 +1,25 @@
+{
+    "name" : {
+        "text": "Iron Man's Suit Sensors"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/ironman_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 12183275,
+	
+	"effects": [
+		{
+          "type": "skin_overlay",
+          "texture": "dfheroes:textures/skins/arc_reactor.png",
+          "glow": true,
+          "size": 0.0
+		}
+
+	]
+	
+}

@@ -1,0 +1,52 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.martian_skull"
+	},
+
+	"armor_material": {
+		"durability": 4,
+		"damage_reduction_amounts": [2, 2, 2, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "manhattan_project",
+	"description": {
+		"translate": "manhattan_project.suitset.martian_skull.desc"
+	},
+	
+	"abilities": [
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.martian_skull.head"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/martian_skull.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:skull_suit"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.martian_skull.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/clear/clear.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:skull_suit"
+			}
+		}
+	}
+}

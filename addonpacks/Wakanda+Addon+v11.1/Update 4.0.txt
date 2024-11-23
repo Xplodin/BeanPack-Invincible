@@ -1,0 +1,31 @@
+﻿Update 4.0 Changelog - Special Forces Update
++Added version number to Addonpack Description
+--------------------------------------------------------------------
+*Some more minor skin edits and fixes
+*Updated Black Panther (Vol. 6)'s suit
+*Completely redid Achebe (EN:Wasn't happy on how he turned out)
+*Renamed Black Panther (Heavenly Armor) to Vibranium Shielding 
+*Reduced Black Panther and Man Ape's jump boost from 6.5 to 5.2 
+*Fixed Man Ape & Black Panther's healing...again 
+*Increased phasing cooldown on Klaw 
+*Buffed Klaw's strength from 6 to 8 
+*Buffed Klaw's Sonic Disruptor energy beam damage from 10 to 13 
+*Buffed Black Panther's strength from 5 to 5.5 
+*Buffed Black Panther's speed from 0.05 to 0.07 
+*Buffed Black Panther and Man Ape's resistance 
+*Increased Jakarra's sizechange size from 1.1 to 1.3 
+*Buffed Jakarra's strength from 7.5 to 8 
+*Buffed Baron Macabre's strength from 1.2 to 2.5 
+*Buffed Man Ape (Vol 3)'s armor 
+-Removed trail on Djalia Griot power 
+-Removed flight on Black Panther's Thrice-Blessed armor 
+-Removed the Potion Punch ability on Baron Macabre 
+-Removed abilities on White Wolf (MCU) suit 
+-Removed teleporting ability on Klaw 
++Added energy beams to Black Panther's KoTP suit 
++Added increased strength for Shuri's Vibranium Shielding armor 
++Added Time Renant ability from SpeedsterHeroes to Klaw 
++Added increased health to more superpowers 
++Added T'Challa's King of The Dead powers 
++Added Shuri's Ancient Future Armor 
++Added Black Panther (MCU T'Chaka) 

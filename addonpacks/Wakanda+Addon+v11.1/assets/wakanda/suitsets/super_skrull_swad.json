@@ -1,0 +1,51 @@
+{
+	"name": {
+		"text": "Super Skrull"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [3, 5, 5, 4],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+ "description": {
+        "text": "SW&D"
+    },
+
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+			"text": "Super Skrull's Headwear"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/super_skrull_swad/super_skrull_swad_headpiece.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:super_skrull_swad"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+			"text": "Super Skrull's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/super_skrull_swad/super_skrull_swad_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/super_skrull_swad/super_skrull_swad_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:super_skrull_swad"
+			}
+		}
+	}
+}

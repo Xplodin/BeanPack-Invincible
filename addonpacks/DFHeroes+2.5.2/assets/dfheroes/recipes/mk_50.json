@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "dfheroes:tier4_mark_50_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "323",
+    "212",
+    "323"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:beacon"
+    },
+	"2": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    },
+	"3": {
+      "item": "lucraftcore:plate_vibranium"
+    }
+  }
+} 

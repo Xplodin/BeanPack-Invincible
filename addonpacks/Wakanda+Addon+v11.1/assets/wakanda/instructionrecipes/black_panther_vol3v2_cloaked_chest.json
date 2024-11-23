@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:black_panther_vol3v2_cloaked_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_yellow",
+		    "amount": 2
+		}
+	]
+
+}

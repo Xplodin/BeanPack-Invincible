@@ -1,0 +1,593 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.manhattan"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/manhattan_icon.png"
+	},
+
+	"max_level": 15,
+
+	"capsule_color": 3133432,
+
+	"abilities": {
+
+		"field": {
+			"ability": "lucraftcore:toggle_power",
+			"bar_color": "light_blue",
+			"required_level": 15,
+			"title": {
+				"text": "Disguise"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/alex_blue_icon.png"
+			}
+		},
+		"engrave": {
+			"ability": "lucraftcore:command",
+			"show_in_bar": true,
+			"title": {
+				"text": "Engrave"
+			},
+			"required_level": 15,
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/manhattan_icon.png"
+			},
+			"commands": ["superpower @s manhattan_project:intrinsic_field_alex_engraved"],
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:ability",
+					"ability": "field"
+				}]
+			}, {"type": "lucraftcore:held_item",
+					"item": "minecraft:gunpowder",
+					"hand": "main_hand"}]
+			
+		},
+			"flight": {
+			"ability": "lucraftcore:flight",
+			"speed": 0.75,
+			"sprint_speed": 2.5,
+			"required_level": 15,
+			"rotate_arms": false
+		},
+		"telekinisis_2": {
+			"ability": "heroesexpansion:grab_entity",
+			"required_level": 15,
+			"show_in_bar": true,
+			"cooldown": 150,
+			"title": {
+				"text": "Telekinisis"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/telekinisis_icon.png"
+			},
+			"conditions": [{
+				"type": "lucraftcore:potion_weakness",
+				"potion": "luck"
+			}]
+		},
+		"telekinisis": {
+			"ability": "heroesexpansion:god_mode",
+			"show_in_bar": true,
+			"cooldown": 135,
+			"title": {
+				"text": "Telekinisis"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/proj_icon.png"
+			},
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "luck"
+				}]
+			}]
+		},
+		"telekinisis_1": {
+			"ability": "lucraftcore:command_held",
+			"parent_ability": "telekinisis",
+			"commands": [
+				"entitydata @e[type=snowball,r=10] {NoGravity:0b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=lucraftcore:energy_blast,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=wither_skull,r=7] {NoGravity1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=fireball,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=small_fireball,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=dragon_fireball,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=potion,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=shulker_bullet,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=llama_spit,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+
+				"entitydata @e[type=cgm:grenade,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=cgm:projectile,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+
+				"entitydata @e[type=heroesexpansion:vibranium_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:smoke_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:gas_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:grappling_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:sharpened_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:explosive_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:kryptonite_arrow,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+
+				"entitydata @e[type=heroesexpansion:thrown_billy_club,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:web_grenade,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:thrown_mjolnir,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}",
+				"entitydata @e[type=heroesexpansion:impact_web,r=7] {NoGravity:1b,Motion:[0.0,0.0,0.0]}"
+			],
+			"show_in_bar": false,
+			"required_level": 15,
+			"title": {
+				"text": "Projectile Stop"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/proj_icon.png"
+			},
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "luck"
+				}]
+			}]
+		},
+		"teleportation": {
+			"title": {
+				"text": "Teleportation"
+			},
+			"ability": "heroesexpansion:portal",
+			"cooldown": 400,
+			"required_level": 15,
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_icon.png"
+			},
+			"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "luck"
+				},
+				{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "unluck"
+				}
+			]
+		},
+		"teleportation_1": {
+			"ability": "lucraftcore:teleport",
+			"distance": 128,
+			"cooldown": 10,
+			"title": {
+				"text": "Teleportation"
+			},
+			"required_level": 15,
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_3_icon.png"
+			},
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "unluck"
+				}]
+			}, {
+				"type": "lucraftcore:potion_weakness",
+				"potion": "luck"
+			}]
+		},
+		"teleportation_2": {
+			"ability": "lucraftcore:command",
+			"required_level": 15,
+			"title": {
+				"text": "Teleportation"
+			},
+			"cooldown": 400,
+			"commands": ["spreadplayers ~ ~ 200 400 false @a[rm=1,r=15]", "particle fallingdust ~ ~1.3 ~ .21 .21 .21 2 155 force @a 57",
+				"particle fireworksSpark ~ ~1.3 ~ .21 .21 .21 2 20000 force"
+			],
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_2_icon.png"
+			},
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "luck"
+				}]
+			}]
+
+
+
+
+
+		},
+		"teleportation_3": {
+			"ability": "lucraftcore:command_loop",
+			"required_level": 15,
+			"hidden": "true",
+			"show_in_bar": false,
+			"parent_ability": "hidden",
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_icon.png"
+			},
+			"commands": ["scoreboard players tag @e[r=5,type=heroesexpansion:portal] add Portal {Opening:10}",
+				"teleport @e[type=heroesexpansion:portal,r=5,tag=Portal] ~ ~ ~",
+				"entitydata @e[type=heroesexpansion:portal,r=1] {CustomName:Manhattan}",
+				"entitydata @e[type=heroesexpansion:portal,name=Manhattan] {Closing:1b}",
+
+				"scoreboard objectives add Shifting stat.sneakTime",
+				"effect @s[score_Shifting_min=1] minecraft:luck 1 1 true",
+				"scoreboard players reset @s[score_Shifting_min=1] Shifting",
+
+				"scoreboard objectives add Jumping stat.jump",
+				"effect @s[score_Jumping_min=1] minecraft:unluck 1 1 true",
+				"scoreboard players reset @s[score_Jumping_min=1] Jumping",
+
+				"scoreboard objectives add Hurt stat.damageTaken",
+				"scoreboard players tag @s[score_Hurt_min=1,r=45] add Hurt",
+				"scoreboard players tag @s[score_Hurt_min=0] remove Hurt",
+				"scoreboard players reset @s[score_Hurt_min=1] Hurt",
+
+
+				"scoreboard players tag @e[tag=Hurt,r=50,type=zombie] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=skeleton] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=husk] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=stray] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=skeleton_horse] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=zombie_pigman] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=zombie_villager] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=wither_skeleton] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=galacticraftcore:evolved_skeleton_boss] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=galacticraftcore:evolved_zombie] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=galacticraftcore:evolved_skeleton] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=wither] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=quark:ashen] add UnDead",
+				"scoreboard players tag @e[tag=Hurt,r=50,type=quark:dweller] add UnDead",
+
+				"entitydata @e[type=cgm:grenade,r=7] {NoGravity:0b}",
+				"entitydata @e[type=cgm:projectile,r=7] {NoGravity:0b}",
+
+				"entitydata @e[type=snowball,r=7] {NoGravity:0b}",
+				"entitydata @e[type=arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=wither_skull,r=7] {NoGravity0b}",
+				"entitydata @e[type=fireball,r=7] {NoGravity:0b,}",
+				"entitydata @e[type=small_fireball,r=7] {NoGravity:0b,}",
+				"entitydata @e[type=dragon_fireball,r=7] {NoGravity:0b,}",
+				"entitydata @e[type=potion,r=7] {NoGravity:0b}",
+				"entitydata @e[type=shulker_bullet,r=7] {NoGravity:0b}",
+				"entitydata @e[type=llama_spit,r=7] {NoGravity:0b}",
+
+				"entitydata @e[type=heroesexpansion:vibranium_arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:smoke_arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:gas_arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:grappling_arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:sharpened_arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:explosive_arrow,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:kryptonite_arrow,r=7] {NoGravity:0b}",
+
+				"entitydata @e[type=heroesexpansion:thrown_billy_club,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:web_grenade,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:thrown_mjolnir,r=7] {NoGravity:0b}",
+				"entitydata @e[type=heroesexpansion:impact_web,r=7] {NoGravity:0b}",
+
+				"scoreboard players tag @e[tag=Hurt,r=55] remove Hurt {HurtTime:0s}",
+				"scoreboard players tag @e[tag=HurtLiving,r=55] remove HurtLiving {HurtTime:0s}"
+
+			]
+		},
+		"field_disruption": {
+			"ability": "lucraftcore:set_punch",
+			"cooldown": 25,
+			"show_in_bar": true,
+			"title": {
+				"text": "Field Disruption"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/energy_icon.png"
+			},
+			"arm": 0,
+			"required_level": 15,
+			"reach_distance": 45,
+			"damage": 0.1,
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:ability",
+					"ability": "field"
+				}]
+			}]
+
+		},
+		"field_disruption_2": {
+			"ability": "lucraftcore:command_toggle",
+			"show_in_bar": false,
+			"cooldown": 5,
+			"title": {
+				"text": "Field Disruption"
+			},
+			"commands": [
+				"scoreboard players tag @e[rm=1,r=55] add Hurt {HurtTime:8s}",
+
+				"scoreboard players tag @e[rm=1,r=55,tag=!UnDead] add HurtLiving {HurtTime:8s}",
+
+				"execute @e[tag=Hurt,r=50] ~ ~ ~ particle damageIndicator ~ ~2 ~ 1 1 1 1 2 force @a",
+				"execute @e[tag=Hurt,r=50] ~ ~ ~ particle largeexplode ~ ~2.2 ~ 1 1 1 0.5 5 force @a",
+
+				"execute @e[tag=HurtLiving,r=50] ~ ~ ~ particle damageIndicator ~ ~2 ~ 1 1 1 1 2 force @a",
+				"execute @e[tag=HurtLiving,r=50] ~ ~ ~ particle largeexplode ~ ~2.2 ~ 1 1 1 0.5 5 force @a",
+
+				"effect @e[tag=Hurt,r=50,type=zombie] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=skeleton] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=husk] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=stray] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=skeleton_horse] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=zombie_pigman] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=zombie_villager] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=wither_skeleton] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=galacticraftcore:evolved_skeleton_boss] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=galacticraftcore:evolved_zombie] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=galacticraftcore:evolved_skeleton] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=wither] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=quark:ashen] minecraft:instant_health 1 2",
+				"effect @e[tag=Hurt,r=50,type=quark:dweller] minecraft:instant_health 1 2",
+
+				"effect @e[tag=HurtLiving,r=50] minecraft:instant_damage 1 2",
+
+				"effect @e[tag=Hurt,r=50,type=zombie,type=skeleton,type=husk,type=stray,type=skeleton_horse,type=zombie_pigman,type=zombie_villager,type=wither_skeleton,type=galacticcraftcore:evolved_skeleton_boss,type=galacticcraftcore:evolved_zombie,type=galacticcraftcore:evolved_skeleton] minecraft:instant_health 1 2",
+
+				"execute @e[tag=Hurt,r=50] ~ ~ ~ playsound pymtech:quantum_realm_enter block @a[r=40] ~ ~ ~ 0.4",
+				"execute @e[tag=Hurt,r=50] ~ ~ ~ playsound minecraft:entity.generic.explode block @a[r=40] ~ ~ ~ 0.5",
+				"execute @e[tag=HurtLiving,r=50] ~ ~ ~ playsound pymtech:quantum_realm_enter block @a[r=40] ~ ~ ~ 0.4",
+				"execute @e[tag=HurtLiving,r=50] ~ ~ ~ playsound minecraft:entity.generic.explode block @a[r=40] ~ ~ ~ 0.5",
+
+				"scoreboard players tag @e[tag=Hurt,r=55] remove Hurt {HurtTime:7s}",
+				"scoreboard players tag @e[tag=Hurt,r=55] remove Hurt {HurtTime:0s}",
+				"scoreboard players tag @e[tag=HurtLiving,r=55] remove HurtLiving {HurtTime:7s}",
+				"scoreboard players tag @e[tag=HurtLiving,r=55] remove HurtLiving {HurtTime:0s}"
+			],
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/energy_icon.png"
+			},
+			"parent_ability": "field_disruption"
+		},
+
+
+		"size_change": {
+			"ability": "lucraftcore:size_change",
+			"cooldown": 0,
+			"size": 14,
+			"required_level": 15,
+			"size_changer": "lucraftcore:default",
+			"conditions": [{
+				"type": "lucraftcore:not",
+				"conditions": [{
+					"type": "lucraftcore:ability",
+					"ability": "field"
+				}]
+			}]
+		},
+		"strength_grow": {
+			"ability": "lucraftcore:strength",
+			"amount": 55,
+			"required_level": 15,
+			"required_ability": "size_change"
+		},
+		"resistance_grow": {
+			"ability": "lucraftcore:resistance",
+			"required_level": 15,
+			"amount": 55,
+			"operation": 0,
+			"required_ability": "size_change"
+		},
+		"bio_fission": {
+			"ability": "speedsterheroes:time_remnant",
+			"required_level": 15,
+			"cooldown": 200,
+			"title": {
+				"text": "Bio Fission"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/bio_icon.png"
+			}
+		},
+		"phasing": {
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 200,
+			"required_level": 15
+		},
+		"omni_toggle": {
+			"ability": "heroesexpansion:god_mode",
+			"required_level": 15,
+			"damage": 0,
+			"title": {
+				"text": "Omniscience"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/omni_icon.png"
+			}
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 25,
+			"required_level": 15
+		},
+		"hidden": {
+			"ability": "the-fifth-world:potion_immunity",
+			"show_in_bar": false,
+			"title": {
+				"text": "Hidden"
+			},
+			"required_level": 15,
+			"potion": "minecraft:glowing",
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/glowing_icon.png"
+			}
+		},
+		"radiation_immunity": {
+			"ability": "the-fifth-world:potion_immunity",
+			"potion": "lucraftcore:radiation",
+			"required_level": 15,
+			"title": {
+				"text": "Radiation Immunity"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/radioactive_icon.png"
+			}
+		},
+		"water_walking": {
+			"ability": "speedsterheroes:water_running",
+			"speed": 0.0
+		},
+
+		"healing": {
+			"ability": "lucraftcore:healing",
+			"frequency": 60,
+			"amount": 3.5,
+			"required_level": 15,
+			"operation": 0
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs",
+			"required_level": 15
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing",
+			"required_level": 15
+		},
+		"omniscience": {
+			"ability": "heroesexpansion:x_ray",
+			"cooldown": 0,
+			"parent_ability": "omni_toggle",
+			"show_in_bar": false,
+			"required_level": 15,
+			"title": {
+				"text": "Omniscience"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/omni_icon.png"
+			}
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+			"required_level": 15
+		},
+		"health_boost": {
+			"ability": "lucraftcore:health",
+			"required_level": 15,
+			"amount": 20
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3,
+			"required_level": 15,
+			"operation": 0
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"required_level": 15,
+			"amount": 35,
+			"operation": 0
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 50000,
+			"operation": 0,
+			"required_level": 15,
+			"hidden": "true"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 100,
+			"required_level": 15,
+			"operation": 0
+		},
+		"night_vision": {
+			"ability": "lucraftcore:command_toggle",
+			"show_in_bar": false,
+			"cooldown": 2,
+			"required_level": 15,
+			"parent_ability": "knockback_resistance",
+			"title": {
+				"translate": "lucraftcore.abilities.command_on_gain.name"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/night_icon.png"
+			},
+			"commands": ["effect @s night_vision 99999 0 true"]
+		},
+		"night_vision_lose": {
+			"ability": "lucraftcore:command_on_lose",
+			"show_in_bar": false,
+			"required_level": 15,
+			"title": {
+				"translate": "lucraftcore.abilities.command_on_lose.name"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/night_icon.png"
+			},
+			"commands": ["effect @s clear"]
+		}
+
+
+
+	},
+	"effects": [{
+			"type": "skin_change",
+			"texture": "manhattan_project:textures/skins/manhattan_glow_alex_3.png",
+			"conditions": [{
+				"type": "not",
+				"conditions": [{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}]
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/manhattan_glow_alex_plain.png",
+			"glow": true,
+			"size": -0.1,
+			"conditions": [{
+				"type": "not",
+				"conditions": [{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}]
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "manhattan_project:textures/skins/manhattan_glow_alex_2.png",
+			"glow": true,
+			"size": 0,
+			"conditions": [{
+				"type": "not",
+				"conditions": [{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}]
+			}]
+		}
+
+	]
+}

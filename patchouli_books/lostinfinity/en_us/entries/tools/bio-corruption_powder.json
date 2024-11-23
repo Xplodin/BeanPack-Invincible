@@ -1,0 +1,17 @@
+{
+  "name": "Bio-Corruption Powder",
+  "icon": "lostinfinity:biocorruption_powder",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:biocorruption_powder",
+      "title": "Bio-Corruption Powder",
+      "text": "Mutates Forgebloom mushrooms."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recbiocorruptionpowder"
+    }
+    ]
+}

@@ -1,0 +1,230 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  maximummcversion = 1.16.5
+}
+
+customization {
+  restart_on_load = false
+  name = identifier_c403d6b8c95746b3
+  action = animatebackground
+}
+
+customization {
+  baseheight = 1017
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-centered
+  x = -98
+  action = movebutton
+  y = 63
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-centered
+  x = -51
+  action = movebutton
+  y = 129
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 98
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -98
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = Its always nice to take a break!
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 2.5
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 0.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:forge_titlescreen_mods_button
+  x = -143
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-centered
+  x = -98
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -51
+  action = movebutton
+  y = 56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 04815c70-bb4a-4544-9c61-e2b25998b4981657331151627
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 169
+  action = deep_customization_element:title_screen_branding
+  actionid = e031bccb-ebe0-44b5-b15a-4cedfd946a3d1657331151634
+  y = 467
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 63b45bec-2e90-4106-be4a-ef8d2343b77f1657331151635
+  y = 489
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 92d6fffd-b792-463c-b6af-cf268a7eb66b1657331151636
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = a761e879-aef2-4c2c-be83-e5eca6212e471657331151636
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 1e91508a-25ac-446c-8fda-aebd1ff94aed1657331151637
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = -90
+  actionid = 05883043-d3f6-492d-ada8-ad4357c8e61a1653407752042
+  action = addtext
+  y = 18
+  scale = 1.0
+  alignment = left
+  value = Welcome to the Beanverse, %playername%
+}
+
+customization {
+  path = beanpack.png
+  orientation = bottom-centered
+  x = -80
+  width = 386
+  actionid = 8ee88491-4488-4ccc-b6ec-29fb3537d2fd1653408142572
+  action = addtexture
+  y = -57
+  height = 55
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  scale = 4.0
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_day = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_month = true
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_month = 4
+  x = 1
+  actionid = 723e1fa2-8f70-415c-af85-0c80aca55af41661297718833
+  action = addtext
+  y = 425
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_day = 20
+  alignment = left
+  value = Blaze it!
+}
+

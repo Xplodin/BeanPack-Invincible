@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:bullseye_back",
+
+  "result": {
+    "item": "prime_homelander_chest"
+  },
+
+  "original": "manhattan_project:homelander_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLUE"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:homelander_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:prime_homelander_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

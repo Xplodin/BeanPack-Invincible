@@ -1,0 +1,149 @@
+{
+	"name" : {
+		"text": "Zawavari"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 5,
+	
+	"capsule_color" : 33385,
+	
+	"effects": [
+		{
+			"type": "glowing_hand",
+            "color": [0, 0.7, 0.3],
+			"size": 1.3,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				},
+				{
+					"type": "always"
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {		
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},				
+			"frequency": 100,
+			"amount": 0.5
+		},
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},					
+			"amount": 3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {		
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},				
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 1.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 13,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},	
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"magic_blast": {	
+            "ability": "lucraftcore:energy_blast",
+			"cooldown": 10,		
+            "show_in_bar": true,		
+            "title": {"text":"Magic Blast"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/magic/energy_blast_yellow.png"},	
+            "bar_color": "blue",					
+            "damage": 14,
+			"color": [183, 145, 0]
+		},
+		"searing_punch": {			
+		    "ability": "lucraftcore:fire_punch",
+            "cooldown": 80,
+            "duration": 5,				
+            "show_in_bar": true,
+            "title": {"text":"Searing Punch"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/magic/fire_punch.png"},
+            "bar_color": "blue"					
+		},
+		"lightning_attack": {			
+			"ability": "heroesexpansion:lightning_strike",
+			"cooldown": 60,		
+            "show_in_bar": true,		
+            "title": {"text":"Shock Attack"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/magic/lightning_attack.png"},
+            "bar_color": "blue"					
+		},
+		"portal": {
+			"ability": "heroesexpansion:portal",
+			"cooldown": 200,
+            "show_in_bar": true,
+            "title": {"text":"Portal"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/magic/portal.png"},	
+            "bar_color": "blue"					
+		},
+		"magic_infused_punch": {
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 50,
+			"damage": 6,		
+            "show_in_bar": true,		
+            "title": {"text":"Magic-Infused Punch"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/magic/magic_infused_punch.png"},
+            "bar_color": "blue"			
+		}
+	}
+}

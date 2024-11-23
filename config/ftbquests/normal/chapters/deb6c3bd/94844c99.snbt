@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "34ff431c",
+		type: "xp",
+		value: 100L,
+		points: false
+	}],
+	rewards: [{
+		uid: "6f43f48d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	}]
+}

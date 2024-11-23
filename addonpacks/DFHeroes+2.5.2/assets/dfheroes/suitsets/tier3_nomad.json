@@ -1,0 +1,84 @@
+{
+	"name": {
+		"text": "Nomad (IW)"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+ "description": {
+        "text": "Infinity War"
+    },
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Nomad's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nomad/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/nomad/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nomad_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Nomad's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nomad/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nomad_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Nomad's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nomad/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nomad_suit"
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.screech"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/screech_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 15454602,
+
+	"abilities": 
+		{
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 9
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 8
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 55
+		},
+		"knockback":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 4
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.08
+		},
+		"screech":{
+			"ability": "the-fifth-world:screech",
+			"cooldown": 150,
+			"show_in_bar": true,
+			"damage": 5.0,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/screech_icon.png"}
+		},
+		"sound":{
+			"ability": "lucraftcore:command_held",
+			"show_in_bar": false,
+			"hidden": true,
+			"cooldown": 0,
+			"parent_ability":"screech",
+			"commands": ["playsound entity.ghast.scream block @a[r=10] ~ ~ ~ 1 1.2"]	
+			}
+
+
+	}
+}

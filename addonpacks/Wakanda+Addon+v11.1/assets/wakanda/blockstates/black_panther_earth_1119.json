@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"head": [{
+			"textures": {
+				"layer0": "wakanda:items/black_panther_earth_1119/black_panther_earth_1119_mask"
+			}
+		}],
+		
+		"chest": [{
+			"textures": {
+				"layer0": "wakanda:items/black_panther_earth_1119/black_panther_earth_1119_chestpiece"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "wakanda:items/black_panther_earth_1119/black_panther_earth_1119_leggings"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "wakanda:items/black_panther_earth_1119/black_panther_earth_1119_boots"
+			}
+		}]
+	}
+}

@@ -1,0 +1,195 @@
+{
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"armor_material": {
+		"durability": 300,
+		"damage_reduction_amounts": [4, 5, 5, 4],
+		"enchantibility": 10,
+		"toughness": 5,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "panther_habit",
+	
+    "description": {
+        "text": "Vibranium Mobile Shielding"
+    },
+	
+	"data": {
+		"spider_sense": true
+	},
+	
+    "effects": [
+		{
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+			},
+			"conditions": [
+				{
+					"type": "not",
+					"conditions": [
+						{
+							"type": "open_armor",
+							"slot": "helmet"
+						}
+					]
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},				
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},				
+			"amount": 0.05,
+			"operation": 1,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},				
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+        },
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing",
+            "show_in_bar": false,		
+            "title": {"text":"Water Breathing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/water_breathing.png"}	
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}		
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Lungs"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_lungs.png"}
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:wither"				
+        },
+		"vibranium_reinforcement": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",		
+            "show_in_bar": false,				
+            "title": {"text":"Vibranium Reinforcement"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},			
+            "max_energy": 0,
+            "color": [0, 0, 0]
+		},
+		"flight": {		
+			"ability": "lucraftcore:flight",
+            "cooldown": 0,			
+            "show_in_bar": true,
+            "title": {"text":"Flight"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/flight.png"},	
+			"bar_color": "cyan",		
+			"speed": 1.5,
+            "sprint_speed": 4.5,
+			"rotate_arms": true
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Black Panther's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_helmet.png",
+				"normal_open": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_helmet_open.png",
+				"glow": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_helmet_glow.png",
+				"glow_open": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_helmet_no_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_shielding"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_chestpiece_small.png",
+				"glow": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_chestpiece_glow.png",
+				"glow_smallarms": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_chestpiece_small_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_shielding"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Black Panther's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_leggings.png",
+				"glow": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_leggings_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_shielding"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_boots.png",
+				"glow": "wakanda:textures/armor/black_panther_vibranium_shielding/black_panther_vibranium_shielding_boots_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_shielding"
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	title: "BeanBox Pro",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "compactmachines3:machine 1 5"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dankstorage:dank_5"
+		}
+	},
+	{
+		ftb_money: 300L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 500L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		count: 3
+	},
+	{
+		xp_levels: 12,
+		type: "xp_levels"
+	},
+	{
+		item: "harvestcraft:meatloafsandwichitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:swedishmeatballsitem",
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:iron_shulker_box_purple",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:ender_eye_orb"
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		item: "minecraft:nether_star"
+	}],
+	loot_crate: {
+		string_id: "beanbox_pro",
+		item_name: "BeanBox Pro",
+		color: 16711680,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

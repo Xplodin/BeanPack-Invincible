@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "dfheroes:tier3_mark_3_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "121",
+    "232",
+    "2 2"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_gold"
+    },
+	"2": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    },
+	"3": {
+      "item": "lucraftcore:advanced_circuit"
+    }
+  }
+} 

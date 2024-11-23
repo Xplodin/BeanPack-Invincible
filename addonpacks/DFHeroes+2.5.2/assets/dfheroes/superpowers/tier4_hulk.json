@@ -1,0 +1,101 @@
+{
+    "name" : {
+        "text": "Hulk"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/items/hulk/helmet.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 33024,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 1.5,
+			"size_changer": "lucraftcore:default",
+			"icon": {
+				"type": "texture",
+				"texture": "dfheroes:textures/items/hulk/helmet.png"
+			}
+		},
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 5,
+			"required_ability": "size_change"
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 10.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 16,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 14,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 11,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 11,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:step_assist",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"
+		}
+	],
+	
+	"effects": [
+        {
+        "type": "skin_change",
+        "texture": "dfheroes:textures/skins/hulk_skin.png",
+        "conditions": [
+    {
+        "type": "ability_enabled",
+        "ability": "lucraftcore:size_change"
+    }
+]
+        }
+    ]
+}

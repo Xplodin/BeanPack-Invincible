@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:torn_shorts",
+
+  "result": {
+    "item": "torn_shorts_chest"
+  },
+
+  "original": "manhattan_project:purple_shorts_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEBLACK"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:torn_shorts_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:purple_shorts_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

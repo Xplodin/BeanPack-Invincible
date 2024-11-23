@@ -1,0 +1,17 @@
+{
+  "name": "Glow Bomb",
+  "icon": "lostinfinity:glow_bomb",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:glow_bomb",
+      "title": "Glow Bomb",
+      "text": "Lights up Myrite ores to make them visible."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recglowbomb"
+    }
+    ]
+}

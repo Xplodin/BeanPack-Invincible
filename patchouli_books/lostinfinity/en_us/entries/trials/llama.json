@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Llama",
+  "icon": "lostinfinity:trialllama",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialllama",
+    "title": "Trial of the Llama",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Llama."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialllama"
+  }
+  ]
+}

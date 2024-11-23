@@ -1,0 +1,17 @@
+{
+  "name": "Container of Collection",
+  "icon": "lostinfinity:container_of_collection_empty",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:container_of_collection_empty",
+      "title": "Container of Collection",
+      "text": "Used for Black Market Trades. Collects souls from mobs at a value of 1 per kill, players give a value of 50."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reccontainerofcollection"
+    }
+    ]
+}

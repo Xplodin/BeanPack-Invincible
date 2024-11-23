@@ -1,0 +1,28 @@
+Update 10.0 Changelog - Misc Update II
+--------------------------------------------------------------------
+*Brand new ability icons 
+*Fixed Storm's power not showing in-game 
+*Vibraxas's phasing power will now remove negative potion effects upon use 
+*Nerfed suit durabilities (They were too high) 
+-Removed custom cursor on the Iron Man Model 21 HUD 
++Added weather powers to Storm, so you can now create a thunderstorm or stop the weather entirely. 
++Added and improved more suit recipes (No more recipe conflicting, and almost all suits craftable) 
++Added Black Panther (Infinity) custom suit 
++Added suit cloaking to these suits: White Wolf, & Black Panther Vol3v1-3 
++Added Power Glove (Vol. 3) 
++Added Infinity Gaunlet (Secret Wars) 
++Added Shuri's "Vibranium Strike Gaunlets" as a seperate armor 
++Added precision ability to Super-Skrull power 
++Added Vibranium Battle Suit (Vol. 3) 
++Added Black Panther (Earth-1119) suit 
++Added Black Panther (King of the Dead) suit 
++Added Black Panther (Iron Man: Armored Adventures) 
++Added Black Panther (Venomized) 
++Added nano-tech shield and gaunlets to Black Panther (New Avengers) suit 
++Added Black Panther (King of the Dead) suit
++Added Deadpool power
++Added Pantherpool 
+
+
+
+

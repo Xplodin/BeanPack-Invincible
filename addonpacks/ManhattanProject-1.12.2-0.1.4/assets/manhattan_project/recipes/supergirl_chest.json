@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:supergirl",
+
+  "result": {
+    "item": "manhattan_project:supergirl_chest"
+  },
+
+  "original": "heroesexpansion:superman_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLUE"
+    },
+    {
+      "item": "#DYEYELLOW"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:supergirl_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

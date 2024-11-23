@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "lucraftcore:ingot_vibranium"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "11 ",
+    "11 "
+  ],
+  "key": {
+    "1": {
+      "item": "dfheroesexpansion:vibraniumingot"
+    }
+  },
+  "conditions": [
+    {
+      "item": "dfheroesexpansion:vibraniumingot",
+      "type": "minecraft:item_exists"
+    }
+  ]
+} 

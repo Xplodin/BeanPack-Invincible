@@ -1,0 +1,73 @@
+{
+	"name": {
+		"text": "Blocks"
+	},
+	
+	"armor_material": {
+		"durability": 70,
+		"damage_reduction_amounts": [2, 2, 2, 2],
+		"enchantibility": 0,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Blocks"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Block's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/blocks/blocks_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/blocks/blocks_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:blocks"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Block's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/blocks/blocks_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:blocks"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Block's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/blocks/blocks_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:blocks"
+			}
+		}
+	}
+}

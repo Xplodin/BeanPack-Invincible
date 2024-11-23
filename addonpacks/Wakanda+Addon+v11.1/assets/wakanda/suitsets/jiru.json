@@ -1,0 +1,49 @@
+{
+	"name": {
+		"text": "Jiru"
+	},
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 2, 2, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Jiru's Robe"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/jiru/jirus_robe.png",
+				"normal_smallarms": "wakanda:textures/armor/jiru/jirus_robe_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:jiru"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Jiru's Shoes"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/jiru/jirus_shoes.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:jiru"
+			}
+		}
+	}
+}

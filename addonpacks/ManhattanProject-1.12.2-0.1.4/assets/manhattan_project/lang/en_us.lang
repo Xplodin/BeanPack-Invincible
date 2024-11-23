@@ -1,0 +1,261 @@
+#Creative Tab
+itemGroup.manhattan_project=manhattan_project
+itemGroup.tech=Technology
+itemGroup.magic=Magic
+
+
+
+#SuitSets
+
+manhattan_project.suitset.manhunter=Martian Manhunter's Suit
+manhattan_project.suitset.manhunter.desc=J'onn J'onzz
+manhattan_project.suitset.manhunter.chestplate=Martian Manhunter's Chestpiece
+manhattan_project.suitset.manhunter.legs=Martian Manhunter's Legs
+manhattan_project.suitset.manhunter.boots=Martian Manhunter's Boots
+
+
+manhattan_project.suitset.cw_manhunter=Martian Manhunter's Suit
+manhattan_project.suitset.cw_manhunter.desc=CW
+manhattan_project.suitset.cw_manhunter.chestplate=Martian Manhunter's Chestpiece
+manhattan_project.suitset.cw_manhunter.legs=Martian Manhunter's Legs
+manhattan_project.suitset.cw_manhunter.boots=Martian Manhunter's Boots
+
+
+
+manhattan_project.suitset.miss_martian=Miss Martian's Suit
+manhattan_project.suitset.miss_martian.desc=M'gann M'orzz
+manhattan_project.suitset.miss_martian.chestplate=Miss Martian's Chestpiece
+manhattan_project.suitset.miss_martian.legs=Miss Martian's Legs
+manhattan_project.suitset.miss_martian.boots=Miss Martian's Boots
+
+
+
+manhattan_project.suitset.osterman=Doctor Manhattan's Suit
+manhattan_project.suitset.osterman.desc=Interview
+manhattan_project.suitset.osterman.chestplate=Doctor Manhattan's Blazer
+manhattan_project.suitset.osterman.legs=Doctor Manhattan's Pants
+manhattan_project.suitset.osterman.boots=Doctor Manhattan's Shoes
+
+
+
+manhattan_project.suitset.abar=Doctor Manhattan's Outfit
+manhattan_project.suitset.abar.desc=Cal Abar
+manhattan_project.suitset.abar.chestplate=Doctor Manhattan's Shirt
+manhattan_project.suitset.abar.legs=Doctor Manhattan's Pants
+manhattan_project.suitset.abar.boots=Doctor Manhattan's Shoes
+
+
+
+manhattan_project.suitset.cage=Luke Cage's Outfit
+manhattan_project.suitset.cage.desc=Power Man
+manhattan_project.suitset.cage.chestplate=Luke Cage's Shirt
+manhattan_project.suitset.cage.legs=Luke Cage's Pants
+manhattan_project.suitset.cage.boots=Luke Cage's Shoes
+
+
+
+manhattan_project.suitset.underwear=Doctor Manhattan's Suit
+manhattan_project.suitset.underwear.desc=Vietnam War (Place in chest slot)
+manhattan_project.suitset.underwear.chestplate=Doctor Manhattans's Underwear
+
+
+
+manhattan_project.suitset.torn_shorts=Hulk's Pants
+manhattan_project.suitset.torn_shorts.desc=Avengers (Place in chest slot)
+manhattan_project.suitset.torn_shorts.chestplate=Hulk's Shorts
+
+
+
+manhattan_project.suitset.professor=Professor Hulk's Suit
+manhattan_project.suitset.professor.desc=Endgame
+manhattan_project.suitset.professor.chestplate=Professor Hulk's Chestpiece
+manhattan_project.suitset.professor.legs=Professor Hulk's Legs
+manhattan_project.suitset.professor.boots=Professor Hulk's Boots
+
+
+
+manhattan_project.suitset.purple_shorts=Hulk's Pants
+manhattan_project.suitset.purple_shorts.desc=Classic (Place in chest slot)
+manhattan_project.suitset.purple_shorts.chestplate=Hulk's Shorts
+
+
+
+manhattan_project.sutset.snow_leopard=Snow Leopard
+manhattan_project.suitset.snow_leopard.chestplate=Snow Leopard's Suit
+manhattan_project.suitset.snow_leopard.desc=From the players for the players
+
+
+
+manhattan_project.suitset.nightwing=Nightwing
+manhattan_project.suitset.nightwing.desc=Dick Grayson
+manhattan_project.suitset.nightwing.head=Nightwing's Mask
+manhattan_project.suitset.nightwing.chestplate=Nightwing's Chestpiece
+manhattan_project.suitset.nightwing.legs=Nightwing's Pants
+manhattan_project.suitset.nightwing.boots=Nightwing's Boots
+
+
+
+manhattan_project.suitset.zod=General Zod 
+manhattan_project.suitset.zod.desc=Dru-Zod
+manhattan_project.suitset.zod.chestplate=General Zod's Chestpiece
+manhattan_project.suitset.zod.legs=General Zod's Pants
+manhattan_project.suitset.zod.boots=General Zod's Boots
+
+
+
+manhattan_project.suitset.solar=Superman
+manhattan_project.suitset.solar.desc=Solar Suit
+manhattan_project.suitset.solar.chestplate=Superman's Chestpiece
+manhattan_project.suitset.solar.legs=Superman's Pants
+manhattan_project.suitset.solar.boots=Superman's Boots
+
+
+manhattan_project.suitset.superman=Superman
+manhattan_project.suitset.superman.desc=Hero's Heroes
+manhattan_project.suitset.superman.chestplate=Superman's Chestpiece
+manhattan_project.suitset.superman.legs=Superman's Pants
+manhattan_project.suitset.superman.boots=Superman's Boots
+
+
+
+manhattan_project.suitset.kingdom_come=Superman
+manhattan_project.suitset.kingdom_come.desc=Kingdom Come
+manhattan_project.suitset.kingdom_come.chestplate=Superman's Chestpiece
+manhattan_project.suitset.kingdom_come.legs=Superman's Pants
+manhattan_project.suitset.kingdom_come.boots=Superman's Boots
+
+
+
+manhattan_project.suitset.bullseye=Bullseye
+manhattan_project.suitset.bullseye.desc=Poindexter
+manhattan_project.suitset.bullseye.helmet=Bullseye's Mask
+manhattan_project.suitset.bullseye.chestplate=Bullseye's Chestpiece
+manhattan_project.suitset.bullseye.legs=Bullseye's Pants
+manhattan_project.suitset.bullseye.boots=Bullseye's Boots
+
+
+
+manhattan_project.suitset.clear=Transparent
+manhattan_project.suitset.clear.desc=Clearly the smart choice
+manhattan_project.suitset.clear.head=Mask
+manhattan_project.suitset.clear.chestplate=Chestpiece
+manhattan_project.suitset.clear.legs=Pants
+manhattan_project.suitset.clear.boots=Boots
+
+
+
+manhattan_project.suitset.hellboy=Hellboy
+manhattan_project.suitset.hellboy.desc=And upon his brow is set a crown of flames
+manhattan_project.suitset.hellboy.chestplate=Hellboy's Trenchcoat
+manhattan_project.suitset.hellboy.legs=Hellboy's Belt
+
+	
+
+manhattan_project.suitset.martian_skull=Martian Skull
+manhattan_project.suitset.martian_skull.desc=Red Sands
+manhattan_project.suitset.martian_skull.head=Martian Skull
+manhattan_project.suitset.martian_skull.chestplate=Literally a dump item
+
+
+manhattan_project.suitset.iron_man=Iron Man
+manhattan_project.suitset.iron_man.desc=Bleeding Edge
+
+
+manhattan_project.suitset.lex=Lex Luthor
+manhattan_project.suitset.lex.desc=Soldier of Man
+	
+
+manhattan_project.suitset.fate=Doctor Fate
+manhattan_project.suitset.fate.desc=Spirit of Nabu
+
+
+manhattan_project.suitset.doom=Doctor Doom
+manhattan_project.suitset.doom.desc=Dictator of Latvaria
+manhattan_project.suitset.doom.head=Doctor Doom's Cloak
+manhattan_project.suitset.doom.chestplate=Doctor Doom's Chestpiece & Mask
+manhattan_project.suitset.doom.legs=Doctor Doom's Pants
+manhattan_project.suitset.doom.boots=Doctor Doom's Boots
+
+
+
+manhattan_project.suitset.black_bolt=Black Bolt
+manhattan_project.suitset.black_bolt.desc=King of Attilan
+manhattan_project.suitset.black_bolt.head=Black Bolt's Mask
+manhattan_project.suitset.black_bolt.chestplate=Black Bolt's Chestpiece
+manhattan_project.suitset.black_bolt.legs=Black bolt's Pants
+manhattan_project.suitset.black_bolt.boots=Black Bolt's Boots
+
+
+manhattan_project.suitset.black_canary=Black Canary
+manhattan_project.suitset.black_canary.desc=Bird of Prey
+manhattan_project.suitset.black_canary.chestplate=Black Canary's Chestpiece
+manhattan_project.suitset.black_canary.legs=Black Canary's Pants
+manhattan_project.suitset.black_canary.boots=Black Canary's Boots
+
+
+manhattan_project.suitset.jessica_jones=Jessica Jones
+manhattan_project.suitset.jessica_jones.desc=Jewel
+manhattan_project.suitset.jessica_jones.chestplate=Jessica Jones's Chestpiece
+manhattan_project.suitset.jessica_jones.legs=Jessica Jones's Pants
+manhattan_project.suitset.jessica_jones.boots=Jessica Jones's Boots
+
+
+manhattan_project.suitset.wonder_woman=Wonder Woman
+manhattan_project.suitset.wonder_woman.desc=Amazon Warrior
+manhattan_project.suitset.wonder_woman.head=Wonder Woman's Tiara 
+manhattan_project.suitset.wonder_woman.chestplate=Wonder Woman's Chestpiece
+manhattan_project.suitset.wonder_woman.legs=Wonder Woman's Pants
+manhattan_project.suitset.wonder_woman.boots=Wonder Woman's Boots
+
+manhattan_project.suitset.venom=Symbiote
+manhattan_project.suitset.venom.desc=Venom
+
+manhattan_project.suitset.supergirl=Supergirl
+manhattan_project.suitset.supergirl.desc=Kara Zor-El
+manhattan_project.suitset.supergirl.chestplate=Supergirl's Chestpiece
+manhattan_project.suitset.supergirl.legs=Supergirl's Leggings
+manhattan_project.suitset.supergirl.boots=Supergirl's Boots
+
+manhattan_project.suitset.aquaman=Aquaman
+manhattan_project.suitset.aquaman.desc=King of Atlantis
+manhattan_project.suitset.aquaman.chestplate=Aquaman's Armor
+manhattan_project.suitset.aquaman.legs=Aquaman's Leggings
+manhattan_project.suitset.aquaman.boots=Aquaman's Boots
+
+manhattan_project.suitset.homelander=Homelander
+manhattan_project.suitset.homelander.desc=Comic
+manhattan_project.suitset.homelander.chestplate=Homelander's Chestpiece
+manhattan_project.suitset.homelander.legs=Homelander's Leggings
+manhattan_project.suitset.homelander.boots=Homelander's Boots
+
+manhattan_project.suitset.prime_homelander=Homelander
+manhattan_project.suitset.prime_homelander.desc=Amazon Prime
+manhattan_project.suitset.prime_homelander.chestplate=Homelander's Chestpiece
+manhattan_project.suitset.prime_homelander.legs=Homelander's Leggings
+manhattan_project.suitset.prime_homelander.boots=Homelander's Boots
+
+
+manhattan_project.suitset.utopian=Utopian
+manhattan_project.suitset.utopian.desc=Union of Justice
+manhattan_project.suitset.utopian.chestplate=Utopian's Chestpiece
+manhattan_project.suitset.utopian.legs=Utopian's Leggings
+manhattan_project.suitset.utopian.boots=Utopian's Boots
+
+
+
+#Superpowers
+
+manhattan_project.superpower.martian=Martian
+manhattan_project.superpower.manhattan=Intrinsic Field
+manhattan_project.superpower.hulk=Gamma Radiation
+manhattan_project.superpower.sans=Sans
+manhattan_project.superpower.speed=Hyper Metabolism
+manhattan_project.superpower.hellboy=Anung Un Rama
+manhattan_project.superpower.super=Weapon Plus Program
+manhattan_project.superpower.shazam=Power of Shazam!
+manhattan_project.superpower.adam=True Power of Shazam!
+manhattan_project.superpower.flight=Flight
+manhattan_project.superpower.screech=Sonic Scream
+manhattan_project.superpower.doom=Gypsy Magic
+manhattan_project.superpower.chi=Chi Magic
+manhattan_project.superpower.atlantian=Atlantian

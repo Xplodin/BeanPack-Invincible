@@ -1,0 +1,73 @@
+{
+	"name": {
+		"text": "Bull"
+	},
+	
+	"armor_material": {
+		"durability": 40,
+		"damage_reduction_amounts": [1, 2, 3, 4],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Bull"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Bull's Gloves"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/bull/bulls_gloves.png",
+				"normal_smallarms": "wakanda:textures/armor/bull/bulls_gloves_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:bull"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Bull's Pants"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/bull/bulls_pants.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:bull"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Bull's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/bull/bulls_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:bull"
+			}
+		}
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"name" : {
+		"text": "Solomon Prey"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/black_panther_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 11147201,
+	
+    "effects": [
+		{
+			"type": "skin_overlay",
+            "texture": "wakanda:textures/overlays/solomon_prey_claws.png",
+			"size": 0,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:blade"
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},		
+			"frequency": 100,
+			"amount": 0.5		
+		},
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},				
+			"amount": 3.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 22,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+        },
+		"retractable_claws": {
+			"ability": "speedsterheroes:blade",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Retractable Claws"},		
+			"icon": { "type": "texture", "texture": "wakanda:textures/icons/abilities/powers/claws/retractable_claws_solomon_prey.png" }
+		},
+		"flight": {		
+			"ability": "lucraftcore:flight",
+            "cooldown": 0,			
+            "show_in_bar": true,
+            "title": {"text":"Flight"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/flight.png"},	
+			"speed": 1,
+            "sprint_speed": 2,
+			"rotate_arms": false
+		}
+	}
+}

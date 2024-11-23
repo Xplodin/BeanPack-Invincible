@@ -1,0 +1,17 @@
+{
+  "name": "Celestial Miner's Pickaxe",
+  "icon": "lostinfinity:celestialminerspickaxe",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:celestialminerspickaxe",
+      "title": "Celestial Miner's Pickaxe",
+      "text": "When mining vanilla ores, a small chance is granted for it to also drop a celestial variant of the mined ore. TIP: Silk Touch works!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reccelestialminers"
+    }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:pantherpool_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_red",
+		    "amount": 2
+		}
+	]
+
+}

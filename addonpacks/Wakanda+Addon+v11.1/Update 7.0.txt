@@ -1,0 +1,37 @@
+Update 7.0 Changelog
+--------------------------------------------------------------------
+*Black Panther (Vol 3)'s boot soles now glow when you activate wall running 
+*Changed Vibraxas' suit name to Vibraxas (Vol. 3) 
+*Changed Black Panther (Kevin)'s suit texture to be more like Vol 3's 
+*Seperated Bull's gloves to a chestplate instead of pants 
+*Buffed Man Ape's superpower strength from 6.5 to 7 
+*Buffed Bast's strength from 25 to 30, and resistance from 20 to 25 
+*Buffed Black Panther and Djalia Griot superpower speed and strength 
+*Buffed Solomon Prey's strength from 2.5 to 4 
+*Buffed Djalia Griot superpower's health from 4 to 6  
+*Buffed Jakarra's superpower 
+*Fixed Shuri (MCU)'s english lang 
+*Fixed Lightning Lancer's lang 
+*Nerfed Zawavari superpower  
+-Removed Instruction Recipes 
+-Removed strength from alot of suits and superpowers (So you can deal more damage with swords) 
++Added some suit crafting table recipes (Use NoMoreRecipeConflict mod) 
++Added name change effect to a lot of suits & some powers 
++Added new necklace texture for Black Panther (MCU V2) 
++Added necklace item for Black Panther (Vol 6) 
++Added health on Storm,Asha,Bull,Blocks,Salamander K'Ruel, and Solomon Prey superpowers  
++Added Blade (Claws) ability to Black Panther Vol 3,MCU CW,and MCU T'Chaka suit 
++Added Kinetic Energy Absorption ability to Man Ape superpower 
++Added Energy Absorption ability to Asha' superpower 
++Added Iron Man Model 21 (BP Vol. 3) 
++Added Salamander K'Ruel's loincloth 
++Added Baron Macabre's Garb (Jungle Action)  
++Added Baron Macabre's Garb (Vol. 3) 
++Added the Hatut Zeraze (Vol. 3) 
++Added Vibraxas (Original) suit 
++Added White Wolf (Future) suit 
++Added White Tiger BP Vol. 6 suit 
++Added solar energy ability to Bast' superpower 
++Added fire resistance to Djalia Griot superpower 
++Added Mister Little 
++Added Cannibal 

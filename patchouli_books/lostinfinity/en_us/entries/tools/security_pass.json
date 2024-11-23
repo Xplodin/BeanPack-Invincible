@@ -1,0 +1,73 @@
+{
+  "name": "Security Passes",
+  "icon": "lostinfinity:security_pass_1",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_gate_6",
+      "title": "Security Gates",
+      "text": "Security Gates found within multiple dimensions. The red dots indicate the level of access required to bypass it."
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_pass_1",
+      "title": "Security Pass [Level 1]",
+      "text": "Right-Clicking this item temporarily grants Level 1 Security access."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsecuritypass1"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_pass_2",
+      "title": "Security Pass [Level 2]",
+      "text": "Right-Clicking this item temporarily grants Level 2 Security access."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsecuritypass2"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_pass_3",
+      "title": "Security Pass [Level 3]",
+      "text": "Right-Clicking this item temporarily grants Level 3 Security access."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsecuritypass3"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_pass_4",
+      "title": "Security Pass [Level 4]",
+      "text": "Right-Clicking this item temporarily grants Level 4 Security access."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsecuritypass4"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_pass_5",
+      "title": "Security Pass [Level 5]",
+      "text": "Right-Clicking this item temporarily grants Level 5 Security access."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsecuritypass5"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:security_pass_6",
+      "title": "Security Pass [Level 6]",
+      "text": "Right-Clicking this item temporarily grants Level 6 Security access."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recsecuritypass6"
+    }
+    ]
+}

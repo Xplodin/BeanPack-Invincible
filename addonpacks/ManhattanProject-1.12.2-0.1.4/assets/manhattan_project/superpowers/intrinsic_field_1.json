@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.manhattan"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/manhattan_icon.png"
+	},
+
+	"max_level": 15,
+
+	"capsule_color": 3133432,
+
+	"abilities": {
+		"field_steve":{
+			"ability": "lucraftcore:command",
+			"bar_color": "light_blue",
+			"required_level": 15,
+			"title": {"text": "Rebuild"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/blue_icon.png"},
+			"commands": ["effect @p clear", "particle fallingdust ~ ~1.3 ~ .21 .21 .21 2 155 force @a 57", 
+			"particle fireworksSpark ~ ~1.3 ~ .21 .21 .21 2 30000 force",
+			"effect @p minecraft:levitation 2 2", 
+			"sizechange @p 1",
+			"superpower @p manhattan_project:intrinsic_field",
+			"say @p feels fear for the last time..."]
+		},
+		"field_alex":{
+			"ability": "lucraftcore:command",
+			"bar_color": "light_blue",
+			"required_level": 15,
+			"title": {"text": "Rebuild"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/alex_blue_icon.png"},
+			"commands": ["effect @p clear", "particle fallingdust ~ ~1.3 ~ .21 .21 .21 2 155 force @a 57", 
+			"particle fireworksSpark ~ ~1.3 ~ .21 .21 .21 2 30000 force",
+			"effect @p minecraft:levitation 2 2", 
+			"sizechange @p 1",
+			"superpower @p manhattan_project:intrinsic_field_alex",
+			"say @p feels fear for the last time..."]
+		},
+             	 "debuff1":{
+			"ability": "lucraftcore:command_loop",
+			"commands": ["effect @p minecraft:weakness 1 255", 
+			"effect @p minecraft:blindness 2 255", 
+			"effect @p minecraft:invisibility 1 255",
+			"effect @p minecraft:mining_fatigue 1 255",
+			"effect @p minecraft:regeneration 255 255",
+			"superpowerxp 11 @p",
+			"sizechange @p 0.1"]
+		},
+		 "debuff2":{
+			"ability": "lucraftcore:command_toggle",
+			"cooldown": 2,
+			"show_in_bar": false,
+			"parent_ability": "debuff1",
+			"commands": ["superpowerxp -30L @p"]
+		},
+		"debuff": {
+			"ability": "the-fifth-world:butter_fingers"
+		}
+	}
+}

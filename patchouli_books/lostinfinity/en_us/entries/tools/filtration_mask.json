@@ -1,0 +1,17 @@
+{
+  "name": "Filtration Mask",
+  "icon": "lostinfinity:filtrationmask",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:filtrationmask",
+      "title": "Filtration Mask",
+      "text": "Mask used to filter out toxins within other dimensions."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recfiltrationmask"
+    }
+    ]
+}

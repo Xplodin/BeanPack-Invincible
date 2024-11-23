@@ -1,0 +1,25 @@
+{
+  "name": "Puzzle Key Game",
+  "icon": "lostinfinity:puzzle_key_block",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:puzzle_key_block",
+    "title": "Puzzle Key Game",
+    "text": "The Puzzle Key slot is hidden, somewhere. Bring the Puzzle Key and you will be rewarded."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:puzzle_key",
+    "title": "Puzzle Key",
+    "text": "A crafted item that fits in the Puzzle Key slot."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:beacon_key",
+    "title": "Beacon Key",
+    "text": "A Beacon Key is given for succesfully unlocking the Puzzle Key Block."
+  }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"head": [{
+			"textures": {
+				"layer0": "wakanda:items/white_wolf_future/white_wolf_future_mask"
+			}
+		}],
+		
+		"chest": [{
+			"textures": {
+				"layer0": "wakanda:items/white_wolf_future/white_wolf_future_chestpiece"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "wakanda:items/white_wolf_future/white_wolf_future_leggings"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "wakanda:items/white_wolf_future/white_wolf_future_boots"
+			}
+		}]
+	}
+}

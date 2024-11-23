@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Pigman",
+  "icon": "lostinfinity:trialpigman",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialpigman",
+    "title": "Trial of the Pigman",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Pigman."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialpigman"
+  }
+  ]
+}

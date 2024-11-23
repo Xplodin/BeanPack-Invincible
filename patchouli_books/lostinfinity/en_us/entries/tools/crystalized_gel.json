@@ -1,0 +1,17 @@
+{
+  "name": "Crystalized Gel",
+  "icon": "lostinfinity:crystalizedgel",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:crystalizedgel",
+      "title": "Crystalized Gel",
+      "text": "Can be thrown at Zombies to cause growth defects on it."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reccrystalizedgel"
+    }
+    ]
+}

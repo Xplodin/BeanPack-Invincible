@@ -1,0 +1,73 @@
+{
+	"name": {
+		"text": "Asha"
+	},
+	
+	"armor_material": {
+		"durability": 70,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Asha"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Asha's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/asha/ashas_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/asha/ashas_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:asha"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Asha's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/asha/ashas_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:asha"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Asha's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/asha/ashas_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:asha"
+			}
+		}
+	}
+}

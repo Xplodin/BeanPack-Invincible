@@ -1,0 +1,25 @@
+{
+  "name": "Electrolytic Game",
+  "icon": "lostinfinity:row_toggle_game",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:row_toggle_game",
+    "title": "Electrolytic Game",
+    "text": "The Electolytic Game is a game of flipping lights on and off. The buttons on each side change the state of it's row. The goal is to make all lights blue, then right-click the Game block again."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:polycharge_solution",
+    "title": "Polycharge Solution",
+    "text": "10 Polycharge Solution is required to start this game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:electrolysis_solution",
+    "title": "Electrolysis Solution",
+    "text": "10 Electrolysis Solution is given for succesfully completing the game."
+  }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Blaze",
+  "icon": "lostinfinity:trialblaze",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialblaze",
+    "title": "Trial of the Blaze",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Blaze."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialblaze"
+  }
+  ]
+}

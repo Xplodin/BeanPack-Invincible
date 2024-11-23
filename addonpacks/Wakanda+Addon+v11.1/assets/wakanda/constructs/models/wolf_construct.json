@@ -1,0 +1,376 @@
+{
+  "name": "wolf_construct",
+  "texture_size": [
+    64,
+    32
+  ],
+  "textures": {
+    "color_texture": "wakanda:textures/constructs/wolf.png",
+    "texture": ""
+  },
+  "model_cubes": [
+    {
+      "cube_name": "field_78179_f",
+      "texture_offset": [
+        0,
+        18
+      ],
+      "position": [
+        0.5,
+        16.0,
+        -4.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        8,
+        2
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78186_h",
+      "texture_offset": [
+        21,
+        0
+      ],
+      "position": [
+        -1.0,
+        14.0,
+        -3.0
+      ],
+      "offset": [
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "dimensions": [
+        8,
+        6,
+        7
+      ],
+      "rotation_angles": [
+        90.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78183_b",
+      "texture_offset": [
+        18,
+        14
+      ],
+      "position": [
+        0.0,
+        14.0,
+        2.0
+      ],
+      "offset": [
+        -3.0,
+        -2.0,
+        -3.0
+      ],
+      "dimensions": [
+        6,
+        9,
+        6
+      ],
+      "rotation_angles": [
+        90.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78181_d",
+      "texture_offset": [
+        0,
+        18
+      ],
+      "position": [
+        0.5,
+        16.0,
+        7.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        8,
+        2
+      ],
+      "rotation_angles": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78184_c",
+      "texture_offset": [
+        0,
+        18
+      ],
+      "position": [
+        -2.5,
+        16.0,
+        7.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        8,
+        2
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78182_e",
+      "texture_offset": [
+        0,
+        18
+      ],
+      "position": [
+        -2.5,
+        16.0,
+        -4.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        8,
+        2
+      ],
+      "rotation_angles": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78180_g",
+      "texture_offset": [
+        9,
+        18
+      ],
+      "position": [
+        -1.0,
+        12.0,
+        8.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "dimensions": [
+        2,
+        8,
+        2
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78185_a - 0",
+      "texture_offset": [
+        0,
+        0
+      ],
+      "position": [
+        -1.0,
+        13.5,
+        -7.0
+      ],
+      "offset": [
+        -2.0,
+        -3.0,
+        -2.0
+      ],
+      "dimensions": [
+        6,
+        6,
+        4
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78185_a - 1",
+      "texture_offset": [
+        16,
+        14
+      ],
+      "position": [
+        -1.0,
+        13.5,
+        -7.0
+      ],
+      "offset": [
+        -2.0,
+        -5.0,
+        0.0
+      ],
+      "dimensions": [
+        2,
+        2,
+        1
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78185_a - 2",
+      "texture_offset": [
+        16,
+        14
+      ],
+      "position": [
+        -1.0,
+        13.5,
+        -7.0
+      ],
+      "offset": [
+        2.0,
+        -5.0,
+        0.0
+      ],
+      "dimensions": [
+        2,
+        2,
+        1
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cube_name": "field_78185_a - 3",
+      "texture_offset": [
+        0,
+        10
+      ],
+      "position": [
+        -1.0,
+        13.5,
+        -7.0
+      ],
+      "offset": [
+        -0.5,
+        0.0,
+        -5.0
+      ],
+      "dimensions": [
+        3,
+        3,
+        4
+      ],
+      "rotation_angles": [
+        0.0,
+        0.0,
+        2.0635404E-13
+      ],
+      "mirror": false,
+      "custom_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

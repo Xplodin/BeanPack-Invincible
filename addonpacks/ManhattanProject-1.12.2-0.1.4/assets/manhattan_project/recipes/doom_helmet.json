@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:doom_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "111",
+    "212",
+    "1 1"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_green"
+    },
+	"2":{
+	"item": "#PLATEGOLD"
+	}
+  }
+}

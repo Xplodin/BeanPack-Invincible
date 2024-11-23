@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier1_strange_iw_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_light_blue",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_red",
+		    "amount": 2
+		}
+	]
+
+}

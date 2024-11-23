@@ -1,0 +1,375 @@
+{
+	"name" : {
+		"text": "Infused Infinity"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/infinity_gems/space_gem.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 7052023,
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 5000,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Soul Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},				
+			"frequency": 2,
+			"amount": 200
+		},
+		"damage": {
+			"ability": "lucraftcore:punch",
+            "show_in_bar": false,		
+            "title": {"text":"Punch"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/punch.png"},						
+			"amount": 2147483647,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"		
+	    },
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},						
+			"amount": 2147483647,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {		
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Power Sprint"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},			
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},					
+			"amount": 2147483647,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 2000,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},						
+			"amount": 3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing",
+            "show_in_bar": false,		
+            "title": {"text":"Water Breathing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/water_breathing.png"}		
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Lungs"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_lungs.png"}
+		},	
+		"saturation": {
+            "ability": "infinity:saturation",
+            "show_in_bar": false,		
+            "title": {"text":"Saturation"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/saturation.png"}			
+		},		
+		"night_vision": {
+			"ability": "the-fifth-world:give_potion",
+            "show_in_bar": false,				
+			"title": {"text":"Night Vision"},
+			"potion": "minecraft:night_vision",
+			"amplifier": 1,
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/night_vision.png"}	
+		},
+		"water_running": {
+			"ability": "speedsterheroes:water_running",				
+            "show_in_bar": false,		
+            "title": {"text":"Water Running"},		
+			"icon": { "type": "texture", "texture": "nihility:textures/icons/abilities/powers/water_running.png" },		
+			"speed": 1.0				
+		},
+		"telekinesis": {
+			"ability": "heroesexpansion:grab_entity",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Telekinesis"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/telekinesis.png"},				
+            "bar_color": "light_blue"				
+		},
+		"teleport": {	
+		    "ability": "lucraftcore:teleport",
+		    "cooldown": 5,
+		    "distance": 150,		
+            "show_in_bar": true,
+			"title": {"text": "Teleport"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/teleport.png"},				
+            "bar_color": "light_blue"				
+		},
+		"permanant_portal": {
+			"ability": "heroesexpansion:portal",
+			"cooldown": 250,
+			"show_in_bar": true,
+            "title": {"text":"Space Portal"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/bast/perma_portal.png"},				
+            "bar_color": "light_blue"		
+		},
+		"black_hole": {
+			"ability": "heroesexpansion:black_hole",
+			"cooldown": 20,
+			"show_in_bar": true,
+            "title": {"text":"Black Hole"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "light_blue"			
+		},
+		"forcefield": {
+			"ability": "heroesexpansion:force_field",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Force Field"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "light_blue",
+			"color": [65, 105, 225]
+		},
+		"invisibility": {
+			"ability": "lucraftcore:invisibility",
+			"cooldown": 0,			
+            "show_in_bar": true,	
+            "title": {"text":"Vanish"},		
+            "icon": { "type": "internal" },
+            "bar_color": "light_blue"
+		},
+		"energy_blast": {
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Energy Blast"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast_orange.png"},		
+            "bar_color": "purple",				
+            "damage": 2147483647,
+            "color": [203, 113, 69]
+		},
+		"world_warp": {
+			"ability": "the-fifth-world:screech",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Warp World"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "yellow"			
+		},
+		"phasing": {
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 0,			
+            "show_in_bar": true,	
+            "title": {"text":"Phasing"},		
+            "icon": { "type": "internal" },
+            "bar_color": "yellow"
+		},
+		"god_mode": {
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 50,
+			"show_in_bar": true,
+            "title": {"text":"Norse God"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "orange"			
+		},
+		"hologram": {
+			"ability": "speedsterheroes:time_remnant",
+			"cooldown": 20,
+			"show_in_bar": true,
+            "title": {"text":"Hologram"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "red"			
+		},
+		"time_forward": {
+			"ability": "infinity:fast_forward",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"Time Speed Up"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "green"			
+		},
+		"time_stop": {
+			"ability": "infinity:stop_time",
+			"cooldown": 20,
+			"show_in_bar": true,
+            "title": {"text":"Time Stop"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "green"			
+		},
+		"summon_zombies": {
+			"ability": "lucraftcore:command_held",
+            "cooldown": 0,
+            "show_in_bar": true,
+            "title": {"text":"ZOMBIES!!!"},
+            "icon": { "type": "texture", "texture": "wakanda:textures/icons/abilities/powers/summon_zombie.png" },
+            "bar_color": "gray",
+            "commands": ["summon minecraft:zombie ~ ~ ~"]		
+		},
+		"summon_bats": {
+			"ability": "lucraftcore:command_held",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"AHHHH BATS!"},		
+			"icon": {"type": "texture", "texture": "dfheroes:textures/icons/bat_icon.png"},				
+            "bar_color": "gray",
+			"commands": ["summon minecraft:bat ~ ~ ~"]		
+		},
+		"slow_all": {
+            "ability": "lucraftcore:command",
+            "cooldown": 1000,
+            "show_in_bar": true,
+            "title": {"text":"Slow All"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/lock.png" },
+            "bar_color": "white",
+			"commands": ["/scoreboard objectives add Slowing dummy",
+			"/scoreboard players tag @a add Slowing",
+			"/scoreboard players tag @s remove Slowing",
+			"/execute @a[tag=Slowing] summon lightning_bolt ~ ~ ~",
+			"/tickrate 2",
+			"/tickrate 20 client",
+			"/title @s actionbar {\"text\":\"All Players Slowed\"}"]
+        },
+		"unslow_all": {
+            "ability": "lucraftcore:command",
+            "cooldown": 0,
+            "show_in_bar": true,
+            "title": {"text":"Unslow All"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/unlock.png" },
+            "bar_color": "white",
+			"commands": ["/execute @a[tag=Slowing] summon lightning_bolt ~ ~ ~",
+			"/tickrate 20",
+			"/scoreboard players tag @s remove Slowing",
+			"/title @s actionbar {\"text\":\"All Players Unslowed\"}"]
+        },
+		"mild_weather_selector": {
+            "ability": "lucraftcore:command",
+            "cooldown": 0,
+            "show_in_bar": true,
+            "title": {"text":"Select Mild Weather"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/change_cloud.png" },
+            "bar_color": "black",
+			"commands": ["/scoreboard objectives add WeatherSelect dummy",
+			"/scoreboard players tag @s[tag=!WeatherSelect] add WeatherSelect",
+			"/scoreboard objectives add Weather dummy",
+			"/scoreboard players set @s[score_WeatherSelect_min=5,score_WeatherSelect=5,tag=Weather] WeatherSelect 1",
+			"/scoreboard players set @s[score_WeatherSelect_min=4,score_WeatherSelect=4,tag=Weather] WeatherSelect 5",
+			"/title @s[score_WeatherSelect_min=5,score_WeatherSelect=5] actionbar {\"text\":\"F5 Tornado\"}",
+			"/scoreboard players set @s[score_WeatherSelect_min=3,score_WeatherSelect=3,tag=Weather] WeatherSelect 4",
+			"/title @s[score_WeatherSelect_min=4,score_WeatherSelect=4] actionbar {\"text\":\"F1 Tornado\"}",
+			"/scoreboard players set @s[score_WeatherSelect_min=2,score_WeatherSelect=2,tag=Weather] WeatherSelect 3",
+			"/title @s[score_WeatherSelect_min=3,score_WeatherSelect=3] actionbar {\"text\":\"Rain\"}",
+			"/scoreboard players set @s[score_WeatherSelect_min=1,score_WeatherSelect=1,tag=Weather] WeatherSelect 2",
+			"/title @s[score_WeatherSelect_min=2,score_WeatherSelect=2] actionbar {\"text\":\"Wind\"}",
+			"/scoreboard players set @s[tag=!Weather] WeatherSelect 0",
+			"/scoreboard players tag @s[score_WeatherSelect_min=0,score_WeatherSelect=0,tag=!Weather] add Weather",
+			"/scoreboard players set @s[score_WeatherSelect_min=0,score_WeatherSelect=0,tag=Weather] WeatherSelect 1"]
+        },
+		"create_mild_weather": {
+            "ability": "lucraftcore:command",
+            "cooldown": 1000,
+            "show_in_bar": true,
+            "title": {"text":"Create Mild Weather"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/cloud.png" },
+            "bar_color": "black",
+			"commands": ["execute @s[score_WeatherSelect_min=2,score_WeatherSelect=2] ~ ~ ~ weather2 storm create wind",
+			"/title @s[score_WeatherSelect_min=2,score_WeatherSelect=2] actionbar {\"text\":\"Creating Windstorm\"}",
+			"execute @s[score_WeatherSelect_min=3,score_WeatherSelect=3] ~ ~ ~ weather2 storm create rain",
+			"/title @s[score_WeatherSelect_min=3,score_WeatherSelect=3] actionbar {\"text\":\"Creating Rainstorm\"}",
+			"execute @s[score_WeatherSelect_min=4,score_WeatherSelect=4] ~ ~ ~ weather2 storm create F1",
+			"/title @s[score_WeatherSelect_min=4,score_WeatherSelect=4] actionbar {\"text\":\"Creating F0 Tornado\"}",
+			"execute @s[score_WeatherSelect_min=5,score_WeatherSelect=5] ~ ~ ~ weather2 storm create F5",
+			"/title @s[score_WeatherSelect_min=5,score_WeatherSelect=5] actionbar {\"text\":\"Creating F1 Tornado\"}"]
+		},
+		"strong_weather_selector": {
+            "ability": "lucraftcore:command",
+            "cooldown": 0,
+            "show_in_bar": true,
+            "title": {"text":"Select Strong Weather"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/change_storm.png" },
+            "bar_color": "black",
+			"commands": ["/scoreboard objectives add WeatherSelect2 dummy",
+			"/scoreboard players tag @s[tag=!WeatherSelect2] add WeatherSelect2",
+			"/scoreboard objectives add Weather2 dummy",
+			"/scoreboard players set @s[score_WeatherSelect2_min=6,score_WeatherSelect2=6,tag=Weather2] WeatherSelect2 1",
+			"/scoreboard players set @s[score_WeatherSelect2_min=5,score_WeatherSelect2=5,tag=Weather2] WeatherSelect2 6",
+			"/title @s[score_WeatherSelect2_min=6,score_WeatherSelect2=6] actionbar {\"text\":\"Hurricane\"}",
+			"/scoreboard players set @s[score_WeatherSelect2_min=4,score_WeatherSelect2=4,tag=Weather2] WeatherSelect2 5",
+			"/title @s[score_WeatherSelect2_min=5,score_WeatherSelect2=5] actionbar {\"text\":\"C5 Cyclone\"}",
+			"/scoreboard players set @s[score_WeatherSelect2_min=3,score_WeatherSelect2=3,tag=Weather2] WeatherSelect2 4",
+			"/title @s[score_WeatherSelect2_min=4,score_WeatherSelect2=4] actionbar {\"text\":\"C1 Cyclone\"}",
+			"/scoreboard players set @s[score_WeatherSelect2_min=2,score_WeatherSelect2=2,tag=Weather2] WeatherSelect2 3",
+			"/title @s[score_WeatherSelect2_min=3,score_WeatherSelect2=3] actionbar {\"text\":\"Hail\"}",
+			"/scoreboard players set @s[score_WeatherSelect2_min=1,score_WeatherSelect2=1,tag=Weather2] WeatherSelect2 2",
+			"/title @s[score_WeatherSelect2_min=2,score_WeatherSelect2=2] actionbar {\"text\":\"Thunder\"}",
+			"/scoreboard players set @s[tag=!Weather2] WeatherSelect2 0",
+			"/scoreboard players tag @s[score_WeatherSelect2_min=0,score_WeatherSelect2=0,tag=!Weather2] add Weather2",
+			"/scoreboard players set @s[score_WeatherSelect2_min=0,score_WeatherSelect2=0,tag=Weather2] WeatherSelect2 1"]
+		},
+		"create_strong_weather": {
+            "ability": "lucraftcore:command",
+            "cooldown": 1000,
+            "show_in_bar": true,
+            "title": {"text":"Create Strong Weather"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/storm.png" },
+            "bar_color": "black",
+			"commands": ["execute @s[score_WeatherSelect2_min=2,score_WeatherSelect2=2] ~ ~ ~ weather2 storm create thunder",
+			"/title @s[score_WeatherSelect2_min=2,score_WeatherSelect2=2] actionbar {\"text\":\"Creating Thunderstorm\"}",
+			"execute @s[score_WeatherSelect2_min=3,score_WeatherSelect2=3] ~ ~ ~ weather2 storm create hail",
+			"/title @s[score_WeatherSelect2_min=3,score_WeatherSelect2=3] actionbar {\"text\":\"Creating Hailstorm\"}",
+			"execute @s[score_WeatherSelect2_min=4,score_WeatherSelect2=4] ~ ~ ~ weather2 storm create C1",
+			"/title @s[score_WeatherSelect2_min=4,score_WeatherSelect2=4] actionbar {\"text\":\"Creating C0 Cyclone\"}",
+			"execute @s[score_WeatherSelect2_min=5,score_WeatherSelect2=5] ~ ~ ~ weather2 storm create C5",
+			"/title @s[score_WeatherSelect2_min=5,score_WeatherSelect2=5] actionbar {\"text\":\"Creating C5 Cyclone\"}",
+			"execute @s[score_WeatherSelect2_min=6,score_WeatherSelect2=6] ~ ~ ~ weather2 storm create hurricane",
+			"/title @s[score_WeatherSelect2_min=6,score_WeatherSelect2=6] actionbar {\"text\":\"Creating Hurricane\"}"]
+		},
+		"end_storm": {
+            "ability": "lucraftcore:command",
+            "cooldown": 200,
+            "show_in_bar": true,
+            "title": {"text":"End Storm"},
+            "icon": { "type": "texture", "texture": "insanecraft:textures/icons/clear_weather.png" },
+            "bar_color": "black",
+			"commands": ["/weather2 storm killall",
+			"/title @s actionbar {\"text\":\"Killed All Storms\"}"]
+        }
+	}
+}

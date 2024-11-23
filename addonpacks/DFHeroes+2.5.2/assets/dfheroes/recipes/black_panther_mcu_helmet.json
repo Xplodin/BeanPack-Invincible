@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier3_black_panther_mcu_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "1 1",
+    "121",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+	"2": {
+      "item": "lucraftcore:ingot_vibranium"
+    }
+  }
+} 

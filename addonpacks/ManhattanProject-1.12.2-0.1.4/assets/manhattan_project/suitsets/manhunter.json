@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.manhunter"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.manhunter.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.manhunter.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/manhunter/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/manhunter/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:manhunter_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.manhunter.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/manhunter/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:manhunter_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.manhunter.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/manhunter/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:manhunter_suit"
+			}
+		}
+	}
+}

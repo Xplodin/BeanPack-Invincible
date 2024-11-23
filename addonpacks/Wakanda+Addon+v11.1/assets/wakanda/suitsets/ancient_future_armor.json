@@ -1,0 +1,64 @@
+{
+	"name": {
+		"text": "Ancient Future Armor"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [6, 7, 8, 4],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Ancient Future Armor Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/ancient_future_armor/ancient_future_armor_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/ancient_future_armor/ancient_future_armor_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:ancient_future_armor"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Ancient Future Armor Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/ancient_future_armor/ancient_future_armor_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:ancient_future_armor"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Ancient Future Armor Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/ancient_future_armor/ancient_future_armor_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:ancient_future_armor"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lost Infinity Guidebook",
+  "landing_text": "Lost, Yet Found.",
+  "version": 1,
+  "model": "patchouli:book_red",
+  "show_progress": "false",
+  "creative_tab": "minecraft:tools_and_utilities",
+  "use_resource_pack": false
+}

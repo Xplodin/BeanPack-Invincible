@@ -1,0 +1,13 @@
+{
+  "name": "Modulator",
+  "icon": "lostinfinity:modulator",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:modulator",
+      "title": "Modulator",
+      "text": "The Modulator is used to upgrade Lost Infinity Armor with Modules created with the Module Creator. Recipes can be found in JEI."
+    }
+    ]
+}

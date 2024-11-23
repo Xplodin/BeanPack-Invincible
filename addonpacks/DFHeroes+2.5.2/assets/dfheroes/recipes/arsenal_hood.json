@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier1_arsenal_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "111",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_red"
+    },
+	"2": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+} 

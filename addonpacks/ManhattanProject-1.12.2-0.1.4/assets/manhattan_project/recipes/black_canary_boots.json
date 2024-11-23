@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:black_canary",
+
+  "result": {
+    "item": "black_canary_boots"
+  },
+
+  "original": "manhattan_project:jessica_jones_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEYELLOW"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:jessica_jones_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:black_canary_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

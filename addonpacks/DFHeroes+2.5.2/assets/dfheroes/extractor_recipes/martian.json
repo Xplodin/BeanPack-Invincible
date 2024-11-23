@@ -1,0 +1,25 @@
+{
+    "input": {
+        "item": "minecraft:sand",
+				"data": 1
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "lava",
+        "amount": 5000
+    },
+    
+    "energy": 85000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"dfheroes:tier5_martian_manhunter\"}",
+            "chance": 0.6
+        }
+    }
+}

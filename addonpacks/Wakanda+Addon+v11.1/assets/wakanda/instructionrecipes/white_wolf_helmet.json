@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:white_wolf_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_white",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_black",
+		    "amount": 2
+		}
+	]
+
+}

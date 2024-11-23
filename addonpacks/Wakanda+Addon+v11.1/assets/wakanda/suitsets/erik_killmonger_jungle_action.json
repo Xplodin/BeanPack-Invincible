@@ -1,0 +1,77 @@
+{
+	"name": {
+		"text": "Erik Killmonger"
+	},
+	
+	"armor_material": {
+		"durability": 30,
+		"damage_reduction_amounts": [5, 6, 6, 3],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+ "description": {
+        "text": "Jungle Action"
+    },
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Erik Killmonger"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_jungle_action/erik_killmonger_jungle_action_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/erik_killmonger_jungle_action/erik_killmonger_jungle_action_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_jungle_action"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Erik Killmonger's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_jungle_action/erik_killmonger_jungle_action_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_jungle_action"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_jungle_action/erik_killmonger_jungle_action_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_jungle_action"
+			}
+		}
+	}
+}

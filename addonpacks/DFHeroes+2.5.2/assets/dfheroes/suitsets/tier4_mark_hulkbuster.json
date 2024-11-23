@@ -1,0 +1,218 @@
+{
+	"name": {
+		"text": "Hulkbuster Armor"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [6, 7, 8, 6],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "ironmen",
+	"description": {
+		"text": "MCU"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:water_breathing",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:step_assist",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"size": 1.5,
+			"size_changer": "lucraftcore:default"
+		},
+		{
+			"ability": "lucraftcore:health",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 30,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"speed": 0.3,
+			"sprint_speed": 1,
+			"rotate_arms": false
+	    },
+		{
+		    "ability": "heroesexpansion:photon_blast",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"cooldown": 50,
+            "damage": 10,
+            "color": [255,255,0]
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Hulkbuster's Head"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/hulkbuster/helmet.png",
+				"normal_open": "dfheroes:textures/suits_ironman/hulkbuster/helmet_open.png",
+				"glow": "dfheroes:textures/suits_ironman/hulkbuster/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits_ironman/hulkbuster/helmet_open_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:hulkbuster_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Hulkbuster's Chest"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/hulkbuster/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits_ironman/hulkbuster/chestplate.png",
+				"glow": "dfheroes:textures/suits_ironman/hulkbuster/chestplate_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits_ironman/hulkbuster/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:hulkbuster_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Hulkbuster's Legs"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/hulkbuster/legs.png",
+				"glow": "dfheroes:textures/suits_ironman/hulkbuster/legs_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:hulkbuster_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Hulkbuster's Feet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/hulkbuster/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:hulkbuster_state"
+			}
+		}
+	},
+	
+	"effects": [
+	    {
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud.png"
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_repulsor.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "heroesexpansion:photon_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_chest_rt.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:energy_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_flight.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:flight"
+                }
+            ]
+        }
+	]
+}

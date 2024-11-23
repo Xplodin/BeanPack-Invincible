@@ -1,0 +1,21 @@
+{
+	"output": {
+		"item": "wakanda:ancient_future_armor_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_brown",
+			"amount": 2
+		},
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 4
+		},
+		{
+			"item": "minecraft:iron_ingot",
+			"amount": 2
+		}
+	]
+
+}

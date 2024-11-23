@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Spider",
+  "icon": "lostinfinity:trialspider",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialspider",
+    "title": "Trial of the Spider",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Spider."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialspider"
+  }
+  ]
+}

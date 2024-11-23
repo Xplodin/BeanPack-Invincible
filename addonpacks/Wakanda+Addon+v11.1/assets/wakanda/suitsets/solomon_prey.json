@@ -1,0 +1,73 @@
+{
+	"name": {
+		"text": "Solomon Prey"
+	},
+	
+    "creative_tab": "wakanda",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [1, 2, 3, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Solomon Prey"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Solomon Prey's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/solomon_prey/solomon_preys_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/solomon_prey/solomon_preys_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:solomon_prey"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Solomon Prey's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/solomon_prey/solomon_preys_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:solomon_prey"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Solomon Prey's Shoes"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/solomon_prey/solomon_preys_shoes.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:solomon_prey"
+			}
+		}
+	}
+}

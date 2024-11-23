@@ -1,0 +1,163 @@
+{
+	"name": {
+		"text": "The Rival (Custom)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "other",
+"data": {
+    "trail": {
+        "red": 1,
+        "green": 0,
+        "blue": 0
+    	},	
+		"flicker": {
+		"red": 1,
+		"green": 0,
+		"blue": 0
+		},
+	"speed_levels": 12
+},
+
+	"description": {
+		"text": "Custom"
+	},
+	
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [1,0,0],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "flickering",
+			"color": [1,0,0],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "name_change",
+			"name": {
+				"text": "⚡The Rival⚡"
+			}
+		} 
+	],
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_superpower": "dfheroes:mutant_speedforce"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Rival's Cowl"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_rival_custom/helmet.png",
+				"normal_open": "dfheroes:textures/suits/flash_rival_custom/helmet_open.png",
+				"glow": "dfheroes:textures/suits/flash_rival_custom/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits/flash_rival_custom/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:rival_custom_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Rival's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_rival_custom/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/flash_rival_custom/chestplate.png",
+				"glow": "dfheroes:textures/suits/flash_rival_custom/chestplate_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits/flash_rival_custom/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:rival_custom_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Rival's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_rival_custom/legs.png",
+				"glow": "dfheroes:textures/suits/flash_rival_custom/legs_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:rival_custom_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Rival's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/flash_rival_custom/boots.png",
+				"glow": "dfheroes:textures/suits/flash_rival_custom/boots_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:rival_custom_state"
+			}
+		}
+	}
+}

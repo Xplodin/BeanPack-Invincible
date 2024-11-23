@@ -1,0 +1,28 @@
+{
+	"input": {
+		"item": "lucraftcore:ingot_vibranium"
+	},
+	
+	"input_container": {
+		"item": "lucraftcore:injection"
+	},
+	
+	"input_fluid": {
+		"fluid": "lava",
+		"amount": 3000
+	},
+	
+	"energy": 5000,
+	
+	"outputs": {
+		"primary": {
+			"item": "lucraftcore:injection",
+			"nbt": "{\"Injection\": \"wakanda:klaw\"}",
+			"chance": 0.25
+		},
+		"secondary": {
+			"item": "lucraftcore:nugget_vibranium",
+			"chance": 0.6
+		}
+	}
+}

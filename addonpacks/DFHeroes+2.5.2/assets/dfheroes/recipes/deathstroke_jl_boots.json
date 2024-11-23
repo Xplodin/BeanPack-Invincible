@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "dfheroes:tier2_deathstroke_jl_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "1 1",
+    "1 1"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+} 

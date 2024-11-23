@@ -1,0 +1,77 @@
+{
+	"name": {
+		"text": "Sonic Disruptor"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [0, 0, 0, 0],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+	"abilities": {
+		"sonic_blast": {
+		    "ability": "lucraftcore:energy_blast",
+			"required_superpower": "wakanda:klaw",				
+			"cooldown": 5,
+            "show_in_bar": true,		
+            "title": {"text":"Sonic Blast"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/sonic_blast.png"},	
+            "bar_color": "red",						
+            "damage": 15,
+            "color": [255, 0, 0]		
+		},	
+		"sonic_beam": {		
+		    "ability": "heroesexpansion:photon_blast",
+			"required_superpower": "wakanda:klaw",				
+			"cooldown": 25,
+            "show_in_bar": true,		
+            "title": {"text":"Sonic Beam"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/sonic_beam.png"},
+            "bar_color": "red",			
+            "color": [255, 0, 0]
+		},
+		"sonic_beam_damage": {
+		    "ability": "lucraftcore:punch",
+			"parent_ability": "sonic_beam",			
+            "show_in_bar": false,
+            "title": {"text":"Sonic Beam Damage"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_strength.png"},		
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"				
+		},
+		"sound_constructs": {			
+			"ability": "spylcu:projectiles",
+			"required_superpower": "wakanda:klaw",				
+            "cooldown": 50,			
+            "show_in_bar": true,
+            "title": {"text":"Sound Constructs"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/klaw/sound_constructs.png"},
+            "bar_color": "red",						
+			"color": [255, 0, 0],
+			"entity_ids": ["wakanda:dinosaur", "wakanda:plane", "wakanda:wolf", "wakanda:bear"]	
+		}
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Sonic Disruptor"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/sonic_disruptor/sonic_disruptor.png",
+				"normal_smallarms": "wakanda:textures/armor/sonic_disruptor/sonic_disruptor_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:sonic_disruptor"
+			}
+		}
+	}
+}

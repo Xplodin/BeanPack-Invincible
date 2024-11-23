@@ -1,0 +1,94 @@
+{
+	"name": {
+		"text": "A.I.M. Suit"
+	},
+	
+	"armor_material": {
+		"durability": 25,
+		"damage_reduction_amounts": [2, 3, 4, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+	"abilities": {
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		},
+		"radiation_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "lucraftcore:radiation"	
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "A.I.M. Helmet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/aim_suit/aim_helmet.png",
+				"normal_open": "wakanda:textures/armor/aim_suit/aim_helmet_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:aim_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "A.I.M. Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/aim_suit/aim_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/aim_suit/aim_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:aim_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "A.I.M. Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/aim_suit/aim_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:aim_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "A.I.M. Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/aim_suit/aim_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:aim_suit"
+			}
+		}
+	}
+}

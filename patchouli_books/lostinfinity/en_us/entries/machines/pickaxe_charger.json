@@ -1,0 +1,13 @@
+{
+  "name": "Pickaxe Charging Table",
+  "icon": "lostinfinity:pickchargingtable",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:pickchargingtable",
+      "title": "Pickaxe Charging Table",
+      "text": "The Pickaxe Charging Table is used to charge the Forgefire Pickaxe with Reactive Crystals associated with an ore to allow it to be mined. Recipes can be found in JEI."
+    }
+    ]
+}

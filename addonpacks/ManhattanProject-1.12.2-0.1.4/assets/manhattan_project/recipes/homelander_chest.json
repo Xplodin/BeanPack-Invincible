@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "manhattan_project:homelander_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "3 2",
+    "121",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_red"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_blue"
+    },
+	"3": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

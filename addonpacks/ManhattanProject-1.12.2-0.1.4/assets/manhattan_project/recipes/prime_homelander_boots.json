@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:bullseye_back",
+
+  "result": {
+    "item": "prime_homelander_boots"
+  },
+
+  "original": "manhattan_project:homelander_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLUE"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:homelander_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:prime_homelander_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

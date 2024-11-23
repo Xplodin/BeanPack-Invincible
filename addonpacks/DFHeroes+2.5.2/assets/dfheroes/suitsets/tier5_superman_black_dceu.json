@@ -1,0 +1,83 @@
+{
+	"name": {
+		"text": "Superman Black Suit (DCEU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [7, 8, 9, 7],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "other",
+	"description": {
+		"text": "Custom"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Superman Black's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/superman_black_dceu/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/superman_black_dceu/chestplate_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:superman_black_dceu_state"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Superman Black's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/superman_black_dceu/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:superman_black_dceu_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Superman Black's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/superman_black_dceu/boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:superman_black_dceu_state"
+			}
+		}
+	}
+}

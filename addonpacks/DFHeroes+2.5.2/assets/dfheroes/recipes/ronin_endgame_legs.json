@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "dfheroes:tier2_ronin_endgame_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "21 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "heroesexpansion:green_arrow_legs"
+    },
+	"2": {
+      "item": "minecraft:dye",
+	  "data": 0
+    }
+  }
+} 

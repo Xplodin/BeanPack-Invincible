@@ -1,0 +1,25 @@
+{
+  "name": "Connect Game",
+  "icon": "lostinfinity:connect_button",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:connect_game",
+    "title": "Connect Game",
+    "text": "A normal game of Connect Four. Ha! Not. Your opponent has some special skills and will randomly choose how to play."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:frosted_log",
+    "title": "Frosted Log",
+    "text": "A Frosted Log is used on the Connect Game block to start the game. Interact with the NPC that spawns to start the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:map_resolve",
+    "title": "Advanced Resolve Map",
+    "text": "An Advanced Celestial Map of Resolve is given for succesfully completing the game."
+  }
+  ]
+}

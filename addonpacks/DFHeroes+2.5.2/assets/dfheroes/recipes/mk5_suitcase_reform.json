@@ -1,0 +1,31 @@
+{
+  "result": {
+    "item": "dfheroesexpansion:ironmansuitcase"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "12 ",
+    "34 "
+  ],
+  "key": {
+    "1": {
+      "item": "dfheroes:tier3_mark_5_helmet"
+    },
+	"2": {
+      "item": "dfheroes:tier3_mark_5_chest"
+    },
+	"3": {
+      "item": "dfheroes:tier3_mark_5_legs"
+    },
+	"4": {
+      "item": "dfheroes:tier3_mark_5_boots"
+    }
+  },
+  "conditions": [
+    {
+      "item": "dfheroesexpansion:ironmansuitcase",
+      "type": "minecraft:item_exists"
+    }
+  ]
+} 

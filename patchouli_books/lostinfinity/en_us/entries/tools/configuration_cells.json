@@ -1,0 +1,27 @@
+{
+  "name": "Configuration Cells",
+  "icon": "lostinfinity:configuration_cell_shape",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:configuration_cell_shape",
+      "title": "Configuration Cell (Shape)",
+      "text": "Used on Launch Coordinator Blocks to change the Shape value."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recconfigcellshape"
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:configuration_cell_color",
+      "title": "Configuration Cell (Color)",
+      "text": "Used on Launch Coordinator Blocks to change the Color value."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recconfigcellcolor"
+    }
+    ]
+}

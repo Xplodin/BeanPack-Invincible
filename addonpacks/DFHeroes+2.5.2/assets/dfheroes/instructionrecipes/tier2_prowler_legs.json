@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier2_prowler_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_purple",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_magenta",
+		    "amount": 2
+		}
+	]
+
+}

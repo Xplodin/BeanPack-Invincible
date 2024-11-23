@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:white_tiger_vol6_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_white",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_silver",
+		    "amount": 2
+		}
+	]
+
+}

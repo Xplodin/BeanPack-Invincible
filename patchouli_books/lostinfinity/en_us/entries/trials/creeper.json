@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Creeper",
+  "icon": "lostinfinity:trialcreeper",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialcreeper",
+    "title": "Trial of the Creeper",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Creeper."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialcreeper"
+  }
+  ]
+}

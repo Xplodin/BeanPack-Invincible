@@ -1,0 +1,13 @@
+{
+	"output": {
+		"item": "wakanda:aim_suit_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_yellow",
+			"amount": 4
+		}
+	]
+
+}

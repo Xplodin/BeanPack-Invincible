@@ -1,0 +1,68 @@
+{
+	"name": {
+		"text": "White Wolf"
+	},
+	
+	"armor_material": {
+		"durability": 30,
+		"damage_reduction_amounts": [3, 4, 5, 3],
+		"enchantibility": 8,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+	"description": {
+		"text": "MCU"
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "White Wolf's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/white_wolf_mcu/white_wolf_mcu_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/white_wolf_mcu/white_wolf_mcu_chestpiece_small.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:white_wolf_mcu"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "White Wolf's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/white_wolf_mcu/white_wolf_mcu_leggings.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:white_wolf_mcu"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "White Wolf's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/white_wolf_mcu/white_wolf_mcu_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:white_wolf_mcu"
+			}
+		}
+	}
+}

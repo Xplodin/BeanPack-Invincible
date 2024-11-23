@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.prime_homelander"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.prime_homelander.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_chainmail"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.prime_homelander.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/prime_homelander/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/prime_homelander/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:prime_homelander_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.prime_homelander.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/prime_homelander/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:prime_homelander_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.prime_homelander.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/prime_homelander/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:prime_homelander_suit"
+			}
+		}
+	}
+}

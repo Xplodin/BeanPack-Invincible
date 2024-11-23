@@ -1,0 +1,34 @@
+{
+	"name": {
+		"text": "Salamander K'Ruel"
+	},
+	
+	"armor_material": {
+		"durability": 30,
+		"damage_reduction_amounts": [1, 2, 3, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Salamander Kruel's Loincloth"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/salamander_kruel_loincloth/salamander_kruels_loincloth.png",
+				"normal_smallarms": "wakanda:textures/armor/salamander_kruel_loincloth/salamander_kruels_loincloth_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:salamander_kruel_loincloth"
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Power Game",
+  "icon": "lostinfinity:ring_tile",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:ring_game",
+    "title": "Power Game",
+    "text": "The goal of the Power Game is to light all tiles as usual. But this game uses both adjacent flipping and row sliding. Only the adjacent and diagonal blocks are changed when you select a tile to flip states."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:high_tolerance_wire",
+    "title": "High Tolerance Wire",
+    "text": "High Tolerance Wire starts the Power Game when used on the Wire Threader."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:high_speed_wire",
+    "title": "High Speed Wire",
+    "text": "High Speed Wire is given for succesfully completing the game."
+  }
+  ]
+}

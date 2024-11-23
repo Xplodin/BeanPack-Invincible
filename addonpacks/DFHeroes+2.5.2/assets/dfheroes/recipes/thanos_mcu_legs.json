@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "dfheroes:tier5_thanos_mcu_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "111",
+    "1 1",
+    "1 1"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    }
+  }
+} 

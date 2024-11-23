@@ -1,0 +1,111 @@
+{
+	"name": {
+		"text": "Nightwing"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [3, 4, 5, 3],
+		"enchantibility": 20,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+ "description": {
+        "text": "Comics"
+    },
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:web_wings"
+		}
+	],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Nightwing's Mask"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nightwing/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nightwing_state"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Nightwing's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nightwing/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/nightwing/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nightwing_state"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Nightwing's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nightwing/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nightwing_state"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Nightwing's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/nightwing/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:nightwing_state"
+			}
+		}
+	}
+}

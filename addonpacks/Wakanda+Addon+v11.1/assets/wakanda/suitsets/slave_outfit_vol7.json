@@ -1,0 +1,68 @@
+{
+	"name": {
+		"text": "Slave Outfit"
+	},
+
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 3, 4, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+	"description": {
+		"text": "Vol. 7"
+	},
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Slave Outfit Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/slave_outfit_vol7/slave_outfit_vol7_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/slave_outfit_vol7/slave_outfit_vol7_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:slave_outfit_vol7"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Slave Outfit Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/slave_outfit_vol7/slave_outfit_vol7_leggings.png"
+
+			},
+			"item_texture": {
+				"blockstate": "wakanda:slave_outfit_vol7"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Slave Outfit Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/slave_outfit_vol7/slave_outfit_vol7_boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "wakanda:slave_outfit_vol7"
+			}
+		}
+	}
+}

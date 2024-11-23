@@ -1,0 +1,145 @@
+{
+	"name" : {
+		"text": "Asha"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 5,
+	
+	"capsule_color" : 1571801599,
+
+	"effects": [
+		{
+			"type": "glowing_hand",
+            "color": [0.5, 0.5, 0.5],
+			"size": 1.4,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:energy_absorption"
+				},
+				{
+					"type": "always"
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},			
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},				
+			"amount": 0.001,
+			"operation": 2,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 13,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},			
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"light_blast": {
+            "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Light Blast"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast.png"},	
+            "bar_color": "white",			
+            "damage": 8,
+            "color": [0, 0, 0]
+		},
+		"light_beam": {
+		    "ability": "heroesexpansion:photon_blast",
+			"cooldown": 30,
+            "show_in_bar": true,
+            "title": {"text":"Light Beam"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_beam.png"},		
+            "bar_color": "white",			
+            "color": [0, 0, 0]
+		},
+		"invisibility": {
+			"ability": "lucraftcore:invisibility",
+			"cooldown": 400,		
+            "show_in_bar": true,
+            "title": {"text":"Invisibility"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/invisibility.png"},
+            "bar_color": "white"
+		},
+		"intangibility": {
+		    "ability": "heroesexpansion:force_field",			
+			"cooldown": 0,
+            "show_in_bar": false,
+            "title": {"text":"Intangibility"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/aura_white.png"},
+			"parent_ability": "invisibility",			
+            "bar_color": "white",				
+			"color": [0, 0, 0]				
+		},
+		"energy_absorption": {
+			"ability": "heroesexpansion:energy_absorption",
+			"cooldown": 0,			
+            "show_in_bar": true,
+            "title": {"text":"Energy Absorption"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/aura.png"},		
+            "bar_color": "white",						
+            "max_energy": 100,
+            "max_damage": 2.0
+		},
+		"light_beam_damage": {
+		    "ability": "lucraftcore:punch",
+			"parent_ability": "light_beam",			
+            "show_in_bar": false,
+            "title": {"text":"Light Beam Damage"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_strength.png"},		
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"				
+		}
+	}
+}

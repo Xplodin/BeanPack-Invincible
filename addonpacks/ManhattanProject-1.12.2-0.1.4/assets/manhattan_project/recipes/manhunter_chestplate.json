@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:manhunter_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "1 1",
+    "212",
+    "222"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_blue"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_red"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"translate": "manhattan_project.suitset.venom"
+	},
+
+	
+
+	"creative_tab": "manhattan_project",
+
+	"armor_material": {
+		"durability": 45,
+		"damage_reduction_amounts": [3, 4, 7, 3],
+		"enchantibility": 0,
+		"toughness": 1,
+		"sound": "item.armor.equip_chain"
+	},
+
+	"data": {
+		"transition_color_1": {
+			"red": 255,
+			"green": 255,
+			"blue": 255
+		},
+
+		"transition_color_2": {
+			"red": 255,
+			"green": 255,
+			"blue": 255
+		},
+		"use_energy": true,
+		"use_durability": false,
+		"necklace_texture": "manhattan_project:textures/models/armor/venom/suit_open.png"
+	},
+
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"uuid": "167ca886-53ed-43f9-ba6c-02a1a7d492e6",
+			"amount": 7,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 10,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"wither_punch": {
+			"ability": "lucraftcore:potion_punch",
+			"cooldown": 150,
+			"show_in_bar": true,
+			"title": {"text":"Wither Punch"},
+			"icon": { "type": "internal" },
+			"bar_color": "light_gray",
+			"potion": "minecraft:poison",
+			"amplifier": 4,
+			"duration": 5,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 77,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+			
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 16,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"knockback_reistance": {
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 60,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"wall_crawling": {
+			"ability": "heroesexpansion:wall_crawling",
+			"cooldown": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"spider_sense": {
+			"ability": "heroesexpansion:spider_sense",
+			"show_in_bar": false,
+			"title": {"translate":"heroesexpansion.abilities.spider_sense.name"},
+			"icon": { "type": "internal" },
+			"bar_color": "light_gray"
+			}
+
+	},
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Symbiote"
+			},
+			"textures": {"normal": "manhattan_project:textures/models/armor/venom/suit.png"},
+			"item_texture": {"blockstate": "manhattan_project:venom_suit"}
+		}
+	}
+
+
+}

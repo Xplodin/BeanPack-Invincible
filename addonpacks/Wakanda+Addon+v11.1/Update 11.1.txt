@@ -1,0 +1,3 @@
+Update 11.1 Changelog - Last hotfix
+--------------------------------------------------------------------
+- Fixed recipe crash actually

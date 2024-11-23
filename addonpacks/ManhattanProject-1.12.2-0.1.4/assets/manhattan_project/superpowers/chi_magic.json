@@ -1,0 +1,90 @@
+	{
+	"name": {
+		"translate": "manhattan_project.superpower.chi"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/fist_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 15652864,
+
+	"abilities": {
+		"fist": {
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 160,
+			"bar_color": "yellow",
+			"title": {"text":"The Iron Fist"},
+			"damage": 30,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/fist_icon.png"}
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.6,
+			"operation": 0
+		},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 6,
+			"operation": 0
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3,
+			"operation": 0
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 8,
+			"operation": 0
+		},
+		"resistance":{ 
+			"ability": "lucraftcore:resistance",
+			"amount": 9,
+			"operation": 0
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 40,
+			"operation": 0
+		},
+		"fuck_you_dhavin": {
+			"ability": "the-fifth-world:potion_immunity",
+			"show_in_bar": false,
+			"title": {"text":"Hidden"},
+			"potion": "minecraft:glowing",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/glowing_icon.png"}
+		},
+		"chi":	{
+			"ability": "lucraftcore:command_held",
+			"show_in_bar": true,
+			"cooldown": 150,
+			"title": {"text":"Chi Healing"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/chi_heal_icon.png"},
+			"commands": ["effect @s[r=1] clear",
+					"heal"]
+			
+		
+		}
+		
+
+	},
+
+			"effects": [{
+			"type":"glowing_hand",
+			"color": [1, 1, 0],
+			"size": 1,
+			"conditions":[{
+		"type": "ability_enabled",
+		"ability": "heroesexpansion:god_mode"}]
+
+
+              }
+		]
+}

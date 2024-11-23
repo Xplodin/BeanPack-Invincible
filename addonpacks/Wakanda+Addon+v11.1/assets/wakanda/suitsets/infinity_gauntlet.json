@@ -1,0 +1,122 @@
+{
+	"name": {
+		"text": "Weakly Powered Infinity Gauntlet"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [12, 12, 12, 12],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+	"abilities": {								
+		"size_change": {	
+			"ability": "lucraftcore:size_change",
+			"cooldown": 30,
+            "show_in_bar": true,	
+            "title": {"text":"Size Change"},		
+            "icon": { "type": "internal" },
+            "bar_color": "red",	
+			"size": 16.0,
+            "size_changer": "lucraftcore:default"				
+		},
+		"teleport": {	
+		    "ability": "lucraftcore:teleport",
+		    "cooldown": 25,
+		    "distance": 20,		
+            "show_in_bar": true,
+			"title": {"text": "Teleportation"},	
+            "icon": { "type": "internal" },
+            "bar_color": "light_blue"			
+		},				
+		"grab_entity": {				
+		    "ability": "heroesexpansion:grab_entity",			
+		    "cooldown": 0,
+            "show_in_bar": true,
+			"title": {"text": "Grab Entity"},	
+            "icon": { "type": "internal" },
+            "bar_color": "light_blue"				
+		},
+		"force_field": {
+		    "ability": "heroesexpansion:force_field",			
+			"cooldown": 40,
+            "show_in_bar": true,
+            "title": {"text":"Force Field"},	
+            "icon": { "type": "internal" },
+            "bar_color": "light_blue",				
+			"color": [2, 85, 255]
+		},		
+		"energy_blast": {					
+		    "ability": "lucraftcore:energy_blast",			
+			"cooldown": 25,		
+            "show_in_bar": true,
+            "title": {"text":"Energy Blast"},	
+            "icon": { "type": "internal" },
+            "bar_color": "purple",				
+            "damage": 30,
+            "color": [238, 53, 231]
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+        },
+		"slowness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Slowness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:slowness"
+		},	
+		"nausea_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Nausea Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:nausea"
+		},					
+		"weakness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Weakness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:weakness"
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:poison"
+		},
+		"radiation_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "lucraftcore:radiation"
+		}
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Weakly Powered Infinity Gauntlet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/infinity_gauntlet.png",
+				"normal_smallarms": "wakanda:textures/armor/infinity_gauntlet_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:infinity_gauntlet"
+			}
+		}
+	}
+}

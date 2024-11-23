@@ -1,0 +1,130 @@
+{
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"armor_material": {
+		"durability": 75,
+		"damage_reduction_amounts": [5, 5, 5, 5],
+		"enchantibility": 10,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "panther_habit",
+	
+ "description": {
+        "text": "Vol. 2"
+    },
+	
+	"data": {
+		"spider_sense": true
+	},
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+			},
+			"conditions": [
+				{
+					"type": "not",
+					"conditions": [
+						{
+							"type": "open_armor",
+							"slot": "helmet"
+						}
+					]
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+            "icon": { "type": "internal" },				
+			"amount": 10,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sleep_gas": {
+			"ability": "lucraftcore:potion_punch",
+			"cooldown": 10,
+            "show_in_bar": true,		
+            "title": {"text":"Sleep Gas"},
+            "icon": { "type": "internal" },
+		    "potion": "minecraft:blindness",
+            "amplifier": 2,
+            "duration": 150		
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Black Panther's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol2/black_panther_vol2_mask.png",
+				"normal_open": "wakanda:textures/armor/black_panther_vol2/black_panther_vol2_mask_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol2"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol2/black_panther_vol2_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_vol2/black_panther_vol2_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol2"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Black Panther's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol2/black_panther_vol2_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol2"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vol2/black_panther_vol2_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vol2"
+			}
+		}
+	}
+}

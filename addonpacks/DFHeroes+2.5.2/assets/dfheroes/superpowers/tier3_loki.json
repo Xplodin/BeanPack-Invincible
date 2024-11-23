@@ -1,0 +1,76 @@
+{
+    "name" : {
+        "text": "Loki"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/wip_icon.png"
+    },
+
+    "max_level": 2,
+
+    "capsule_color" : 1949696,
+
+    "abilities": [
+		{
+            "ability": "lucraftcore:healing",
+            "frequency": 10,
+            "amount": 2
+        },
+		{
+			"ability": "lucraftcore:health",
+			"amount": 15,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 9,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 9,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 9,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:teleport",
+			"cooldown": 100,
+			"distance": 20,
+			"required_level": 2
+		},
+		{
+			"ability": "the-fifth-world:summon_entity",
+			"cooldown": 200,
+			"entity": "minecraft:bat",
+			"number": 5
+		},
+		{
+			"ability": "lucraftcore:invisibility",
+			"cooldown": 100,
+			"required_level": 2
+		}
+	]
+	
+}

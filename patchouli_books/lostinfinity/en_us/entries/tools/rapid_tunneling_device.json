@@ -1,0 +1,17 @@
+{
+  "name": "Rapid Tunneling Device",
+  "icon": "lostinfinity:rapid_tunneling_device",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:rapid_tunneling_device",
+      "title": "Rapid Tunneling Device",
+      "text": "Forces a player or Dimensional Merchant within the Infinite Murk to tunnel downwards, leaving behind a Void Altered Spine."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recrapidtunneler"
+    }
+    ]
+}

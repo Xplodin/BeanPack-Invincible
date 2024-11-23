@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:black_panther_tmdma_shuri_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_white",
+		    "amount": 2
+		}
+	]
+
+}

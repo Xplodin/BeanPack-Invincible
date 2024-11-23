@@ -1,0 +1,36 @@
+{
+	"name": {
+		"text": "Zawavari"
+	},
+	
+	"armor_material": {
+		"durability": 25,
+		"damage_reduction_amounts": [3, 4, 3, 3],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Zawavari's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/zawavari/zawavaris_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/zawavari/zawavaris_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/zawavari/zawavaris_chestpiece_no_scarf.png",
+				"normal_smallarms_open": "wakanda:textures/armor/zawavari/zawavaris_chestpiece_small_no_scarf.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:zawavari"
+			}
+		}
+	}
+}

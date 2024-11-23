@@ -1,0 +1,169 @@
+{
+	"name": {
+		"text": "Savitar (CW)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 15,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+"data": {
+    "trail": {
+        "red": 0,
+        "green": 1,
+        "blue": 1
+    	},	
+		"flicker": {
+		"red": 0,
+		"green": 1,
+		"blue": 1
+		},
+	"speed_levels": 15
+},
+
+	"description": {
+		"text": "CW"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_superpower": "dfheroes:mutant_speedforce"
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 1.2,
+			"size_changer": "lucraftcore:default"
+		}	
+	],
+
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [0,1,1],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "flickering",
+			"color": [0,1,1],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "name_change",
+			"name": {
+				"text": "Savitar"
+			}
+		}
+	],
+	
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Savitar's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/savitar/helmet.png",
+				"normal_open": "dfheroes:textures/suits/savitar/helmet_open.png",
+				"glow": "dfheroes:textures/suits/savitar/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits/savitar/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:savitar_suit"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Savitar's Chestplate"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/savitar/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/savitar/chestplate_open.png",
+				"normal_smallarms": "dfheroes:textures/suits/savitar/chestplate.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/savitar/chestplate_open.png",
+				"glow": "dfheroes:textures/suits/savitar/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:savitar_suit"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Savitar's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/savitar/legs.png",
+				"glow": "dfheroes:textures/suits/savitar/legs_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:savitar_suit"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Savitar's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/savitar/boots.png",
+				"glow": "dfheroes:textures/suits/savitar/boots_glow.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:savitar_suit"
+			}
+		}
+	}
+}

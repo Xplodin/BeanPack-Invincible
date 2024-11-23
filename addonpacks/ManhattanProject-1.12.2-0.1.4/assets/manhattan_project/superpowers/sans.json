@@ -1,0 +1,87 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.sans"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/sans_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 16777215,
+
+	"abilities": {
+			"funny_skeleton":{
+			"ability": "lucraftcore:size_change",
+			"size": 0.6,
+			"size_changer": "lucraftcore:default",
+			"title": {"text": "Funny skeleton man"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/sans_icon.png"}
+		},
+		"gaster":{
+			"ability": "heroesexpansion:photon_blast",
+			"color": [0, 149, 255],
+			"cooldown": 100,
+			"damage": 7.0,
+			"title": {"text": "Gaster Blaster"},
+			"conditions": [{"type": "lucraftcore:ability",
+				"ability": "size_change"}]
+		},
+		"teleport":{
+			"ability": "lucraftcore:teleport",
+			"cooldown": 50,
+			"distance": 100000,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_icon.png"},
+			"conditions": [{"type": "lucraftcore:ability",
+				"ability": "size_change"}]
+		},
+		"water_breathing":{
+			"ability": "lucraftcore:water_breathing"
+		},
+		"fire_resistance":{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 14
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 1
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5
+		},
+		"precision":{
+			"ability": "heroesexpansion:precision"
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 2,
+			"required_ability": "size_change"
+		}
+
+		},
+
+			"effects": [{
+			"type": "skin_change",
+			"texture": "manhattan_project:textures/skins/sans_skin.png",
+			"conditions": [{
+			"type": "ability_enabled",
+			"ability": "lucraftcore:size_change"
+		}]
+	}]
+}

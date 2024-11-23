@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:black_panther_vibranium_shielding_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_light_blue",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_yello",
+		    "amount": 2
+		}
+	]
+
+}

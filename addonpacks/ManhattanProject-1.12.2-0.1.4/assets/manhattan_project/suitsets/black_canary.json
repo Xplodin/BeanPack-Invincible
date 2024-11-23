@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.black_canary"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.black_canary.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [1, 4, 5, 1],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_canary.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_canary/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/black_canary/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_canary_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_canary.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_canary/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_canary_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.black_canary.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/black_canary/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:black_canary_suit"
+			}
+		}
+	}
+}

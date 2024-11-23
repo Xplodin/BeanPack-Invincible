@@ -1,0 +1,17 @@
+{
+  "name": "Clay Terraformer",
+  "icon": "lostinfinity:clay_terraformer",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:clay_terraformer",
+      "title": "Clay Terraformer",
+      "text": "Harvest or Deploy Sea Clay found within the Deep Sea dimension."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recclayterraformer"
+    }
+    ]
+}

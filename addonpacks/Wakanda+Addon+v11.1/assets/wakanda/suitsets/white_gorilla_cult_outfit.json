@@ -1,0 +1,66 @@
+{
+	"name": {
+		"text": "White Gorilla Cult Outfit"
+	},
+	
+	"armor_material": {
+		"durability": 20,
+		"damage_reduction_amounts": [3, 4, 5, 3],
+		"enchantibility": 0,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "White Gorilla Cult's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/white_gorilla_cult_outfit/white_gorilla_cult_outfit_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/white_gorilla_cult_outfit/white_gorilla_cult_outfit_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/white_gorilla_cult_outfit/white_gorilla_cult_outfit_chestpiece_hoodie.png",
+				"normal_smallarms_open": "wakanda:textures/armor/white_gorilla_cult_outfit/white_gorilla_cult_outfit_chestpiece_small_hoodie.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:white_gorilla_cult_outfit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "White Gorilla Cult's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/white_gorilla_cult_outfit/white_gorilla_cult_outfit_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:white_gorilla_cult_outfit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "White Gorilla Cult's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/white_gorilla_cult_outfit/white_gorilla_cult_outfit_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:white_gorilla_cult_outfit"
+			}
+		}
+	}
+}

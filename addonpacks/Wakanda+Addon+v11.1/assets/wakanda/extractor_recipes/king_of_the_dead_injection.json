@@ -1,0 +1,25 @@
+{
+	"input": {
+		"item": "lucraftcore:injection",
+		"nbt": "{\"Injection\": \"wakanda:black_panther\"}"		
+	},
+	
+	"input_container": {
+		"item": "lucraftcore:injection"
+	},
+	
+	"input_fluid": {
+		"fluid": "super_soldier_serum",
+		"amount": 5000
+	},
+	
+	"energy": 5000,
+	
+	"outputs": {
+		"primary": {
+			"item": "lucraftcore:injection",
+			"nbt": "{\"Injection\": \"wakanda:king_of_the_dead\"}",
+			"chance": 0.30
+		}
+	}
+}

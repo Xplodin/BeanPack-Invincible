@@ -1,0 +1,25 @@
+{
+  "name": "Redirection Game",
+  "icon": "lostinfinity:rotatable_tile",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:rotatable_tile_game",
+    "title": "Redirection Game",
+    "text": "Rotate the tiles to make them all match on the Red Arrow. Right-Clicking an arrow causes it and it's adjacent blocks to swap states to the next clockwise arrow."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:geocoordinated_orb",
+    "title": "Geo-Coordinated Orb",
+    "text": "The Geo-Coordinated Orb starts the game when used on the Redirection Chamber."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:georedirection_orb",
+    "title": "Geo-redirection Orb",
+    "text": "A Geo-redirection Orb is given for succesfully completing the game."
+  }
+  ]
+}

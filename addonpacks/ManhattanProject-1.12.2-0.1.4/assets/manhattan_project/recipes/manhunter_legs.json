@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "manhattan_project:manhunter_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "212",
+    "2 2",
+    "2 2"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_red"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_blue"
+    }
+  }
+}

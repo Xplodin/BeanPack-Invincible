@@ -1,0 +1,101 @@
+{
+    "name" : {
+       "translate": "manhattan_project.superpower.hulk"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "manhattan_project:textures/gui/radioactive_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 33024,
+
+    "abilities": 
+		{
+		"hulk_change_form":{
+			"ability": "lucraftcore:size_change",
+			"size": 1.6,
+			"bar_color": "green",
+			"size_changer": "lucraftcore:default",
+			"title": {"text": "I'm always angry"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/hulk_icon.png"}
+		},
+		"hulk_smash":{
+			"ability": "heroesexpansion:kinetic_energy_absorption",
+			"cooldown": 350,
+			"show_in_bar": true,
+			"title": {"text":"Hulk, SMASH!"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/smash_icon.png" },
+			"max_energy": 150,
+			"color": [100, 255, 100],
+			"required_ability": "hulk_change_form"
+		},
+		"hulk_jump":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Leap"},
+			"parent_ability": "hulk_smash",
+			"show_in_bar": "false",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/leap_icon.png"},
+			"commands": ["effect @p minecraft:levitation 1 15", 
+			"summon creeper ~ ~1.5 ~ {powered:1,ignited:1,ExplosionRadius:2,Fuse:1,NoAI:1,Silent:1}"],
+			"required_ability": "hulk_change_form"
+			
+			},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 15,
+			"required_ability": "hulk_change_form"
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 12,
+			"required_ability": "hulk_change_form"
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 16,
+			"required_ability": "hulk_change_form"
+		},
+		"radiation_immunity":{
+			"ability": "the-fifth-world:potion_immunity",
+			"potion": "lucraftcore:radiation",
+			"title": {"text":"Radiation Immunity"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/radioactive_icon.png"}
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 13,
+			"required_ability": "hulk_change_form"
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 50,
+			"required_ability": "hulk_change_form"
+		},
+		"knockback_reistance":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 15,
+			"required_ability": "hulk_change_form"
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 1.5,
+			"required_ability": "hulk_change_form"
+		}
+	},
+	
+			"effects": [
+        	{
+        		"type": "skin_change",
+       			"texture": "manhattan_project:textures/skins/hulk_skin.png",
+       			"conditions": [{"type": "ability_enabled",
+        		"ability": "lucraftcore:size_change"}]
+        }
+    ]
+}

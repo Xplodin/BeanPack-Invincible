@@ -1,0 +1,28 @@
+Update 2.0 Changelog
+--------------------------------------------------------------------
+*Moved Coal Tiger from the Panther Habit creative tab to the Wakanda creative tab
+*Fixed Black Panther (Azzuri)'s suit showing your 1.8 skin layers
+*Nerfed Black Panther's strength from 12 to 10
+*Nerfed Black Panther's speed from 0.3 to 0.05
+*Nerfed Man Ape's speed from 0.3 to 0.05
+*Changed Man Ape's resistance from 15 to 14
+*Buffed Man Ape's knockback resistance from 2 to 3
+*Buffed Klaw's strength from 5 to 6
+*Fixed MCU White Wolf (Bucky)'s healing
+*Revamped the skin for Black Panther (Avengers Academy)
+*Updated Erik Killmonger (Wakandan Armor) Skin & Items
+*White Tiger (Vol. 3)'s coat now appears with just the chestplate on
+*Black Panther (Kevin Cole)'s coat now appears with just the chestplate on
+*Nerfed Djalia Griot (Shuri)'s speed from 0.3 to 0.2
+-Removed Wall Running & Superspeed abilities on Djalia Griot (Shuri)
++Added Step Assist to Venomm (Jungle Action)
++Added Flight to Klaw (Master of Sound)
++Added Knockback Resistance to Bast
++Added Energy Beams for Erik Killmonger Vol. 3 & 4 suit
++Added Energy Beams for Erik Killmonger's (Comics) Black Panther suit
++Added Energy Beams for Black Panther Vol. 3 v1-3
++Added a cooldown for Klaw's Sonic Disruptor Energy Beams
++Added Storm's X-Men Anime outfit
++Added a White Gorilla Cult Outfit
++Added the Black Musketeers
+

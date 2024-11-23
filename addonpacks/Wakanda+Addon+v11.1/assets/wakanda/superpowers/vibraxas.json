@@ -1,0 +1,161 @@
+{
+	"name" : {
+		"text": "Master of Vibration"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 2055482,
+	
+	"effects": [
+		{
+			"type": "vibrating",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:phasing"
+				}
+			]
+		},
+		
+		{
+			"type": "vibrating",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}   
+    ],	
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},						
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},					
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},			
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},				
+			"amount": 13,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"					
+		},
+		"vibrational_blast": {
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 25,
+            "show_in_bar": true,		
+            "title": {"text":"Vibrational Blast"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/vibrational_blast.png"},
+            "bar_color": "yellow",				
+            "damage": 12,
+            "color": [230, 230, 110]
+		},	
+		"vibrational_shockwave": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": true,		
+            "title": {"text":"Vibrational Shockwave"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/vibrational_shockwave.png"},		
+            "bar_color": "yellow",				
+            "max_energy": 250,
+			"color": [255, 240, 150]
+		},
+		"molecular_vibration": {
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 0,			
+            "show_in_bar": true,	
+            "title": {"text":"Molecular Vibration"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/molecular_vibration.png"},
+            "bar_color": "yellow"	
+		},
+		"intangibility": {
+		    "ability": "heroesexpansion:force_field",			
+			"cooldown": 0,
+            "show_in_bar": false,
+            "title": {"text":"Intangibility"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/vibration_emission/basic_icon.png"},
+			"parent_ability": "molecular_vibration",			
+            "bar_color": "yellow",				
+			"color": [0, 0, 0]			
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+			"required_ability": "phasing",	
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}				
+		},		
+		"poison_purge": {
+            "ability": "the-fifth-world:potion_immunity",
+			"required_ability": "phasing",				
+            "show_in_bar": false,		
+            "title": {"text":"Poison Purge"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:poison"
+		},
+		"wither_purge": {
+            "ability": "the-fifth-world:potion_immunity",
+			"required_ability": "phasing",				
+            "show_in_bar": false,		
+            "title": {"text":"Wither Purge"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:wither"
+		},
+		"radiation_purge": {
+            "ability": "the-fifth-world:potion_immunity",
+			"required_ability": "phasing",				
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Purge"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "lucraftcore:radiation"			
+		}
+	}
+}

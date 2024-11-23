@@ -1,0 +1,197 @@
+{
+	"name": {
+		"text": "Iron Man (Mk-46)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [6, 7, 8, 6],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_diamond"
+	},
+"creative_tab": "ironmen",
+	"description": {
+		"text": "Civil War"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 12,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:water_breathing",
+			"required_superpower": "dfheroes:ironman_sensors"
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"speed": 0.5,
+			"sprint_speed": 4,
+			"rotate_arms": true
+	    },
+		{
+		    "ability": "heroesexpansion:photon_blast",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"cooldown": 20,
+            "color": [255,255,0]
+		},
+		{
+		    "ability": "lucraftcore:energy_blast",
+			"required_superpower": "dfheroes:ironman_sensors",
+			"cooldown": 150,
+            "damage": 18,
+            "color": [255,255,0]
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Iron Man's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_46/helmet.png",
+				"normal_open": "dfheroes:textures/suits_ironman/mark_46/helmet_open.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_46/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits_ironman/mark_46/helmet_open_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_46_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Iron Man's Chest"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_46/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits_ironman/mark_46/chestplate.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_46/chestplate_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits_ironman/mark_46/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_46_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Iron Man's Legs"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_46/legs.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_46/legs_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_46_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Iron Man's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_46/boots.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_46/boots_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_46_state"
+			}
+		}
+	},
+	
+	"effects": [
+	    {
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud.png",
+			"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "helmet"
+				}
+			]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_repulsor.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "heroesexpansion:photon_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_chest_rt.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:energy_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_flight.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:flight"
+                }
+            ]
+        }
+	]
+}

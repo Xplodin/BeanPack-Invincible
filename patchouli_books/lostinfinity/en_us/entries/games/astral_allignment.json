@@ -1,0 +1,25 @@
+{
+  "name": "Astral Alignment Game",
+  "icon": "lostinfinity:row_slide_tile",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:row_slide_game",
+    "title": "Astral Alignment Game",
+    "text": "The goal of the Astral Allignment game is to line up the four different symbols so they are in 4x4 squares. The buttons on each side of a line rotate them 1 towards the pressed button."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:holotron_disc",
+    "title": "Holotron Disc",
+    "text": "The Holotron Disc is used on the Astral Alignment Device to start the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:astral_plane_analyzer",
+    "title": "Astral Plane Analyzer",
+    "text": "The Astral Plane Analyzer is given for succesfully completing the game."
+  }
+  ]
+}

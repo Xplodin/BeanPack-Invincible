@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:slaver_outfit_vol7_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_brown",
+		    "amount": 2
+		}
+	]
+
+}

@@ -1,0 +1,92 @@
+{
+	"name": {
+		"text": "Gentle"
+	},
+	
+	"armor_material": {
+		"durability": 0,
+		"damage_reduction_amounts": [4, 4, 5, 3],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "wakanda",	
+ 
+ "description": {
+        "text": "X-Men: Red"
+    },
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.125,
+			"name": {
+				"text": "Gentle's Head"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_head.png",
+				"normal_open": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_head.png",
+				"glow": "wakanda:textures/armor/gentle_xmen_red/no_glow.png",
+				"glow_open": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_head_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:gentle_xmen_red"
+			}
+		},
+		
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.063,
+			"name": {
+				"text": "Gentle's Torso"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_chestpiece_small.png",
+				"normal_open": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_chestpiece.png",
+				"normal_smallarms_open": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_chestpiece_small.png",
+				"glow": "wakanda:textures/armor/gentle_xmen_red/no_glow.png",
+				"glow_smallarms": "wakanda:textures/armor/gentle_xmen_red/no_glow.png",
+				"glow_open": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_chestpiece_glow.png",
+				"glow_smallarms_open": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_chestpiece_small_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:gentle_xmen_red"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.0625,
+			"name": {
+				"text": "Gentle's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:gentle_xmen_red"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.063,
+			"name": {
+				"text": "Gentle's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/gentle_xmen_red/gentle_xmen_red_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:gentle_xmen_red"
+			}
+		}
+	}
+}

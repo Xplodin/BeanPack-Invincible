@@ -1,0 +1,17 @@
+{
+  "name": "Nightmare Pickaxe",
+  "icon": "lostinfinity:nightmare_pickaxe",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:nightmare_pickaxe",
+      "title": "Nightmare Pickaxe",
+      "text": "Used to mine Atomite Ore."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recnightmarepickaxe"
+    }
+    ]
+}

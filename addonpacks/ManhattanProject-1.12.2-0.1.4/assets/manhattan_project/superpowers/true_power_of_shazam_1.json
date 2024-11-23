@@ -1,0 +1,38 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.adam"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/shazam_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 0,
+
+	"abilities": {
+		"adam": {
+			"ability": "lucraftcore:command",
+			"title": {
+				"text": "Shazam!"
+			},
+			"bar_color": "yellow",
+			
+		
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/shazam_power.png"
+			},
+			"commands": ["summon minecraft:lightning_bolt ~ ~3 ~", "weather thunder", "sizechange @p 1.2", 
+			"superpower @p manhattan_project:true_power_of_shazam",
+			"particle cloud ~ ~ ~ 1 1 1 0.1 600 force",
+			"particle angryVillager ~ ~ ~ 1 1 1 1 50 block @a force"],
+			"conditions": [{
+					"type": "lucraftcore:potion_weakness",
+					"potion": "nausea"
+				}]
+		}
+	}
+}

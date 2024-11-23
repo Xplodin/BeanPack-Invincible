@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Skeleton",
+  "icon": "lostinfinity:trialskeleton",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialskeleton",
+    "title": "Trial of the Skeleton",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Skeleton."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialskeleton"
+  }
+  ]
+}

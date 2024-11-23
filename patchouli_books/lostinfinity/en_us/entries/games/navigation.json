@@ -1,0 +1,25 @@
+{
+  "name": "Navigation Game",
+  "icon": "lostinfinity:navigation_nodule",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:navigation_nodule",
+    "title": "Navigation Game",
+    "text": "Follow the sequence on the display. It shows you which direction and color your next move should be. Be weary of the timing, it could be the same step more than once!"
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:basic_sextant",
+    "title": "Basic Sextant",
+    "text": "The Basic Sextant is used on the Navigation Device to light up the starting spot and begin the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:mechanical_sextant",
+    "title": "Mechanical Sextant",
+    "text": "The Mechanical Sextant is given for succesfully completing the game."
+  }
+  ]
+}

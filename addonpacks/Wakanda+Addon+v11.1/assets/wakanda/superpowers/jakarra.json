@@ -1,0 +1,145 @@
+{
+	"name" : {
+		"text": "Jakarra"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 15532172,
+	
+	"effects": [
+	{
+		"type": "skin_change",
+             "texture": "wakanda:textures/skins/jakarra.png",
+		"conditions": [
+	        {
+			    "type": "ability_enabled",
+			    "ability": "lucraftcore:size_change"
+		     }
+	      ]
+	   }
+    ],
+	
+	"abilities": {
+		"transformation": {		
+			"ability": "lucraftcore:size_change",		
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Transformation"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/size_change.png"},
+            "bar_color": "red",				
+			"size": 1.25,
+            "size_changer": "lucraftcore:default"
+		},			
+		"health": {		
+			"ability": "lucraftcore:health",
+			"required_ability": "transformation",
+            "show_in_bar": false,
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 14,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {	
+			"ability": "lucraftcore:healing",
+			"required_ability": "transformation",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},			
+			"frequency": 100,
+			"amount": 0.5		
+		},
+		"strength": {		
+			"ability": "lucraftcore:strength",
+			"required_ability": "transformation",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},				
+			"amount": 16,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {	
+			"ability": "lucraftcore:sprint",
+			"required_ability": "transformation",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},			
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {	
+			"ability": "lucraftcore:jump_boost",
+			"required_ability": "transformation",			
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {	
+			"ability": "lucraftcore:resistance",
+			"required_ability": "transformation",			
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 20,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {	
+			"ability": "lucraftcore:fall_resistance",
+			"required_ability": "transformation",			
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 25,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"knockback_resistance": {	
+			"ability": "lucraftcore:knockback_resistance",
+			"required_ability": "transformation",			
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},			
+			"amount": 3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+			"required_ability": "transformation",			
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}		
+		}, 
+		"tough_skin": {	
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+			"required_ability": "transformation",			
+            "show_in_bar": false,		
+            "title": {"text":"Tough Skin"},			
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},	
+            "bar_color": "red",				
+            "max_energy": 0,
+            "color": [200, 80, 130]				
+		}
+	}
+}

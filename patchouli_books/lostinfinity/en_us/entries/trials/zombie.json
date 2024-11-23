@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Zombie",
+  "icon": "lostinfinity:trialzombie",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialzombie",
+    "title": "Trial of the Zombie",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Zombie."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialzombie"
+  }
+  ]
+}

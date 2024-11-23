@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier2_cosmic_custom_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_gray",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_cyan",
+		    "amount": 2
+		}
+	]
+
+}

@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:solar",
+
+  "result": {
+    "item": "manhattan_project:solar_chest"
+  },
+
+  "original": "heroesexpansion:superman_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "minecraft:daylight_detector"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:solar_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

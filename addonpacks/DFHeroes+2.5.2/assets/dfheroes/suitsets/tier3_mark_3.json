@@ -1,0 +1,176 @@
+{
+	"name": {
+		"text": "Iron Man (Mk-3)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [7, 8, 9, 7],
+		"enchantibility": 15,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_diamond"
+	},
+"creative_tab": "ironmen",
+	"description": {
+		"text": "MK-3"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		{
+			"ability": "lucraftcore:water_breathing"
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 3,
+			"rotate_arms": false
+	    },
+		{
+		    "ability": "heroesexpansion:photon_blast",
+			"cooldown": 20,
+            "color": [255,255,0]
+		},
+		{
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 20,
+            "damage": 5,
+            "color": [255,255,0]
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Iron Man's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_3/helmet.png",
+				"normal_open": "dfheroes:textures/suits_ironman/mark_3/helmet_open.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_3/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits_ironman/mark_3/helmet_open_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_3_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Iron Man's Chest"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_3/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits_ironman/mark_3/chestplate.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_3/chestplate_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits_ironman/mark_3/chestplate_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_3_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Iron Man's Legs"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_3/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_3_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": true,
+			"name": {
+				"text": "Iron Man's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits_ironman/mark_3/boots.png",
+				"glow": "dfheroes:textures/suits_ironman/mark_3/boots_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:mark_3_state"
+			}
+		}
+	},
+	
+	"effects": [
+	    {
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud.png",
+			"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "helmet"
+				}
+			]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_repulsor.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "heroesexpansion:photon_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_chest_rt.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:energy_blast"
+                }
+            ]
+        },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/ironman_hud_flight.png",
+            "conditions": [
+                {
+                    "type": "ability_enabled",
+                    "ability": "lucraftcore:flight"
+                }
+            ]
+        }
+	]
+}

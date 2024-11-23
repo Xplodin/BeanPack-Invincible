@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tier1_arsenal_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_black",
+		    "amount": 2
+		}
+	]
+
+}

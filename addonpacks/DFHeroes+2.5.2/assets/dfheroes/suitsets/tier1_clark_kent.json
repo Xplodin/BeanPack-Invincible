@@ -1,0 +1,68 @@
+{
+	"name": {
+		"text": "Clark Kent (Smallville)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [3, 4, 5, 3],
+		"enchantibility": 15,
+		"toughness": 0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+
+	"description": {
+		"text": "Smallville"
+	},
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Clark Kent's Jacket"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/clark_kent/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/clark_kent/chestplate_open.png",
+				"normal_smallarms": "dfheroes:textures/suits/clark_kent/chestplate.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/clark_kent/chestplate_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:clark_kent_suit"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Clark Kent's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/clark_kent/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:clark_kent_suit"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Clark Kent's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/clark_kent/boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:clark_kent_suit"
+			}
+		}
+	}
+}

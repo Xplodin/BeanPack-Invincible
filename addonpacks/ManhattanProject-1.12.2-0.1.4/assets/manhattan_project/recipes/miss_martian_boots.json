@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:miss_martian",
+
+  "result": {
+    "item": "miss_martian_boots"
+  },
+
+  "original": "manhattan_project:manhunter_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEWHITE"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:manhunter_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "manhattan_project:miss_martian_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

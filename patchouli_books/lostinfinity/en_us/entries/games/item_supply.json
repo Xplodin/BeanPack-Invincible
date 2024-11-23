@@ -1,0 +1,43 @@
+{
+  "name": "Item Supply Game",
+  "icon": "lostinfinity:lab_game_starter_orange",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:item_challenge_collector",
+    "title": "Item Supply Game",
+    "text": "Item Supply is exactly as the name sounds, collecting 10 of each displayed item. Clicking the orange labyrinth block downstairs begins the game and displays the items needed. Inputting 10 of each item allows you to use the block upstairs."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:webbed_idol",
+    "title": "Webbed Idol",
+    "text": "The Webbed Idol being used on the block upstairs, after a win, provides the Advanced Ambition Map."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:conductive_bar",
+    "title": "Conductive Bar",
+    "text": "The Conductive Bar being used on the block upstairs, after a win, provides the Advanced Anticipation Map."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:frosted_log",
+    "title": "Frosted Log",
+    "text": "The Webbed Idol being used on the block upstairs, after a win, provides the Advanced Resolve Map."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:relic_of_the_mirage",
+    "title": "Relic of Infinite Mirages",
+    "text": "The Relic of Infinite Mirages being used on the block upstairs, after a win, provides the Advanced Perception Map."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:jar_of_blood",
+    "title": "Jar of Blood",
+    "text": "The Jar of Blood being used on the block upstairs, after a win, provides the Advanced Cruelty Map."
+  }
+  ]
+}

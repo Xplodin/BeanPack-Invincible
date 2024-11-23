@@ -1,0 +1,33 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+
+		
+		"chest": [{
+			"textures": {
+				"layer0": "manhattan_project:items/jessica_jones/chestplate"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "manhattan_project:items/jessica_jones/legs"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "manhattan_project:items/jessica_jones/boots"
+			}
+		}]
+	}
+}

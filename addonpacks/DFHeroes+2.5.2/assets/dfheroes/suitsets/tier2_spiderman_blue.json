@@ -1,0 +1,101 @@
+{
+	"name": {
+		"text": "Spider-Man (2099 Blue Suit)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "2099"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "heroesexpansion:web_wings"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Mask"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spiderman_blue/helmet.png",
+				"normal_open": "dfheroes:textures/suits/spiderman_blue/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spiderman_blue"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spiderman_blue/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/spiderman_blue/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spiderman_blue"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spiderman_blue/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spiderman_blue"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Spider-Man's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/spiderman_blue/boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:spiderman_blue"
+			}
+		}
+	}
+}

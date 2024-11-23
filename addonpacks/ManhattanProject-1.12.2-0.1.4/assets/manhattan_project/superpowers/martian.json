@@ -1,0 +1,145 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.martian"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/manhunter_icon.png"
+	},
+	"effects": [
+		{
+			"type": "skin_change",
+			"texture": "manhattan_project:textures/skins/steve_skin.png",
+			"conditions": [{"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"}]
+			},
+			{
+			"type": "skin_change",
+			"texture": "manhattan_project:textures/skins/martian_skin.png",
+			"conditions": [{"type": "ability_enabled",
+					"ability": "lucraftcore:size_change"}]
+			},
+			{
+			"type": "name_change",
+			"name": {"text": "Sbeve"},
+			"conditions": [{"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"}]
+		}
+		
+		],
+			
+	"max_level": 1,
+
+	"capsule_color": 65280,
+
+	"abilities": {
+
+		"true_form": {
+			"ability": "lucraftcore:size_change",
+			"size": 1.2,
+			"bar_color": "green",
+			"size_changer": "lucraftcore:default",
+			"title": {"text": "Change Form"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/martian_icon.png"}
+			
+		},
+		"shape_shift": {
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text": "Change Form"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/steve_icon.png"}
+			
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+			"amount": 1
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs"
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing"
+		},
+		"martian_vision": {
+			"ability": "heroesexpansion:heat_vision",
+			"color": [255, 0, 0],
+			"cooldown": 100,
+			"damage": 4.0
+		},
+		"flight": {
+			"ability": "lucraftcore:flight",
+			"speed": 1,
+			"sprint_speed": 3.4,
+			"rotate_arms": true
+		},
+		"phasing":{
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 200
+		},
+		"fire_weakness": {
+			"ability": "the-fifth-world:potion_immunity",
+			"show_in_bar": false,
+			"title": {"text":"Fire Weakness"},
+			"potion": "minecraft:fire_resistance",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/fire_icon.png"}
+		},
+		"health_boost": {
+			"ability": "lucraftcore:health",
+			"amount": 15
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 16
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 11
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5
+		},
+		"invisibility": {
+			"ability": "lucraftcore:invisibility",
+			"cooldown": 200
+		},
+		"true_invisibility": {
+			"ability": "lucraftcore:command_held",
+			"show_in_bar": false,
+			"hidden": true,
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/manhunter_icon.png"
+			},
+			"cooldown": 0,
+			"parent_ability": "invisibility",
+			"commands": ["effect @s minecraft:invisibility 1 1 true"]
+		},
+		"sound_heat_vision": {
+			"ability": "lucraftcore:command_held",
+			"show_in_bar": false,
+			"hidden": true,
+			"icon": {
+				"type": "texture",
+				"texture": "manhattan_project:textures/gui/manhunter_icon.png"
+			},
+			"cooldown": 0,
+			"parent_ability": "heat_vision",
+			"commands": ["playsound heroesexpansion:heat_vision player @a[r=10] ~ ~ ~"]
+		},
+		"punch": {
+			"ability": "lucraftcore:punch",
+			"show_in_bar": false,
+			"required_ability": "true_form",
+			"amount": 3.0
+
+		}
+	}
+}

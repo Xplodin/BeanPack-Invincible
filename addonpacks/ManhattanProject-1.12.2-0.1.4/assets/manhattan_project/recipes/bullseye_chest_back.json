@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:bullseye_back",
+
+  "result": {
+    "item": "heroesexpansion:daredevil_chest"
+  },
+
+  "original": "manhattan_project:bullseye_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYERED"
+    },
+    {
+      "item": "#DYEBLACK"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:bullseye_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

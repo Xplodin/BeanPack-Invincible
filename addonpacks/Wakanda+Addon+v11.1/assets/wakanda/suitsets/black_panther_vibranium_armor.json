@@ -1,0 +1,171 @@
+{
+	"name": {
+		"text": "Black Panther"
+	},
+	
+	"armor_material": {
+		"durability": 400,
+		"damage_reduction_amounts": [5, 6, 6, 5],
+		"enchantibility": 20,
+		"toughness": 5,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "panther_habit",
+	
+ "description": {
+        "text": "Vibranium Armor"
+    },
+	
+	"data": {
+		"spider_sense": true
+	},
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Black Panther"
+			},
+			"conditions": [
+				{
+					"type": "not",
+					"conditions": [
+						{
+							"type": "open_armor",
+							"slot": "helmet"
+						}
+					]
+				}
+			]
+		}
+	],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},		
+			"amount": 0.05,
+			"operation": 1,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},			
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+        },
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},
+            "potion": "minecraft:wither"				
+        },
+		"vibranium_reinforcement": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": false,				
+            "title": {"text":"Vibranium Reinforcement"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},		
+            "max_energy": 0,
+            "color": [0, 0, 0]
+		},
+		"flight": {		
+			"ability": "lucraftcore:flight",
+            "cooldown": 0,			
+            "show_in_bar": true,
+            "title": {"text":"Flight"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/flight.png"},
+			"bar_color": "black",		
+			"speed": 1.5,
+            "sprint_speed": 4,
+			"rotate_arms": true
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Black Panther's Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_helmet.png",
+				"normal_open": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_helmet_off.png",
+				"glow": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_eyes_glow.png",
+				"glow_open": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_helmet_off.png"				
+				
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_armor"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_chestpiece_small.png"			
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_armor"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Black Panther's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_armor"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Black Panther's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/black_panther_vibranium_armor/black_panther_vibranium_armor_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:black_panther_vibranium_armor"
+			}
+		}
+	}
+}

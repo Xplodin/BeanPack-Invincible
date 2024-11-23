@@ -1,0 +1,132 @@
+{
+	"name": {
+		"text": "LEGO Batman"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 20,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "other",
+ "description": {
+        "text": "LEGO"
+    },
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "heroesexpansion:web_wings",
+			"title": { "text": "Gliding" }
+		}
+	],
+	
+	"effects": [
+		{
+			"type": "name_change",
+			"name": { "text": "Because I'm Batman!" }
+		}    
+	],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": true,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Batman's Armored Face Disguise"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_lego/helmet.png",
+				"glow": "dfheroes:textures/suits/batman_lego/helmet_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_lego_state"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Batman's Torso"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_lego/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/batman_lego/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_lego_state"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Batman's Legs"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_lego/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_lego_state"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Batman's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/batman_lego/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:batman_lego_state"
+			}
+		}
+	}
+}

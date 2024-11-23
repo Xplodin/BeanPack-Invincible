@@ -1,0 +1,64 @@
+{
+	"name": {
+		"text": "Hulk Armor (Ragnarok)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "Ragnarok"
+	},
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Hulk's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/hulk/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:hulk_state"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Hulk's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/hulk/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/hulk/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:hulk_state"
+			}
+		}
+	}
+}

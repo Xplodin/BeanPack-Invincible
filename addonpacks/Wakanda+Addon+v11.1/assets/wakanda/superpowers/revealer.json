@@ -1,0 +1,84 @@
+{
+	"name" : {
+		"text": "Revealer"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 7733156,
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},				
+			"amount": 1.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 1.2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 13,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {	
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"empathic_nausea": {	
+			"ability": "lucraftcore:potion_punch",
+			"cooldown": 500,
+            "show_in_bar": true,		
+            "title": {"text":"Empathic Nausea"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/potion_punch.png"},	
+            "bar_color": "lime",			
+		    "potion": "minecraft:nausea",
+            "amplifier": 1,
+            "duration": 200		
+		},
+		"empathic_wither": {
+			"ability": "lucraftcore:potion_punch",
+			"cooldown": 500,
+            "show_in_bar": true,		
+            "title": {"text":"Empathic Wither"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/potion_punch.png"},	
+            "bar_color": "lime",				
+		    "potion": "minecraft:wither",
+            "amplifier": 2,
+            "duration": 200				
+		}
+	}
+}

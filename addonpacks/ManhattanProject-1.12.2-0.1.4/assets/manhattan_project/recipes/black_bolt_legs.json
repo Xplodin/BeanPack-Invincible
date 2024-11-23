@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "manhattan_project:black_bolt_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "232",
+    "1 1",
+    "2 2"
+  ],
+  "key": {
+	 "1": {
+      "item": "lucraftcore:tri_polymer_white"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+	 "3": {
+      "item": "minecraft:iron_leggings"
+    }
+  }
+}

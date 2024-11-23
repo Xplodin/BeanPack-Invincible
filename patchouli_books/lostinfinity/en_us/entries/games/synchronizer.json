@@ -1,0 +1,25 @@
+{
+  "name": "Synchronizer Game",
+  "icon": "lostinfinity:rhythm_button",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:rhythm_game",
+    "title": "Synchronizer Game",
+    "text": "The Synchronizer Game is a match the beat game, follow the pattern as it approaches the buttons, select the correct button that corresponds to the next colliding beat. The game speeds up every 10 beats."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:time_trigger",
+    "title": "Time Trigger",
+    "text": "Used to start the game, right-click with it on the Space-Time Synchronizer to spawn an NPC and start the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:spacetime_trigger",
+    "title": "Space-Time Trigger",
+    "text": "The Space-Time Trigger is given for succesfully completing the game."
+  }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Augmentor",
+    "icon": "lostinfinity:augmentor",
+    "category": "patchouli:machines_category",
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "lostinfinity:augmentor",
+        "title": "Augmentor",
+        "text": "The Augmentor is used to add Augment Slides to an Augmenticon Box. Recipes can be found in JEI."
+      }
+      ]
+}

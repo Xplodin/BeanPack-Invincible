@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:utopian",
+
+  "result": {
+    "item": "manhattan_project:utopian_chest"
+  },
+
+  "original": "heroesexpansion:superman_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEWHITE"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:utopian_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

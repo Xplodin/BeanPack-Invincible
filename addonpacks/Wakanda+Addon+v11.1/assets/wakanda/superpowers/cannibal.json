@@ -1,0 +1,178 @@
+{
+	"name" : {
+		"text": "Cannibal"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/wakanda_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 3127551,
+	
+	"effects": [
+		{
+			"type": "skin_change",
+			"texture": "wakanda:textures/skins/tshan.png"
+		},
+		
+		{
+			"type": "skin_change",
+            "texture": "wakanda:textures/skins/cannibal.png",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "lucraftcore:toggle_power"
+				}
+			]
+		}
+    ],
+	
+	"abilities": {
+		"neuralkinesis": {
+			"ability": "lucraftcore:toggle_power",
+            "title": {"text":"Neuralkinesis"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/neuralkinesis.png"},
+            "bar_color": "light_blue"			
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},			
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},			
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},		
+			"amount": 1.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 12,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},			
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+			"required_ability": "neuralkinesis",				
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+			"required_ability": "neuralkinesis",				
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "minecraft:wither"
+		},
+		"radiation_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+			"required_ability": "neuralkinesis",				
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
+            "potion": "lucraftcore:radiation"				
+		},		
+		"self_sustenance": {
+			"ability": "lucraftcore:command_loop",
+			"required_ability": "neuralkinesis",
+            "show_in_bar": false,				
+			"title": {"text":"Self-Sustenance"},
+			"commands": ["/effect @s minecraft:saturation 1 0 true"],
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/saturation.png"}				
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+			"required_ability": "neuralkinesis",			
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},			
+			"frequency": 100,
+			"amount": 0.5			
+		},
+		"increased_health": {				
+			"ability": "lucraftcore:health",
+			"required_ability": "neuralkinesis",			
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_health.png"},				
+			"amount": 12,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"		
+		},
+		"increased_resistance": {
+			"ability": "lucraftcore:resistance",
+			"required_ability": "neuralkinesis",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_resistance.png"},				
+			"amount": 20,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"increased_fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"required_ability": "neuralkinesis",			
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/increased_fall_resistance.png"},		
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"flight": {		
+			"ability": "lucraftcore:flight",
+			"required_ability": "neuralkinesis",				
+            "cooldown": 0,
+            "show_in_bar": true,
+            "title": {"text":"Flight"},
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/flight.png"},	
+            "bar_color": "light_blue",						
+			"speed": 1,
+            "sprint_speed": 2,
+			"rotate_arms": true			
+		}
+	}
+}

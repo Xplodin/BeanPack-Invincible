@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "dfheroesexpansion:ironmansuitcase"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "121",
+    "131"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    },
+	"2": {
+      "item": "dfheroesexpansion:arcreactor"
+    },
+	"3": {
+      "item": "lucraftcore:plate_iron"
+    }
+  },
+  "conditions": [
+    {
+      "item": "dfheroesexpansion:arcreactor",
+      "type": "minecraft:item_exists"
+    }
+  ]
+} 

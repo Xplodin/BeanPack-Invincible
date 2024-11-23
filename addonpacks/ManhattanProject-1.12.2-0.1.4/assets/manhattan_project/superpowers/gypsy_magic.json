@@ -1,0 +1,173 @@
+{
+	"name": {
+		"translate": "manhattan_project.superpower.doom"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "manhattan_project:textures/gui/doom_icon.png"
+	},
+
+	"max_level": 1,
+	
+	"creative_tab": "magic",
+
+	"capsule_color": 5423708,
+
+	"abilities": {
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 9,
+			"operation": 0
+		},	
+		"teleportation":{
+			"ability": "lucraftcore:teleport",
+			"cooldown": 30,
+			"distance": 500,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/teleportation_icon.png"}
+		},
+		"particle":{
+			"ability": "lucraftcore:command",
+			"show_in_bar": false,
+			"cooldown": 1,
+			"parent_ability":"teleportation",
+			"uuid": "a0e1ffec-9c53-11ea-8d94-53b9f95fdef2",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/rtp_icon.png"},
+			"commands": ["particle fallingdust ~ ~1.3 ~ .51 .51 .51 1.2 150 force @a 133",
+				"particle fallingdust ~ ~1.3 ~ .51 .51 .51 1.2 100 force @a 238",
+				"playsound entity.shulker_bullet.hit block @a[r=7] ~ ~ ~"],
+			"hidden": true
+			},
+		"energy_blast_doom": {
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 200,
+			"title": {"text": "Lightning Blast"},
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/sun_blast_icon.png"},
+			"damage": 0.0,
+			"color": [0, 0, 0],
+			"play_sound": false,
+			"invisible": true
+			
+		},
+		"energy_tag_doom": {
+			"ability": "lucraftcore:command",
+			"commands": [
+				"scoreboard players tag @e[type=lucraftcore:energy_blast,r=10] add lightning_doom"
+			],
+			"show_in_bar": false,
+			"parent_ability": "energy_blast_doom",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/lightning_blast_icon.png"}
+		},
+		"blast_doom": {
+			"ability": "lucraftcore:command_toggle",
+			"cooldown": 100,
+			"commands": [
+				"execute @e[tag=lightning_doom,type=lucraftcore:energy_blast,rm=3] ~ ~ ~ summon mowziesmobs:sunstrike ~ ~ ~"
+				
+				
+			],
+			"show_in_bar": false,
+			"parent_ability": "energy_blast_doom",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/lightning_blast_icon.png"}
+		},
+		"levitation":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Telekinisis"},
+			"cooldown": 200,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/levitation_icon.png"},
+			"commands": ["execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:levitation 2 10", 
+			"particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 3000",
+			"playsound entity.ghast.death block @a[r=10] ~ ~ ~"]
+			},
+	
+		"sickness_aura":{
+			"ability": "lucraftcore:command_held",
+			"title": {"text": "Sickness Aura"},
+			"cooldown": 150,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/poison_icon.png"},
+			"commands": ["particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 45", 
+			"execute @p ~ ~ ~ /execute @e[type=!item,rm=1,r=30] ~ ~ ~ /particle happyVillager ~ ~ ~ 1 1 1 1 2",
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:nausea 1 3",
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:weakness 1 3",
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:slowness 1 3",
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:blindness 1 2",
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:poison 1 2"]
+			},
+		"fangs":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Summon fangs"},
+			"cooldown": 200,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/fangs_icon.png"},
+			"commands": ["execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ /summon evocation_fangs ~ ~ ~ ", 
+			"particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 1000",
+			"execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ /summon evocation_fangs ~ ~ ~ ",
+			"playsound block.anvil.drop block @a[r=10] ~ ~ ~"]
+		},
+		"geomancy":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Geomancy"},
+			"cooldown": 1500,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/geo_icon.png"},
+			"commands":["particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 3000",
+				"playsound entity.elder_guardian.curse ambient @a[r=65] ~ ~ ~",
+				"effect @s mowziesmobs:geomancy 75 0 true"]
+		},
+		"weather":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Change Weather"},
+			"cooldown": 200,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/lightning_icon.png"},
+			"commands": ["toggledownfall"]
+		},
+		"reveal_doom":{
+			"ability": "lucraftcore:command",
+			"title": {"text": "Reveal"},
+			"cooldown": 250,
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/reveal_icon.png"},
+			"commands": ["execute @s ~ ~ ~ /execute @e[rm=1,r=30] ~ ~ ~ effect @s minecraft:glowing 30 50", 
+					"playsound entity.elder_guardian.curse ambient @a[r=65] ~ ~ ~",
+					"particle enchantmenttable ~ ~ ~ 1.5 1.5 1.5 2 45"]
+			},
+		"hidden": {
+			"ability": "the-fifth-world:potion_immunity",
+			"show_in_bar": false,
+			"title": {"text":"Hidden"},
+			"potion": "minecraft:glowing",
+			"icon": {"type": "texture",
+				"texture": "manhattan_project:textures/gui/glowing_icon.png"}
+		},
+		"health_doom":{
+			"ability": "lucraftcore:health",
+			"amount": 15,
+			"operation": 0
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1.5,
+			"operation": 0
+		},
+		"resistance_doom":{
+			"ability": "lucraftcore:resistance",
+			"amount": 11,
+			"operation": 0
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 100
+		}
+
+	}
+
+
+}

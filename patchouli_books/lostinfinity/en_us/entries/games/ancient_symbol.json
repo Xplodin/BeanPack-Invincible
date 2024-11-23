@@ -1,0 +1,25 @@
+{
+  "name": "Ancient Symbol Game",
+  "icon": "lostinfinity:ancient_symbol_interpreter",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:ancient_symbol_interpreter",
+    "title": "Ancient Symbol Game",
+    "text": "Ancient Symbol is a matching game, reveal the symbol of 2 blocks at a time to find their exact match. When all matches are found, Right-Click the game block again to recieve your reward."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:magical_book",
+    "title": "Magical Book",
+    "text": "The Magical Book starts the game by Right-Clicking the Ancient Symbol Interpreter."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:book_of_translation",
+    "title": "Book of Translation",
+    "text": "The Book of Translation is given for succesfully completing the game."
+  }
+  ]
+}

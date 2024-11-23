@@ -1,0 +1,17 @@
+{
+  "name": "Scramble Device",
+  "icon": "lostinfinity:scramble_device",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:scramble_device",
+      "title": "Scramble Device",
+      "text": "Deflects projectiles within a 30 block radius of the holder."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recscrambledevice"
+    }
+    ]
+}

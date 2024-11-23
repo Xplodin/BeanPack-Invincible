@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "dfheroes:tier4_thor_mcu_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "21 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "heroesexpansion:thor_legs"
+    },
+	"2": {
+      "item": "lucraftcore:plate_uru"
+    }
+  }
+} 

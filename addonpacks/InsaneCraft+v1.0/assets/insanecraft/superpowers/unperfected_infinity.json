@@ -1,0 +1,67 @@
+{
+	"name" : {
+		"text": "Perrfcted Inifnity"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/infinity_gems/soul_gem.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 13134839,
+	
+	"effects": [		
+    ],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"infinity_starved": {
+			"ability": "the-fifth-world:starving",
+			"show_in_bar": false,
+			"title": {"text":"Starve"}
+		},
+		"infinity_explode": {
+			"ability": "the-fifth-world:involuntary_explosion",
+			"show_in_bar": false,
+			"title": {"text":"KABOOM"}
+		},
+		"infinity_starved": {
+			"ability": "the-fifth-world:set_on_fire",
+			"show_in_bar": false,
+			"title": {"text":"BURN!"}
+		},
+		"infinity_starved": {
+			"ability": "the-fifth-world:butter_fingers",
+			"show_in_bar": false,
+			"title": {"text":"The Soap! O.O"}
+		},
+		"bubble_party": {
+			"ability": "speedsterheroes:turn_into_bubbles",
+			"cooldown": 5,
+			"show_in_bar": true,
+            "title": {"text":"Bubbles"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "red"				
+		},
+		"endit": {
+			"ability": "lucraftcore:command",
+			"cooldown": 0,
+			"show_in_bar": true,
+            "title": {"text":"End It"},		
+			"icon": {"type": "internal"},				
+            "bar_color": "red",
+			"commands": ["superpower @s remove"]
+		}
+		
+	}
+}

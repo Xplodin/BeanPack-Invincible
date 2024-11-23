@@ -1,0 +1,97 @@
+{
+	"name": {
+		"text": "Arsenal (CW)"
+	},
+	
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [3, 4, 5, 3],
+		"enchantibility": 20,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "dc",
+ "description": {
+        "text": "CW"
+    },
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+	],
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Arsenal's Hood"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/arsenal/helmet.png",
+				"normal_open": "dfheroes:textures/suits/arsenal/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:arsenal_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Arsenal's Chestpiece"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/arsenal/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits/arsenal/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:arsenal_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Arsenal's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/arsenal/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:arsenal_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Arsenal's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/arsenal/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:arsenal_suit"
+			}
+		}
+	}
+}

@@ -1,0 +1,332 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"text": "Samus Aran"
+	},
+
+	"armor_material": {
+		"durability": 100,
+		"damage_reduction_amounts": [5, 6, 7, 5],
+		"enchantibility": 15,
+		"toughness": 3.0,
+		"sound": "item.armor.equip_diamond"
+	},
+"creative_tab": "other",
+	"description": {
+		"text": "Metroid"
+	},
+	"data": {
+		"transition_color_1": {
+			"red": 10,
+			"green": 100,
+			"blue": 255
+		},
+		"transition_color_2": {
+			"red": 1,
+			"green": 255,
+			"blue": 255
+		},
+		"necklace_texture": "dfheroes:textures/suits/samus/suit_off.png"
+	},
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 8,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "heroesexpansion:precision",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:fire_resistance",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:tough_lungs",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:water_breathing",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 1,
+			"sprint_speed": 1,
+			"cooldown": 10,
+			"rotate_arms": false,
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		    "ability": "heroesexpansion:photon_blast",
+			"cooldown": 20,
+            "color": [0, 100, 255],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 10,
+            "damage": 5,
+            "color": [0, 100, 255],
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		}
+	],
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Varia Suit"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/samus/suit.png",
+				"normal_smallarms": "dfheroes:textures/suits/samus/suit.png",
+				"glow": "dfheroes:textures/suits/samus/suit_glow.png",
+				"glow_smallarms": "dfheroes:textures/suits/samus/suit_glow.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:samus_state"
+			}
+		}
+	},
+	
+	"effects": [
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_glow.png",
+		"glow": true,
+        "size": 0.51,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 0.6,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 0.7,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 0.8,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 0.9,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 1,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 1.1,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 1.2,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 1.3,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders.png",
+		"glow": false,
+        "size": 1.4,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/suit_shoulders_top.png",
+		"glow": false,
+        "size": 1.5,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+        "texture": "dfheroes:textures/suits/samus/shoulders_glow.png",
+		"glow": true,
+        "size": 1.5,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+            "type": "hud",
+            "texture": "dfheroes:textures/hud/samus_hud.png",
+			"conditions": [
+                {
+                    "type": "open_armor",
+                    "slot": "chest"
+                }
+            ]
+        }
+	]
+}

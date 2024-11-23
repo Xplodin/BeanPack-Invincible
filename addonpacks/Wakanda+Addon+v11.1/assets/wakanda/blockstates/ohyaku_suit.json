@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"head": [{
+			"textures": {
+				"layer0": "wakanda:items/ohyaku/helmet"
+			}
+		}],
+		
+		"chest": [{
+			"textures": {
+				"layer0": "wakanda:items/ohyaku/chestplate"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "wakanda:items/ohyaku/legs"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "wakanda:items/ohyaku/boots"
+			}
+		}]
+	}
+}

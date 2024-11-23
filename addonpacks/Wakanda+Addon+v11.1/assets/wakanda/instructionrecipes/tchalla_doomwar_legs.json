@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:tchalla_doomwar_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_brown",
+			"amount": 4
+		},
+		{
+		    "item": "lucraftcore:tri_polymer_black",
+		    "amount": 2
+		}
+	]
+
+}

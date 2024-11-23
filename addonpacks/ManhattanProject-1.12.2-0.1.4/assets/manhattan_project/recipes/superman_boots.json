@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:superman",
+
+  "result": {
+    "item": "manhattan_project:superman_boots"
+  },
+
+  "original": "heroesexpansion:superman_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLUE"
+    },
+    {
+      "item": "lucraftcore:tri_polymer_yellow"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:superman_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

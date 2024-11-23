@@ -1,0 +1,97 @@
+{
+	"name": {
+		"text": "Thanos (MCU)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [7, 8, 9, 7],
+		"enchantibility": 15,
+		"toughness": 2,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+
+	"description": {
+		"text": "MCU"
+	},
+		
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 6,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thanos's Chestplate"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thanos_mcu/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thanos_state"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thanos's Chestplate"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thanos_mcu/chestplate.png",
+				"normal_smallarms": "dfheroes:textures/suits_mcu/thanos/chestplate.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thanos_state"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thanos's Leggings"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thanos_mcu/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thanos_state"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Thanos's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/thanos_mcu/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:thanos_state"
+			}
+		}
+	}
+}

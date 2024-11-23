@@ -1,0 +1,66 @@
+{
+	"name": {
+		"text": "Storm"
+	},
+	
+	"armor_material": {
+		"durability": 70,
+		"damage_reduction_amounts": [5, 5, 6, 3],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+ "description": {
+        "text": "Anime"
+    },
+
+	"armor_parts": {
+	
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Storm's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/storm_anime/storm_anime_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/storm_anime/storm_anime_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:storm_anime"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Storm's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/storm_anime/storm_anime_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:storm_anime"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Storm's Boobs"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/storm_anime/storm_anime_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:storm_anime"
+			}
+		}
+	}
+}

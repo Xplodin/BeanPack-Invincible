@@ -1,0 +1,108 @@
+{
+	"name": {
+		"text": "Star-Lord (Vol. 2)"
+	},
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 15,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "marvel",
+	"description": {
+		"text": "Vol. 2"
+	},
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		{
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 2,
+			"rotate_arms": false
+	    }
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"text": "Star-Lord's Helmet"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/star_lord/helmet.png",
+				"normal_open": "dfheroes:textures/suits/star_lord/helmet_open.png",
+				"glow": "dfheroes:textures/suits/star_lord/helmet_glow.png",
+				"glow_open": "dfheroes:textures/suits/star_lord/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:star_lord_suit"
+			}
+		},
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Star-Lord's Jacket"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/star_lord/chestplate.png",
+				"normal_open": "dfheroes:textures/suits/star_lord/chestplate_open.png",
+				"normal_smallarms": "dfheroes:textures/suits/star_lord/chestplate.png",
+				"normal_smallarms_open": "dfheroes:textures/suits/star_lord/chestplate_open.png"
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:star_lord_suit"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Star-Lord's Pants"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/star_lord/legs.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:star_lord_suit"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"text": "Star-Lord's Boots"
+			},
+			"textures": {
+				"normal": "dfheroes:textures/suits/star_lord/boots.png"
+
+			},
+			"item_texture": {
+				"blockstate": "dfheroes:star_lord_suit"
+			}
+		}
+	}
+}

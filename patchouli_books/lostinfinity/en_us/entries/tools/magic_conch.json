@@ -1,0 +1,13 @@
+{
+  "name": "Magic Conch",
+  "icon": "lostinfinity:magic_conch",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:magic_conch",
+      "title": "Magic Conch",
+      "text": "Used to teleport the player to the Shadow Sea."
+    }
+    ]
+}

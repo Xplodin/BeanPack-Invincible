@@ -1,0 +1,80 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.clear"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.clear.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 8,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.clear.head"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:clear_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.clear.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/clear/clear.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:clear_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.clear.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:clear_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.clear.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:clear_suit"
+			}
+		}
+	}
+}

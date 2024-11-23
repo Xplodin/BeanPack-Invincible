@@ -1,0 +1,15 @@
+{
+	"name": "wolf",
+	"collision_box": [ 1, 0.75 ],
+	"speed": 4,	
+	"damage": 12,
+	"effect": {
+		"type": "pushback"
+	},
+	"render_info": {
+		"model_name": "wakanda:wolf_projectile",
+		"translate": [ 0.0, 1.45, 0.0 ],
+		"rotate": [ 180, -90, 0 ],
+		"opacity": 0.75
+	}
+}

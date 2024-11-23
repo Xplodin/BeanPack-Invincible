@@ -1,0 +1,19 @@
+{
+  "name": "Fossil Combiner",
+  "icon": "lostinfinity:fossil_combiner",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:fossil_combiner",
+      "title": "Fossil Combiner",
+      "text": "The Fossil Combiner is used to combine fossil fragments. Recipes can be found in JEI."
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:fossil_finder",
+      "title": "Fossil Finder",
+      "text": "Used in the Shadow Sea to discover Fossil pieces."
+    }
+    ]
+}

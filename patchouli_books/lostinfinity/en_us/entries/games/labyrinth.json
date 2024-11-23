@@ -1,0 +1,85 @@
+{
+  "name": "Labyrinth Games",
+  "icon": "lostinfinity:lab_game_blue",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:lab_game_blue",
+    "title": "Blue Labyrinth Game",
+    "text": "The Tier 1 Labyrinth Game. Two minutes. Kill the Aspect on the floor above."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviantstring",
+    "title": "Deviant String",
+    "text": "An Ingenuity Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:perfectpearl",
+    "title": "Perfect Pearl",
+    "text": "A Duality Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviantgunpowder",
+    "title": "Deviant Gunpowder",
+    "text": "A Corruption Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviantbearhide",
+    "title": "Deviant Bear Hide",
+    "text": "An Aspiration Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:reflectiveshard",
+    "title": "Reflective Shard",
+    "text": "A Misdirection Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviantghasttear",
+    "title": "Deviant Ghast Tear",
+    "text": "A Vengence Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:lab_game_yellow",
+    "title": "Yellow Labyrinth Game",
+    "text": "The Tier 2 Labyrinth Game. Two minutes. Kill the Aspect on the floor above."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviant_blazerod",
+    "title": "Deviant Blaze Rod",
+    "text": "A Dread Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviant_snowball",
+    "title": "Deviant Snowball",
+    "text": "An Anxiety Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:lab_game_purple",
+    "title": "Purple Labyrinth Game",
+    "text": "The Tier 3 Labyrinth Game. Two minutes. Kill the Aspect on the floor above."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviant_flesh",
+    "title": "Deviant Flesh",
+    "text": "A Imposition Map is given for succesfully completing the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:deviant_mushroom",
+    "title": "Deviant Mushroom",
+    "text": "A Retrospection Map is given for succesfully completing the game."
+  }
+  ]
+}

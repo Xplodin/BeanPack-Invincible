@@ -1,0 +1,18 @@
+Update 9.0 Changelog - Misc Update
+--------------------------------------------------------------------
+*Fixed update for newest Lucraft mods
+*Some superpowers now require leveling for abilities
+*Changed Man Ape superpower name to Man-Ape
+*Changed Super Skrull superpower name to Man-Ape
+*Changed Djalia Griot superpower name to Djalia Enhancements
+*Name change now gets disabled when you open suit helmets
+*Re-did Black Panther Vol 5, and TMDMA Shuri
+*Buffed Black Panther' superpower speed from 0.2 to 0.3
+*Changed MCU Shuri's energy blast to the new photon blast 
+-
++Added Sonic Screech to Klaw's Sonic Disruptor (Fifth-World ability)
++Added Photon Blast to Iron Man Model 21, Shuri (MCU), Baron Macabre's Garb,
+Klaw's power, Asha's power, and Black Panther KoTP suit.
++Added HUD to Black Panther's Space Suit, Iron Man Model 21's suit, Wakandan Army Outfit,
+and Queen Divine Justice's glasses.
++Added Black Panther (Anime Version)

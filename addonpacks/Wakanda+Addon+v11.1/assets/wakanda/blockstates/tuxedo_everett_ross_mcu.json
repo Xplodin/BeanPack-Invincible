@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"chest": [{
+			"textures": {
+				"layer0": "wakanda:items/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_jacket"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "wakanda:items/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_pants"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "wakanda:items/tuxedo_everett_ross_mcu/tuxedo_everett_ross_mcu_shoes"
+			}
+		}]
+	}
+}

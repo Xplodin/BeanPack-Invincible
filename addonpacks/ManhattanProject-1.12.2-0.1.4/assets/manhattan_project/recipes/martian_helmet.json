@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "manhattan_project:martian_skull_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " 4 ",
+    " 1 ",
+    " 2 "
+  ],
+  "key": {
+    	"1": {
+      "item": "minecraft:skull",
+	"data": 0
+    },
+	"2": {
+      "item": "heroesexpansion:kryptonian_fossil"
+    },
+    	"4": {
+      "item": "minecraft:sand",
+	"data": 1
+    }
+	
+  }
+}

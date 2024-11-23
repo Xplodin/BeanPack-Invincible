@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "dfheroes:tier4_mark_50_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " 2 ",
+    "212",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "item": "dfheroesexpansion:arcreactor2"
+    },
+	"2": {
+      "item": "dfheroesexpansion:naniteblock"
+    }
+  },
+  "conditions": [
+    {
+      "item": "dfheroesexpansion:arcreactor2",
+      "type": "minecraft:item_exists"
+    },
+	{
+      "item": "dfheroesexpansion:naniteblock",
+      "type": "minecraft:item_exists"
+    }
+  ]
+} 

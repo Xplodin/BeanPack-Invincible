@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "manhattan_project:utopian",
+
+  "result": {
+    "item": "manhattan_project:utopian_boots"
+  },
+
+  "original": "heroesexpansion:superman_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEWHITE"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "manhattan_project:utopian_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

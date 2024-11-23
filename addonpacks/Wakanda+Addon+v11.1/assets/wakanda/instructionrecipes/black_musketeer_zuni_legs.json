@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "wakanda:black_musketeer_zuni_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 2
+		},
+		{
+			"item":"lucraftcore:tri_polymer_yellow",
+			"amount":3
+		}
+	]
+
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Rainfall Collector",
+  "icon": "lostinfinity:rainfall_collector",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:rainfall_collector",
+      "title": "Rainfall Collector",
+      "text": "Used to catch Raindrops created by the Rainfall Creator."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:recraincollector"
+    }
+    ]
+}

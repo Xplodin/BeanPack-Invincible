@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "378f19b9",
+		type: "forge_energy",
+		value: 100000000L
+	}],
+	rewards: [{
+		uid: "c756591b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	}]
+}

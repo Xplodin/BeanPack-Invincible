@@ -1,0 +1,104 @@
+{
+	"name": {
+		"text": "Man Ape"
+	},
+	
+	"armor_material": {
+		"durability": 70,
+		"damage_reduction_amounts": [2, 3, 3, 2],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",
+	
+    "description": {
+        "text": "Classic"
+    },
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Man Ape"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},					
+			"amount": 10,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Man Ape's Head"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/man_ape_classic/man_ape_classic_helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:man_ape_classic"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Man Ape's Torso"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/man_ape_classic/man_ape_classic_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/man_ape_classic/man_ape_classic_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:man_ape_classic"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Man Ape's Legs"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/man_ape_classic/man_ape_classic_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:man_ape_classic"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Man Ape's Feet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/man_ape_classic/man_ape_classic_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:man_ape_classic"
+			}
+		}
+	}
+}

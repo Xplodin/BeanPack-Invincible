@@ -1,0 +1,17 @@
+{
+  "name": "Honey Jar",
+  "icon": "lostinfinity:honey_jar",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:honey_jar_empty",
+      "title": "Honey Jar [Empty]",
+      "text": "Used to catch honey thrown by Bees. Can be smelted into Amber."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:rechoneyjar"
+    }
+    ]
+}

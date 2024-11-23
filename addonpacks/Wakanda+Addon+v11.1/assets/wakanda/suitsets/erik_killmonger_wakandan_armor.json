@@ -1,0 +1,141 @@
+{
+	"name": {
+		"text": "Erik Killmonger"
+	},
+	
+	"armor_material": {
+		"durability": 125,
+		"damage_reduction_amounts": [6, 7, 8, 6],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "wakanda",
+
+	"description": {
+		"text": "Wakandan Armor"
+	},
+	
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Erik Killmonger"
+            }
+        }    
+    ],
+	
+	"abilities": {
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 15,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},				
+			"amount": 0.3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+        },
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}		
+		},
+		"potion_punch": {
+            "ability": "lucraftcore:potion_punch",
+            "cooldown": 300,
+            "show_in_bar": true,		
+            "title": {"text":"Potion Spikes"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/potion_punch.png"},	
+            "bar_color": "lime",				
+		    "potion": "minecraft:poison",
+            "amplifier": 1,
+            "duration": 80
+		},
+		"energy_blast": {
+		    "ability": "lucraftcore:energy_blast",
+			"cooldown": 0,
+            "show_in_bar": true,		
+            "title": {"text":"Wrist-Mounted Blasters"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/energy_blast_yellow.png"},	
+            "bar_color": "yellow",			
+            "damage": 8,
+            "color": [230, 230, 110]
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Erik Killmonger's Helmet"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_wakandan_armor/erik_killmonger_wakandan_armor_mask.png",
+				"normal_open": "wakanda:textures/armor/erik_killmonger_wakandan_armor/erik_killmonger_wakandan_armor_mask_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_wakandan_armor"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_wakandan_armor/erik_killmonger_wakandan_armor_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/erik_killmonger_wakandan_armor/erik_killmonger_wakandan_armor_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_wakandan_armor"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Erik Killmonger's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_wakandan_armor/erik_killmonger_wakandan_armor_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_wakandan_armor"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_wakandan_armor/erik_killmonger_wakandan_armor_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_wakandan_armor"
+			}
+		}
+	}
+}

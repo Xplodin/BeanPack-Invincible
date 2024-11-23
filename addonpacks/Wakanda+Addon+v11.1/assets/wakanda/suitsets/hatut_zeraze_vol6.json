@@ -1,0 +1,151 @@
+{
+	"name": {
+		"text": "Hatut Zeraze"
+	},
+	
+	"armor_material": {
+		"durability": 150,
+		"damage_reduction_amounts": [2, 2, 2, 1],
+		"enchantibility": 10,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+	
+    "creative_tab": "wakanda",
+	
+ "description": {
+		"text": "Vol. 6"
+    },
+	
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},					
+			"amount": 2.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 0.001,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},			
+			"amount": 2,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 100,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},			
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"vibranium_microweave_mesh": {
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": false,				
+            "title": {"text":"Vibranium Microweave Mesh"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},		
+            "bar_color": "white",			
+            "max_energy": 0,
+            "color": [0, 0, 0]			
+		},
+		"cloaking": {
+			"ability": "lucraftcore:invisibility",
+			"cooldown": 1000,		
+            "show_in_bar": true,	
+            "title": {"text":"Cloaking"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/invisibility.png"},
+            "bar_color": "white"			
+		}
+	},
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": true,
+			"glow": true,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Hatut Zeraze' Mask"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_mask.png",
+				"normal_open": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_mask_off.png",
+                "glow": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_mask_glow.png",
+		        "glow_open": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_mask_glow_off.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:hatut_zeraze_vol6"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Hatut Zeraze' Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:hatut_zeraze_vol6"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Hatut Zeraze' Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:hatut_zeraze_vol6"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Hatut Zeraze' Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/hatut_zeraze_vol6/hatut_zeraze_vol6_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:hatut_zeraze_vol6"
+			}
+		}
+	}
+}

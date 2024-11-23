@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "6b4dd587",
+		type: "botania_mana",
+		value: 5000000L
+	}],
+	rewards: [{
+		uid: "adc3cf68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	}]
+}

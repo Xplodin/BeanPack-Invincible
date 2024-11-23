@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "dfheroes:tier3_mark_3_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "313",
+    "232",
+    "333"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    },
+	"2": {
+      "item": "lucraftcore:advanced_circuit"
+    },
+	"3": {
+      "item": "lucraftcore:plate_gold"
+    }
+  }
+} 

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "dfheroes:tier5_superman_black_dceu_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "21 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "heroesexpansion:superman_legs"
+    },
+	 "2": {
+      "item": "minecraft:dye",
+	  "data": 1
+    }
+  }
+} 

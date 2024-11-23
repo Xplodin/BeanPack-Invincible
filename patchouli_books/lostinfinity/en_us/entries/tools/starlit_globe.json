@@ -1,0 +1,13 @@
+{
+  "name": "Starlit Globe",
+  "icon": "lostinfinity:starlitglobe",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:starlitglobe",
+      "title": "Starlit Globe",
+      "text": "Teleports the user to the Cartographer's Labyrinth."
+    }
+    ]
+}

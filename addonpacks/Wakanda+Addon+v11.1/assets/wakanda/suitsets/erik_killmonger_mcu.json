@@ -1,0 +1,77 @@
+{
+	"name": {
+		"text": "Erik Killmonger"
+	},
+	
+	"armor_material": {
+		"durability": 40,
+		"damage_reduction_amounts": [4, 5, 6, 3],
+		"enchantibility": 10,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+    "creative_tab": "wakanda",	
+	
+ "description": {
+        "text": "MCU"
+    },
+
+    "effects": [
+        {
+            "type": "name_change",
+            "name": {
+                "text": "Erik Killmonger"
+            }
+        }    
+    ],
+	
+	"armor_parts": {
+	
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Chestpiece"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_mcu/erik_killmonger_mcu_chestpiece.png",
+				"normal_smallarms": "wakanda:textures/armor/erik_killmonger_mcu/erik_killmonger_mcu_chestpiece_small.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_mcu"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Erik Killmonger's Leggings"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_mcu/erik_killmonger_mcu_leggings.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_mcu"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Erik Killmonger's Boots"
+			},
+			"textures": {
+				"normal": "wakanda:textures/armor/erik_killmonger_mcu/erik_killmonger_mcu_boots.png"
+			},
+			"item_texture": {
+				"blockstate": "wakanda:erik_killmonger_mcu"
+			}
+		}
+	}
+}

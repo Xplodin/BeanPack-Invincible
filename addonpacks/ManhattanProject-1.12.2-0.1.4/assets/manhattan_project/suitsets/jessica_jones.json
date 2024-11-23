@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.jessica_jones"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.jessica_jones.desc"
+	},
+	
+	"creative_tab": "manhattan_project",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [1, 4, 5, 1],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.jessica_jones.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/jessica_jones/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/jessica_jones/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:jessica_jones_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.jessica_jones.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/jessica_jones/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:jessica_jones_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.jessica_jones.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/jessica_jones/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:jessica_jones_suit"
+			}
+		}
+	}
+}

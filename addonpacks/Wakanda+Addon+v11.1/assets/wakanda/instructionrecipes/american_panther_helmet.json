@@ -1,0 +1,21 @@
+{
+	"output": {
+		"item": "wakanda:american_panther_helmet"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 4
+		},
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 2
+		},
+		{
+			"item": "lucraftcore:tri_polymer_white",
+			"amount": 1
+		}
+	]
+
+}

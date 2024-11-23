@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"head": [{
+			"textures": {
+				"layer0": "wakanda:items/aim/aim_helmet"
+			}
+		}],
+		
+		"chest": [{
+			"textures": {
+				"layer0": "wakanda:items/aim/aim_chestpiece"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "wakanda:items/aim/aim_leggings"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "wakanda:items/aim/aim_boots"
+			}
+		}]
+	}
+}

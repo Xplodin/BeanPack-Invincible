@@ -1,0 +1,17 @@
+{
+  "name": "Trial of the Shulker",
+  "icon": "lostinfinity:trialshulker",
+  "category": "patchouli:trials_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:trialshulker",
+    "title": "Trial of the Shulker",
+    "text": "Teleports the player to the Celestial Void to begin the Trial of the Shulker."
+  },
+  {
+    "type": "crafting",
+    "recipe": "lostinfinity:rectrialshulker"
+  }
+  ]
+}

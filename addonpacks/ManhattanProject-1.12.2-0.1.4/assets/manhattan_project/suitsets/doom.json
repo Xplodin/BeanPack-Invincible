@@ -1,0 +1,116 @@
+{
+	"name": {
+		"translate": "manhattan_project.suitset.doom"
+	},
+	
+	"description": {
+		"translate": "manhattan_project.suitset.doom.desc"
+	},
+	
+	"creative_tab": "magic",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 0,
+		"toughness": 3.0,
+		"sound": "item.armor.equip_iron"
+	},
+	
+	"effects": [
+		{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			}
+		}
+	],
+
+	"abilities": {
+		"flight":{
+			"ability": "lucraftcore:flight",
+			"speed": 0.65,
+			"sprint_speed": 5,
+			"cooldown": 700,
+			"rotate_arms": false
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1,
+			"operation": 0
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 55,
+			"operation": 0
+		},
+		"blast": {
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 40,
+			"damage": 7,
+			"color": [0, 255, 0]
+		}
+		
+	},
+
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.doom.head"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/doom/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:doom_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.doom.chestplate"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/doom/chestplate.png",
+				"normal_smallarms": "manhattan_project:textures/models/armor/doom/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:doom_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.doom.legs"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/doom/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:doom_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "manhattan_project.suitset.doom.boots"
+			},
+			"textures": {
+				"normal": "manhattan_project:textures/models/armor/doom/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "manhattan_project:doom_suit"
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "manhattan_project:fate_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "242",
+    "313",
+    "252"
+  ],
+  "key": {
+    	"1": {
+      "item": "minecraft:totem_of_undying"
+    },
+    	"3": {
+      "item": "lucraftcore:plate_gold"
+    },
+	"2": {
+      "item": "lucraftcore:plate_uru"
+    },
+    	"4": {
+      "item": "mowziesmobs:barako_mask"
+    },
+	"5": {
+      "item": "lucraftcore:block_vibranium"
+    }
+	
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Combustion Engine",
+  "icon": "lostinfinity:combustion_engine",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:combustion_engine",
+      "title": "Combustion Engine",
+      "text": "Used to power the Gearbox. Feed with Spark Plugs in order for it to provide power."
+    },
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:gearbox",
+      "title": "Gearbox",
+      "text": "The chargable box that can transfer energy to other blocks."
+    }
+    ]
+}

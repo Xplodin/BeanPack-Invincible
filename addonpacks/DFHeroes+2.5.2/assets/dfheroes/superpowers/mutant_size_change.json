@@ -1,0 +1,54 @@
+{
+    "name" : {
+        "text": "Size Manipulation"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "dfheroes:textures/icons/wip_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 14713,
+
+    "abilities": [
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:stength",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"	
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495",
+			"required_ability": "size_change"			
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"size": 1.5,
+			"size_changer": "lucraftcore:default"
+		}
+    ]
+	
+}

@@ -1,0 +1,118 @@
+{
+	"name" : {
+		"text": "King of The Dead"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "wakanda:textures/icons/power_icons/king_of_the_dead_icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 9843380,
+	
+	"abilities": {
+		"health": {	
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},					
+			"amount": 10,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},			
+			"frequency": 100,
+			"amount": 0.5		
+		},
+		"strength": {	
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},				
+			"amount": 6.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"punch": {
+			"ability": "lucraftcore:punch",
+            "show_in_bar": false,		
+            "title": {"text":"Punch"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/punch.png"},				
+			"amount": 6.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Sprint Speed"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},				
+			"amount": 0.3,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},	
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},				
+			"amount": 12,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},	
+			"amount": 24,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},		
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"precision": {
+			"ability": "heroesexpansion:precision",
+            "show_in_bar": false,		
+            "title": {"text":"Precision"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/precision.png"}	
+		},			
+		"night_vision": {
+			"ability": "lucraftcore:command_loop",
+            "show_in_bar": false,				
+			"title": {"text":"Night Vision"},
+			"commands": ["/effect @s minecraft:night_vision 1 0 true"],
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/night_vision.png"}			
+		},			
+		"soul_sense": {	
+            "ability": "heroesexpansion:x_ray",
+			"cooldown": 0,
+            "show_in_bar": true,	
+            "title": {"text":"Soul Sense"},	
+            "bar_color": "purple",					
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/soul_sense.png"}
+		}
+	}
+}

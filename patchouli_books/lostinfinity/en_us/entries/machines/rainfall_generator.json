@@ -1,0 +1,13 @@
+{
+  "name": "Rainfall Generator",
+  "icon": "lostinfinity:rainfall_generator",
+  "category": "patchouli:machines_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:rainfall_generator",
+      "title": "Rainfall Generator",
+      "text": "The Rainfall Generator uses a Bag of Magic Crystals to generate Rain Drops that can be collected in a Rain Water Collector. Recipes can be found in JEI."
+    }
+    ]
+}

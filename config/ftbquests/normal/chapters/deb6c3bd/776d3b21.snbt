@@ -1,0 +1,44 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Have fun! There is a craftable stone, but this is the cheaper alternative"
+	],
+	dependencies: [
+		"56a3b598",
+		"94844c99",
+		"1a1b88e5",
+		"12743ee3"
+	],
+	tasks: [{
+		uid: "5a2a93c7",
+		type: "checkmark",
+		title: "To get the philosopher stone:"
+	}],
+	rewards: [{
+		uid: "d4983a1b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}
+	},
+	{
+		uid: "73676dfb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {
+				display: {
+					Name: "backup stone"
+				}
+			}
+		}
+	}]
+}

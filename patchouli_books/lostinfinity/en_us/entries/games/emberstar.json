@@ -1,0 +1,31 @@
+{
+  "name": "Emberstar Game",
+  "icon": "lostinfinity:labyrinth_eternal_core",
+  "category": "patchouli:games_category",
+  "pages": [
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:labyrinth_eternal_core",
+    "title": "Emberstar Game",
+    "text": "The Emberstar Game is a memory game. The NPC serves as a buffer in between selections. All lights are used in a single round."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:unpowered_emberstar",
+    "title": "Unpowered Emberstar",
+    "text": "An Unpowered Emberstar is required to boot up the core and start the game."
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:electrified_quartz",
+    "title": "Electrified Quartz",
+    "text": "Electrified Quartz is used to charge the blocks you are selecting, consuming it in the process. Bring plenty!"
+  },
+  {
+    "type": "spotlight",
+    "item": "lostinfinity:eternal_emberstar_generator",
+    "title": "Eternal Emberstar Generator",
+    "text": "An Eternal Emberstar Generator is given for succesfully completing the game."
+  }
+  ]
+}

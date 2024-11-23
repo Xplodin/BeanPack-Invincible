@@ -1,0 +1,17 @@
+{
+  "name": "Celestial Headguard",
+  "icon": "lostinfinity:celestialheadguard",
+  "category": "patchouli:tools_category",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "lostinfinity:celestialheadguard",
+      "title": "Celestial Headguard",
+      "text": "Provides the wearer the ability to survive in the Celestial Void."
+    },
+    {
+      "type": "crafting",
+      "recipe": "lostinfinity:reccelestialheadguard"
+    }
+    ]
+}
