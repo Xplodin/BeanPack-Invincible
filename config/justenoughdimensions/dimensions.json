@@ -1,0 +1,68 @@
+{
+	"dimensions": [
+		{
+			"dim": 2151,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2150,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2157,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2156,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2155,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2154,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2153,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		},
+		{
+			"dim": 2152,
+			"worldinfo": {
+				"GameRules": {
+                    "keepInventory": "true"
+                }
+			}
+		}
+	]
+}

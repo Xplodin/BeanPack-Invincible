@@ -1,0 +1,21 @@
+[
+    {
+        "mode": "ADD",
+        "result": "infinity:power_stone",
+        "catalyst": "avaritia:block_resource,1,1",
+        "energy": 214748364700,
+        "tier": 3,
+        "ingredients": [
+            "extrautils2:ingredients,1,16",
+            "heroesexpansion:chitauri_energy_core",
+            "draconicevolution:reactor_core",
+            "draconicadditions:chaotic_staff_of_power",
+            "draconicevolution:reactor_core",
+            "minecraft:bedrock",
+            "erebus:wand_of_animation",
+            "draconicadditions:chaos_crystal_stable",
+            "draconicadditions:chaos_heart",
+            "morebees:combwither"
+        ]
+    } 
+]

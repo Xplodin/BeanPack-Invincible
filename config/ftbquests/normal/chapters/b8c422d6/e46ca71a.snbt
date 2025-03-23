@@ -1,0 +1,36 @@
+{
+	title: "Getting plastic",
+	x: 0.0d,
+	y: -4.0d,
+	description: "Acacia is the best log!",
+	text: [
+		"RUBBER!"
+	],
+	tasks: [{
+		uid: "88466092",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "158dbff6",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "fea03a9d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "20693355",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

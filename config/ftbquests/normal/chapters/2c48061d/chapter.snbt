@@ -1,0 +1,12 @@
+{
+	title: "Super Powers",
+	icon: {
+		id: "lostinfinity:rampage_injection",
+		tag: {
+			lastUse: 0L
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

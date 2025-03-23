@@ -1,0 +1,25 @@
+{
+  "item_block": {
+    "name": "§2§lBean Block",
+    "tooltip": "BEAAANS",
+    "type": "additions:block_simple"
+  },
+  "name": "§2§lBean Block",
+  "material": "minecraft:cactus",
+  "place_sound": "minecraft:entity.slime.squish",
+  "break_sound": "minecraft:entity.slime.squish",
+  "step_sound": "minecraft:entity.slime.squish",
+  "fall_sound": "minecraft:entity.slime.squish",
+  "map_color": "minecraft:brown_stained_clay",
+  "hardness": 2.0,
+  "resistance": 40.0,
+  "harvest_tool": "shears",
+  "bookshelf_strength": 5,
+  "beacon_color_multiplier": {
+    "red": 0.64,
+    "green": 0.39,
+    "blue": 0.0
+  },
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

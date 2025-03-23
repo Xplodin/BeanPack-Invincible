@@ -1,0 +1,43 @@
+{
+	title: "Infused Infinity",
+	x: 2.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6b77e4c2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2e5a1cea",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "insanecraft:infused_infinity"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "b456f13e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9e816b79",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "ac34f1bf",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "3492422d",
+		type: "item",
+		item: "lucraftcore:injection"
+	}]
+}

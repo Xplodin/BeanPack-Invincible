@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "29b3edf1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "3a88399d",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "17da45aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "17d08cf7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"TIP: Quartz Ore can be silktouched and still have celestial quartz obtainable.",
+		"This applies to every celestial ore variant."
+	],
+	optional: true,
+	tasks: [{
+		uid: "3caf4b1b",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_ore"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "cf396834",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

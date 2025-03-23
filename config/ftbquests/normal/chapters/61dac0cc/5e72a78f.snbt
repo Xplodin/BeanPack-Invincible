@@ -1,0 +1,35 @@
+{
+	x: 0.4464285714285765d,
+	y: -1.25d,
+	text: [
+		"Power stone, as in the name, basically unlimited power, and attack damage.",
+		"Also one of the most powerful."
+	],
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "5b3640c9",
+		type: "item",
+		items: [{
+			item: "infinity:power_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2fc66dc",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "8fa47042",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d8c14008",
+		type: "loot",
+		table: 2
+	}]
+}

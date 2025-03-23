@@ -1,0 +1,34 @@
+{
+	x: 2.0535714285714306d,
+	y: 0.2142857142857153d,
+	text: [
+		"Can change time forward, along with freezing the current time."
+	],
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "22014ba3",
+		type: "item",
+		items: [{
+			item: "infinity:time_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8570d8d4",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "4b0204c1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "2627950f",
+		type: "loot",
+		table: 2
+	}]
+}
