@@ -11,8 +11,8 @@
 		items: [{
 			ForgeCaps: {
 				Parent: {
-					data: "cobblestone",
-					id: "ore"
+					id: "ore",
+					data: "cobblestone"
 				}
 			},
 			id: "itemfilters:filter",

@@ -11,15 +11,15 @@
 		uid: "a16e18a3",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "artifacts:everlasting_cooked_beef"
+			id: "botania:manaring",
+			tag: {
+				mana: 500000
+			}
 		}
 	},
 	{
 		uid: "12eebdc0",
 		type: "ftbmoney:money",
-		ftb_money: 10000L
+		ftb_money: 5000L
 	}]
 }

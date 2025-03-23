@@ -6,7 +6,6 @@ JEI.removeAndHide(<aoa3:amethyst_sword>);
 JEI.removeAndHide(<aoa3:amethyst_pickaxe>);
 JEI.removeAndHide(<aoa3:amethyst_shovel>);
 JEI.removeAndHide(<aoa3:amethyst_axe>);
-JEI.removeAndHide(<bewitchment:block_of_amethyst>);
 JEI.removeAndHide(<biomesoplenty:gem_block:0>);
 JEI.removeAndHide(<mysticalworld:amethyst_block>);
 

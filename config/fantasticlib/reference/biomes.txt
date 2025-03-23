@@ -126,6 +126,26 @@ ancientspellcraft:pocket
 thaumcraft:magical_forest
 thaumcraft:eerie
 thaumcraft:eldritch
+twilightforest:twilight_lake
+twilightforest:twilight_forest
+twilightforest:dense_twilight_forest
+twilightforest:twilight_highlands
+twilightforest:mushroom_forest
+twilightforest:twilight_swamp
+twilightforest:twilight_stream
+twilightforest:snowy_forest
+twilightforest:twilight_glacier
+twilightforest:twilight_clearing
+twilightforest:oak_savannah
+twilightforest:firefly_forest
+twilightforest:deep_mushroom_forest
+twilightforest:dark_forest
+twilightforest:enchanted_forest
+twilightforest:fire_swamp
+twilightforest:dark_forest_center
+twilightforest:highlands_center
+twilightforest:thornlands
+twilightforest:spooky_forest
 appliedenergistics2:storage_biome
 aoa3:abyss
 aoa3:ancient_cavern
@@ -150,13 +170,6 @@ aoa3:runandor
 aoa3:shyrelands
 aoa3:vox_ponds
 iceandfire:glacier
-defiledlands:desert_defiled
-defiledlands:plains_defiled
-defiledlands:forest_tenebra
-defiledlands:forest_vilespine
-defiledlands:hills_defiled
-defiledlands:swamp_defiled
-defiledlands:ice_plains_defiled
 galacticraftcore:outer space
 galacticraftplanets:outer space 1
 galacticraftplanets:outer space 2
@@ -170,6 +183,14 @@ extraplanets:outer space 9
 extraplanets:outer space 10
 extraplanets:outer space 11
 extraplanets:outer space 12
+divinerpg:eden
+divinerpg:wildwood
+divinerpg:apalachia
+divinerpg:skythern
+divinerpg:mortum
+divinerpg:iceika
+divinerpg:arcana
+divinerpg:vethea
 erebus:underground_jungle
 erebus:volcanic_desert
 erebus:subterranean_savannah
@@ -189,12 +210,20 @@ lostinfinity:shadowsea
 lostinfinity:moltensea
 lostinfinity:infinitemurk
 mahoutsukai:realitymarble
+nether_api:betternether_netherbiome
+nether_api:betternether_netherbiomegraveldesert
+nether_api:betternether_netherbiomejungle
+nether_api:betternether_netherwartforest
+nether_api:betternether_nethergrasslands
+nether_api:betternether_nethermushroomforest
+nether_api:betternether_nethermushroomforestedge
+nether_api:betternether_netherwartforestedge
+nether_api:betternether_netherbonereef
+nether_api:betternether_netherpoorgrasslands
 rats:ratlantis
 thaumicaugmentation:emptiness
 thaumicaugmentation:tainted_lands
 thaumicaugmentation:emptiness_highlands
-trinity:nuclear_crater
-trinity:contaminated_ocean
 abyssalcraft:darklands
 abyssalcraft:darklands_forest
 abyssalcraft:darklands_plains
@@ -210,13 +239,4 @@ abyssalcraft:omothol
 abyssalcraft:dark_realm
 abyssalcraft:purged
 aether_legacy:aether_highlands
-thebetweenlands:patchy_islands
-thebetweenlands:swamplands
-thebetweenlands:deep_waters
-thebetweenlands:coarse_islands
-thebetweenlands:raised_isles
-thebetweenlands:sludge_plains
-thebetweenlands:marsh_0
-thebetweenlands:marsh_1
-thebetweenlands:swamplands_clearing
-thebetweenlands:sludge_plains_clearing
+ee:ash_wastelands

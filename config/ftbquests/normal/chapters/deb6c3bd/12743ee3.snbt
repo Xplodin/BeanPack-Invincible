@@ -1,10 +1,16 @@
 {
-	x: 1.5d,
+	title: "DONT THROW ME",
+	x: 3.0d,
 	y: 1.5d,
+	text: [
+		"Unless you want chaos"
+	],
 	tasks: [{
-		uid: "6b4dd587",
-		type: "botania_mana",
-		value: 5000000L
+		uid: "f881874d",
+		type: "item",
+		items: [{
+			item: "avaritia:endest_pearl"
+		}]
 	}],
 	rewards: [{
 		uid: "adc3cf68",
@@ -15,5 +21,10 @@
 				type: "beanbox_pro"
 			}
 		}
+	},
+	{
+		uid: "79d0de7f",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
 	}]
 }

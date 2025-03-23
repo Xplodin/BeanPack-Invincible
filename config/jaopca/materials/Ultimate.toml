@@ -1,4 +1,5 @@
 
+#Configurations for material Ultimate.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -10,4 +11,6 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "metallic"
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
 

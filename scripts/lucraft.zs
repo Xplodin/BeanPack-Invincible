@@ -4,7 +4,7 @@ import mods.jei.JEI;
 
 JEI.removeAndHide(<lucraftcore:dust_charcoal>);
 JEI.removeAndHide(<liquid:uru_fluid>);
-JEI.removeAndHide(<openblocks:tank>.withTag({tank: {FluidName: "uru_fluid", Amount: 16000}}));
+//JEI.removeAndHide(<openblocks:tank>.withTag({tank: {FluidName: "uru_fluid", Amount: 16000}}));
 
 recipes.replaceAllOccurences(<ore:stickWood>, <botania:rainbowrod>, <heroesexpansion:mjolnir>);
 recipes.replaceAllOccurences(<ore:stickWood>, <botania:rainbowrod>, <heroesexpansion:ultimate_mjolnir>);

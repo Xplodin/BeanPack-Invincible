@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+
 import mods.jei.JEI;
 
 val oreDictPlank = <ore:plankWood>;
@@ -118,13 +119,17 @@ recipes.addShapedMirrored("Ice_Bricks_GC", IceBrick,
    [[Ice,Ice,null],
     [Ice,Ice,null],
     [null,null,null]]);
-	
+
 mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:6>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier5_items:4>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:6>,<lucraftcore:ingot_titanium>,<lucraftcore:ingot_titanium>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:4>,<taiga:palladium_ingot>,<taiga:palladium_ingot>);
 
 recipes.addShaped("Tier4_Fins", T4R,
-   [[null, Titanium, null],
-    [<extraplanets:tier4_items:3>, Titanium, <extraplanets:tier4_items:3>],
-    [<extraplanets:tier4_items:3>, null, <extraplanets:tier4_items:3>]]);
+   [[null,Titanium,null],
+    [<extraplanets:tier4_items:3>,Titanium,<extraplanets:tier4_items:3>],
+    [<extraplanets:tier4_items:3>,null,<extraplanets:tier4_items:3>]]);
+	
+// Magnesium Ingot
+recipes.remove(<extraplanets:tier6_items:5>);
+recipes.addShaped(<extraplanets:tier6_items:5> * 3, [[<mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>], [<mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>],[<mysticalagriculture:magnesium_essence>, null, <mysticalagriculture:magnesium_essence>]]);

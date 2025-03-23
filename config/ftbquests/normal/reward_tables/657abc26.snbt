@@ -7,22 +7,9 @@
 		count: 3
 	},
 	{
-		item: "avaritia:resource 1 7"
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "dankstorage:dank_2"
-		}
-	},
-	{
-		item: "draconicevolution:generator"
-	},
-	{
 		item: "minecraft:experience_bottle",
-		count: 6
+		count: 6,
+		random_bonus: 10
 	},
 	{
 		xp: 500,
@@ -41,13 +28,10 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "liquidantimatter",
 				Amount: 1000,
+				FluidName: "liquidantimatter",
 				display: {
 					Name: "Bucket of 'FUCK YOU'"
 				}
@@ -69,9 +53,6 @@
 	{
 		ftb_money: 200L,
 		type: "ftbmoney:money"
-	},
-	{
-		item: "avaritia:cosmic_meatballs"
 	},
 	{
 		item: "harvestcraft:spagettiandmeatballsitem",
@@ -97,6 +78,25 @@
 	},
 	{
 		item: "harvestcraft:beansandriceitem"
+	},
+	{
+		xp_levels: 5,
+		type: "xp_levels"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "torchmaster:mega_torch"
+	},
+	{
+		item: "astralsorcery:blockcustomore"
 	}],
 	loot_crate: {
 		string_id: "beanbox",
@@ -104,8 +104,8 @@
 		color: 0,
 		glow: true,
 		drops: {
-			boss: 1,
 			passive: 0,
+			boss: 0,
 			monster: 0
 		}
 	}

@@ -1,11 +1,6 @@
 {
-	title: "BEANPACK: BEANIFIED",
-	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "contenttweaker:ultibean"
-	},
+	title: "BEANPACK: INVINCIBLE",
+	icon: "contenttweaker:ultibean",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

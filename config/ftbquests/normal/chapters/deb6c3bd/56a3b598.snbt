@@ -1,10 +1,15 @@
 {
-	x: -1.5d,
+	x: -3.0d,
 	y: 1.5d,
+	text: [
+		"Who wants Chowder?"
+	],
 	tasks: [{
-		uid: "378f19b9",
-		type: "forge_energy",
-		value: 100000000L
+		uid: "ce60ebf5",
+		type: "item",
+		items: [{
+			item: "avaritia:ultimate_stew"
+		}]
 	}],
 	rewards: [{
 		uid: "c756591b",
@@ -12,8 +17,13 @@
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "beanbox_pro"
+				type: "beanbox"
 			}
 		}
+	},
+	{
+		uid: "7c282083",
+		type: "ftbmoney:money",
+		ftb_money: 250L
 	}]
 }

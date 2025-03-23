@@ -9,14 +9,6 @@
 		item: "compactmachines3:machine 1 5"
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "dankstorage:dank_5"
-		}
-	},
-	{
 		ftb_money: 300L,
 		type: "ftbmoney:money"
 	},
@@ -26,10 +18,10 @@
 	},
 	{
 		item: "minecraft:golden_apple 1 1",
-		count: 3
+		random_bonus: 2
 	},
 	{
-		xp_levels: 12,
+		xp_levels: 20,
 		type: "xp_levels"
 	},
 	{
@@ -41,21 +33,7 @@
 		count: 4
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "ironchest:iron_shulker_box_purple",
-			Damage: 5s
-		}
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "cyclicmagic:ender_eye_orb"
-		}
+		item: "ironchest:iron_shulker_box_purple 1 5"
 	},
 	{
 		item: {
@@ -67,6 +45,31 @@
 	},
 	{
 		item: "minecraft:nether_star"
+	},
+	{
+		item: "ironchest:iron_chest 1 6"
+	},
+	{
+		item: {
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "dfheroes:tier4_god_of_hammers"
+			}
+		}
+	},
+	{
+		item: {
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "manhattan_project:power_of_shazam_1"
+			}
+		}
+	},
+	{
+		item: "lostinfinity:celestialiron"
+	},
+	{
+		item: "lostinfinity:celestialredstone"
 	}],
 	loot_crate: {
 		string_id: "beanbox_pro",
@@ -74,8 +77,8 @@
 		color: 16711680,
 		glow: true,
 		drops: {
-			boss: 0,
 			passive: 0,
+			boss: 0,
 			monster: 0
 		}
 	}

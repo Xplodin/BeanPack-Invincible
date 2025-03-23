@@ -14,16 +14,16 @@ import mods.actuallyadditions.Empowerer;
 import mods.jei.JEI;
 
 //Power Stone
-JEI.removeAndHide(<star-tech:power_stone>);
+//JEI.removeAndHide(<star-tech:power_stone>);
 
 //Time Stone
 BloodAltar.addRecipe(<infinity:time_stone>, <avaritia:block_resource:1>, 4, 100000000, 1000, 5000);
 
 //Soul Stone
-ExtremeCrafting.addShaped("sanebreak_soul_stone", <thermalfoundation:material:1028>, [ 
-[<bewitchment:juniper_broom>, <bewitchment:demon_heart>, <bewitchment:sigil_shrieking>, <psi:material:4>, <psi:material:4>, <psi:material:4>, <bewitchment:sigil_disorientation>, <bewitchment:demon_heart>, <bewitchment:dragons_blood_broom>],
-[<bewitchment:elder_broom>, <bewitchment:sigil_battle>, <bewitchment:sigil_cleansing>, <psi:material:4>, <botania:lokiring>, <psi:material:4>, <bewitchment:sigil_binding>, <bewitchment:sigil_luck>, <bewitchment:cypress_broom>],
-[<bewitchment:sigil_failure>, <bewitchment:sigil_mending>, <psi:material:4>, <psi:material:4>, <bewitchment:sigil_sentinel>, <psi:material:4>, <psi:material:4>, <bewitchment:sigil_ruin>, <bewitchment:sigil_purity>],
+ExtremeCrafting.addShaped("invincible_soul_stone", <thermalfoundation:material:1028>, [ 
+[<avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <psi:material:4>, <psi:material:4>, <psi:material:4>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>],
+[<avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <psi:material:4>, <botania:lokiring>, <psi:material:4>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>],
+[<avaritia:resource:6>, <avaritia:resource:6>, <psi:material:4>, <psi:material:4>, <botania:dice>, <psi:material:4>, <psi:material:4>, <avaritia:resource:6>, <avaritia:resource:6>],
 [<psi:material:4>, <psi:material:4>, <psi:material:4>, <psi:material:3>, <psi:material:3>, <psi:material:3>, <psi:material:4>, <psi:material:4>, <psi:material:4>],
 [<psi:material:4>, <botania:odinring>, <psi:material:3>, <psi:material:3>, <botania:kingkey>, <psi:material:3>, <psi:material:3>, <botania:thorring>, <psi:material:4>],
 [<psi:material:4>, <psi:material:4>, <psi:material:3>, <lost_aether:jeb_shield>, <avaritia:block_resource:1>, <aether_legacy:notch_hammer>, <psi:material:3>, <psi:material:4>, <psi:material:4>],
@@ -34,9 +34,9 @@ ExtremeCrafting.addShaped("sanebreak_soul_stone", <thermalfoundation:material:10
 ElvenTrade.addRecipe([<infinity:soul_stone>], [<thermalfoundation:material:1028>]);
 
 //Mind Stone
-Infusion.registerRecipe("sanebreak_mind_stone", "", <infinity:mind_stone>, 60, [<aspect:machina> * 100, <aspect:dreadia> * 100, <aspect:coralos> *100, <aspect:desiderium> *100, <aspect:cognitio> *100], 
-<avaritia:block_resource:1>, [<rootsclassic:stalicripe>, <aoa3:runic_sword>, <rootsclassic:infernal_bulb>, <aoa3:lunar_staff>, <aoa3:selyan_scythe>, <thaumcraft:primal_crusher>, 
-<aoa3:pluton_scythe>, <aoa3:ultimatum_staff>, <iceandfire:dragonsteel_fire_sword>, <aoa3:meteor_staff>, <iceandfire:dragonsteel_ice_sword>, <aoa3:gods_greatblade>, 
+Infusion.registerRecipe("invincible_mind_stone", "", <infinity:mind_stone>, 60, [<aspect:machina> * 100, <aspect:dreadia> * 100, <aspect:coralos> *100, <aspect:desiderium> *100, <aspect:cognitio> *100], 
+<avaritia:block_resource:1>, [<divinerpg:awakened_halite_leggings>, <aoa3:runic_sword>, <divinerpg:awakened_halite_helmet>, <aoa3:lunar_staff>, <aoa3:selyan_scythe>, <thaumcraft:primal_crusher>, 
+<aoa3:pluton_scythe>, <aoa3:ultimatum_staff>, <divinerpg:awakened_halite_boots>, <divinerpg:awakened_halite_chestplate>, <divinerpg:divine_shickaxe>, <aoa3:gods_greatblade>, 
 <aoa3:erebon_scythe>, <thaumcraft:crimson_blade>, <aoa3:luxon_scythe>, <aoa3:draco>]);
 
 //Space Stone
@@ -48,21 +48,21 @@ val EvorsioStar = <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {star
 val ArmaraStar = <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.armara"}});
 val AevitasStar = <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.aevitas"}});
 
-Altar.addTraitAltarRecipe("sanebreak_space_stone", <infinity:space_stone>, 5000, 6000, [
-<extraplanets:tier11_items:1>, <extraplanets:tier11_items:2>, <extraplanets:tier11_items:3>,<thebetweenlands:ancient_chestplate>, <avaritia:block_resource:1>, 
-<thebetweenlands:ancient_leggings>, DiscidiaStar, EvorsioStar, ArmaraStar, <extraplanets:mercury:2>, 
+Altar.addTraitAltarRecipe("invincible_space_stone", <infinity:space_stone>, 5000, 6000, [
+<extraplanets:tier11_items:1>, <extraplanets:tier11_items:2>, <extraplanets:tier11_items:3>,<mysticalagriculture:supremium_chestplate>, <avaritia:block_resource:1>, 
+<mysticalagriculture:supremium_leggings>, DiscidiaStar, EvorsioStar, ArmaraStar, <extraplanets:mercury:2>, 
 <extraplanets:jupiter:2>, <extraplanets:saturn:2>, <extraplanets:eris:2>, <galacticraftplanets:venus:2>, <galacticraftplanets:mars:9>,
 <extraplanets:tier11_items:0>, <extraplanets:tier11_items:4>, VicioStar, AevitasStar, <extraplanets:uranus:2>, 
-<extraplanets:pluto:2>, <minecraft:stone>, <thebetweenlands:ancient_helmet>, <thebetweenlands:ancient_boots>, <extraplanets:neptune:2>]);
+<extraplanets:pluto:2>, <minecraft:stone>, <mysticalagriculture:supremium_helmet>, <mysticalagriculture:supremium_boots>, <extraplanets:neptune:2>]);
 
 //Reality Stone
 JEI.removeAndHide(<speedsterheroes:reality_stone>);
 
-InfusionRitual.addRitual("sanebreak_reality_stone", 4, 53, 100000, true, <infinity:reality_stone>, <avaritia:block_resource:1>, 
-[<theaurorian:queenschipper>, <botania:gaiahead>, <xreliquary:void_tear>, <extraplanets:cake_blocks:7>, <bloodmagic:slate:4>, <heroesexpansion:chitauri_energy_core>, <extracells:storage.component:3>, <thaumcraft:causality_collapser>]);
+InfusionRitual.addRitual("invincible_reality_stone", 4, 53, 100000, true, <infinity:reality_stone>, <avaritia:block_resource:1>, 
+[<rats:rat_upgrade_god>, <botania:gaiahead>, <xreliquary:void_tear>, <extraplanets:cake_blocks:7>, <bloodmagic:slate:4>, <heroesexpansion:chitauri_energy_core>, <extracells:storage.component:3>, <thaumcraft:causality_collapser>]);
 
 //Gauntlet
-ExtremeCrafting.addShaped("sanebreak_fake_gauntlet", <wakanda:infinity_gauntlet_chest>, [ 
+ExtremeCrafting.addShaped("invincible_fake_gauntlet", <wakanda:infinity_gauntlet_chest>, [ 
 [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>],
 [<minecraft:hardened_clay>, <aoa3:blue_gemstones>, <minecraft:hardened_clay>, <aoa3:green_gemstones>, <minecraft:hardened_clay>, <aoa3:red_gemstones>, <minecraft:hardened_clay>, <aoa3:yellow_gemstones>, <minecraft:hardened_clay>],
 [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>],
@@ -73,17 +73,18 @@ ExtremeCrafting.addShaped("sanebreak_fake_gauntlet", <wakanda:infinity_gauntlet_
 [null, null, null, <minecraft:hardened_clay>, <minecraft:nether_star>, <minecraft:hardened_clay>, null, null, null],
 [null, null, null, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, null, null, null], ] );
 
-val AdamantFluid = <openblocks:tank>.withTag({tank: {FluidName: "adamant_fluid", Amount: 16000}});
+val AdamantFluid = <openblocks:tank>.withTag({tank: {FluidName: "adamant_fluid", Amount: 2000}});
 
 InductionSmelter.addRecipe(<lucraftcore:infinity_gauntlet_cast>, <wakanda:infinity_gauntlet_chest>, AdamantFluid, 1000000);
 
 Casting.addTableRecipe(<lucraftcore:infinity_gauntlet>, <lucraftcore:infinity_gauntlet_cast>, <fluid:infinity>, 25000, true, 10000);
 
-//CosmiRod
-recipes.addShapedMirrored("sanebreak_cosmirod", <star-tech:cosmi_rod>.withTag({Fist: 1 as byte}),
-  [[<avaritia:block_resource:1>,<avaritia:block_resource:1>,<avaritia:block_resource:1>],
-   [null,<botania:rainbowrod>,null],
-   [null,<tconstruct:tough_tool_rod>.withTag({Material: "infinity_avaritia_plustic"}),null]]);
+//Erebus
+recipes.remove(<erebus:wand_of_animation>);
+recipes.addShaped("invincible_cosmirod", <erebus:wand_of_animation>,
+  [[null,<avaritia:block_resource:1>,<erebus:materials:64>],
+   [null,<botania:rainbowrod>,<avaritia:block_resource:1>],
+   [<avaritia:block_resource:1>,null,null]]);
    
 //Infinity Injections
 <bloodmagic:alchemic_vial>.displayName = "Essence of Infinity";
@@ -112,6 +113,8 @@ Electrolyzer.addRecipe(<liquid:juice>*10000, PerfectedInjection, 100, PickledInj
 <ore:crystalMagic>.add(<ebwizardry:magic_crystal>);
 <ore:ingotPinkSlime>.add(<industrialforegoing:pink_slime_ingot>);
 
+JEI.removeAndHide(<reccomplex:inventory_generation_tag>);
+JEI.removeAndHide(<reccomplex:inventory_generation_single_tag>);
 JEI.removeAndHide(<avaritia:singularity:0>);
 JEI.removeAndHide(<avaritia:singularity:1>);
 JEI.removeAndHide(<avaritia:singularity:2>);
@@ -131,7 +134,7 @@ JEI.removeAndHide(<avaritia:singularity:14>);
 
 //Infinity Catalyst
 ExtremeCrafting.remove(<avaritia:resource:5>);
-ExtremeCrafting.addShaped("sanebreak_infinity_catalyst", <avaritia:resource:5>, [
+ExtremeCrafting.addShaped("invincible_infinity_catalyst", <avaritia:resource:5>, [
 [<singularities:singularity:0>, <singularities:singularity:1>, <singularities:singularity:2>, <singularities:singularity:3>, <singularities:singularity:4>, <singularities:singularity:5>, <singularities:singularity:6>, <singularities:singularity:7>, <singularities:singularity:8>], 
 [<singularities:singularity:9>, <singularities:singularity:10>, <singularities:singularity:11>, <singularities:singularity:12>, <singularities:singularity:13>, <singularities:singularity:14>, <singularities:singularity:15>, <singularities:singularity:16>, <singularities:singularity:17>],
 [<singularities:singularity:18>, <singularities:singularity:19>, <singularities:singularity:20>, <singularities:singularity:21>, <singularities:singularity:22>, <singularities:singularity:23>, <singularities:singularity:24>, <singularities:singularity:25>, <singularities:singularity:26>],
@@ -140,37 +143,33 @@ ExtremeCrafting.addShaped("sanebreak_infinity_catalyst", <avaritia:resource:5>, 
 [<singularities:singularity:45>, <singularities:singularity:46>, <singularities:singularity:47>, <singularities:singularity:48>, <singularities:singularity:49>, <singularities:singularity:50>, <singularities:singularity:51>, <singularities:singularity:52>, <singularities:singularity:53>],
 [<singularities:singularity:54>, <singularities:singularity:55>, <singularities:singularity:56>, <singularities:singularity:57>, <singularities:singularity:58>, <singularities:singularity:59>, <singularities:singularity:60>, <singularities:singularity:61>, <singularities:singularity:62>],
 [<singularities:singularity:63>, <singularities:singularity:64>, <singularities:singularity:65>, <singularities:singularity:66>, <singularities:singularity:67>, <singularities:singularity:68>, <singularities:singularity:69>, <singularities:singularity:70>, <singularities:singularity:71>],
-[<singularities:singularity:72>, <singularities:singularity:73>, <singularities:singularity:74>, <singularities:singularity:75>, <singularities:singularity:76>, <singularities:singularity:77>, <singularities:singularity:78>, <singularities:singularity:79>, <singularities:singularity:80>]]);
+[<singularities:singularity:72>, <singularities:singularity:73>, <singularities:singularity:74>]]);
 
 //Endest Pearl
 ExtremeCrafting.remove(<avaritia:endest_pearl>);
-ExtremeCrafting.addShaped("sanebreak_endest_pearl", <avaritia:endest_pearl>, [
+ExtremeCrafting.addShaped("invincible_endest_pearl", <avaritia:endest_pearl>, [
 [null, null, null, <minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>, null, null, null], 
-[null, <minecraft:end_stone>, <minecraft:end_stone>, <mysticalworld:pearl>, <midnight:dark_pearl>, <mysticalworld:pearl>, <minecraft:end_stone>, <minecraft:end_stone>, null],
+[null, <minecraft:end_stone>, <minecraft:end_stone>, <mysticalworld:pearl>, <minecraft:ender_pearl>, <mysticalworld:pearl>, <minecraft:end_stone>, <minecraft:end_stone>, null],
 [null, <minecraft:end_stone>, <cyclicmagic:ender_pearl_reuse>, <botania:manaresource:1>, <minecraft:ender_pearl>, <botania:manaresource:1>, <cyclicmagic:ender_pearl_reuse>, <minecraft:end_stone>, null],
 [<minecraft:end_stone>, <mysticalworld:pearl>, <botania:manaresource:1>, <cyclicmagic:ender_pearl_mounted>, <avaritia:resource:4>, <cyclicmagic:ender_pearl_mounted>, <botania:manaresource:1>, <mysticalworld:pearl>, <minecraft:end_stone>],
-[<minecraft:end_stone>, <midnight:dark_pearl>, <minecraft:ender_pearl>, <avaritia:resource:4>, <minecraft:nether_star>, <avaritia:resource:4>, <minecraft:ender_pearl>, <midnight:dark_pearl>, <minecraft:end_stone>],
+[<minecraft:end_stone>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <avaritia:resource:4>, <minecraft:nether_star>, <avaritia:resource:4>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:end_stone>],
 [<minecraft:end_stone>, <mysticalworld:pearl>, <botania:manaresource:1>, <cyclicmagic:ender_pearl_mounted>, <avaritia:resource:4>, <cyclicmagic:ender_pearl_mounted>, <botania:manaresource:1>, <mysticalworld:pearl>, <minecraft:end_stone>],
 [null, <minecraft:end_stone>, <cyclicmagic:ender_pearl_reuse>, <botania:manaresource:1>, <minecraft:ender_pearl>, <botania:manaresource:1>, <cyclicmagic:ender_pearl_reuse>, <minecraft:end_stone>, null],
-[null, <minecraft:end_stone>, <minecraft:end_stone>, <mysticalworld:pearl>, <midnight:dark_pearl>, <mysticalworld:pearl>, <minecraft:end_stone>, <minecraft:end_stone>, null],
+[null, <minecraft:end_stone>, <minecraft:end_stone>, <mysticalworld:pearl>, <minecraft:ender_pearl>, <mysticalworld:pearl>, <minecraft:end_stone>, <minecraft:end_stone>, null],
 [null, null, null, <minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>, null, null, null]]);
 
 //Ultimate Stew
 ExtremeCrafting.remove(<avaritia:ultimate_stew>);
-ExtremeCrafting.addShaped("sanebreak_ultimate_stew", <avaritia:ultimate_stew>, [
-[<avaritia:resource:2>, <minecraft:fish:0>, <minecraft:fish:1>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:cooked_fish:0>, <minecraft:cooked_fish:1>, <aoa3:raw_candlefish>, <aoa3:candlefish>], 
-[<aoa3:raw_crimson_skipper>, <aoa3:crimson_skipper>, <aoa3:raw_crimson_stripefish>, <aoa3:crimson_stripefish>, <aoa3:raw_dark_hatchetfish>, <aoa3:dark_hatchetfish>, <aoa3:raw_fingerfish>, <aoa3:fingerfish>, <aoa3:raw_golden_gullfish>],
-[<aoa3:golden_gullfish>, <aoa3:raw_ironback>, <aoa3:ironback>, <aoa3:raw_limefish>, <aoa3:limefish>, <aoa3:raw_pearl_stripefish>, <aoa3:pearl_stripefish>, <aoa3:raw_rainbowfish>, <aoa3:rainbowfish>],
-[<aoa3:raw_razorfish>, <aoa3:razorfish>, <aoa3:raw_rocketfish>, <aoa3:rocketfish>, <aoa3:raw_sailback>, <aoa3:sailback>, <aoa3:raw_sapphire_strider>, <aoa3:sapphire_strider>, <aoa3:raw_turquoise_stripefish>],
-[<aoa3:turquoise_stripefish>, <aoa3:raw_violet_skipper>, <aoa3:violet_skipper>, <midnight:deceitful_snapper>, <mysticalworld:raw_squid>, <mysticalworld:cooked_squid>, <mysticalworld:epic_squid>, <harvestcraft:calamarirawitem>, <harvestcraft:calamaricookeditem>],
+ExtremeCrafting.addShaped("invincible_ultimate_stew", <avaritia:ultimate_stew>, [
+[<avaritia:resource:2>, <minecraft:fish:0>, <minecraft:fish:1>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:cooked_fish:0>, <minecraft:cooked_fish:1>, <mysticalworld:raw_squid>, <mysticalworld:cooked_squid>, <mysticalworld:epic_squid>, <harvestcraft:calamarirawitem>, <harvestcraft:calamaricookeditem>],
 [<harvestcraft:anchovyrawitem>, <harvestcraft:bassrawitem>, <harvestcraft:carprawitem>, <harvestcraft:catfishrawitem>, <harvestcraft:charrrawitem>, <harvestcraft:clamrawitem>, <harvestcraft:crabrawitem>, <harvestcraft:crayfishrawitem>, <harvestcraft:eelrawitem>],
 [<harvestcraft:frograwitem>, <harvestcraft:grouperrawitem>, <harvestcraft:herringrawitem>, <harvestcraft:jellyfishrawitem>, <harvestcraft:mudfishrawitem>, <harvestcraft:octopusrawitem>, <harvestcraft:perchrawitem>, <harvestcraft:scalloprawitem>, <harvestcraft:shrimprawitem>],
 [<harvestcraft:snailrawitem>, <harvestcraft:snapperrawitem>, <harvestcraft:tilapiarawitem>, <harvestcraft:troutrawitem>, <harvestcraft:tunarawitem>, <harvestcraft:turtlerawitem>, <harvestcraft:walleyerawitem>, <harvestcraft:greenheartfishitem>, <harvestcraft:sardinerawitem>],
-[<harvestcraft:musselrawitem>, <harvestcraft:rawtofishitem>, <harvestcraft:oysterrawitem>, <harvestcraft:butteritem>, <harvestcraft:seaweeditem>, <bewitchment:salt>, <harvestcraft:onionitem>, <harvestcraft:blackpepperitem>, null]]);
+[<harvestcraft:musselrawitem>, <harvestcraft:rawtofishitem>, <harvestcraft:oysterrawitem>, <harvestcraft:butteritem>, <harvestcraft:seaweeditem>, <mekanism:salt>, <harvestcraft:onionitem>, <harvestcraft:blackpepperitem>, <contenttweaker:ultibean>, null]]);
 
 //Cosmic Meatballs
 ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
-ExtremeCrafting.addShaped("sanebreak_cosmic_meatball", <avaritia:cosmic_meatballs>, [
+ExtremeCrafting.addShaped("invincible_cosmic_meatball", <avaritia:cosmic_meatballs>, [
 [<avaritia:resource:2>, <harvestcraft:honeyglazedcarrotsitem>, <harvestcraft:minerstewitem>, <harvestcraft:gourmetvenisonburgeritem>, <harvestcraft:koreandinneritem>, <harvestcraft:thankfuldinneritem>, <harvestcraft:meatfeastpizzaitem>, <harvestcraft:southernstylebreakfastitem>, <harvestcraft:gourmetbeefburgeritem>], 
 [<harvestcraft:weekendpicnicitem>, <harvestcraft:deluxechickencurryitem>, <harvestcraft:timpanoitem>, <harvestcraft:friedfeastitem>, <harvestcraft:bentoboxitem>, <harvestcraft:cornedbeefhashitem>, <harvestcraft:ploughmanslunchitem>, <harvestcraft:salisburysteakitem>, <harvestcraft:chimichangaitem>],
 [<harvestcraft:paradiseburgeritem>, <harvestcraft:honeyglazedhamitem>, <harvestcraft:gourmetmuttonburgeritem>, <harvestcraft:deluxenachoesitem>, <harvestcraft:mcpamitem>, <harvestcraft:heartybreakfastitem>, <harvestcraft:delightedmealitem>, <harvestcraft:bbqchickenbiscuititem>, <harvestcraft:gourmetporkburgeritem>],
@@ -183,13 +182,13 @@ ExtremeCrafting.addShaped("sanebreak_cosmic_meatball", <avaritia:cosmic_meatball
 
 //Record Fragments
 recipes.remove(<avaritia:resource:7>);
-recipes.addShaped("sanebreak_record_fragments", <avaritia:resource:7> * 4, [
+recipes.addShaped("invincible_record_fragments", <avaritia:resource:7> * 2, [
 [null, null, null], 
-[<botania:recordgaia2>, <mowziesmobs:wrought_axe>, <botania:recordgaia1>],
+[<botania:recordgaia2>, <divinerpg:bedrock_axe>, <botania:recordgaia1>],
 [null, null, null]]);
 
 //Infinity Ingot
 ExtremeCrafting.remove(<avaritia:resource:6>);
 
 //Block of Infinity
-Empowerer.addRecipe(<avaritia:block_resource:1> * 2, <avaritia:resource:5>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:resource:7>, <avaritia:endest_pearl>, 80000, 600);
+Empowerer.addRecipe(<avaritia:block_resource:1>, <avaritia:resource:5>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:resource:7>, <avaritia:endest_pearl>, 80000, 600);

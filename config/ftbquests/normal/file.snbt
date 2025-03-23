@@ -6,19 +6,13 @@
 	default_quest_shape: "circle",
 	default_quest_disable_jei: false,
 	emergency_items: [{
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "minecraft:stone_sword"
+		item: "minecraft:stone_sword"
 	},
 	{
 		item: "minecraft:apple 8"
 	},
 	{
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "minecraft:stone_pickaxe"
+		item: "minecraft:stone_pickaxe"
 	}],
 	emergency_items_cooldown: "5m",
 	drop_loot_crates: false,

@@ -59,6 +59,16 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#heroesexpansion:freeze_breath">Freeze Breath</a></li>
 <li><a href="#heroesexpansion:x_ray">X-Ray Vision</a></li>
 </ul>
+<h1>Star Tech, Man! Legendary Mod?</h1>
+<ul>
+<li><a href="#star-tech:tendrils">Open Hand</a></li>
+<li><a href="#star-tech:power_cyclone">star-tech.abilities.power_cyclone.name</a></li>
+<li><a href="#star-tech:power_blast">Power Blast</a></li>
+<li><a href="#star-tech:power_impower">Impower</a></li>
+<li><a href="#star-tech:power_rocket_burst">Rocket Burst</a></li>
+<li><a href="#star-tech:power_give_burnout">star-tech.abilities.power_give_burnout.name</a></li>
+<li><a href="#star-tech:concussive_blast">Concussive Blast</a></li>
+</ul>
 <h1>Lucraft: Core</h1>
 <ul>
 <li><a href="#lucraftcore:toggle_power">Toggle Power</a></li>
@@ -90,6 +100,36 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#lucraftcore:command_on_gain">Command On Gain</a></li>
 <li><a href="#lucraftcore:command_on_lose">Command On Lose</a></li>
 <li><a href="#lucraftcore:set_punch">Punch</a></li>
+</ul>
+<h1>PymTech</h1>
+<ul>
+<li><a href="#pymtech:pym_particle_size">Pym Particles</a></li>
+<li><a href="#pymtech:regulator">Regulator</a></li>
+<li><a href="#pymtech:shrink_suit">Shrink Suit</a></li>
+</ul>
+<h1>The Fifth World</h1>
+<ul>
+<li><a href="#the-fifth-world:involuntary_explosion">the-fifth-world.abilities.involuntary_explosion.name</a></li>
+<li><a href="#the-fifth-world:set_on_fire">the-fifth-world.abilities.set_on_fire.name</a></li>
+<li><a href="#the-fifth-world:butter_fingers">the-fifth-world.abilities.butter_fingers.name</a></li>
+<li><a href="#the-fifth-world:restrictive_diet">the-fifth-world.abilities.restrictive_diet.name</a></li>
+<li><a href="#the-fifth-world:deafness">the-fifth-world.abilities.deafness.name</a></li>
+<li><a href="#the-fifth-world:lightning_rod">the-fifth-world.abilities.lightning_rod.name</a></li>
+<li><a href="#the-fifth-world:starving">the-fifth-world.abilities.starving.name</a></li>
+<li><a href="#the-fifth-world:apply_shader">the-fifth-world.abilities.apply_shader.name</a></li>
+<li><a href="#the-fifth-world:make_hostile">the-fifth-world.abilities.make_hostile.name</a></li>
+<li><a href="#the-fifth-world:screech">the-fifth-world.abilities.screech.name</a></li>
+<li><a href="#the-fifth-world:lay_egg">the-fifth-world.abilities.lay_egg.name</a></li>
+<li><a href="#the-fifth-world:eat_block">the-fifth-world.abilities.eat_block.name</a></li>
+<li><a href="#the-fifth-world:potion_immunity">the-fifth-world.abilities.potion_immunity.name</a></li>
+<li><a href="#the-fifth-world:explode">the-fifth-world.abilities.explode.name</a></li>
+<li><a href="#the-fifth-world:mountable">the-fifth-world.abilities.mountable.name</a></li>
+<li><a href="#the-fifth-world:create_item">the-fifth-world.abilities.create_item.name</a></li>
+<li><a href="#the-fifth-world:give_potion">the-fifth-world.abilities.give_potion.name</a></li>
+<li><a href="#the-fifth-world:change_item">the-fifth-world.abilities.change_item.name</a></li>
+<li><a href="#the-fifth-world:bonemeal_area">the-fifth-world.abilities.bonemeal_area.name</a></li>
+<li><a href="#the-fifth-world:summon_entity">the-fifth-world.abilities.summon_entity.name</a></li>
+<li><a href="#the-fifth-world:skin_change">the-fifth-world.abilities.skin_change.name</a></li>
 </ul>
 
 <hr>
@@ -3270,6 +3310,1380 @@ Type: CONSTANT</p><br>
 <td><code>EnumAbilityBarColor</code></td>
 <td><code>"light_gray"</code></td>
 <td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:pym_particle_size">Pym Particles</h1>
+<h3>pymtech:pym_particle_size</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:pym_particle_size",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.pym_particle_size.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "size": 0.1<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.pym_particle_size.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>size</code></td>
+<td><code>Float</code></td>
+<td><code>0.1</code></td>
+<td><p>Sets the size you want to change to</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:regulator">Regulator</h1>
+<h3>pymtech:regulator</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:regulator",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.regulator.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "advanced": false<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.regulator.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>advanced</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if you have access to the advanced regulator GUI</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:shrink_suit">Shrink Suit</h1>
+<h3>pymtech:shrink_suit</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:shrink_suit",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.shrink_suit.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "advanced": true<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.shrink_suit.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>advanced</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if you need Pym Particles to shrink the suit</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:tendrils">Open Hand</h1>
+<h3>star-tech:tendrils</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:tendrils",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"star-tech.abilities.tendrils.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.tendrils.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:power_cyclone">star-tech.abilities.power_cyclone.name</h1>
+<h3>star-tech:power_cyclone</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:power_cyclone",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"star-tech.abilities.power_cyclone.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.power_cyclone.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:power_blast">Power Blast</h1>
+<h3>star-tech:power_blast</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:power_blast",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"star-tech.abilities.power_blast.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "duration": 10<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.power_blast.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>duration</code></td>
+<td><code>Integer</code></td>
+<td><code>10</code></td>
+<td><p>How long the beam is fired for.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:power_impower">Impower</h1>
+<h3>star-tech:power_impower</h3>
+Type: TOGGLE</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:power_impower",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"star-tech.abilities.power_impower.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.power_impower.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:power_rocket_burst">Rocket Burst</h1>
+<h3>star-tech:power_rocket_burst</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:power_rocket_burst",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"star-tech.abilities.power_rocket_burst.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.power_rocket_burst.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:power_give_burnout">star-tech.abilities.power_give_burnout.name</h1>
+<h3>star-tech:power_give_burnout</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:power_give_burnout",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"star-tech.abilities.power_give_burnout.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.power_give_burnout.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="star-tech:concussive_blast">Concussive Blast</h1>
+<h3>star-tech:concussive_blast</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "star-tech:concussive_blast",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"star-tech.abilities.concussive_blast.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "damage": 1.0,<br>
+  "duration": 5<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"star-tech.abilities.concussive_blast.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>damage</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The damage done by the attack</p>
+</td></tr><br><tr>
+<td><code>duration</code></td>
+<td><code>Integer</code></td>
+<td><code>5</code></td>
+<td><p>How long the blast is fired for.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:involuntary_explosion">the-fifth-world.abilities.involuntary_explosion.name</h1>
+<h3>the-fifth-world:involuntary_explosion</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:involuntary_explosion",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.involuntary_explosion.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.involuntary_explosion.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:set_on_fire">the-fifth-world.abilities.set_on_fire.name</h1>
+<h3>the-fifth-world:set_on_fire</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:set_on_fire",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.set_on_fire.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.set_on_fire.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:butter_fingers">the-fifth-world.abilities.butter_fingers.name</h1>
+<h3>the-fifth-world:butter_fingers</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:butter_fingers",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.butter_fingers.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.butter_fingers.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:restrictive_diet">the-fifth-world.abilities.restrictive_diet.name</h1>
+<h3>the-fifth-world:restrictive_diet</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:restrictive_diet",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.restrictive_diet.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.restrictive_diet.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:deafness">the-fifth-world.abilities.deafness.name</h1>
+<h3>the-fifth-world:deafness</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:deafness",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.deafness.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.deafness.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:lightning_rod">the-fifth-world.abilities.lightning_rod.name</h1>
+<h3>the-fifth-world:lightning_rod</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:lightning_rod",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.lightning_rod.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.lightning_rod.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:starving">the-fifth-world.abilities.starving.name</h1>
+<h3>the-fifth-world:starving</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:starving",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.starving.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.starving.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:apply_shader">the-fifth-world.abilities.apply_shader.name</h1>
+<h3>the-fifth-world:apply_shader</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:apply_shader",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.apply_shader.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "shader": ""<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.apply_shader.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>shader</code></td>
+<td><code>String</code></td>
+<td><code>""</code></td>
+<td><p>Sets the shader to load, in resourcelocation format i.e.: "minecraft:shaders/post/shader.json"</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:make_hostile">the-fifth-world.abilities.make_hostile.name</h1>
+<h3>the-fifth-world:make_hostile</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:make_hostile",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.make_hostile.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.make_hostile.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:screech">the-fifth-world.abilities.screech.name</h1>
+<h3>the-fifth-world:screech</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:screech",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.screech.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "damage": 1.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.screech.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>damage</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The damage done by the attack</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:lay_egg">the-fifth-world.abilities.lay_egg.name</h1>
+<h3>the-fifth-world:lay_egg</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:lay_egg",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.lay_egg.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.lay_egg.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:eat_block">the-fifth-world.abilities.eat_block.name</h1>
+<h3>the-fifth-world:eat_block</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:eat_block",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.eat_block.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "saturation": 1.0,<br>
+  "food": 1,<br>
+  "from": "minecraft:air",<br>
+  "to": "minecraft:air"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.eat_block.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>saturation</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The amount of saturation to gain from eating the block.</p>
+</td></tr><br><tr>
+<td><code>food</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>The amount of food to gain from eating the block.</p>
+</td></tr><br><tr>
+<td><code>from</code></td>
+<td><code>Block</code></td>
+<td><code>"minecraft:air"</code></td>
+<td><p>The block to eat</p>
+</td></tr><br><tr>
+<td><code>to</code></td>
+<td><code>Block</code></td>
+<td><code>"minecraft:air"</code></td>
+<td><p>The block to turn eaten block in to</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:potion_immunity">the-fifth-world.abilities.potion_immunity.name</h1>
+<h3>the-fifth-world:potion_immunity</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:potion_immunity",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.potion_immunity.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "potion": "minecraft:poison"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.potion_immunity.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>potion</code></td>
+<td><code>Potion</code></td>
+<td><code>"minecraft:poison"</code></td>
+<td><p>Sets the potion to give immunity to</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:explode">the-fifth-world.abilities.explode.name</h1>
+<h3>the-fifth-world:explode</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:explode",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.explode.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "strength": 1.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.explode.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>strength</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The strength of the explosion</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:mountable">the-fifth-world.abilities.mountable.name</h1>
+<h3>the-fifth-world:mountable</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:mountable",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.mountable.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.mountable.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:create_item">the-fifth-world.abilities.create_item.name</h1>
+<h3>the-fifth-world:create_item</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:create_item",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.create_item.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "item": { "item": "minecraft:air", "data": 0, "count": 0 }<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.create_item.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>item</code></td>
+<td><code>ItemStack</code></td>
+<td><code>{ "item": "minecraft:air", "data": 0, "count": 0 }</code></td>
+<td><p>Sets the itemstack to create</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:give_potion">the-fifth-world.abilities.give_potion.name</h1>
+<h3>the-fifth-world:give_potion</h3>
+Type: TOGGLE</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:give_potion",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.give_potion.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "potion": "minecraft:health_boost",<br>
+  "amplifier": 0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.give_potion.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>potion</code></td>
+<td><code>Potion</code></td>
+<td><code>"minecraft:health_boost"</code></td>
+<td><p>Sets the potion to give to yourself.</p>
+</td></tr><br><tr>
+<td><code>amplifier</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Sets the amplifier for the potion effect</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:change_item">the-fifth-world.abilities.change_item.name</h1>
+<h3>the-fifth-world:change_item</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:change_item",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.change_item.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "from": { "item": "minecraft:air", "data": 0, "count": 0 },<br>
+  "to": { "item": "minecraft:air", "data": 0, "count": 0 }<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.change_item.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>from</code></td>
+<td><code>ItemStack</code></td>
+<td><code>{ "item": "minecraft:air", "data": 0, "count": 0 }</code></td>
+<td><p>The item to change from</p>
+</td></tr><br><tr>
+<td><code>to</code></td>
+<td><code>ItemStack</code></td>
+<td><code>{ "item": "minecraft:air", "data": 0, "count": 0 }</code></td>
+<td><p>The item to change to</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:bonemeal_area">the-fifth-world.abilities.bonemeal_area.name</h1>
+<h3>the-fifth-world:bonemeal_area</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:bonemeal_area",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.bonemeal_area.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "radius": 1<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.bonemeal_area.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>radius</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>The radius of the bonemeal effect.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:summon_entity">the-fifth-world.abilities.summon_entity.name</h1>
+<h3>the-fifth-world:summon_entity</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:summon_entity",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"the-fifth-world.abilities.summon_entity.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "entity": "minecraft:zombie",<br>
+  "number": 1<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.summon_entity.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>entity</code></td>
+<td><code>String</code></td>
+<td><code>"minecraft:zombie"</code></td>
+<td><p>The name of the entity to spawn.</p>
+</td></tr><br><tr>
+<td><code>number</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>The number of entities to spawn.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="the-fifth-world:skin_change">the-fifth-world.abilities.skin_change.name</h1>
+<h3>the-fifth-world:skin_change</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "the-fifth-world:skin_change",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"the-fifth-world.abilities.skin_change.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "skin": "",<br>
+  "small_arms": false,<br>
+  "main_color": [0, 0, 0],<br>
+  "secondary_color": [0, 0, 0]<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"the-fifth-world.abilities.skin_change.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>skin</code></td>
+<td><code>String</code></td>
+<td><code>""</code></td>
+<td><p>The skin to change in to.</p>
+</td></tr><br><tr>
+<td><code>small_arms</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>If the skin to change in to has small arms or not</p>
+</td></tr><br><tr>
+<td><code>main_color</code></td>
+<td><code>Color</code></td>
+<td><code>[0, 0, 0]</code></td>
+<td><p>The main transition color from default skin to the one changing in to.</p>
+</td></tr><br><tr>
+<td><code>secondary_color</code></td>
+<td><code>Color</code></td>
+<td><code>[0, 0, 0]</code></td>
+<td><p>The secondary color that the main one will be randomly offset by.</p>
 </td></tr><br></table>
 
 </body></html>

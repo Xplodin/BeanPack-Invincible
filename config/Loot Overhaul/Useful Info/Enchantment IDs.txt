@@ -96,15 +96,15 @@ minecraft:binding_curse
    - Max Level: 1
 
 
-extrautils2:xu.kaboomerang
+draconicevolution:enchant_reaper
    - Id: 11
-   - Rarity: COMMON
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 5
 
 
-extrautils2:xu.zoomerang
+extrautils2:xu.kaboomerang
    - Id: 12
    - Rarity: COMMON
    - Treasure: false
@@ -112,8 +112,16 @@ extrautils2:xu.zoomerang
    - Max Level: 3
 
 
-extrautils2:xu.burnerang
+extrautils2:xu.zoomerang
    - Id: 13
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+extrautils2:xu.burnerang
+   - Id: 14
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -121,19 +129,11 @@ extrautils2:xu.burnerang
 
 
 extrautils2:xu.bladerang
-   - Id: 14
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-extrautils2:xu.boomereaperang
    - Id: 15
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 5
 
 
 minecraft:sharpness
@@ -192,12 +192,12 @@ minecraft:sweeping
    - Max Level: 3
 
 
-draconicevolution:enchant_reaper
+extrautils2:xu.boomereaperang
    - Id: 23
-   - Rarity: RARE
+   - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 5
+   - Max Level: 1
 
 
 randomthings:magnetic
@@ -328,15 +328,15 @@ tombstone:curse_of_bones
    - Max Level: 10
 
 
-enderio:soulbound
+tombstone:spectral_conjurer
    - Id: 40
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 10
 
 
-enderio:witherarrow
+enderio:witherweapon
    - Id: 41
    - Rarity: UNCOMMON
    - Treasure: false
@@ -344,7 +344,7 @@ enderio:witherarrow
    - Max Level: 1
 
 
-enderio:witherweapon
+enderio:witherarrow
    - Id: 42
    - Rarity: UNCOMMON
    - Treasure: false
@@ -352,10 +352,10 @@ enderio:witherweapon
    - Max Level: 1
 
 
-enderio:shimmer
+enderio:soulbound
    - Id: 43
    - Rarity: VERY_RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
@@ -368,8 +368,16 @@ enderio:repellent
    - Max Level: 4
 
 
-aoa3:brace
+enderio:shimmer
    - Id: 45
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+aoa3:brace
+   - Id: 46
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -377,19 +385,11 @@ aoa3:brace
 
 
 aoa3:intervention
-   - Id: 46
+   - Id: 47
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
-
-
-aoa3:archmage
-   - Id: 47
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
 
 
 minecraft:power
@@ -424,8 +424,16 @@ minecraft:infinity
    - Max Level: 1
 
 
-aoa3:sever
+aoa3:archmage
    - Id: 52
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+aoa3:sever
+   - Id: 53
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -433,7 +441,7 @@ aoa3:sever
 
 
 aoa3:recharge
-   - Id: 53
+   - Id: 54
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -441,7 +449,7 @@ aoa3:recharge
 
 
 aoa3:control
-   - Id: 54
+   - Id: 55
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -449,14 +457,6 @@ aoa3:control
 
 
 aoa3:shell
-   - Id: 55
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-aoa3:crush
    - Id: 56
    - Rarity: UNCOMMON
    - Treasure: false
@@ -464,8 +464,16 @@ aoa3:crush
    - Max Level: 3
 
 
-aoa3:form
+aoa3:crush
    - Id: 57
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+aoa3:form
+   - Id: 58
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -473,7 +481,7 @@ aoa3:form
 
 
 aoa3:greed
-   - Id: 58
+   - Id: 59
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -481,19 +489,11 @@ aoa3:greed
 
 
 matteroverdrive:overclock
-   - Id: 59
+   - Id: 60
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
-
-
-bibliocraft:bibliocraft.deathcompassench
-   - Id: 60
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
 
 
 minecraft:luck_of_the_sea
@@ -512,8 +512,16 @@ minecraft:lure
    - Max Level: 3
 
 
-bibliocraft:bibliocraft.readingench
+bibliocraft:bibliocraft.deathcompassench
    - Id: 63
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+bibliocraft:bibliocraft.readingench
+   - Id: 64
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -521,51 +529,43 @@ bibliocraft:bibliocraft.readingench
 
 
 capsule:recall
-   - Id: 64
+   - Id: 65
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-defiledlands:sharpshooter
-   - Id: 65
-   - Rarity: COMMON
+divinerpg:rive
+   - Id: 66
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-defiledlands:economical
-   - Id: 66
-   - Rarity: UNCOMMON
+divinerpg:aftershock
+   - Id: 67
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+ebwizardry:magic_sword
+   - Id: 68
+   - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
 
-defiledlands:destructive
-   - Id: 67
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-defiledlands:safeguard
-   - Id: 68
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-defiledlands:blazing
+ebwizardry:magic_bow
    - Id: 69
-   - Rarity: VERY_RARE
+   - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 4
 
 
 minecraft:mending
@@ -584,7 +584,7 @@ minecraft:vanishing_curse
    - Max Level: 1
 
 
-ebwizardry:magic_sword
+ebwizardry:flaming_weapon
    - Id: 72
    - Rarity: COMMON
    - Treasure: false
@@ -592,7 +592,7 @@ ebwizardry:magic_sword
    - Max Level: 4
 
 
-ebwizardry:magic_bow
+ebwizardry:freezing_weapon
    - Id: 73
    - Rarity: COMMON
    - Treasure: false
@@ -600,24 +600,8 @@ ebwizardry:magic_bow
    - Max Level: 4
 
 
-ebwizardry:flaming_weapon
-   - Id: 74
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-ebwizardry:freezing_weapon
-   - Id: 75
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
 ebwizardry:magic_protection
-   - Id: 76
+   - Id: 74
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -625,7 +609,7 @@ ebwizardry:magic_protection
 
 
 ebwizardry:frost_protection
-   - Id: 77
+   - Id: 75
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -633,7 +617,7 @@ ebwizardry:frost_protection
 
 
 ebwizardry:shock_protection
-   - Id: 78
+   - Id: 76
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -641,15 +625,15 @@ ebwizardry:shock_protection
 
 
 mod_lavacow:poisonous
-   - Id: 79
-   - Rarity: VERY_RARE
+   - Id: 77
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
 mod_lavacow:lifesteal
-   - Id: 80
+   - Id: 78
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -657,14 +641,30 @@ mod_lavacow:lifesteal
 
 
 mod_lavacow:corrosive
-   - Id: 81
+   - Id: 79
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 5
 
 
+mod_lavacow:critical_boost
+   - Id: 80
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
 heroesexpansion:worthiness
+   - Id: 81
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+mahoutsukai:projector
    - Id: 82
    - Rarity: VERY_RARE
    - Treasure: false
@@ -672,7 +672,7 @@ heroesexpansion:worthiness
    - Max Level: 1
 
 
-locks:shocking
+nyx:lunar_edge
    - Id: 83
    - Rarity: UNCOMMON
    - Treasure: false
@@ -680,95 +680,95 @@ locks:shocking
    - Max Level: 5
 
 
-locks:sturdy
-   - Id: 84
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-locks:complexity
-   - Id: 85
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-mahoutsukai:projector
-   - Id: 86
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-nyx:lunar_edge
-   - Id: 87
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
 nyx:lunar_shield
-   - Id: 88
+   - Id: 84
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
 
-simpledifficulty:chilling
-   - Id: 89
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-simpledifficulty:heating
-   - Id: 90
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:inefficent
-   - Id: 91
+somanyenchantments:adept
+   - Id: 85
    - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:heavyweight
-   - Id: 92
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:rusted
-   - Id: 93
-   - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 3
 
 
-somanyenchantments:bluntness
-   - Id: 94
-   - Rarity: RARE
+somanyenchantments:ancientsealedcurses
+   - Id: 86
+   - Rarity: VERY_RARE
    - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:ancientswordmastery
+   - Id: 87
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:arcslash
+   - Id: 88
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:ashdestroyer
+   - Id: 89
+   - Rarity: RARE
+   - Treasure: false
    - Min Level: 1
    - Max Level: 5
 
 
-somanyenchantments:advancedefficency
+somanyenchantments:atomicdeconstructor
+   - Id: 90
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:blessededge
+   - Id: 91
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:brutality
+   - Id: 92
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:burningshield
+   - Id: 93
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:burningthorns
+   - Id: 94
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:butchering
    - Id: 95
    - Rarity: RARE
    - Treasure: false
@@ -776,177 +776,177 @@ somanyenchantments:advancedefficency
    - Max Level: 5
 
 
-somanyenchantments:blessededge
+somanyenchantments:clearskiesfavor
    - Id: 96
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:butchering
-   - Id: 97
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:cursededge
-   - Id: 98
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:defusion
-   - Id: 99
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:advancedbaneofarthropods
-   - Id: 100
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:advancedsharpness
-   - Id: 101
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:advancedsmite
-   - Id: 102
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:fieryedge
-   - Id: 103
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
-somanyenchantments:purification
-   - Id: 104
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:reviledblade
-   - Id: 105
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:rune_piercingcapabilities
-   - Id: 106
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:spellbreaker
-   - Id: 107
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:swifterslashes
-   - Id: 108
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:wateraspect
-   - Id: 109
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:mortalitas
-   - Id: 110
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 8
-
-
-somanyenchantments:penetratingedge
-   - Id: 111
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 6
 
 
-somanyenchantments:combatregeneration
-   - Id: 112
+somanyenchantments:combatmedic
+   - Id: 97
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-somanyenchantments:advancedknockback
-   - Id: 113
+somanyenchantments:counterattack
+   - Id: 98
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:criticalstrike
+   - Id: 99
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:cryogenic
+   - Id: 100
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:culling
+   - Id: 101
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:darkshadows
+   - Id: 102
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:defusingedge
+   - Id: 103
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:desolator
+   - Id: 104
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:difficultysendowment
+   - Id: 105
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:disarmament
+   - Id: 106
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:disorientatingblade
+   - Id: 107
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:empowereddefence
+   - Id: 108
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:envenomed
+   - Id: 109
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:evasion
+   - Id: 110
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:fieryedge
+   - Id: 111
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:rune_magicalblessing
+somanyenchantments:flinging
+   - Id: 112
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:horsdecombat
+   - Id: 113
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:inhumane
    - Id: 114
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:innerberserk
+   - Id: 115
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
 
-somanyenchantments:counterattack
-   - Id: 115
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:parry
+somanyenchantments:jaggedrake
    - Id: 116
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 5
 
 
-somanyenchantments:unpredictable
+somanyenchantments:levitator
    - Id: 117
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
@@ -960,23 +960,23 @@ somanyenchantments:lifesteal
    - Max Level: 4
 
 
-somanyenchantments:culling
+somanyenchantments:lightweight
    - Id: 119
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-somanyenchantments:clearsky
+somanyenchantments:luckmagnification
    - Id: 120
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 6
+   - Max Level: 2
 
 
-somanyenchantments:moonlight
+somanyenchantments:lunasblessing
    - Id: 121
    - Rarity: RARE
    - Treasure: false
@@ -984,63 +984,63 @@ somanyenchantments:moonlight
    - Max Level: 5
 
 
-somanyenchantments:raining
+somanyenchantments:magicprotection
    - Id: 122
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 6
-
-
-somanyenchantments:sunshine
-   - Id: 123
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:thunderstorm
-   - Id: 124
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 6
-
-
-somanyenchantments:winter
-   - Id: 125
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 6
-
-
-somanyenchantments:smelter
-   - Id: 126
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:empowereddefence
-   - Id: 127
-   - Rarity: RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
 
-somanyenchantments:strafe
-   - Id: 128
+somanyenchantments:magmawalker
+   - Id: 123
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:moisturized
+   - Id: 124
    - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:mortalitas
+   - Id: 125
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 8
+
+
+somanyenchantments:naturalblocking
+   - Id: 126
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:parry
+   - Id: 127
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:penetratingedge
+   - Id: 128
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 6
 
 
-somanyenchantments:criticalstrike
+somanyenchantments:physicalprotection
    - Id: 129
    - Rarity: RARE
    - Treasure: false
@@ -1048,71 +1048,71 @@ somanyenchantments:criticalstrike
    - Max Level: 4
 
 
-somanyenchantments:advancedlooting
+somanyenchantments:purgingblade
    - Id: 130
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 5
 
 
-somanyenchantments:levitator
+somanyenchantments:purification
    - Id: 131
-   - Rarity: RARE
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:pushing
+   - Id: 132
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:magicprotection
-   - Id: 132
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:physicalprotection
+somanyenchantments:rainsbestowment
    - Id: 133
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
+   - Max Level: 6
+
+
+somanyenchantments:reviledblade
+   - Id: 134
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
    - Max Level: 4
 
 
-somanyenchantments:ashdestroyer
-   - Id: 134
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:desolator
+somanyenchantments:reinforcedsharpness
    - Id: 135
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 5
 
 
-somanyenchantments:disorientation
+somanyenchantments:smelter
    - Id: 136
-   - Rarity: RARE
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
-somanyenchantments:purgingblade
+somanyenchantments:solsblessing
    - Id: 137
-   - Rarity: UNCOMMON
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 5
 
 
-somanyenchantments:viper
+somanyenchantments:spellbreaker
    - Id: 138
    - Rarity: RARE
    - Treasure: false
@@ -1120,239 +1120,239 @@ somanyenchantments:viper
    - Max Level: 5
 
 
-somanyenchantments:advancedpower
+somanyenchantments:splitshot
    - Id: 139
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 5
+   - Max Level: 4
 
 
-somanyenchantments:envenomed
+somanyenchantments:strafe
    - Id: 140
-   - Rarity: RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 6
 
 
-somanyenchantments:powerless
+somanyenchantments:strengthenedvitality
    - Id: 141
-   - Rarity: RARE
-   - Treasure: true
+   - Rarity: VERY_RARE
+   - Treasure: false
    - Min Level: 1
    - Max Level: 5
 
 
-somanyenchantments:rune_revival
+somanyenchantments:swifterslashes
    - Id: 142
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 5
 
 
-somanyenchantments:advancedpunch
+somanyenchantments:thunderstormsbestowment
    - Id: 143
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 6
 
 
-somanyenchantments:advancedlure
+somanyenchantments:truestrike
    - Id: 144
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
-somanyenchantments:advancedluckofthesea
+somanyenchantments:swiftswimming
    - Id: 145
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:advancedfeatherfalling
-   - Id: 146
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:advancedthorns
-   - Id: 147
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-somanyenchantments:burningthorns
+somanyenchantments:unreasonable
+   - Id: 146
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:unsheathing
+   - Id: 147
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:upgradedpotentials
    - Id: 148
-   - Rarity: VERY_RARE
-   - Treasure: false
+   - Rarity: RARE
+   - Treasure: true
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
-somanyenchantments:advancedprotection
+somanyenchantments:viper
    - Id: 149
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 5
 
 
-somanyenchantments:advancedfireprotection
+somanyenchantments:wateraspect
    - Id: 150
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 5
 
 
-somanyenchantments:advancedblastprotection
+somanyenchantments:plowing
    - Id: 151
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 2
 
 
-somanyenchantments:advancedprojectileprotection
+somanyenchantments:wintersgrace
    - Id: 152
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 6
 
 
-somanyenchantments:quarrying
+somanyenchantments:ascetic
    - Id: 153
-   - Rarity: VERY_RARE
-   - Treasure: false
+   - Rarity: RARE
+   - Treasure: true
    - Min Level: 1
    - Max Level: 3
 
 
-somanyenchantments:mathematics
+somanyenchantments:bluntness
    - Id: 154
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:science
-   - Id: 155
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:history
-   - Id: 156
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:english
-   - Id: 157
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:pe
-   - Id: 158
    - Rarity: RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 5
 
 
-somanyenchantments:atomicdeconstructor
-   - Id: 159
+somanyenchantments:breachedplating
+   - Id: 155
    - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:cursededge
+   - Id: 156
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:curseofdecay
+   - Id: 157
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:curseofholding
+   - Id: 158
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:curseofinaccuracy
+   - Id: 159
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:curseofpossession
+   - Id: 160
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:curseofvulnerability
+   - Id: 161
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:dragging
+   - Id: 162
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:disarmament
-   - Id: 160
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:hors_de_combat
-   - Id: 161
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:supremesharpness
-   - Id: 162
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:lessersharpness
+somanyenchantments:extinguish
    - Id: 163
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:lesserbaneofarthropods
-   - Id: 164
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:supremebaneofarthropods
-   - Id: 165
    - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:heavyweight
+   - Id: 164
+   - Rarity: RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 5
 
 
-somanyenchantments:lessersmite
-   - Id: 166
-   - Rarity: COMMON
-   - Treasure: false
+somanyenchantments:inefficient
+   - Id: 165
+   - Rarity: RARE
+   - Treasure: true
    - Min Level: 1
    - Max Level: 5
 
 
-somanyenchantments:supremesmite
+somanyenchantments:instability
+   - Id: 166
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:meltdown
    - Id: 167
    - Rarity: VERY_RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
-   - Max Level: 5
+   - Max Level: 2
 
 
-somanyenchantments:curseofpossession
+somanyenchantments:pandorascurse
    - Id: 168
    - Rarity: VERY_RARE
    - Treasure: true
@@ -1360,376 +1360,504 @@ somanyenchantments:curseofpossession
    - Max Level: 1
 
 
-somanyenchantments:sfa
+somanyenchantments:powerless
    - Id: 169
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:rusted
+   - Id: 170
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:unpredictable
+   - Id: 171
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:afa
-   - Id: 170
-   - Rarity: RARE
+somanyenchantments:rune_arrowpiercing
+   - Id: 172
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:rune_magicalblessing
+   - Id: 173
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:rune_piercingcapabilities
+   - Id: 174
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:rune_resurrection
+   - Id: 175
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:lfa
-   - Id: 171
+somanyenchantments:rune_revival
+   - Id: 176
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:subjectbiology
+   - Id: 177
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:subjectchemistry
+   - Id: 178
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:subjectenglish
+   - Id: 179
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:subjecthistory
+   - Id: 180
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:subjectmathematics
+   - Id: 181
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:subjectpe
+   - Id: 182
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:subjectphysics
+   - Id: 183
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:lesserbaneofarthropods
+   - Id: 184
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:lesserfireaspect
+   - Id: 185
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:swiper
-   - Id: 172
+somanyenchantments:lesserflame
+   - Id: 186
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:lessersharpness
+   - Id: 187
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:lessersmite
+   - Id: 188
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:advancedbaneofarthropods
+   - Id: 189
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:advancedblastprotection
+   - Id: 190
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:advancedefficiency
+   - Id: 191
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:advancedfeatherfalling
+   - Id: 192
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:advancedfireaspect
+   - Id: 193
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:advancedfireprotection
+   - Id: 194
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:advancedflame
+   - Id: 195
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+somanyenchantments:advancedknockback
+   - Id: 196
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+somanyenchantments:advancedlooting
+   - Id: 197
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-somanyenchantments:freezing
-   - Id: 173
-   - Rarity: RARE
+somanyenchantments:advancedluckofthesea
+   - Id: 198
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+somanyenchantments:advancedlure
+   - Id: 199
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
 somanyenchantments:advancedmending
-   - Id: 174
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:lfl
-   - Id: 175
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:afl
-   - Id: 176
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:sfl
-   - Id: 177
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:splitshot
-   - Id: 178
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:sharperedge
-   - Id: 179
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:rune_resurrection
-   - Id: 180
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
-somanyenchantments:flinging
-   - Id: 181
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
-somanyenchantments:strengthenedvitality
-   - Id: 182
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:difficultyscaled
-   - Id: 183
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:meltdown
-   - Id: 184
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
-somanyenchantments:welltilled
-   - Id: 185
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:upgrade
-   - Id: 186
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:scythedamage
-   - Id: 187
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:adept
-   - Id: 188
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:curseofdecay
-   - Id: 189
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:brutality
-   - Id: 190
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:magmawalker
-   - Id: 191
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 2
-
-
-somanyenchantments:inhumane
-   - Id: 192
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-somanyenchantments:fieryshield
-   - Id: 193
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:naturalblocking
-   - Id: 194
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:darkshadows
-   - Id: 195
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:curseofinaccuracy
-   - Id: 196
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 2
-
-
-somanyenchantments:rune_armorpiercing
-   - Id: 197
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:innerberserk
-   - Id: 198
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-somanyenchantments:ancientcurseinflicter
-   - Id: 199
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:tillingpower
    - Id: 200
-   - Rarity: RARE
-   - Treasure: false
+   - Rarity: VERY_RARE
+   - Treasure: true
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 1
 
 
-somanyenchantments:curseofholding
+somanyenchantments:advancedpower
    - Id: 201
    - Rarity: VERY_RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 5
 
 
-somanyenchantments:curseofvulnerability
+somanyenchantments:advancedprojectileprotection
    - Id: 202
-   - Rarity: VERY_RARE
-   - Treasure: true
+   - Rarity: RARE
+   - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
 
-somanyenchantments:luckmagnification
+somanyenchantments:advancedprotection
    - Id: 203
-   - Rarity: RARE
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+somanyenchantments:advancedpunch
+   - Id: 204
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:lightweight
-   - Id: 204
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:underwaterstrider
+somanyenchantments:advancedsharpness
    - Id: 205
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 5
 
 
-somanyenchantments:frenzy
+somanyenchantments:advancedsmite
    - Id: 206
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 5
 
 
-somanyenchantments:pushing
+somanyenchantments:advancedthorns
    - Id: 207
-   - Rarity: VERY_RARE
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 3
 
 
-somanyenchantments:pulling
+somanyenchantments:supremebaneofarthropods
    - Id: 208
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 5
 
 
-somanyenchantments:evasion
+somanyenchantments:supremefireaspect
    - Id: 209
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:instability
-   - Id: 210
    - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:unsheathing
-   - Id: 211
-   - Rarity: VERY_RARE
-   - Treasure: false
+   - Treasure: true
    - Min Level: 1
    - Max Level: 2
 
 
-somanyenchantments:swordmastery
-   - Id: 212
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-somanyenchantments:truestrike
-   - Id: 213
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-somanyenchantments:pandora
-   - Id: 214
+somanyenchantments:supremeflame
+   - Id: 210
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-yoyos:collecting
+somanyenchantments:supremeprotection
+   - Id: 211
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 10
+   - Max Level: 10
+
+
+somanyenchantments:supremesharpness
+   - Id: 212
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+somanyenchantments:supremesmite
+   - Id: 213
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:ascentboost
+   - Id: 214
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
+
+
+thaumictinkerer:pounce
    - Id: 215
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:shockwave
+   - Id: 216
+   - Rarity: UNCOMMON
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:slowfall
+   - Id: 217
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 3
+
+
+thaumictinkerer:finalstrike
+   - Id: 218
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:valiance
+   - Id: 219
+   - Rarity: UNCOMMON
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:vamprisim
+   - Id: 220
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 2
+
+
+thaumictinkerer:dispersedstrikes
+   - Id: 221
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:focusedstrikes
+   - Id: 222
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:quickdraw
+   - Id: 223
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 2
+
+
+thaumictinkerer:tunnel
+   - Id: 224
+   - Rarity: UNCOMMON
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:shatter
+   - Id: 225
+   - Rarity: UNCOMMON
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+thaumictinkerer:desintegrate
+   - Id: 226
+   - Rarity: UNCOMMON
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+thaumictinkerer:autosmelt
+   - Id: 227
+   - Rarity: UNCOMMON
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+walljump:walljump
+   - Id: 228
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+walljump:doublejump
+   - Id: 229
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+walljump:speedboost
+   - Id: 230
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+yoyos:collecting
+   - Id: 231
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -1737,7 +1865,7 @@ yoyos:collecting
 
 
 ancientspellcraft:static_charge
-   - Id: 216
+   - Id: 232
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -1745,7 +1873,7 @@ ancientspellcraft:static_charge
 
 
 ancientspellcraft:degrade_sword
-   - Id: 217
+   - Id: 233
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -1753,7 +1881,7 @@ ancientspellcraft:degrade_sword
 
 
 ancientspellcraft:degrade_bow
-   - Id: 218
+   - Id: 234
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -1761,134 +1889,6 @@ ancientspellcraft:degrade_bow
 
 
 morerefinedstorage:freeze
-   - Id: 219
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-morerefinedstorage:antifreeze
-   - Id: 220
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:coralium
-   - Id: 221
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:dread
-   - Id: 222
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:light_pierce
-   - Id: 223
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-abyssalcraft:iron_wall
-   - Id: 224
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:sapping
-   - Id: 225
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-abyssalcraft:multi_rend
-   - Id: 226
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cofhcore:holding
-   - Id: 227
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-cofhcore:insight
-   - Id: 228
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-cofhcore:leech
-   - Id: 229
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-cofhcore:multishot
-   - Id: 230
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-cofhcore:smashing
-   - Id: 231
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cofhcore:smelting
-   - Id: 232
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cofhcore:soulbound
-   - Id: 233
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-cofhcore:vorpal
-   - Id: 234
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-cyclicmagic:enchantment.autosmelt
    - Id: 235
    - Rarity: RARE
    - Treasure: false
@@ -1896,8 +1896,136 @@ cyclicmagic:enchantment.autosmelt
    - Max Level: 1
 
 
-cyclicmagic:enchantment.beheading
+morerefinedstorage:antifreeze
    - Id: 236
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:coralium
+   - Id: 237
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:dread
+   - Id: 238
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:light_pierce
+   - Id: 239
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+abyssalcraft:iron_wall
+   - Id: 240
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:sapping
+   - Id: 241
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+abyssalcraft:multi_rend
+   - Id: 242
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cofhcore:holding
+   - Id: 243
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+cofhcore:insight
+   - Id: 244
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+cofhcore:leech
+   - Id: 245
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+cofhcore:multishot
+   - Id: 246
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+cofhcore:smashing
+   - Id: 247
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cofhcore:smelting
+   - Id: 248
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cofhcore:soulbound
+   - Id: 249
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+cofhcore:vorpal
+   - Id: 250
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+cyclicmagic:enchantment.autosmelt
+   - Id: 251
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.beheading
+   - Id: 252
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -1905,7 +2033,7 @@ cyclicmagic:enchantment.beheading
 
 
 cyclicmagic:enchantment.excavation
-   - Id: 237
+   - Id: 253
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -1913,7 +2041,7 @@ cyclicmagic:enchantment.excavation
 
 
 cyclicmagic:enchantment.launch
-   - Id: 238
+   - Id: 254
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -1921,7 +2049,7 @@ cyclicmagic:enchantment.launch
 
 
 cyclicmagic:enchantment.lifeleech
-   - Id: 239
+   - Id: 255
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -1929,7 +2057,7 @@ cyclicmagic:enchantment.lifeleech
 
 
 cyclicmagic:enchantment.magnet
-   - Id: 240
+   - Id: 256
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -1937,134 +2065,6 @@ cyclicmagic:enchantment.magnet
 
 
 cyclicmagic:enchantment.multishot
-   - Id: 241
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cyclicmagic:enchantment.quickdraw
-   - Id: 242
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cyclicmagic:enchantment.reach
-   - Id: 243
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cyclicmagic:enchantment.venom
-   - Id: 244
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
-cyclicmagic:enchantment.waterwalking
-   - Id: 245
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cyclicmagic:enchantment.expboost
-   - Id: 246
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-astralsorcery:enchantment.as.nightvision
-   - Id: 247
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-astralsorcery:enchantment.as.smelting
-   - Id: 248
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:curse_break
-   - Id: 249
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:rusting_curse
-   - Id: 250
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:clumsiness_curse
-   - Id: 251
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:haunting_curse
-   - Id: 252
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:harming_curse
-   - Id: 253
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:homing
-   - Id: 254
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:magnetic
-   - Id: 255
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-charm:salvage
-   - Id: 256
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-grapplemod:wallrunenchantment
    - Id: 257
    - Rarity: VERY_RARE
    - Treasure: false
@@ -2072,7 +2072,7 @@ grapplemod:wallrunenchantment
    - Max Level: 1
 
 
-grapplemod:doublejumpenchantment
+cyclicmagic:enchantment.quickdraw
    - Id: 258
    - Rarity: VERY_RARE
    - Treasure: false
@@ -2080,8 +2080,192 @@ grapplemod:doublejumpenchantment
    - Max Level: 1
 
 
-grapplemod:slidingenchantment
+cyclicmagic:enchantment.reach
    - Id: 259
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.venom
+   - Id: 260
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+cyclicmagic:enchantment.waterwalking
+   - Id: 261
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.expboost
+   - Id: 262
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:hell_infusion
+   - Id: 263
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 10
+
+
+apotheosis:mounted_strike
+   - Id: 264
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 6
+
+
+apotheosis:depth_miner
+   - Id: 265
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 7
+
+
+apotheosis:stable_footing
+   - Id: 266
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+apotheosis:scavenger
+   - Id: 267
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:life_mending
+   - Id: 268
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:icy_thorns
+   - Id: 269
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:tempting
+   - Id: 270
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+apotheosis:shield_bash
+   - Id: 271
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+apotheosis:reflective
+   - Id: 272
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+apotheosis:berserk
+   - Id: 273
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+apotheosis:knowledge
+   - Id: 274
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:splitting
+   - Id: 275
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+apotheosis:natures_blessing
+   - Id: 276
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:rebounding
+   - Id: 277
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+apotheosis:magic_protection
+   - Id: 278
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+apotheosis:capturing
+   - Id: 279
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+apotheosis:true_infinity
+   - Id: 280
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+astralsorcery:enchantment.as.nightvision
+   - Id: 281
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+astralsorcery:enchantment.as.smelting
+   - Id: 282
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1

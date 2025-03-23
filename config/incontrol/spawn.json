@@ -1,278 +1,32 @@
 [
-  	{
-    "dimension": 0,
-    "mob": "animalium:wild_dog",  
-    "mincount": "8",
-    "result": "deny"
-  },
-    	{
-    "dimension": 0,
-    "hostile": true,  
-    "mincount": "250",
-    "result": "deny"
-  },
-    	{
-    "dimension": 5,
-    "hostile": true,  
-    "mincount": "250",
-    "result": "deny"
-  },
-      	{
-    "dimension": -1,
-    "hostile": true,  
-    "mincount": "250",
-    "result": "deny"
-  },
-      	{
-    "dimension": 0,
-    "passive": true,  
-    "mincount": "100",
-    "result": "deny"
-  },
-    	{
-    "dimension": 5,
-    "passive": true,  
-    "mincount": "30",
-    "result": "deny"
-  },
-      	{
-    "dimension": -1,
-    "passive": true,  
-    "mincount": "30",
-    "result": "deny"
-  },
-  	{
-    "dimension": 0,
-    "mob": "animalium:bear",  
-    "mincount": "2",
-    "result": "deny"
-  },
-    	{
-    "dimension": -13,
-    "mob": "elementalmobs:wraith",  
-    "onjoin": true,
-    "mincount": "5",
-    "result": "deny"
-  },
-    	{
-    "dimension": 0,
-    "mob": "elementalmobs:cinder",  
-    "mincount": "2",
-    "result": "deny"
-  },
-    {
-    "mob": "animalium:wild_dog",
-    "healthmultiply": 3,
-    "damagemultiply": 2
-  },
-    {
-    "mob": "tradeasteroid:biffboss",
-    "healthmultiply": 2,
-    "damagemultiply": 2
-  },
-      {
-    "mob": "tradeasteroid:biffbaddy",
-    "healthmultiply": 2,
-    "damagemultiply": 2
-  },
   {
-    "dimension": 5,
-    "mob": "junglemobs:concapede",
-    "mincount": "5",
-    "result": "deny"
-  },
-    	{
-    "dimension": 5,
-    "mob": "Zombie",  
-    "result": "deny"
-  },
-      	{
-    "dimension": 144,  
-    "result": "deny"
-  },
-        {
-    "dimension": 5,
-    "mob": "Enderman",  
-    "result": "deny"
-  },
-      	{
-    "dimension": 5,
-    "mob": "Skeleton",  
-    "result": "deny"
-  },
-        	{
-    "dimension": 5,
-    "mob": "minecraft:wither_skeleton",  
-    "result": "deny"
-  },
-          	{
-    "dimension": 5,
-    "mob": "thermalfoundation:basalz",
-    "mincount": "3",  
-    "result": "deny"
-  },
-          	{
-    "dimension": 5,
-    "mob": "thermalfoundation:blitz",
-    "mincount": "3",  
-    "result": "deny"
-  },
-        	{
-    "dimension": 5,
-    "mob": "Creeper",  
-    "result": "deny"
-  },
-          	{
-    "dimension": 5,
-    "mob": "minecraft:zombie_villager",  
-    "result": "deny"
-  },
-
-        	{
-    "dimension": 5,
-    "mob": "chickens:chickenschicken",  
-    "result": "deny"
-  },
-            {
-    "dimension": 7,
-    "mob": "chickens:chickenschicken",  
-    "result": "deny"
-  },
-            {
-    "dimension": 5,
-    "mob": "Witch",  
-    "result": "deny"
-  },
-      {
-    "dimension": 5,
-    "mob": "junglemobs:vespid",
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
     "dimension": 0,
-    "mob": "chickens:chickenschicken",
-    "mincount": "12",
-    "result": "deny"
-  },
-          {
-    "dimension": 0,
-    "mob": "Chicken",
-    "mincount": "12",
-    "result": "deny"
-  },
-            {
-    "dimension": 0,
-    "mob": "Cow",
-    "mincount": "4",
-    "result": "deny"
-  },
-            {
-    "dimension": 0,
-    "mob": "Sheep",
-    "mincount": "4",
-    "result": "deny"
-  },
-          {
-    "dimension": -22,
-    "mob": "chickens:chickenschicken",
+    "mob": "divinerpg:whale",  
+	"healthmultiply": 6,
+    "mincount": {
+		"amount": 2,
+		"perplayer": true
+	},
     "result": "deny"
   },
   {
-    "mob": "plainsmobs:feradon", 
-    "block": ["minecraft:grass", "biomesoplenty:grass"],
-    "result": "allow"
-  },
-            {
-    "dimension": -1,
-    "mob": "chickens:chickenschicken",
-    "mincount": "8",
+    "dimension": 0,
+    "mob": "divinerpg:liopleurodon",
+	"healthmultiply": 6,
+    "mincount": {
+		"amount": 2,
+		"perplayer": true
+	},
     "result": "deny"
   },
-          {
-    "dimension": -22,
-    "mob": "Chicken",
-    "result": "deny"
-  },
-            {
-    "dimension": -22,
-    "mob": "Cow",
-    "result": "deny"
-  },
-            {
-    "dimension": -22,
-    "mob": "Sheep",
-    "result": "deny"
-  },
-              {
-    "dimension": -22,
-    "mob": "Pig",
-    "result": "deny"
-  },
-      {
-    "dimension": 5,
-    "mob": "desertmobs:joust",  
-    "mincount": "8",
-    "result": "deny"
-  },
-        {
-    "dimension": -28,
-    "mob": "mountainmobs:yale",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": -28,
-    "mob": "elementalmobs:argus",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": -31,
-    "mob": "infernomobs:gorger",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": -31,
-    "mob": "infernomobs:ignibus",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": -17,
-    "mob": "mountainmobs:barghest",  
-    "mincount": "6",
-    "result": "deny"
-  },
-          {
-    "dimension": 5,
-    "mob": "mountainmobs:barghest",  
-    "mincount": "3",
-    "result": "deny"
-  },
-        {
-    "dimension": -17,
-    "mob": "shadowmobs:geist",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": -22,
-    "mob": "junglemobs:uvaraptor",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": -22,
-    "mob": "forestmobs:arisaur",  
-    "mincount": "6",
-    "result": "deny"
-  },
-        {
-    "dimension": 5,
-    "mob": "desertmobs:cryptzombie",  
-    "mincount": "6",
+  {
+    "dimension": 0,
+    "mob": "divinerpg:shark",
+	"healthmultiply": 6,
+    "mincount": {
+		"amount": 2,
+		"perplayer": true
+	},
     "result": "deny"
   }
 ]

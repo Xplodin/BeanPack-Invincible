@@ -9,11 +9,16 @@
 	rewards: [{
 		uid: "00925f17",
 		type: "ftbmoney:money",
-		ftb_money: 10000L
+		ftb_money: 2500L
 	},
 	{
-		uid: "d2d93d04",
+		uid: "696f0462",
 		type: "item",
-		item: "projectex:power_flower"
+		item: "artifacts:power_glove"
+	},
+	{
+		uid: "f31619b0",
+		type: "loot",
+		table: 0
 	}]
 }

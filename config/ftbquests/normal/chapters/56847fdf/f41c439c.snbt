@@ -1,7 +1,7 @@
 {
 	title: "Morning wood",
-	x: -0.5d,
-	y: -2.0d,
+	x: 1.5d,
+	y: -1.0d,
 	shape: "square",
 	tasks: [{
 		uid: "987447d8",
@@ -9,8 +9,8 @@
 		items: [{
 			ForgeCaps: {
 				Parent: {
-					data: "logWood",
-					id: "ore"
+					id: "ore",
+					data: "logWood"
 				}
 			},
 			id: "itemfilters:filter",
