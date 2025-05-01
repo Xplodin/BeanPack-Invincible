@@ -1,0 +1,16 @@
+{
+	x: -1.4107142857142847d,
+	y: -0.25d,
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "1d0fa9eb",
+		type: "item",
+		items: [{
+			item: "infinity:mind_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

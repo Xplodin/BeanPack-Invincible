@@ -131,5 +131,5 @@ recipes.addShaped("Tier4_Fins", T4R,
     [<extraplanets:tier4_items:3>,null,<extraplanets:tier4_items:3>]]);
 	
 // Magnesium Ingot
-recipes.remove(<extraplanets:tier6_items:5>);
-recipes.addShaped(<extraplanets:tier6_items:5> * 3, [[<mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>], [<mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>],[<mysticalagriculture:magnesium_essence>, null, <mysticalagriculture:magnesium_essence>]]);
+//recipes.remove(<extraplanets:tier6_items:5>);
+//recipes.addShaped(<extraplanets:tier6_items:5> * 3, [[<mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>], [<mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>, <mysticalagriculture:magnesium_essence>],[<mysticalagriculture:magnesium_essence>, null, <mysticalagriculture:magnesium_essence>]]);

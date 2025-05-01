@@ -49,9 +49,9 @@ tombstone:curse_of_bones
 tombstone:spectral_conjurer
 enderio:repellent
 enderio:witherweapon
-enderio:shimmer
 enderio:soulbound
 enderio:witherarrow
+enderio:shimmer
 aoa3:brace
 aoa3:intervention
 aoa3:archmage
@@ -62,7 +62,6 @@ aoa3:shell
 aoa3:crush
 aoa3:form
 aoa3:greed
-matteroverdrive:overclock
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 capsule:recall
@@ -233,8 +232,6 @@ yoyos:collecting
 ancientspellcraft:static_charge
 ancientspellcraft:degrade_sword
 ancientspellcraft:degrade_bow
-morerefinedstorage:freeze
-morerefinedstorage:antifreeze
 abyssalcraft:coralium
 abyssalcraft:dread
 abyssalcraft:light_pierce

@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"This machine when powered and supplied with specific contents, makes powerful injections you can use!",
+		"REMEMBER: Using injections with powers will do nothing but lose the current injection! Always store your powers if upgrading/changing them!"
+	],
+	tasks: [{
+		uid: "d6be10b2",
+		type: "item",
+		items: [{
+			item: "lucraftcore:extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "c4cf2c00",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ed2e6bb8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "df2f2ddf",
+		type: "loot",
+		table: 2
+	}]
+}

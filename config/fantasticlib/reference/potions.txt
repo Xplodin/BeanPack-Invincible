@@ -240,13 +240,10 @@ mod_lavacow:flourished
 mod_lavacow:void_dust
 mod_lavacow:ravens_grace
 lucraftcore:knock_out
-heroesexpansion:frozen
 heroesexpansion:chitauri_virus
 heroesexpansion:kryptonite_poison
+heroesexpansion:frozen
 infinity:effectsnap
-ee:corrupted
-ee:entrapped
-ee:the_madness
 mahoutsukai:borrowed_authority
 mahoutsukai:binding_eyes
 mahoutsukai:bound
@@ -316,7 +313,6 @@ ancientspellcraft:improved_armor
 ancientspellcraft:degraded_armor
 ancientspellcraft:shrinkage
 ancientspellcraft:growth
-morerefinedstorage:freezing
 abyssalcraft:cplague
 abyssalcraft:dplague
 abyssalcraft:antimatter

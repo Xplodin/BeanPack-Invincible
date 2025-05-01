@@ -35,7 +35,6 @@ divinerpg:entities/boss/densos
 aoa3:entities/mobs/overworld/urka
 actuallyadditions:jam_house
 xreliquary:inject/entities/bat
-memeinabottle:entity/gnome
 lostinfinity:seaserpent
 lostinfinity:giantflapper
 aoa3:entities/mobs/haven/angelica
@@ -65,7 +64,6 @@ golems:entities/golem_stained_glass/12
 golems:entities/golem_stained_glass/11
 golems:entities/golem_stained_glass/10
 botania:inject/spawn_bonus_chest
-memeinabottle:entity/eduardkhil
 xreliquary:inject/entities/squid
 mod_lavacow:entities/parasite_desert
 aoa3:entities/bosses/king_shroomus
@@ -154,8 +152,6 @@ xreliquary:inject/chests/desert_pyramid
 botania:inject/desert_pyramid
 lostinfinity:acidback
 aoa3:entities/mobs/overworld/sea_skeleton
-morerefinedstorage:chest/structure_chest
-memeinabottle:entity/bongocat
 lostinfinity:deviantbear
 aoa3:entities/bosses/gyro
 divinerpg:entities/eden/eden_tomo
@@ -231,7 +227,6 @@ aoa3:entities/mobs/overworld/shade
 mysticalworld:entity/sprout_green
 minecraft:entities/sheep/lime
 aoa3:entities/mobs/overworld/sphinx
-memeinabottle:entity/mario
 divinerpg:entities/nether/hell_spider
 aoa3:entities/mobs/overworld/spinux
 lostinfinity:devianthusk
@@ -259,7 +254,6 @@ xreliquary:inject/chests/stronghold_library
 twilightforest:entities/raven
 golems:entities/golem_end_stone
 aoa3:entities/mobs/shyrelands/soulscorne
-memeinabottle:entity/trump
 minecraft:entities/chicken
 aoa3:entities/bosses/bane
 aoa3:entities/mobs/shyrelands/shyre_knight
@@ -271,7 +265,6 @@ aoa3:entities/mobs/crystevia/construct_of_strength
 botania:inject/jungle_temple
 aoa3:entities/mobs/overworld/anemia
 divinerpg:entities/arcana/living_statue
-memeinabottle:entity/heman
 botania:inject/village_blacksmith
 golems:entities/golem_stained_glass/3
 golems:entities/golem_stained_glass/2
@@ -283,7 +276,6 @@ twilightforest:entities/skeleton_druid
 ebwizardry:gameplay/imbuement_altar/ruined_spell_book_ice
 golems:entities/golem_stained_glass/1
 golems:entities/golem_stained_glass/0
-memeinabottle:entity/shrek
 aoa3:entities/minions/corby
 minecraft:entities/skeleton
 aoa3:entities/npcs/bankers/shyre_banker
@@ -465,7 +457,6 @@ mod_lavacow:entities/salamander
 ancientspellcraft:chests/treasure_chest
 aoa3:entities/mobs/shyrelands/omnilight
 aoa3:worlds/deeplands
-memeinabottle:entity/philswift
 aoa3:entities/misc/pixons/glaring_pixon_harvest
 divinerpg:entities/wildwood/wildwood_golem
 aoa3:entities/mobs/overworld/ghostine_ancient
@@ -535,7 +526,6 @@ thaumicaugmentation:entity/autocaster
 extrabotany:inject/jungle_temple
 divinerpg:entities/boss/ayeraco_red
 aoa3:entities/minions/construct_of_servility
-memeinabottle:entity/tacnyan
 minecraft:gameplay/fishing
 divinerpg:entities/arcana/death_hound
 divinerpg:entities/arcana/deathcryx
@@ -553,7 +543,6 @@ thaumicaugmentation:entity/primal_wisp
 xreliquary:inject/entities/stray
 twilightforest:structures/labyrinth_dead_end/labyrinth_dead_end
 aoa3:entities/mobs/overworld/modulo
-memeinabottle:entity/robbierotten
 divinerpg:entities/nether/hell_bat
 lostinfinity:deviantchicken
 aoa3:entities/bosses/skeletron
@@ -659,7 +648,6 @@ golems_tcon:entities/golem_pigiron
 minecraft:entities/rabbit
 lostinfinity:labtop
 aoa3:entities/npcs/traders/zal_vendor
-memeinabottle:entity/roflcopter
 aoa3:entities/mobs/deeplands/nipper
 ancientspellcraft:subsets/ritual_books
 aoa3:entities/mobs/overworld/yeti
@@ -765,7 +753,6 @@ aoa3:entities/mobs/nether/wither_wizard
 minecraft:entities/mushroom_cow
 lostinfinity:clusterweed
 aoa3:entities/mobs/overworld/sand_giant
-memeinabottle:entity/skywalker
 aoa3:entities/mobs/overworld/ghost
 mod_lavacow:entities/forsaken
 xreliquary:inject/chests/stronghold_crossing
@@ -779,7 +766,6 @@ aoa3:entities/mobs/overworld/horndron
 divinerpg:entities/wildwood/behemoth
 lostinfinity:titanblaze
 twilightforest:entities/squirrel
-memeinabottle:entity/clippy
 golems_tcon:entities/golem_ardite
 aoa3:entities/mobs/overworld/stinger
 lostinfinity:torpedon
@@ -836,7 +822,6 @@ aoa3:entities/misc/pixons/glowing_pixon_harvest
 golems:entities/golem_emerald
 lostinfinity:augmenticon_3
 aoa3:entities/mobs/mysterium/banshee
-morerefinedstorage:entity/glaceskeleton
 lostinfinity:slimestrider
 lostinfinity:augmenticon_4
 lostinfinity:augmenticon_1
@@ -968,6 +953,7 @@ aoa3:entities/minions/shadow_stalker
 lostinfinity:supermutantpiglin
 divinerpg:entities/boss/lady_luna
 aoa3:items/treasure_box
+tconstruct:entities/purpleslime
 aoa3:entities/npcs/ambient/zal_citizen
 divinerpg:entities/mortum/sorcerer
 divinerpg:entities/boss/ayeraco_green
@@ -989,7 +975,6 @@ golems:entities/golem_clay
 lostinfinity:supermutantpig
 lostinfinity:bluespyker
 xreliquary:inject/entities/husk
-memeinabottle:entity/datboi
 lostinfinity:galaxybeast_blue
 twilightforest:structures/troll_garden/troll_garden
 lostinfinity:galaxybeast_green
@@ -1082,7 +1067,6 @@ aoa3:items/fish_case
 aoa3:structures/gardencastle/general
 divinerpg:entities/vanilla/glacon
 mod_lavacow:entities/avaton
-memeinabottle:entity/ppap
 lostinfinity:deviantzombie
 extrabotany:inject/desert_pyramid
 aoa3:entities/minions/plateosaur
@@ -1184,7 +1168,6 @@ aoa3:entities/mobs/lborean/neptuno
 ancientspellcraft:entities/void_creeper
 mod_lavacow:entities/amber_lord
 aoa3:entities/minions/penguin
-memeinabottle:entity/cena
 lostinfinity:reflectal
 lostinfinity:drippler
 divinerpg:entities/vanilla/whale
@@ -1236,7 +1219,6 @@ golems:entities/golem_nether_brick
 aoa3:entities/minions/hive_soldier
 aoa3:entities/misc/pixons/shining_pixon_harvest
 lostinfinity:lurcher
-memeinabottle:entity/memebase
 aoa3:entities/bosses/voxxulon
 golems_tcon:entities/golem_manyullyn
 golems:entities/golem_wool/orange
@@ -1330,7 +1312,6 @@ aoa3:entities/mobs/deeplands/rock_critter
 minecraft:entities/squid
 aoa3:entities/mobs/dustopia/stalker_prime
 twilightforest:entities/deer
-memeinabottle:entity/moonman
 lostinfinity:orbiter
 xreliquary:inject/entities/ghast
 abyssalcraft:entities/remnant_librarian
@@ -1345,7 +1326,6 @@ aoa3:entities/mobs/lelyetia/grobbler
 aoa3:entities/mobs/mysterium/eeo
 aoa3:skills/extraction/extraction
 lostinfinity:supermutantskeleton
-memeinabottle:entity/sans
 ebwizardry:chests/dungeon_additions
 aoa3:entities/mobs/overworld/ghostly_bugeye
 divinerpg:entities/iceika/hastreus
@@ -1354,7 +1334,6 @@ mod_lavacow:entities/ptera_savanna
 abyssalcraft:chests/omothol/farmhouse
 aoa3:entities/mobs/runandor/ariel
 iceandfire:ice_dragon_female_cave
-memeinabottle:entity/nyancat
 aoa3:entities/bosses/king_bambambam
 twilightforest:entities/bird
 divinerpg:entities/vanilla/king_crab

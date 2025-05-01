@@ -1,0 +1,8 @@
+{
+	title: "Grand Exchange",
+	icon: "rats:chunky_cheese_token",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

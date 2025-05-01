@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"The way of storing and obtaining powers."
+	],
+	tasks: [{
+		uid: "ca7e9886",
+		type: "item",
+		items: [{
+			item: "lucraftcore:injection"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "3bbd4020",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "119a884f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "717e48a0",
+		type: "loot",
+		table: 2
+	}]
+}

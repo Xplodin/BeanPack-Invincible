@@ -1,0 +1,43 @@
+{
+	title: "Perfected Infinity",
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"10 buckets of liquid DNA and Essence of Infinity"
+	],
+	dependencies: [
+		"6b77e4c2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fd7be3cd",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "insanecraft:perfected_infinity"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "44bec1d7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "df3b2e12",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "9bd6b041",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "a57465f5",
+		type: "item",
+		item: "lucraftcore:injection"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	shape: "pentagon",
+	dependencies: [
+		"86ca0fc0",
+		"82aa3d7d"
+	],
+	tasks: [{
+		uid: "b64d28b8",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7200831f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

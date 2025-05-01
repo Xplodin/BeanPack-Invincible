@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	optional: true,
+	tasks: [{
+		uid: "b838ae89",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "9480b3f8",
+		type: "xp",
+		xp: 100
+	}]
+}

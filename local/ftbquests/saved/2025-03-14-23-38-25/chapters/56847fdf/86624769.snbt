@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -4.5d,
+	shape: "circle",
+	description: "jumpy jump",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "73ea5f4f",
+		type: "stat",
+		stat: "stat.jump",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "43ffaea2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "99d70d75",
+		type: "loot",
+		table: 0
+	}]
+}

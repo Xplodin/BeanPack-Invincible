@@ -1,0 +1,43 @@
+{
+	x: 7.0d,
+	y: -9.5d,
+	text: [
+		"Youll need a lot of this (approx 200 buckets minimum)"
+	],
+	dependencies: [
+		"7eecde6a"
+	],
+	tasks: [{
+		uid: "0141996d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "if.pink_slime",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77c75394",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b3e60a2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "2d282739",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

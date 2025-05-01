@@ -13,8 +13,11 @@ import mods.thermalexpansion.InductionSmelter;
 import mods.actuallyadditions.Empowerer;
 import mods.jei.JEI;
 
+//avaritia stuff to scuff
+JEI.removeAndHide(<avaritia:neutronium_compressor>);
+
 //Power Stone
-//JEI.removeAndHide(<star-tech:power_stone>);
+JEI.removeAndHide(<star-tech:power_stone>);
 
 //Time Stone
 BloodAltar.addRecipe(<infinity:time_stone>, <avaritia:block_resource:1>, 4, 100000000, 1000, 5000);
@@ -77,14 +80,14 @@ val AdamantFluid = <openblocks:tank>.withTag({tank: {FluidName: "adamant_fluid",
 
 InductionSmelter.addRecipe(<lucraftcore:infinity_gauntlet_cast>, <wakanda:infinity_gauntlet_chest>, AdamantFluid, 1000000);
 
-Casting.addTableRecipe(<lucraftcore:infinity_gauntlet>, <lucraftcore:infinity_gauntlet_cast>, <fluid:infinity>, 25000, true, 10000);
+Casting.addTableRecipe(<lucraftcore:infinity_gauntlet>, <lucraftcore:infinity_gauntlet_cast>, <fluid:infinity_metal>, 5000, true, 10000);
 
 //Erebus
-recipes.remove(<erebus:wand_of_animation>);
-recipes.addShaped("invincible_cosmirod", <erebus:wand_of_animation>,
-  [[null,<avaritia:block_resource:1>,<erebus:materials:64>],
-   [null,<botania:rainbowrod>,<avaritia:block_resource:1>],
-   [<avaritia:block_resource:1>,null,null]]);
+//recipes.remove(<erebus:wand_of_animation>);
+//recipes.addShaped("invincible_cosmirod", <erebus:wand_of_animation>,
+//  [[null,<avaritia:block_resource:1>,<erebus:materials:64>],
+//   [null,<botania:rainbowrod>,<avaritia:block_resource:1>],
+//   [<avaritia:block_resource:1>,null,null]]);
    
 //Infinity Injections
 <bloodmagic:alchemic_vial>.displayName = "Essence of Infinity";
@@ -143,7 +146,7 @@ ExtremeCrafting.addShaped("invincible_infinity_catalyst", <avaritia:resource:5>,
 [<singularities:singularity:45>, <singularities:singularity:46>, <singularities:singularity:47>, <singularities:singularity:48>, <singularities:singularity:49>, <singularities:singularity:50>, <singularities:singularity:51>, <singularities:singularity:52>, <singularities:singularity:53>],
 [<singularities:singularity:54>, <singularities:singularity:55>, <singularities:singularity:56>, <singularities:singularity:57>, <singularities:singularity:58>, <singularities:singularity:59>, <singularities:singularity:60>, <singularities:singularity:61>, <singularities:singularity:62>],
 [<singularities:singularity:63>, <singularities:singularity:64>, <singularities:singularity:65>, <singularities:singularity:66>, <singularities:singularity:67>, <singularities:singularity:68>, <singularities:singularity:69>, <singularities:singularity:70>, <singularities:singularity:71>],
-[<singularities:singularity:72>, <singularities:singularity:73>, <singularities:singularity:74>]]);
+[<singularities:singularity:72>, <singularities:singularity:73>, <singularities:singularity:74>, <singularities:singularity:75>]]);
 
 //Endest Pearl
 ExtremeCrafting.remove(<avaritia:endest_pearl>);

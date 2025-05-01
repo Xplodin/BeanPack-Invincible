@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "9ebabe56",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "988da1ff",
+		type: "xp",
+		xp: 100
+	}]
+}

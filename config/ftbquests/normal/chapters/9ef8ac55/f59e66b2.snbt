@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"89f03667"
+	],
+	tasks: [{
+		uid: "7222064a",
+		type: "item",
+		items: [{
+			item: "lostinfinity:celestialredstone"
+		}]
+	}]
+}

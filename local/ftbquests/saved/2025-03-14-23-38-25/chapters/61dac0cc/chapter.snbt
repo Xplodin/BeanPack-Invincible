@@ -1,0 +1,23 @@
+{
+	title: "THE STONES",
+	icon: {
+		id: "lucraftcore:infinity_gauntlet",
+		tag: {
+			Fist: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -1.0d,
+		y: 1.5d,
+		width: 10.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "beanpack:gaunt.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

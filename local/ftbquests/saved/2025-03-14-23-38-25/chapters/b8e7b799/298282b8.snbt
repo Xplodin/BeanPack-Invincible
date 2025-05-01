@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "c0e38508",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:foursmore"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c3c0fece",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

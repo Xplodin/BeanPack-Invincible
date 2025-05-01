@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"go to hell (jk)"
+	],
+	dependencies: [
+		"65815ced"
+	],
+	tasks: [{
+		uid: "d57e76a2",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "342fc89b",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d71cc143",
+		type: "item",
+		item: {
+			id: "cyclicmagic:charm_fire",
+			tag: {}
+		}
+	}]
+}

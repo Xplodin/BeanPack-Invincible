@@ -1,0 +1,16 @@
+{
+	x: 0.4464285714285765d,
+	y: -1.25d,
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "5b3640c9",
+		type: "item",
+		items: [{
+			item: "infinity:power_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

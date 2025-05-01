@@ -1,0 +1,16 @@
+{
+	x: -0.7321428571428612d,
+	y: -1.392857142857146d,
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "f90ff1db",
+		type: "item",
+		items: [{
+			item: "infinity:space_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

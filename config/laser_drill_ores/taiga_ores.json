@@ -1,0 +1,197 @@
+[
+	{
+		"item" : "taiga:basalt_block",
+		"color" : 0,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:desert, minecraft:desert_hills, biomesoplenty:lush_desert",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:tiberium_ore",
+		"color" : 13,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:hell",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 10
+			}
+		]
+	},
+	{
+		"item" : "taiga:aurorium_ore",
+		"color" : 6,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:sky",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:prometheum_ore",
+		"color" : 15,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:hell",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:duranite_ore",
+		"color" : 3,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:jungle, minecraft:jungle_hills, biomesoplenty:bamboo_forest",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 5
+			}
+		]
+	},
+	{
+		"item" : "taiga:valyrium_ore",
+		"color" : 14,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:hell",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:vibranium_ore",
+		"color" : 2,
+		"rarity" : [
+			{
+				"whitelist": "biomesoplenty:sacred_springs, biomesoplenty:mystic_grove",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 4
+			}
+		]
+	},
+	{
+		"item" : "taiga:karmesine_ore",
+		"color" : 1,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:ocean, minecraft:deep_ocean",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:ovium_ore",
+		"color" : 11,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:extreme_hills, biomesoplenty:alps",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:jauxum_ore",
+		"color" : 5,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:mesa, minecraft:mesa_rock, minecraft:mutated_mesa",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 2
+			}
+		]
+	},
+	{
+		"item" : "taiga:palladium_ore",
+		"color" : 4,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:sky",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 1
+			}
+		]
+	},
+	{
+		"item" : "taiga:uru_ore",
+		"color" : 8,
+		"rarity" : [
+			{
+				"whitelist": "aether_legacy:aether_highlands",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 1
+			}
+		]
+	},
+	{
+		"item" : "taiga:osram_ore",
+		"color" : 12,
+		"rarity" : [
+			{
+				"whitelist": "biomesoplenty:phantasmagoric_inferno",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 5
+			}
+		]
+	},
+	{
+		"item" : "taiga:eezo_ore",
+		"color" : 7,
+		"rarity" : [
+			{
+				"whitelist": "",
+				"blacklist": "minecraft:hell, minecraft:sky",
+				"depth_min": 0,
+				"depth_max": 4,
+				"weight": 1
+			}
+		]
+	},
+	{
+		"item" : "taiga:abyssum_ore",
+		"color" : 9,
+		"rarity" : [
+			{
+				"whitelist": "minecraft:sky",
+				"blacklist": "",
+				"depth_min": 0,
+				"depth_max": 255,
+				"weight": 4
+			}
+		]
+	}
+]

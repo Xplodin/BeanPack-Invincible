@@ -1,0 +1,22 @@
+{
+	title: "WELCOME TO THE JUNGLE",
+	disable_toast: true,
+	x: 2.0d,
+	y: 3.5d,
+	description: "(BeanPack: Invincible)",
+	text: [
+		"Hi, please use HEI/JEI for recipes until I can get some quests out for endgame.",
+		"In the meantime:",
+		"Chitauri Energy Cores are from Chitauri soldiers that spawn from the Portal Device and the Space stone"
+	],
+	tasks: [{
+		uid: "c7880cff",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "40335241",
+		type: "xp",
+		xp: 100
+	}]
+}

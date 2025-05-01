@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Can be crafted with gems found in a dimension from Advent of Ascension or mined via IF laser drill"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e5a9a2d7",
+		type: "item",
+		items: [{
+			item: "wakanda:infinity_gauntlet_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f43f48d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "64fa06d1",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

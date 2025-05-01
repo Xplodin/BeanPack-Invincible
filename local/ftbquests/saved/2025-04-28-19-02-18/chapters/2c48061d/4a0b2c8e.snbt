@@ -1,0 +1,43 @@
+{
+	title: "Boosted Infinity",
+	x: 1.0d,
+	y: 6.5d,
+	text: [
+		"10 buckets of Liquid Antimatter and a Perfected Infinity"
+	],
+	dependencies: [
+		"6b77e4c2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f84370b8",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "insanecraft:boosted_infinity"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "db217249",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ac7c8316",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "6fdeddde",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "40466f1b",
+		type: "item",
+		item: "lucraftcore:injection"
+	}]
+}

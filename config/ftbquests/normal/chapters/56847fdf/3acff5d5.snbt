@@ -27,10 +27,10 @@
 		uid: "5e5b0a01",
 		type: "item",
 		item: {
+			id: "thermalfoundation:tool.hammer_iron",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "thermalfoundation:tool.hammer_iron"
+			}
 		}
 	}]
 }

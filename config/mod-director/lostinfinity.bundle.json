@@ -2,35 +2,8 @@
     "url": 
 	[
 		{
-		"url": "https://cdn.modrinth.com/data/65qOM4nb/versions/1m3gvzYh/Nether-API-v1.3.0-mc1.12.2.jar",
-			"fileName": "Nether-API-v1.3.0-mc1.12.2.jar",
-			"installationPolicy": {
-				"continueOnFailedDownload": false,
-				"selectedByDefault": true,
-				"description": "REQUIRED FOR NETHER STUFF"
-			}
-		},
-		{
-		"url": "https://cdn.modrinth.com/data/eevCqCjJ/versions/ctOmUvK2/BetterNetherRotN-1.12.2-0.2.0.3.jar",
-			"fileName": "BetterNetherCont-0.2.0.3.jar",
-			"installationPolicy": {
-				"continueOnFailedDownload": false,
-				"selectedByDefault": true,
-				"description": "REQUIRED ALONG WITH NETHER API"
-			}
-		},
-		{
-		"url": "https://www.dropbox.com/scl/fi/borzpqrswbv4xue5xf93a/Lost-Infinity-Stones_1.16.4_1.12.2.jar?rlkey=209win70ete4wm00qcsli35pb&st=9rb3hkbc&dl=1",
+		"url": "https://github.com/Xplodin/BeanPack-Invincible/releases/download/wow/Lost-Infinity-Stones_1122.jar",
 			"fileName": "Lost-Infinity-Stones_1122.jar",
-			"installationPolicy": {
-				"continueOnFailedDownload": false,
-				"selectedByDefault": true,
-				"description": "REQUIRED FOR THE PACK"
-			}
-		},
-		{
-		"url": "https://github.com/Minecraft-TA/RebornStorage/releases/download/v3.3.5.2/RebornStorage-1.12.2-3.3.5.2.jar",
-			"fileName": "RebornStorage-1.12.2-3.3.5.2.jar",
 			"installationPolicy": {
 				"continueOnFailedDownload": false,
 				"selectedByDefault": true,

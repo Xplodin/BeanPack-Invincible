@@ -53,6 +53,143 @@
 				]
 			}
 		},
+		"osmium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mekanism:oreblock",
+					"properties": {
+						"type": "osmium"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 60,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"basalt": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generators": {
+				"type": "sequential",
+				"block": "taiga:basalt_block",
+				"diameter": 1,
+				"size-variance": 1,
+				"count-variance": 1,
+				"count": 1
+			},
+			"chunk-chance": 12,
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 12,
+			"material": [
+			"minecraft:lava",
+			"minecraft:lava_layer"
+			],
+			"follow-terrain": "true",
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"eezo": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generators": {
+				"type": "sequential",
+				"block": "taiga:eezo_ore",
+				"diameter": 1,
+				"size-variance": 1,
+				"count-variance": 1,
+				"count": 1
+			},
+			"chunk-chance": 3,
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 3,
+			"material": [
+			"minecraft:bedrock"
+			],
+			"follow-terrain": "true",
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mekanism:oreblock",
+					"properties": {
+						"type": "uranium"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 50,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"fluorite": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mekanism:oreblock",
+					"properties": {
+						"type": "fluorite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 60,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 		"silver": {
 			"enabled": "true",
 			"distribution": "uniform",
@@ -90,7 +227,7 @@
 			}
 		},
 		"lead": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -152,7 +289,7 @@
 			}
 		},
 		"platinum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -188,7 +325,7 @@
 			}
 		},
 		"aluminum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -214,7 +351,7 @@
 			}
 		},
 		"iridium": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [

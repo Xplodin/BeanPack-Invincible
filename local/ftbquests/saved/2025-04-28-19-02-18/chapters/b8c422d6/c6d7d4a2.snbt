@@ -1,0 +1,39 @@
+{
+	x: 5.5d,
+	y: -7.5d,
+	text: [
+		"Gotta catch em all!"
+	],
+	dependencies: [
+		"1694f0dd"
+	],
+	tasks: [{
+		uid: "6e03104f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a34c024d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7adffecb",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "127ce892",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

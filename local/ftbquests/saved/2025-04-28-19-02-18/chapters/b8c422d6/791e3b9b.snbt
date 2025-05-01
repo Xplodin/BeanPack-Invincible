@@ -1,0 +1,43 @@
+{
+	x: 7.0d,
+	y: -8.5d,
+	text: [
+		"Unlimited food"
+	],
+	dependencies: [
+		"7eecde6a"
+	],
+	tasks: [{
+		uid: "28286d00",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "meat",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eeec7b34",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "750956c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "af9d6adc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

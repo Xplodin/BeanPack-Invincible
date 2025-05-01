@@ -176,11 +176,8 @@ key.draconicevolution.toggleShields
 key.draconicevolution.toggleDislocator
 key.draconicevolution.toolConfig
 
-Erebus
-key.erebus.beetleram
-key.erebus.glide
-key.erebus.poweredglide
-key.erebus.beetlemine
+ESM:Legacy
+Open sound muffler screen
 
 Extra Utilities 2
 key.xu2.searchforitems
@@ -197,6 +194,10 @@ key.ftbquests.quests
 key.ftbmoney.shop
 key.ftbutilities.trash
 
+FancyMenu
+Reload Menu | CTRL + ALT + 
+Toggle Customization Overlay | CTRL + ALT + 
+
 key.findme.category
 key.findme.search
 
@@ -205,9 +206,9 @@ key.mod_lavacow.down
 key.mod_lavacow.special
 
 Galacticraft
-Galaxy Map
-Open Spaceship Inventory
-Toggle Sensor Goggles Mode
+[GC] Galaxy Map
+[GC] Open Spaceship Inventory
+[GC] Toggle Sensor Goggles Mode
 
 IC2 Keys
 ALT Key
@@ -216,9 +217,6 @@ Hub Expand Key
 Mode Switch Key
 Side Inventory Key
 Toggle Key
-
-Improved Backpacks
-Open Backpack
 
 key.categories.integrateddynamics
 key.integrateddynamics.logic_programmer_focus_search
@@ -229,10 +227,6 @@ key.categories.naming
 
 invtweaks.key.category
 invtweaks.key.sort
-
-Iron Backpacks
-key.ironbackpacks.equip
-key.ironbackpacks.open
 
 Iron Jetpacks
 key.ij.engine
@@ -276,11 +270,6 @@ key.categories.mahoutsukai
 key.changeMysticCode
 key.drawMahoujin
 
-Matter Overdrive
-Android Ability key
-Android Switch Ability key
-Open Matter Scanner GUI
-
 Mekanism
 Boost
 Chest Mode Switch
@@ -300,9 +289,6 @@ openblocks.keybind.category
 openblocks.keybind.vario_switch
 openblocks.keybind.vario_vol_down
 openblocks.keybind.vario_vol_up
-
-packedup.keys.category
-packedup.keys.openbag
 
 key.categories.plustic
 key.plustic_brown_magic.desc
@@ -365,15 +351,6 @@ rpsideas.kb.switchslot10
 rpsideas.kb.switchslot11
 rpsideas.kb.switchslot12
 
-Refined Storage
-key.refinedstorage.clearGridCraftingMatrix
-key.refinedstorage.focusSearchBar
-key.refinedstorage.openPortableGrid
-key.refinedstorage.openWirelessCraftingGrid
-key.refinedstorage.openWirelessCraftingMonitor
-key.refinedstorage.openWirelessFluidGrid
-key.refinedstorage.openWirelessGrid
-
 xreliquary.keybind.category
 xreliquary.keybind.fortune_coin
 
@@ -389,10 +366,6 @@ key.securitycraft.cameraZoomOut
 
 key.storagenetwork.category
 key.remote.desc
-
-key.simplybackpacks.category
-key.simplybackpacks.backpackopen.desc
-key.simplybackpacks.backpackpickup.desc
 
 TAIGA
 key.taiga.alt_action

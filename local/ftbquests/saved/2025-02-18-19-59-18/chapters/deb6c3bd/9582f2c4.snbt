@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "d218e7d8",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3a5d2d26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	},
+	{
+		uid: "5ec5c5a2",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

@@ -9,7 +9,7 @@
     "Forestry Saplings": true,
     "BiomesOPlenty Sacred Oak Sapling": false,
     "Vanilla Saplings": true,
-    "AgriCraft Seeds": true,
+    "AgriCraft Seeds": false,
     "Bonemeal": true,
     "Animal Eggs": true,
     "Pams Harvestcraft Seeds": true,
@@ -60,7 +60,6 @@
     "examplemod:example_item"
   ],
   "custom entries": {
-    "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
-    "examplemod:example_item": "2*minecraft:emerald"
+    "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead."
   }
 }

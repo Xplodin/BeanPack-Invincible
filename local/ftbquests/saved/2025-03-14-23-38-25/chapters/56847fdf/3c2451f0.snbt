@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"FOR THE STONE RITUAL IN DARK REALM. MAKE SURE ITS PEDESTALS / MATERIAL IS DARK ETHAXIUM BRICKS"
+	],
+	optional: true,
+	tasks: [{
+		uid: "628df273",
+		type: "checkmark"
+	},
+	{
+		uid: "ab503038",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:darkethaxiumbrick"
+		}]
+	}],
+	rewards: [{
+		uid: "893370fc",
+		type: "xp",
+		xp: 100
+	}]
+}

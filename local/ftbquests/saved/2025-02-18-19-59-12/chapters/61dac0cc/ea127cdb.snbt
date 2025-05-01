@@ -1,0 +1,16 @@
+{
+	x: -3.232142857142861d,
+	y: -1.2142857142857153d,
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "0f743432",
+		type: "item",
+		items: [{
+			item: "infinity:soul_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

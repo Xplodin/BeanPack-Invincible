@@ -1,0 +1,7 @@
+{
+	title: "Lost Infinity",
+	icon: "lostinfinity:synthesized_astrometal",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	shape: "diamond",
+	dependencies: [
+		"aef5e784"
+	],
+	tasks: [{
+		uid: "862de134",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8e21ae30",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

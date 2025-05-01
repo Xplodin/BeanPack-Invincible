@@ -1,0 +1,16 @@
+{
+	x: 2.0535714285714306d,
+	y: 0.2142857142857153d,
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "22014ba3",
+		type: "item",
+		items: [{
+			item: "infinity:time_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "DONT THROW ME",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"Unless you want chaos"
+	],
+	tasks: [{
+		uid: "f881874d",
+		type: "item",
+		items: [{
+			item: "avaritia:endest_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "adc3cf68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	},
+	{
+		uid: "79d0de7f",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

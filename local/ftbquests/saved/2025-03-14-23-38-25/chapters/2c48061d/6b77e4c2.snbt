@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	optional: true,
+	tasks: [{
+		uid: "d3b20528",
+		type: "item",
+		items: [{
+			item: "alchemistry:electrolyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "b70c2904",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "688c44ca",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "4945f75e",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "4bec47d7",
+		type: "item",
+		item: "lucraftcore:injection"
+	}]
+}

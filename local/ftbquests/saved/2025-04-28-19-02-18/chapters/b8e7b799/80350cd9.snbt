@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Only mineable with Celestial Miner's Pickaxe"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "56c11603",
+		type: "item",
+		items: [{
+			item: "lostinfinity:celestialdiamond"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b7a61e04",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

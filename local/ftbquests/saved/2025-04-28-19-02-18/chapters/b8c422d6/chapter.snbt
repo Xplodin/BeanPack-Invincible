@@ -1,0 +1,10 @@
+{
+	title: "Tech",
+	icon: "mekanismecoenergistics:controlcircuitavaritia 1 2",
+	description: [
+		"More will come"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

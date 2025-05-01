@@ -1,0 +1,35 @@
+{
+	title: "Buy a Mooshroom here!",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:mooshroom"
+			}
+		}
+	},
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"Farming for blockheads adds various eggs to also buy. The ones listed here are not available in the market and can be bought here."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "fbe01b85",
+		type: "ftbmoney:money",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "1213ac8c",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		}
+	}]
+}
