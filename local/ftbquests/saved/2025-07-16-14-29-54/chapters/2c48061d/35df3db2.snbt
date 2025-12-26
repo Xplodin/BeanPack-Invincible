@@ -1,0 +1,38 @@
+{
+	title: "Spider Powers",
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"Get bit by the spider found in villages, where spider scientists reside.",
+		"They are NOT 100% of the time there!"
+	],
+	optional: true,
+	tasks: [{
+		uid: "da2056e6",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "heroesexpansion:spider_powers"
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f8247462",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0b206700",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a548eaed",
+		type: "loot",
+		table: 2
+	}]
+}

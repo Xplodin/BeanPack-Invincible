@@ -1,0 +1,41 @@
+{
+	title: "Checkpoint Here!",
+	icon: "botania:cosmetic 1 31",
+	disable_toast: true,
+	x: 10.0d,
+	y: -10.0d,
+	text: [
+		"You have completed what is necessary to assemble a Singularity. Use 100 of these pink slime ingots to craft one, and get one step closer to Infinity Blocks!"
+	],
+	dependencies: [
+		"8ce5fedf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "22a30b2f",
+		type: "checkmark",
+		disable_toast: true
+	},
+	{
+		uid: "a25b0434",
+		type: "item",
+		items: [{
+			item: "singularities:singularity 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "3b3a33c4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "6e4d6eb8",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6456ede6",
+		type: "random",
+		table: 0
+	}]
+}

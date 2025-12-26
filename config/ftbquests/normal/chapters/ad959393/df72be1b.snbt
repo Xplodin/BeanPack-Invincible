@@ -1,0 +1,59 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	text: [
+		"Can shrink and regrow structures! Contents inside chests will be kept.",
+		"Can also shrink / grow creatures ;)"
+	],
+	tasks: [{
+		uid: "e827898c",
+		type: "item",
+		items: [{
+			item: "pymtech:structure_shrinker"
+		}]
+	},
+	{
+		uid: "e8d34d9d",
+		type: "item",
+		items: [{
+			item: "pymtech:shrink_disc"
+		}]
+	},
+	{
+		uid: "6954aa6e",
+		type: "item",
+		items: [{
+			item: "pymtech:grow_disc"
+		}]
+	}],
+	rewards: [{
+		uid: "053899a7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3752405a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "22e8f8b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "967d9f85",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Steps to Infinity",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Have fun! Also this isnt the end..."
+	],
+	dependencies: [
+		"5cdef0ac",
+		"9582f2c4",
+		"12743ee3",
+		"56a3b598",
+		"94844c99",
+		"1a1b88e5",
+		"3e75ed7b",
+		"81a3f84d"
+	],
+	tasks: [{
+		uid: "5a2a93c7",
+		type: "checkmark",
+		title: "To get to the Infinity Stones.."
+	},
+	{
+		uid: "6a896284",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4b925ea9",
+		type: "command",
+		command: "/say @p is closing in on Infinity"
+	},
+	{
+		uid: "06a93a13",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "221f254b",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "4cf2404f",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

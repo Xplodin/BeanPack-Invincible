@@ -17,5 +17,31 @@
             "draconicadditions:chaos_heart",
             "morebees:combwither"
         ]
-    } 
+    },
+	{
+        "mode": "ADD",
+        "result": "roost:chicken,1,0,{Chicken:\"contenttweaker:chaos_chicken\"}",
+        "catalyst": "minecraft:egg",
+        "energy": 2147483647,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaos_shard,1,1",
+            "draconicevolution:chaos_shard,1,1",
+            "draconicevolution:chaos_shard,1,1",
+            "draconicevolution:chaos_shard,1,1"
+        ]
+    },
+	{
+		"mode": "ADD",
+		"result": "bloodmagic:decorative_brick,1,2",
+		"catalyst": "bloodmagic:item_demon_crystal",
+		"energy": 2147483647,
+		"tier": 3,
+		"ingredients": [
+            "bloodmagic:item_demon_crystal,1,1",
+			"bloodmagic:item_demon_crystal,1,2",
+			"bloodmagic:item_demon_crystal,1,3",
+			"bloodmagic:item_demon_crystal,1,4"
+        ]
+	}
 ]

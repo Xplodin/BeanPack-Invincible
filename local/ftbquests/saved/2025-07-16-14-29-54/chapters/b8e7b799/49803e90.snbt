@@ -1,0 +1,35 @@
+{
+	title: "Buy a Squid here!",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:squid"
+			}
+		}
+	},
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"Farming for blockheads adds various eggs to also buy. The ones listed here are not available in the market and can be bought here."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "abe4a582",
+		type: "ftbmoney:money",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "5fc7bdc3",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:squid"
+				}
+			}
+		}
+	}]
+}

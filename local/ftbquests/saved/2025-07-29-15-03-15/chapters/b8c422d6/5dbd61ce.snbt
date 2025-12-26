@@ -1,0 +1,58 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	text: [
+		"Amazing for making blazing pyrotheum fluid for the smeltry!"
+	],
+	dependencies: [
+		"4821f70a"
+	],
+	tasks: [{
+		uid: "26ef8383",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 6s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8afdfd35",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f297277a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "52749c0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

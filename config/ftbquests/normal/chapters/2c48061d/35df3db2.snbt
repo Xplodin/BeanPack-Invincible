@@ -17,8 +17,7 @@
 			}
 		}],
 		consume_items: false,
-		ignore_damage: true,
-		ignore_nbt: 2b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "f8247462",
@@ -34,5 +33,10 @@
 		uid: "a548eaed",
 		type: "loot",
 		table: 2
+	},
+	{
+		uid: "a30fb402",
+		type: "item",
+		item: "lucraftcore:injection"
 	}]
 }

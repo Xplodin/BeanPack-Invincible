@@ -1,0 +1,52 @@
+{
+	title: "Invincible!",
+	x: 0.0d,
+	y: 2.5d,
+	description: "The Man, The Myth, The Legend!",
+	text: [
+		"Made with Ultibean and Fluid Infinity"
+	],
+	dependencies: [
+		"94ab2d61"
+	],
+	tasks: [{
+		uid: "9cc77489",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "beanpack:invincible"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cb78e38a",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "ddbaa6de",
+		type: "item",
+		item: "lucraftcore:injection"
+	},
+	{
+		uid: "06b0069c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	},
+	{
+		uid: "24f59c6a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	}]
+}

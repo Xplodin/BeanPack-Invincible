@@ -1,6 +1,9 @@
 {
 	x: 6.0d,
 	y: -10.5d,
+	text: [
+		"Uses fluid XP as a base to apply enchants from books to tools"
+	],
 	dependencies: [
 		"1694f0dd"
 	],

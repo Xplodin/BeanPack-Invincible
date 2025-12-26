@@ -20,7 +20,6 @@ key.use
 key.pickup.item
 
 key.categories.inventory
-keybind.baublesinventory
 key.drop
 key.hotbar.1
 key.hotbar.2
@@ -65,6 +64,9 @@ key.open_wct.desc
 key.open_wft.desc
 key.open_wpt.desc
 
+AE2Stuff
+ae2stuff.keybinding.adv_wireless_second
+
 key.abyssalcraft.category
 key.use_cage.desc
 key.configurator_mode.desc
@@ -103,6 +105,13 @@ keys.armourers_workshop:category
 keys.armourers_workshop.open-wardrobe
 keys.armourers_workshop.undo
 
+key.categories.baubles
+keybind.baublesinventory
+
+bbw.key.category
+bbw.key.fluidmode
+bbw.key.mode
+
 Binnie's Mods
 binniecore.key.hold.for.help.tooltips
 
@@ -116,12 +125,6 @@ nei.options.keys.gui.botania_corporea_request
 
 key.carbon_config
 key.carbon_config.key
-
-key.carry.category
-key.carry.desc
-
-Chunk-Pregenerator
-Options Gui
 
 key.cofh.category
 key.cofh.multimode
@@ -179,6 +182,11 @@ key.draconicevolution.toolConfig
 ESM:Legacy
 Open sound muffler screen
 
+key.categories.enigmaticlegacy
+key.enderRing
+key.spellstoneAbility
+key.xpScroll
+
 Extra Utilities 2
 key.xu2.searchforitems
 
@@ -206,17 +214,9 @@ key.mod_lavacow.down
 key.mod_lavacow.special
 
 Galacticraft
-[GC] Galaxy Map
-[GC] Open Spaceship Inventory
-[GC] Toggle Sensor Goggles Mode
-
-IC2 Keys
-ALT Key
-Boost Key
-Hub Expand Key
-Mode Switch Key
-Side Inventory Key
-Toggle Key
+Galaxy Map
+Open Spaceship Inventory
+Toggle Sensor Goggles Mode
 
 key.categories.integrateddynamics
 key.integrateddynamics.logic_programmer_focus_search
@@ -265,6 +265,10 @@ lucraftcore.abilitybar.4
 lucraftcore.abilitybar.5
 lucraftcore.abilitybar.down
 lucraftcore.abilitybar.up
+lucraftcore.abilitybar.6
+lucraftcore.abilitybar.7
+lucraftcore.abilitybar.8
+lucraftcore.abilitybar.9
 
 key.categories.mahoutsukai
 key.changeMysticCode
@@ -281,14 +285,43 @@ Module Tweaker
 Show HUD
 Voice
 
+Mekanism - Gravitational Modulating Additional Unit
+Vertical Speed Modifier Switch
+
 key.moreoverlays.category
 key.moreoverlays.chunkbounds.desc
 key.moreoverlays.lightoverlay.desc
+
+keys.cfm.category
+key.fart.desc
+
+key.categories.hbm
+key.categories.hbm.abilityAlt
+key.categories.hbm.ability
+key.categories.hbm.dash
+key.categories.hbm.gunTertitary
+key.categories.hbm.craneLoad
+key.categories.hbm.craneMoveDown
+key.categories.hbm.craneMoveUp
+key.categories.hbm.craneMoveLeft
+key.categories.hbm.craneMoveRight
+key.categories.hbm.reload
+key.categories.hbm.gunSecondary
+key.fsb_flashlight
+key.categories.hbm.toggleHUD
+key.jetpack_activate
+key.categories.hbm.toggleBack
+key.jetpack_hud
+key.jetpack_hover
+key.categories.hbm.qmaw
 
 openblocks.keybind.category
 openblocks.keybind.vario_switch
 openblocks.keybind.vario_vol_down
 openblocks.keybind.vario_vol_up
+
+OpenComputers
+key.clipboardPaste
 
 key.categories.plustic
 key.plustic_brown_magic.desc
@@ -335,6 +368,12 @@ quark.keybind.chestSort
 quark.gui.keygroupMisc
 quark.keybind.changeHotbar
 quark.keybind.lockBuilding
+
+key.categories.rftools
+key.debugDumpNBTItem
+key.debugDumpNBTBlock
+key.porterNextDestination
+key.porterPrevDestination
 
 key.category.rpsideas
 rpsideas.kb.offhandcast
@@ -387,17 +426,11 @@ key.trashslot.deleteAll
 key.trashslot.delete
 key.trashslot.toggle
 
-key.xat.category
-key.xat.trinket_arcing_attack.desc
-key.xat.aux_key.desc
-key.xat.trinket_target.desc
-key.xat.trinket_toggle_effect.desc
-key.xat.magnet_toggle_effect.desc
-key.xat.race_ability.desc
-key.xat.trinket_gui.desc
-
 Universal Tweaks
 keybind.universaltweaks.clear_toasts
+
+WI Zoom
+wi-zoom.zoom
 
 key.categories.ebwizardry
 key.ebwizardry.next_spell
@@ -405,11 +438,6 @@ key.ebwizardry.previous_spell
 key.ebwizardry.spell_1
 key.ebwizardry.spell_2
 key.ebwizardry.spell_3
-key.ebwizardry.spell_4
-key.ebwizardry.spell_5
-key.ebwizardry.spell_6
-key.ebwizardry.spell_7
-key.ebwizardry.spell_8
 
 WorldEdit
 WorldEdit Reference
@@ -423,13 +451,14 @@ flare.key.stop_sampling
 
 jei (Had Enough Items)
 key.jei.bookmark
+key.hei.crafting
 key.jei.focusSearch
 key.jei.nextPage
 key.jei.previousPage
 key.jei.recipeBack
 key.jei.showRecipe
 key.jei.showUses
-key.jei.toggleBookmarkOverlay
+key.hei.toggleBookmarkOverlay
 key.jei.toggleOverlay
 key.jei.toggleCheatMode
 key.jei.toggleEditMode

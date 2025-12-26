@@ -3,7 +3,9 @@
 	y: -0.5d,
 	text: [
 		"The very start to Lost Infinity Stones mod.",
-		"Tip: Silk Touch is a game changer. :)"
+		"Tip: Silk Touch is a game changer. :)",
+		"",
+		"Also, this mod is very end game. It is usually done after you get the infinity stones."
 	],
 	tasks: [{
 		uid: "4051e15a",
@@ -21,6 +23,21 @@
 			id: "patchouli:guide_book",
 			tag: {
 				"patchouli:book": "patchouli:lostinfinity"
+			}
+		}
+	},
+	{
+		uid: "fb08ef4c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "97889386",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
 			}
 		}
 	}]

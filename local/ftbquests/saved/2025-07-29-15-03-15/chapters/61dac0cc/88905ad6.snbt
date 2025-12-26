@@ -1,0 +1,35 @@
+{
+	x: -2.142857142857146d,
+	y: -1.392857142857146d,
+	shape: "octagon",
+	text: [
+		"Invisibility, and shape sizing abilties."
+	],
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "789d94af",
+		type: "item",
+		items: [{
+			item: "infinity:reality_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e6f3935",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "f6453cf4",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6d3d3aab",
+		type: "loot",
+		table: 2
+	}]
+}

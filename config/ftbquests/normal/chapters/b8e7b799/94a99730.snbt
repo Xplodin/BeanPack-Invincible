@@ -1,0 +1,358 @@
+{
+	title: "Buy a Deviant Skyworm here!",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "lostinfinity:deviantskyworm"
+			}
+		}
+	},
+	x: 3.5d,
+	y: 6.0d,
+	description: "Typically found in Mountainous areas",
+	text: [
+		"For those unable to find them"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "df2da114",
+		type: "ftbmoney:money",
+		value: 2500L
+	}],
+	rewards: [{
+		uid: "c49c1015",
+		type: "item",
+		item: {
+			id: "enderio:item_soul_vial",
+			Damage: 1s,
+			tag: {
+				entityId: "lostinfinity:deviantskyworm",
+				entity: {
+					DeathTime: 0s,
+					Leashed: 0b,
+					UUIDLeast: -7183844730829718942L,
+					LeftHanded: 0b,
+					OnGround: 0b,
+					AbsorptionAmount: 0.0f,
+					Attributes: [{
+						Name: "tc.mobmod",
+						Base: -2.0d,
+						Modifiers: [{
+							Name: "normal",
+							Amount: 1.0d,
+							Operation: 0,
+							UUIDMost: 2189974539282499591L,
+							UUIDLeast: -6477178668949725305L
+						}]
+					},
+					{
+						Name: "tc.mobmodtaint",
+						Base: 0.0d
+					},
+					{
+						Name: "potioncore.projectileDamage",
+						Base: 1.0d
+					},
+					{
+						Name: "potioncore.magicDamage",
+						Base: 1.0d
+					},
+					{
+						Name: "potioncore.jumpHeight",
+						Base: 1.0d
+					},
+					{
+						Name: "potioncore.damageResistance",
+						Base: 1.0d
+					},
+					{
+						Name: "potioncore.magicShielding",
+						Base: 0.0d
+					},
+					{
+						Name: "lucraftcore.stepHeight",
+						Base: 1.0d
+					},
+					{
+						Name: "lucraftcore.extraPunchDamage",
+						Base: 0.0d
+					},
+					{
+						Name: "lucraftcore.fallResistance",
+						Base: 0.0d
+					},
+					{
+						Name: "lucraftcore.jumpHeight",
+						Base: 0.0d
+					},
+					{
+						Name: "lucraftcore.sprintSpeed",
+						Base: 0.0d
+					},
+					{
+						Name: "thaumicwonders:void_damage",
+						Base: 0.0d
+					},
+					{
+						Name: "thaumicwonders:healing_reduction",
+						Base: 0.0d
+					},
+					{
+						Name: "xat.entityRace",
+						Base: 1.0d
+					},
+					{
+						Name: "xat.jump",
+						Base: 0.41999998688697815d
+					},
+					{
+						Name: "xat.stepheight",
+						Base: 0.6000000238418579d
+					},
+					{
+						Name: "xat.entityMagic.maxMana",
+						Base: 100.0d
+					},
+					{
+						Name: "xat.entityMagic.regen",
+						Base: 1.0d
+					},
+					{
+						Name: "xat.entityMagic.regen.cooldown",
+						Base: 1.0d
+					},
+					{
+						Name: "xat.entityMagic.affinity",
+						Base: 0.0d
+					},
+					{
+						Name: "tconevo.flightSpeed",
+						Base: 0.05d
+					},
+					{
+						Name: "tconevo.damageTaken",
+						Base: 1.0d
+					},
+					{
+						Name: "tconevo.evasionChance",
+						Base: 1.0d
+					},
+					{
+						Name: "tconevo.healingReceived",
+						Base: 1.0d
+					},
+					{
+						Name: "generic.maxHealth",
+						Base: 200.0d
+					},
+					{
+						Name: "generic.knockbackResistance",
+						Base: 0.0d
+					},
+					{
+						Name: "generic.movementSpeed",
+						Base: 0.699999988079071d
+					},
+					{
+						Name: "generic.armor",
+						Base: 0.0d
+					},
+					{
+						Name: "generic.armorToughness",
+						Base: 0.0d
+					},
+					{
+						Name: "forge.swimSpeed",
+						Base: 1.0d
+					},
+					{
+						Name: "generic.followRange",
+						Base: 64.0d,
+						Modifiers: [{
+							Name: "Random spawn bonus",
+							Amount: 0.06753076333347273d,
+							Operation: 1,
+							UUIDMost: -6049880596123727412L,
+							UUIDLeast: -7717141077353405080L
+						}]
+					},
+					{
+						Name: "generic.attackDamage",
+						Base: 2.0d
+					}],
+					Invulnerable: 0b,
+					HandDropChances: [
+						0.085f,
+						0.085f
+					],
+					Dimension: 0,
+					ForgeCaps: {
+						"xat:magicstats": {
+							mana: 100.0f,
+							max_mana: 100.0f,
+							bonus_mana: 0.0d
+						},
+						"twilightforest:cap_shield": {
+							tempshields: 0,
+							permshields: 0
+						},
+						"ancientspellcraft:deathmarkcapability": {},
+						"mahoutsukai:mahou": {
+							MAHOUTSUKAI_PLAYER_CHARGE_RATE: 0.1d,
+							MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES: 0,
+							MAHOUTSUKAI_LAST_RECIPE_CLOTH: 0b,
+							MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT: 0.0f,
+							MAHOUTSUKAI_MANA_UP_COUNTER: 100,
+							MAHOUTSUKAI_PLAYER_MAX_MANA: 100,
+							MAHOUTSUKAI_CANCEL_TIME: -1L,
+							MAHOUTSUKAI_KODOKU_VALUE: 0,
+							MAHOUTSUKAI_AUTHORITY_HIT: 0b,
+							MAHOUTSUKAI_PLAYER_PREV_PITCH: 0.0f,
+							MAHOUTSUKAI_PLAYER_PREV_YAW: 0.0f,
+							MAHOUTSUKAI_PLAYER_OLD_DIMENSION: 0,
+							MAHOUTSUKAI_PLAYER_HAS_MAGIC: 0b,
+							MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES: 0,
+							MAHOUTSUKAI_PLAYER_POSSESSING: 0b,
+							MAHOUTSUKAI_SHOW_MAHOU: 1b,
+							MAHOUTSUKAI_MANA_FULL: 1b,
+							MAHOUTSUKAI_PLAYER_STORED_MANA: 100
+						},
+						"champions:championship": {
+							tier: 0
+						},
+						"lucraftcore:size_changing": {
+							Size: 1.0f,
+							OrigWidth: 2.5f,
+							SizePerTick: 0.0f,
+							OrigHeight: 2.8f,
+							EstimatedSize: 0.0f,
+							SizeChanger: "lucraftcore:default"
+						},
+						"xat:statushandler": {},
+						"llibrary:extendedentitydatacapability": {
+							"Ice And Fire - Stone Property Tracker": {
+								TurnedToStone: 0b,
+								StoneBreakLvl: 0
+							},
+							"Ice And Fire - Siren Property Tracker": {
+								CharmedBySiren: 0b,
+								SirenID: 0
+							},
+							"Ice And Fire - Ghost Property Tracker": {
+								GhostID: 0
+							},
+							"Ice And Fire - Chain Property Tracker": {
+								ConnectedEntities: []
+							},
+							"Ice and Fire - Player Property Tracker": {
+								DismountedDragon: 0b,
+								GauntletDamage: 0,
+								DreadPortalX: 0,
+								DreadPortalY: 0,
+								DreadPortalZ: 0
+							},
+							"Ice And Fire - Frozen Property Tracker": {
+								IsFrozen: 0b,
+								TicksUntilUnfrozen: 0
+							}
+						},
+						"wizardryutils:summonedcreaturedata": {
+							followOwner: 0b
+						},
+						"tinkertoolleveling:entityxp": [],
+						"thaumicaugmentation:portal_state": {
+							inPortal: 0b
+						},
+						"lucraftcore:superpower_capability": {
+							Data: {
+								NECKLACE: {},
+								MANTLE: {},
+								SUPERPOWER: {
+									Level: 0,
+									XP: 0
+								},
+								WRIST: {},
+								SUIT: {}
+							},
+							HasPlayedBefore: 0b
+						},
+						"twilightforest:cap_boss": {
+							variant: -1,
+							homePos: {
+								X: 0,
+								Y: 0,
+								Z: 0
+							}
+						},
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+					},
+					ArmorDropChances: [
+						0.085f,
+						0.085f,
+						0.085f,
+						0.085f
+					],
+					UUIDMost: -6326598991538861748L,
+					Mutation: 0,
+					Rotation: [
+						-44.111977f,
+						0.0f
+					],
+					HurtByTimestamp: 0,
+					UpdateBlocked: 0b,
+					ArmorItems: [{},
+					{},
+					{},
+					{}],
+					Tags: [
+						"ltta:bookGiven"
+					],
+					HandItems: [{},
+					{}],
+					Air: 300s,
+					ForgeData: {
+						"Potion Core - Health Fix": 200.0f,
+						"Potion Core - Jump Boost Updated": 1b,
+						xat.magicstats: {
+							mana: 100.0f,
+							max_mana: 100.0f,
+							bonus_mana: 0.0d
+						}
+					},
+					PersistenceRequired: 0b,
+					Pos: [
+						209.67623115007885d,
+						82.40189377323748d,
+						273.9549505344008d
+					],
+					FallDistance: 0.0f,
+					id: "lostinfinity:deviantskyworm",
+					Motion: [
+						0.15080085653448944d,
+						-0.25671688572122947d,
+						0.14991036420362042d
+					],
+					AABB: [
+						208.42623115007885d,
+						82.40189377323748d,
+						272.7049505344008d,
+						210.92623115007885d,
+						85.20189372555376d,
+						275.2049505344008d
+					],
+					LivesUsed: 0,
+					CanPickUpLoot: 0b,
+					Health: 200.0f,
+					HurtTime: 0s,
+					FallFlying: 0b,
+					Fire: -1s,
+					PortalCooldown: 0
+				}
+			}
+		}
+	}]
+}

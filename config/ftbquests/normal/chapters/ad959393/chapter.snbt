@@ -1,0 +1,18 @@
+{
+	title: "Misc",
+	icon: "extrabotany:cosmetic 1 7",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 7.0d,
+		y: -3.5d,
+		width: 6.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "beanpack:bmt6.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

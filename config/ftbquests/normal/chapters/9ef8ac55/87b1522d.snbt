@@ -1,0 +1,24 @@
+{
+	title: "Details on skyworms",
+	x: -2.0d,
+	y: 1.5d,
+	text: [
+		"Usually are found in high mountainous biomes"
+	],
+	dependencies: [
+		"89f03667"
+	],
+	tasks: [{
+		uid: "801b6292",
+		type: "checkmark",
+		title: "Skyworms are found in very high mountain biomes usually in darklands."
+	}],
+	rewards: [{
+		uid: "70999d74",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	}]
+}

@@ -435,6 +435,30 @@
 					"state": "variant=granite"
 				}
 			]
+		},
+		"titanium_ore": {
+			"retrogen": false,
+			"enabled": false,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				0
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"frequency": 7,
+				"minHeight": 0,
+				"maxHeight": 68
+			},
+			"blocks": [
+				{
+					"name": "mekanismecoenergistics:titanium_ore",
+					"chance": 100
+				}
+			]
 		}
 	}
 }

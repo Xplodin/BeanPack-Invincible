@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
+JEI.removeAndHide(<pymtech:shrunken_suit>.withTag({Chestplate: { id: "wakanda:black_panther_venomized_suit" }}));
 JEI.removeAndHide(<lucraftcore:dust_charcoal>);
 JEI.removeAndHide(<liquid:uru_fluid>);
 //JEI.removeAndHide(<openblocks:tank>.withTag({tank: {FluidName: "uru_fluid", Amount: 16000}}));

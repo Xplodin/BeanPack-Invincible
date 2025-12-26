@@ -1,0 +1,30 @@
+{
+	title: "Rustier sidepick!",
+	x: -6.0d,
+	y: -2.0d,
+	text: [
+		"Maybe more rustworthy than trustworthy, but it's an improvement."
+	],
+	dependencies: [
+		"bc0d2643"
+	],
+	tasks: [{
+		uid: "d61b5039",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a7b9283",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d344f7a3",
+		type: "xp",
+		xp: 25
+	}]
+}

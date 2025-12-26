@@ -121,6 +121,13 @@ pvj:snowy_boreal_forest
 pvj:aspen_grove
 pvj:overgrown_spires
 pvj:blossoming_fields
+pymtech:quantum energy fields
+pymtech:quantum wastelands
+pymtech:quantum void
+pymtech:quantum madness
+pymtech:microscopic
+pymtech:vormir
+pymtech:soul
 jeid:error_biome
 ancientspellcraft:pocket
 thaumcraft:magical_forest
@@ -170,6 +177,7 @@ aoa3:runandor
 aoa3:shyrelands
 aoa3:vox_ponds
 iceandfire:glacier
+iceandfire:dreadlands
 galacticraftcore:outer space
 galacticraftplanets:outer space 1
 galacticraftplanets:outer space 2
@@ -200,10 +208,10 @@ lostinfinity:shadowsea
 lostinfinity:moltensea
 lostinfinity:infinitemurk
 mahoutsukai:realitymarble
-rats:ratlantis
 thaumicaugmentation:emptiness
 thaumicaugmentation:tainted_lands
 thaumicaugmentation:emptiness_highlands
+rats:ratlantis
 abyssalcraft:darklands
 abyssalcraft:darklands_forest
 abyssalcraft:darklands_plains
@@ -219,3 +227,6 @@ abyssalcraft:omothol
 abyssalcraft:dark_realm
 abyssalcraft:purged
 aether_legacy:aether_highlands
+hbm:crater
+hbm:crater_inner
+hbm:crater_outer

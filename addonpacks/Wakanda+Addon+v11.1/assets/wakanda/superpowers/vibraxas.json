@@ -155,7 +155,7 @@
             "show_in_bar": false,		
             "title": {"text":"Radiation Purge"},		
 			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
-            "potion": "lucraftcore:radiation"			
+            "potion": "hbm:potion.hbm_radiation"			
 		}
 	}
 }

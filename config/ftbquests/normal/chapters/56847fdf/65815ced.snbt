@@ -1,10 +1,13 @@
 {
-	x: -2.5d,
-	y: 2.0d,
-	dependencies: [
-		"a2d9cefb",
-		"ede24829"
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"Veinminer is super nice"
 	],
+	dependencies: [
+		"2d669d47"
+	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "8ec2fb5b",
 		type: "item",
@@ -21,6 +24,6 @@
 	{
 		uid: "b2c52e91",
 		type: "ftbmoney:money",
-		ftb_money: 500L
+		ftb_money: 100L
 	}]
 }

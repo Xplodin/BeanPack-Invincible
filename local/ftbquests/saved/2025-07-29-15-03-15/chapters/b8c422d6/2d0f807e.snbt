@@ -1,0 +1,58 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"Great for crushing ores, but I like the EnderIO SAG Mill!"
+	],
+	dependencies: [
+		"4821f70a"
+	],
+	tasks: [{
+		uid: "e76d7fc1",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "ed8f2d23",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0e0fc529",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "a9c952dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

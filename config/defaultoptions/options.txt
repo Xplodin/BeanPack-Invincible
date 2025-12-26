@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["AudioCraftV1.6.zip","Default Improved 1.12 - Storage Drawers Addon.zip","Default Improved 1.12 - Storage Drawers Extras Addon.zip","Default Improved PBR 1.12 - Biomes+O\u0027 Plenty.zip","Default Improved PBR 1.12 - Quark.zip","Default Improved PBR 1.12 Base Metals_thermalfoundation.zip","Default Improved PBR 1.12.zip","Minecraft 2011 Hurt Sounds.zip","UBCTextureFix 1.0.zip","InsaneCraft"]
+resourcePacks:["CoT_Chaos_Chicken_ResourcePack.zip","LostInfinity"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -39,7 +39,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:0
+mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
@@ -52,13 +52,13 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:0.80794704
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:0.45774648
-soundCategory_weather:0.18309858
-soundCategory_block:0.7253521
+soundCategory_weather:0.15492958
+soundCategory_block:0.85915494
 soundCategory_hostile:0.6056338
-soundCategory_neutral:0.2535211
+soundCategory_neutral:0.3028169
 soundCategory_player:0.6056338
 soundCategory_ambient:0.70422536
 soundCategory_voice:0.40140846

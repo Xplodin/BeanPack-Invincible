@@ -12,6 +12,7 @@
 		items: [{
 			item: "lostinfinity:celestialdiamond"
 		}],
+		count: 5L,
 		consume_items: true
 	}],
 	rewards: [{

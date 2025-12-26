@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:machineblock"
-		}]
+		}],
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "c3c6738e",

@@ -1,7 +1,7 @@
 {
 	title: "MANAAAAAAAAAAAAA",
-	x: -4.5d,
-	y: 3.5d,
+	x: -10.0d,
+	y: 5.0d,
 	optional: true,
 	tasks: [{
 		uid: "15386e77",
@@ -12,9 +12,9 @@
 		uid: "a16e18a3",
 		type: "item",
 		item: {
-			id: "botania:manaring",
+			id: "botania:manaringgreater",
 			tag: {
-				mana: 500000
+				mana: 2000000
 			}
 		}
 	},

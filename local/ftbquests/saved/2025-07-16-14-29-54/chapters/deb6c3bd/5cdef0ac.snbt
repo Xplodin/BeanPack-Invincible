@@ -1,0 +1,34 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"Have fun with food!"
+	],
+	tasks: [{
+		uid: "51680888",
+		type: "item",
+		items: [{
+			item: "avaritia:cosmic_meatballs"
+		}]
+	}],
+	rewards: [{
+		uid: "b09962e4",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4e71f9ee",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "c725dbc9",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "cd2fea0a",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

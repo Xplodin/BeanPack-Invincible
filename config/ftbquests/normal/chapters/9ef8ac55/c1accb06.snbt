@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	text: [
+		"Capture a dimensional merchant from Lost Infinity, usually found in End Cities. Trade them deviant foods from killed deviants for a chance at this.",
+		"WARNING: LOCATIONS ARE RANDOM!",
+		"DEATH IN HERE WILL LIKELY PUT YOUR GRAVE IN ANOTHER DUNGEON INSTANCE.",
+		"Feel free to use grave recovery commands incase of accidents"
+	],
+	dependencies: [
+		"89f03667"
+	],
+	tasks: [{
+		uid: "5236b06e",
+		type: "item",
+		items: [{
+			item: "lostinfinity:starlitglobe"
+		}]
+	}],
+	rewards: [{
+		uid: "26648aac",
+		type: "item",
+		item: "lostinfinity:starlitglobe"
+	}]
+}

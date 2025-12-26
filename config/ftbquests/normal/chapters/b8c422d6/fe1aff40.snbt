@@ -1,0 +1,20 @@
+{
+	title: "TIP:",
+	x: 2.0d,
+	y: -11.0d,
+	text: [
+		"You can smelt rats raw plastic to get industrial foregoing rubber!"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a86c2673",
+		type: "checkmark",
+		icon: "botania:cosmetic 1 31",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "58dc1be3",
+		type: "item",
+		item: "rats:raw_plastic"
+	}]
+}

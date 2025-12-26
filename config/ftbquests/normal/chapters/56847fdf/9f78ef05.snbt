@@ -1,0 +1,21 @@
+{
+	title: "Heroes get remembered, but Legends never die.",
+	x: -11.0d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"Your body may have become temporarily uninhabitable for your soul, but you haven't truely died. ",
+		"Your connection to the world has brought you back to life.",
+		"",
+		" You aren't done yet."
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "7ee60540",
+		type: "stat",
+		title: "Fallen down",
+		stat: "stat.deaths",
+		value: 1
+	}]
+}

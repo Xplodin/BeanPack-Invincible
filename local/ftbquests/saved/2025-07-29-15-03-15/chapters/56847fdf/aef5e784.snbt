@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"f41c439c"
+	],
+	tasks: [{
+		uid: "d1afd2bf",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65df1b5e",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

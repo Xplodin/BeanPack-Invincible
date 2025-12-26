@@ -1,0 +1,45 @@
+{
+	x: 11.5d,
+	y: -4.0d,
+	dependencies: [
+		"c26d6a4c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "693fc44e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:satchel",
+			Damage: 1s,
+			tag: {
+				Accessible: 1b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dcd88525",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6f39dd84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "e2fba88e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

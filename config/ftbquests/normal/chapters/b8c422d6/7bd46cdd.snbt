@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	text: [
+		"Cant seem to make a quest for Nuclear Waste due to how its registered, but put the wastewater into the condensentrator "
+	],
+	dependencies: [
+		"662db95f"
+	],
+	tasks: [{
+		uid: "c986ae4e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nuclearwaste",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "be496c36",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "97f38c7d",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

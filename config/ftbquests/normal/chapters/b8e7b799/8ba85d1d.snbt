@@ -8,8 +8,8 @@
 			}
 		}
 	},
-	x: -1.0d,
-	y: 5.0d,
+	x: -2.5d,
+	y: 6.0d,
 	text: [
 		"Farming for blockheads adds various eggs to also buy. The ones listed here are not available in the market and can be bought here."
 	],

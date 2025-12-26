@@ -1,6 +1,10 @@
 {
-	x: 0.0d,
-	y: -1.0d,
+	title: "Rusty sidepick!",
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"Every hero needs a rusty sidepick!"
+	],
 	dependencies: [
 		"f41c439c"
 	],
@@ -12,11 +16,11 @@
 		}],
 		consume_items: false,
 		ignore_damage: true,
-		ignore_nbt: 2b
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "65df1b5e",
 		type: "ftbmoney:money",
-		ftb_money: 30L
+		ftb_money: 10L
 	}]
 }

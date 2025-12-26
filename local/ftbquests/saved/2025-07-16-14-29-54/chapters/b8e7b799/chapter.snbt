@@ -1,0 +1,33 @@
+{
+	title: "Grand Exchange",
+	icon: "rats:chunky_cheese_token",
+	disable_toast: true,
+	description: [
+		"More over time."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -1.0d,
+		y: -3.0d,
+		width: 7.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "beanpack:sell.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: 2.5d,
+		width: 7.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "beanpack:buy.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Trustier sidepick!",
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"Not copper, but one of many metals from other realms! Far superior durability to diamond. JEI can be used to see what heights and dimensions specific ores can be found."
+	],
+	dependencies: [
+		"2d669d47"
+	],
+	tasks: [{
+		uid: "6107b1cb",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_ingot"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d9c26feb",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44948e7e",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1da0d59",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "63328048",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

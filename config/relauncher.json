@@ -1,5 +1,6 @@
 {
-  "selectedVersion": "0.3.0-alpha",
-  "latestVersion": "0.3.0-alpha",
-  "javaPath": "C:\\Users\\somet\\OneDrive\\Documents\\graalvm\\graalvm-jdk-21.0.6+8.1\\bin\\java.exe"
+  "selectedVersion": "0.3.31-alpha",
+  "latestVersion": "0.3.31-alpha",
+  "javaPath": "E:\\java\\graalvm-jdk-25.0.1+8.1\\bin\\javaw.exe",
+  "args": ""
 }

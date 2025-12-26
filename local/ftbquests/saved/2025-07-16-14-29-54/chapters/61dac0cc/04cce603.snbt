@@ -1,0 +1,50 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"If you want the power stone, youll need this."
+	],
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "b6537319",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					id: 35,
+					lvl: 10s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "daf015c9",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	},
+	{
+		uid: "1b19d147",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "bebb6eba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	}]
+}

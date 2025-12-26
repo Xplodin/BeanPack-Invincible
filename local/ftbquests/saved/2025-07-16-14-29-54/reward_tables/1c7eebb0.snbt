@@ -1,0 +1,94 @@
+{
+	title: "BeanBox Pro",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "compactmachines3:machine 1 5"
+	},
+	{
+		ftb_money: 300L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 500L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		random_bonus: 2
+	},
+	{
+		xp_levels: 20,
+		type: "xp_levels"
+	},
+	{
+		item: "harvestcraft:meatloafsandwichitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:swedishmeatballsitem",
+		count: 4
+	},
+	{
+		item: "ironchest:iron_shulker_box_purple 1 5"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "ironchest:iron_chest 1 6"
+	},
+	{
+		item: {
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "dfheroes:tier4_god_of_hammers"
+			}
+		}
+	},
+	{
+		item: {
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "manhattan_project:power_of_shazam_1"
+			}
+		}
+	},
+	{
+		item: "lostinfinity:celestialiron"
+	},
+	{
+		item: "lostinfinity:celestialredstone"
+	},
+	{
+		item: "lostinfinity:celestialquartz"
+	},
+	{
+		item: "lostinfinity:celestialemerald"
+	},
+	{
+		item: "lostinfinity:celestialdiamond"
+	}],
+	loot_crate: {
+		string_id: "beanbox_pro",
+		item_name: "BeanBox Pro",
+		color: 16711680,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

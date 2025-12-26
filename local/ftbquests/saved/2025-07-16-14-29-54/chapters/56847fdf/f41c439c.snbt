@@ -1,0 +1,30 @@
+{
+	title: "Morning wood",
+	x: 1.5d,
+	y: -1.0d,
+	shape: "square",
+	tasks: [{
+		uid: "987447d8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "208760eb",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

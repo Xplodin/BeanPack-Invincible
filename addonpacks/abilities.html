@@ -69,7 +69,16 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#star-tech:power_give_burnout">star-tech.abilities.power_give_burnout.name</a></li>
 <li><a href="#star-tech:concussive_blast">Concussive Blast</a></li>
 </ul>
-<h1>Lucraft: Core</h1>
+<h1>PymTech</h1>
+<ul>
+<li><a href="#pymtech:pym_particle_size">Pym Particles</a></li>
+<li><a href="#pymtech:regulator">Regulator</a></li>
+<li><a href="#pymtech:shrink_suit">Shrink Suit</a></li>
+<li><a href="#pymtech:soul_detect">Soul Detect</a></li>
+<li><a href="#pymtech:soul_world_teleport">Soul World Teleport</a></li>
+<li><a href="#pymtech:soul_world_teleport_target">Soul World Teleport Target</a></li>
+</ul>
+<h1>Lucraft: Core Unofficial</h1>
 <ul>
 <li><a href="#lucraftcore:toggle_power">Toggle Power</a></li>
 <li><a href="#lucraftcore:health">Health</a></li>
@@ -100,12 +109,11 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#lucraftcore:command_on_gain">Command On Gain</a></li>
 <li><a href="#lucraftcore:command_on_lose">Command On Lose</a></li>
 <li><a href="#lucraftcore:set_punch">Punch</a></li>
-</ul>
-<h1>PymTech</h1>
-<ul>
-<li><a href="#pymtech:pym_particle_size">Pym Particles</a></li>
-<li><a href="#pymtech:regulator">Regulator</a></li>
-<li><a href="#pymtech:shrink_suit">Shrink Suit</a></li>
+<li><a href="#lucraftcore:optic_blast">Optic Blast</a></li>
+<li><a href="#lucraftcore:sword_hand_breaker">lucraftcore.abilities.sword_hand_breaker.name</a></li>
+<li><a href="#lucraftcore:pickaxe_hand_breaker">lucraftcore.abilities.pickaxe_hand_breaker.name</a></li>
+<li><a href="#lucraftcore:axe_hand_breaker">lucraftcore.abilities.axe_hand_breaker.name</a></li>
+<li><a href="#lucraftcore:shovel_hand_breaker">lucraftcore.abilities.shovel_hand_breaker.name</a></li>
 </ul>
 <h1>The Fifth World</h1>
 <ul>
@@ -2144,7 +2152,8 @@ Type: ACTION</p><br>
   "bar_color": "light_gray",<br>
   "arm": 0,<br>
   "reach_distance": 5.0,<br>
-  "damage": -1.0<br>
+  "damage": -1.0,<br>
+  "knockback_strength": 1.0<br>
 }</code>
 <table>
 <tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
@@ -2188,6 +2197,257 @@ Type: ACTION</p><br>
 <td><code>Float</code></td>
 <td><code>-1.0</code></td>
 <td><p>The amount of damage dealt with each hit. If you set it to -1 it will use the current attack stat of the player</p>
+</td></tr><br><tr>
+<td><code>knockback_strength</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The strength of the knockback applied to the target. 0 = no knockback, 1 = normal knockback, 2+ = stronger knockback</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="lucraftcore:optic_blast">Optic Blast</h1>
+<h3>lucraftcore:optic_blast</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "lucraftcore:optic_blast",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"lucraftcore.abilities.optic_blast.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "color": [255, 0, 0],<br>
+  "damage": 3.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"lucraftcore.abilities.optic_blast.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>color</code></td>
+<td><code>Color</code></td>
+<td><code>[255, 0, 0]</code></td>
+<td><p>The color of the beams</p>
+</td></tr><br><tr>
+<td><code>damage</code></td>
+<td><code>Float</code></td>
+<td><code>3.0</code></td>
+<td><p>The damage dealt by the heat vision</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="lucraftcore:sword_hand_breaker">lucraftcore.abilities.sword_hand_breaker.name</h1>
+<h3>lucraftcore:sword_hand_breaker</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "lucraftcore:sword_hand_breaker",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"lucraftcore.abilities.sword_hand_breaker.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "tool_level": 1,<br>
+  "efficiency": 4.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"lucraftcore.abilities.sword_hand_breaker.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>tool_level</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>Уровень меча (1=дерево, 2=камень, 3=железо, 4=алмаз)</p>
+</td></tr><br><tr>
+<td><code>efficiency</code></td>
+<td><code>Float</code></td>
+<td><code>4.0</code></td>
+<td><p>Эффективность ломания</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="lucraftcore:pickaxe_hand_breaker">lucraftcore.abilities.pickaxe_hand_breaker.name</h1>
+<h3>lucraftcore:pickaxe_hand_breaker</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "lucraftcore:pickaxe_hand_breaker",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"lucraftcore.abilities.pickaxe_hand_breaker.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "tool_level": 1,<br>
+  "efficiency": 4.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"lucraftcore.abilities.pickaxe_hand_breaker.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>tool_level</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>Уровень кирки (1=дерево, 2=камень, 3=железо, 4=алмаз)</p>
+</td></tr><br><tr>
+<td><code>efficiency</code></td>
+<td><code>Float</code></td>
+<td><code>4.0</code></td>
+<td><p>Эффективность ломания</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="lucraftcore:axe_hand_breaker">lucraftcore.abilities.axe_hand_breaker.name</h1>
+<h3>lucraftcore:axe_hand_breaker</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "lucraftcore:axe_hand_breaker",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"lucraftcore.abilities.axe_hand_breaker.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "tool_level": 1,<br>
+  "efficiency": 4.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"lucraftcore.abilities.axe_hand_breaker.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>tool_level</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>Уровень топора (1=дерево, 2=камень, 3=железо, 4=алмаз)</p>
+</td></tr><br><tr>
+<td><code>efficiency</code></td>
+<td><code>Float</code></td>
+<td><code>4.0</code></td>
+<td><p>Эффективность ломания</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="lucraftcore:shovel_hand_breaker">lucraftcore.abilities.shovel_hand_breaker.name</h1>
+<h3>lucraftcore:shovel_hand_breaker</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "lucraftcore:shovel_hand_breaker",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"lucraftcore.abilities.shovel_hand_breaker.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "tool_level": 1,<br>
+  "efficiency": 4.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"lucraftcore.abilities.shovel_hand_breaker.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>tool_level</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>Уровень лопаты (1=дерево, 2=камень, 3=железо, 4=алмаз)</p>
+</td></tr><br><tr>
+<td><code>efficiency</code></td>
+<td><code>Float</code></td>
+<td><code>4.0</code></td>
+<td><p>Эффективность ломания</p>
 </td></tr><br></table>
 
 <hr>
@@ -3454,6 +3714,168 @@ Type: ACTION</p><br>
 <td><code>Boolean</code></td>
 <td><code>true</code></td>
 <td><p>Determines if you need Pym Particles to shrink the suit</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:soul_detect">Soul Detect</h1>
+<h3>pymtech:soul_detect</h3>
+Type: TOGGLE</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:soul_detect",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.soul_detect.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "update_frequency": 20,<br>
+  "raycast_distance": 100,<br>
+  "nearby_radius": 16<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.soul_detect.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>update_frequency</code></td>
+<td><code>Integer</code></td>
+<td><code>20</code></td>
+<td><p>Update frequency in ticks (20 = 1 second)</p>
+</td></tr><br><tr>
+<td><code>raycast_distance</code></td>
+<td><code>Integer</code></td>
+<td><code>100</code></td>
+<td><p>Raycast distance for detecting entity by line of sight</p>
+</td></tr><br><tr>
+<td><code>nearby_radius</code></td>
+<td><code>Integer</code></td>
+<td><code>16</code></td>
+<td><p>Radius for finding the nearest entity (in blocks)</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:soul_world_teleport">Soul World Teleport</h1>
+<h3>pymtech:soul_world_teleport</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:soul_world_teleport",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.soul_world_teleport.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "range": 10<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.soul_world_teleport.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>range</code></td>
+<td><code>Integer</code></td>
+<td><code>10</code></td>
+<td><p>Maximum range for finding safe teleport position</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:soul_world_teleport_target">Soul World Teleport Target</h1>
+<h3>pymtech:soul_world_teleport_target</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:soul_world_teleport_target",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.soul_world_teleport_target.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "range": 10,<br>
+  "look_distance": 50<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.soul_world_teleport_target.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>range</code></td>
+<td><code>Integer</code></td>
+<td><code>10</code></td>
+<td><p>Maximum range for finding safe teleport position</p>
+</td></tr><br><tr>
+<td><code>look_distance</code></td>
+<td><code>Integer</code></td>
+<td><code>50</code></td>
+<td><p>Maximum distance to look for entities</p>
 </td></tr><br></table>
 
 <hr>

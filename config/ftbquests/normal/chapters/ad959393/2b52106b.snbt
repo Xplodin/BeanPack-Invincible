@@ -1,0 +1,52 @@
+{
+	title: "CHAOS CHICKEN",
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"Made in Chaotic Crafting Injectors, you must defeat the Chaos Guardian at least ONCE."
+	],
+	tasks: [{
+		uid: "d4302fc8",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Gain: 1,
+				Growth: 1,
+				Strength: 1,
+				Chicken: "contenttweaker:chaos_chicken"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "15b3d6c2",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "1109fb41",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "2129ebf7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "84d297c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	}]
+}

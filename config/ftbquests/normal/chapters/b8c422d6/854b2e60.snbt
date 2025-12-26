@@ -1,0 +1,55 @@
+{
+	title: "Acts like a Vacuum Hopper or Item Picker Upper!",
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"d3a6020d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "572bbae7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 12s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "50003c6f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "19eaeccc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "38580cf5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

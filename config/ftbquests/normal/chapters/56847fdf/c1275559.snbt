@@ -1,0 +1,63 @@
+{
+	title: "I am Grout!",
+	x: -6.0d,
+	y: -3.0d,
+	text: [
+		"This is enough to make the smallest fully-functional smeltery. Smelt grout into seared bricks. ",
+		"",
+		"The smeltery is a very useful tool that can be used to double the output of most ores, as well as to cast tool and armor parts. ",
+		"",
+		"Hint: Ultimine powers will aid the collection of grout materials! But beware of \"surprises\" within."
+	],
+	dependencies: [
+		"4c2b0b01"
+	],
+	tasks: [{
+		uid: "0be66ac8",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 64L
+	},
+	{
+		uid: "bf3457ab",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 64L
+	},
+	{
+		uid: "5605e13b",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 16L
+	},
+	{
+		uid: "c435dc16",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}],
+		count: 156L
+	}],
+	rewards: [{
+		uid: "7b07139e",
+		type: "random",
+		icon: "cfm:present 1 14",
+		table: 3
+	},
+	{
+		uid: "daf95cb6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c53f86e7",
+		type: "xp",
+		xp: 30
+	}]
+}

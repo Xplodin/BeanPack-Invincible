@@ -12,6 +12,7 @@
 		items: [{
 			item: "lostinfinity:celestialquartz"
 		}],
+		count: 10L,
 		consume_items: true
 	}],
 	rewards: [{

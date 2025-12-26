@@ -1,0 +1,35 @@
+{
+	title: "Trusty sidepick!",
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"bfdba729"
+	],
+	tasks: [{
+		uid: "efdb9313",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 3L
+	},
+	{
+		uid: "a61e6902",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a770a5cd",
+		type: "xp_levels",
+		xp_levels: 4
+	},
+	{
+		uid: "d368b0bc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

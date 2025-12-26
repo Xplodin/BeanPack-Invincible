@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	optional: true,
+	tasks: [{
+		uid: "7ebf3ef6",
+		type: "forge_energy",
+		value: 1000000000L
+	}],
+	rewards: [{
+		uid: "00925f17",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "696f0462",
+		type: "item",
+		item: "artifacts:power_glove"
+	},
+	{
+		uid: "f31619b0",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -3,7 +3,7 @@
 	x: 0.0d,
 	y: 1.5d,
 	text: [
-		"Have fun! Also this isnt the end..."
+		"Have fun! Also this isnt the end... Its a lot harder than it looks."
 	],
 	dependencies: [
 		"5cdef0ac",
@@ -30,6 +30,7 @@
 	rewards: [{
 		uid: "4b925ea9",
 		type: "command",
+		auto: "invisible",
 		command: "/say @p is closing in on Infinity"
 	},
 	{
@@ -41,5 +42,10 @@
 		uid: "221f254b",
 		type: "loot",
 		table: 2
+	},
+	{
+		uid: "4cf2404f",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
 	}]
 }

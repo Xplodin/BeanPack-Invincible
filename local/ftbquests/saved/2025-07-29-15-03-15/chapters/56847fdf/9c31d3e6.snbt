@@ -1,0 +1,37 @@
+{
+	title: "LET THERE BE LIGHT",
+	x: 0.5d,
+	y: 1.5d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"86ca0fc0",
+		"82aa3d7d"
+	],
+	tasks: [{
+		uid: "b64d28b8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any torch"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "torch"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7200831f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,16 +1,31 @@
 {
-	x: 0.5d,
-	y: 1.5d,
-	shape: "pentagon",
+	title: "It's getting lit!",
+	icon: "minecraft:torch",
+	x: -9.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		";)"
+	],
 	dependencies: [
-		"86ca0fc0",
-		"82aa3d7d"
+		"aef5e784"
 	],
 	tasks: [{
 		uid: "b64d28b8",
 		type: "item",
 		items: [{
-			item: "minecraft:torch"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any torch"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "torch"
+				}
+			}
 		}],
 		count: 16L
 	}],
@@ -18,5 +33,10 @@
 		uid: "7200831f",
 		type: "ftbmoney:money",
 		ftb_money: 15L
+	},
+	{
+		uid: "78706ffa",
+		type: "xp",
+		xp: 15
 	}]
 }

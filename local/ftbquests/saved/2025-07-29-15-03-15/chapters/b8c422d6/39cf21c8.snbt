@@ -1,0 +1,34 @@
+{
+	x: -0.7738095238095255d,
+	y: -1.5833333333333357d,
+	dependencies: [
+		"aade0bbf"
+	],
+	tasks: [{
+		uid: "b4e6213e",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller"
+		}]
+	}],
+	rewards: [{
+		uid: "da978139",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "ed507480",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ee472d72",
+		type: "item",
+		item: "mekanism:tierinstaller"
+	}]
+}

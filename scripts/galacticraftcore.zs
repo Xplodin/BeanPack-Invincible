@@ -124,7 +124,7 @@ mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_
 mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier5_items:4>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:6>,<lucraftcore:ingot_titanium>,<lucraftcore:ingot_titanium>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:4>,<taiga:palladium_ingot>,<taiga:palladium_ingot>);
-
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier11_items:6>,<thermalfoundation:material:134>,<thermalfoundation:material:134>,<thermalfoundation:material:134>,<thermalfoundation:material:134>,<thermalfoundation:material:134>,<thermalfoundation:material:134>);
 recipes.addShaped("Tier4_Fins", T4R,
    [[null,Titanium,null],
     [<extraplanets:tier4_items:3>,Titanium,<extraplanets:tier4_items:3>],

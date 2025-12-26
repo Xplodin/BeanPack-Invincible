@@ -1,0 +1,22 @@
+{
+	title: "Buy some Inferium seeds here!",
+	icon: "mysticalagriculture:tier1_inferium_seeds",
+	x: -4.0d,
+	y: 5.0d,
+	description: "Tier 1",
+	text: [
+		"For the Mystical Agriculture peeps"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "75f42ab8",
+		type: "ftbmoney:money",
+		value: 75L
+	}],
+	rewards: [{
+		uid: "a75f955a",
+		type: "item",
+		item: "mysticalagriculture:tier1_inferium_seeds"
+	}]
+}

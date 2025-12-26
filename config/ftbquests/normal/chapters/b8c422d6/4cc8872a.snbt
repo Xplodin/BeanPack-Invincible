@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		"Used for fission liquid fuel mainly"
+	],
+	dependencies: [
+		"aade0bbf"
+	],
+	tasks: [{
+		uid: "25012f62",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "9fed937b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c6e0afba",
+		type: "loot",
+		table: 2
+	}]
+}

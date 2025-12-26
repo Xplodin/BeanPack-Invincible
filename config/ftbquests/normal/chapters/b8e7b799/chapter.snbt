@@ -9,8 +9,8 @@
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: -1.0d,
-		y: -3.0d,
+		x: -0.5d,
+		y: -2.5d,
 		width: 7.0d,
 		height: 2.0d,
 		rotation: 0.0d,
@@ -20,8 +20,8 @@
 		dev: false
 	},
 	{
-		x: -1.0d,
-		y: 2.5d,
+		x: -0.5d,
+		y: 4.0d,
 		width: 7.0d,
 		height: 2.0d,
 		rotation: 0.0d,

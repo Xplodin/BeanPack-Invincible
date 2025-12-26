@@ -1,0 +1,14 @@
+{
+	title: "This is NOT how you become a superhero!",
+	icon: "galacticraftplanets:basic_item_venus 1 2",
+	x: -11.0d,
+	y: -2.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "e8b65f2e",
+		type: "item",
+		items: [{
+			item: "dynaores:raw_uranium"
+		}]
+	}]
+}

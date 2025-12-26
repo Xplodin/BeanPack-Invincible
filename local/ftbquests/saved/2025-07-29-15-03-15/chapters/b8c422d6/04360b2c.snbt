@@ -1,0 +1,32 @@
+{
+	x: 0.7142857142857153d,
+	y: -1.1964285714285694d,
+	text: [
+		"This and crystals will make cosmic matter"
+	],
+	dependencies: [
+		"9695d8af"
+	],
+	tasks: [{
+		uid: "38b9decb",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7d7b652f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e0f24423",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "7f2e67a1",
+		type: "loot",
+		table: 2
+	}]
+}

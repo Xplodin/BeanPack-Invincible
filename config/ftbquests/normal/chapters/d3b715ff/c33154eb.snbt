@@ -1,0 +1,18 @@
+{
+	title: "Better Spreaders!",
+	x: -4.5d,
+	y: 10.5d,
+	text: [
+		"Each one below the other is a better spreader that handles more mana"
+	],
+	tasks: [{
+		uid: "c0641909",
+		type: "checkmark",
+		icon: "botania:cosmetic 1 31"
+	}],
+	rewards: [{
+		uid: "08b73853",
+		type: "xp",
+		xp: 20
+	}]
+}

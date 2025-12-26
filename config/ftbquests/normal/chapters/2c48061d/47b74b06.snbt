@@ -29,5 +29,10 @@
 		uid: "7ff6dc13",
 		type: "ftbmoney:money",
 		ftb_money: 500L
+	},
+	{
+		uid: "d4d02871",
+		type: "item",
+		item: "bloodmagic:alchemic_vial"
 	}]
 }

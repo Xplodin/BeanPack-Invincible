@@ -1,0 +1,46 @@
+{
+	title: "Find an End City",
+	x: -10.0d,
+	y: 3.0d,
+	text: [
+		"Mainly just look for a End City."
+	],
+	dependencies: [
+		"99a2f406"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "906956a9",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8779691f",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 5"
+		}]
+	},
+	{
+		uid: "a9f780d7",
+		type: "item",
+		items: [{
+			item: "minecraft:shulker_shell"
+		}]
+	}],
+	rewards: [{
+		uid: "409155ae",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "335f763d",
+		type: "item",
+		item: "minecraft:elytra"
+	}]
+}

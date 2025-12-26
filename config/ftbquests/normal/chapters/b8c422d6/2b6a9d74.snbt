@@ -1,0 +1,28 @@
+{
+	x: -4.5d,
+	y: 0.5d,
+	text: [
+		"If anyone finds a better way to handle the recipes for the recylcer global recylcling %, rather than inputting a major amount of scripts and items, please lmk and youll be credited"
+	],
+	dependencies: [
+		"aade0bbf"
+	],
+	tasks: [{
+		uid: "546aaf59",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock4 1 8"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "b8b04e12",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ca0bd505",
+		type: "loot",
+		table: 2
+	}]
+}

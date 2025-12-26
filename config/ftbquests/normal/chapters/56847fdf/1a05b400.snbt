@@ -1,7 +1,7 @@
 {
 	title: "Kill a blaze and get its rod",
-	x: -4.5d,
-	y: 0.5d,
+	x: -8.0d,
+	y: 3.0d,
 	text: [
 		""
 	],
@@ -27,5 +27,11 @@
 		uid: "fd36d4c5",
 		type: "ftbmoney:money",
 		ftb_money: 75L
+	},
+	{
+		uid: "8535008d",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 9
 	}]
 }

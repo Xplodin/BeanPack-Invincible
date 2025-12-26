@@ -1,0 +1,37 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	text: [
+		"Deviant Creeper exploding on top of Quartz Ore, will make this. Magnet HIGHLY Recommended"
+	],
+	dependencies: [
+		"dc4114f8"
+	],
+	tasks: [{
+		uid: "de9cd244",
+		type: "item",
+		items: [{
+			item: "lostinfinity:electrified_quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "d9eb650f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "b2359a58",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "87cccf15",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "2abe54fd",
+		type: "item",
+		items: [{
+			item: "lostinfinity:masterfaceted_quartz"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c515d809",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -16,8 +16,9 @@ import mods.jei.JEI;
 //avaritia stuff to scuff
 JEI.removeAndHide(<avaritia:neutronium_compressor>);
 
-//Power Stone
+//Power n Soul Stone
 JEI.removeAndHide(<star-tech:power_stone>);
+JEI.removeAndHide(<pymtech:soul_stone>);
 
 //Time Stone
 BloodAltar.addRecipe(<infinity:time_stone>, <avaritia:block_resource:1>, 4, 100000000, 1000, 5000);
@@ -62,7 +63,7 @@ Altar.addTraitAltarRecipe("invincible_space_stone", <infinity:space_stone>, 5000
 JEI.removeAndHide(<speedsterheroes:reality_stone>);
 
 InfusionRitual.addRitual("invincible_reality_stone", 4, 53, 100000, true, <infinity:reality_stone>, <avaritia:block_resource:1>, 
-[<rats:rat_upgrade_god>, <botania:gaiahead>, <xreliquary:void_tear>, <extraplanets:cake_blocks:7>, <bloodmagic:slate:4>, <heroesexpansion:chitauri_energy_core>, <extracells:storage.component:3>, <thaumcraft:causality_collapser>]);
+[<rats:rat_upgrade_god>, <botania:gaiahead>, <xreliquary:void_tear>, <extraplanets:cake_blocks:7>, <bloodmagic:slate:4>, <heroesexpansion:chitauri_energy_core>, <aeadditions:storage.component:3>, <thaumcraft:causality_collapser>]);
 
 //Gauntlet
 ExtremeCrafting.addShaped("invincible_fake_gauntlet", <wakanda:infinity_gauntlet_chest>, [ 
@@ -76,7 +77,7 @@ ExtremeCrafting.addShaped("invincible_fake_gauntlet", <wakanda:infinity_gauntlet
 [null, null, null, <minecraft:hardened_clay>, <minecraft:nether_star>, <minecraft:hardened_clay>, null, null, null],
 [null, null, null, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, null, null, null], ] );
 
-val AdamantFluid = <openblocks:tank>.withTag({tank: {FluidName: "adamant_fluid", Amount: 2000}});
+val AdamantFluid = <openblocks:tank>.withTag({tank: {FluidName: "adamant_fluid", Amount: 2592}});
 
 InductionSmelter.addRecipe(<lucraftcore:infinity_gauntlet_cast>, <wakanda:infinity_gauntlet_chest>, AdamantFluid, 1000000);
 
@@ -146,7 +147,7 @@ ExtremeCrafting.addShaped("invincible_infinity_catalyst", <avaritia:resource:5>,
 [<singularities:singularity:45>, <singularities:singularity:46>, <singularities:singularity:47>, <singularities:singularity:48>, <singularities:singularity:49>, <singularities:singularity:50>, <singularities:singularity:51>, <singularities:singularity:52>, <singularities:singularity:53>],
 [<singularities:singularity:54>, <singularities:singularity:55>, <singularities:singularity:56>, <singularities:singularity:57>, <singularities:singularity:58>, <singularities:singularity:59>, <singularities:singularity:60>, <singularities:singularity:61>, <singularities:singularity:62>],
 [<singularities:singularity:63>, <singularities:singularity:64>, <singularities:singularity:65>, <singularities:singularity:66>, <singularities:singularity:67>, <singularities:singularity:68>, <singularities:singularity:69>, <singularities:singularity:70>, <singularities:singularity:71>],
-[<singularities:singularity:72>, <singularities:singularity:73>, <singularities:singularity:74>, <singularities:singularity:75>]]);
+[<singularities:singularity:72>, <singularities:singularity:73>, <singularities:singularity:74>, <singularities:singularity:75>, <singularities:singularity:76>]]);
 
 //Endest Pearl
 ExtremeCrafting.remove(<avaritia:endest_pearl>);
@@ -164,11 +165,12 @@ ExtremeCrafting.addShaped("invincible_endest_pearl", <avaritia:endest_pearl>, [
 //Ultimate Stew
 ExtremeCrafting.remove(<avaritia:ultimate_stew>);
 ExtremeCrafting.addShaped("invincible_ultimate_stew", <avaritia:ultimate_stew>, [
-[<avaritia:resource:2>, <minecraft:fish:0>, <minecraft:fish:1>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:cooked_fish:0>, <minecraft:cooked_fish:1>, <mysticalworld:raw_squid>, <mysticalworld:cooked_squid>, <mysticalworld:epic_squid>, <harvestcraft:calamarirawitem>, <harvestcraft:calamaricookeditem>],
-[<harvestcraft:anchovyrawitem>, <harvestcraft:bassrawitem>, <harvestcraft:carprawitem>, <harvestcraft:catfishrawitem>, <harvestcraft:charrrawitem>, <harvestcraft:clamrawitem>, <harvestcraft:crabrawitem>, <harvestcraft:crayfishrawitem>, <harvestcraft:eelrawitem>],
-[<harvestcraft:frograwitem>, <harvestcraft:grouperrawitem>, <harvestcraft:herringrawitem>, <harvestcraft:jellyfishrawitem>, <harvestcraft:mudfishrawitem>, <harvestcraft:octopusrawitem>, <harvestcraft:perchrawitem>, <harvestcraft:scalloprawitem>, <harvestcraft:shrimprawitem>],
-[<harvestcraft:snailrawitem>, <harvestcraft:snapperrawitem>, <harvestcraft:tilapiarawitem>, <harvestcraft:troutrawitem>, <harvestcraft:tunarawitem>, <harvestcraft:turtlerawitem>, <harvestcraft:walleyerawitem>, <harvestcraft:greenheartfishitem>, <harvestcraft:sardinerawitem>],
-[<harvestcraft:musselrawitem>, <harvestcraft:rawtofishitem>, <harvestcraft:oysterrawitem>, <harvestcraft:butteritem>, <harvestcraft:seaweeditem>, <mekanism:salt>, <harvestcraft:onionitem>, <harvestcraft:blackpepperitem>, <contenttweaker:ultibean>, null]]);
+[<avaritia:resource:2>, <minecraft:fish>, <minecraft:fish:1>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:cooked_fish:0>, <minecraft:cooked_fish:1>, <mysticalworld:raw_squid>, <mysticalworld:cooked_squid>], 
+[<mysticalworld:epic_squid>, <harvestcraft:calamarirawitem>, <harvestcraft:calamaricookeditem>, <harvestcraft:anchovyrawitem>, <harvestcraft:bassrawitem>, <harvestcraft:carprawitem>, <harvestcraft:catfishrawitem>, <harvestcraft:charrrawitem>, <harvestcraft:clamrawitem>], 
+[<harvestcraft:crabrawitem>, <harvestcraft:crayfishrawitem>, <harvestcraft:eelrawitem>, <harvestcraft:frograwitem>, <harvestcraft:grouperrawitem>, <harvestcraft:herringrawitem>, <harvestcraft:jellyfishrawitem>, <harvestcraft:mudfishrawitem>, <harvestcraft:octopusrawitem>],
+[<harvestcraft:perchrawitem>, <harvestcraft:scalloprawitem>, <harvestcraft:shrimprawitem>, <harvestcraft:snailrawitem>, <harvestcraft:snapperrawitem>, <harvestcraft:tilapiarawitem>, <harvestcraft:troutrawitem>, <harvestcraft:tunarawitem>, <harvestcraft:turtlerawitem>],
+[<harvestcraft:walleyerawitem>, <harvestcraft:greenheartfishitem>, <harvestcraft:sardinerawitem>, <harvestcraft:musselrawitem>, <harvestcraft:rawtofishitem>, <harvestcraft:oysterrawitem>, <harvestcraft:butteritem>, <harvestcraft:seaweeditem>, <mekanism:salt>],
+[<harvestcraft:onionitem>, <harvestcraft:blackpepperitem>, <contenttweaker:ultibean>]]);
 
 //Cosmic Meatballs
 ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);

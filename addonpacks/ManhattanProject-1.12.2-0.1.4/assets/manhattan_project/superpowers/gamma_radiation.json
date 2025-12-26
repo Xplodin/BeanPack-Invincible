@@ -63,7 +63,7 @@
 		},
 		"radiation_immunity":{
 			"ability": "the-fifth-world:potion_immunity",
-			"potion": "lucraftcore:radiation",
+			"potion": "hbm:potion.hbm_radiation",
 			"title": {"text":"Radiation Immunity"},
 			"icon": {"type": "texture",
 				"texture": "manhattan_project:textures/gui/radioactive_icon.png"}

@@ -1,8 +1,8 @@
 {
 	title: "WELCOME TO THE JUNGLE",
 	disable_toast: true,
-	x: 2.0d,
-	y: 3.5d,
+	x: -7.0d,
+	y: 5.0d,
 	description: "(BeanPack: Invincible)",
 	text: [
 		"Hi, please use HEI/JEI for recipes until I can get some quests out for endgame.",

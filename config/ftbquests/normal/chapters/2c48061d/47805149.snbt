@@ -21,11 +21,6 @@
 		ignore_damage: true
 	}],
 	rewards: [{
-		uid: "44bec1d7",
-		type: "ftbmoney:money",
-		ftb_money: 50L
-	},
-	{
 		uid: "df3b2e12",
 		type: "loot",
 		table: 0
@@ -39,5 +34,20 @@
 		uid: "a57465f5",
 		type: "item",
 		item: "lucraftcore:injection"
+	},
+	{
+		uid: "bd09c3e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	},
+	{
+		uid: "49727f3f",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
 	}]
 }

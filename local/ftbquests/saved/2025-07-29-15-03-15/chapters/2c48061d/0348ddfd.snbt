@@ -1,0 +1,36 @@
+{
+	title: "Master of Sound",
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"Vibranium Ingot and 3 buckets of lava"
+	],
+	dependencies: [
+		"94ab2d61"
+	],
+	tasks: [{
+		uid: "fc2baaa8",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "wakanda:klaw"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c6fcb224",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ed8df942",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "17c5763d",
+		type: "loot",
+		table: 2
+	}]
+}

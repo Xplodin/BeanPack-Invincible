@@ -235,12 +235,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "nuclearcraft:gem",
-      "metaID": 6
+      "itemID": "appliedenergistics2:material",
+      "metaID": 5
     },
     "drop_item": {
-      "itemID": "nuclearcraft:gem",
-      "metaID": 6
+      "itemID": "appliedenergistics2:material",
+      "metaID": 5
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:claychicken",
@@ -443,12 +443,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ic2:itemmisc",
-      "metaID": 450
+      "itemID": "industrialforegoing:plastic",
+      "metaID": 0
     },
     "drop_item": {
-      "itemID": "ic2:itemmisc",
-      "metaID": 450
+      "itemID": "industrialforegoing:plastic",
+      "metaID": 0
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:logchicken",
@@ -683,12 +683,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "nuclearcraft:ingot",
-      "metaID": 8
+      "itemID": "bigreactors:ingotgraphite",
+      "metaID": 0
     },
     "drop_item": {
-      "itemID": "nuclearcraft:ingot",
-      "metaID": 8
+      "itemID": "bigreactors:ingotgraphite",
+      "metaID": 0
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:coalchicken",
@@ -731,12 +731,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ic2:itemmisc",
-      "metaID": 55
+      "itemID": "mekanism:ingot",
+      "metaID": 8
     },
     "drop_item": {
-      "itemID": "ic2:itemmisc",
-      "metaID": 55
+      "itemID": "mekanism:ingot",
+      "metaID": 8
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:redstonechicken",
@@ -1302,33 +1302,17 @@
     "parent_1": "morechickens:magicalwoodchicken",
     "parent_2": "morechickens:moonstonechicken"
   },
-  "morechickens:quartzenrichedironchicken": {
-    "name": "quartzenrichedironchicken",
-    "is_enabled": true,
-    "lay_coefficient": 1.0,
-    "lay_item": {
-      "itemID": "refinedstorage:quartz_enriched_iron",
-      "metaID": 0
-    },
-    "drop_item": {
-      "itemID": "refinedstorage:quartz_enriched_iron",
-      "metaID": 0
-    },
-    "spawn_type": "NONE",
-    "parent_1": "chickens:quartzchicken",
-    "parent_2": "chickens:ironchicken"
-  },
   "morechickens:titaniumchicken": {
     "name": "titaniumchicken",
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "galacticraftplanets:item_basic_asteroids",
-      "metaID": 0
+      "itemID": "mekanismecoenergistics:moreingot",
+      "metaID": 1
     },
     "drop_item": {
-      "itemID": "galacticraftplanets:item_basic_asteroids",
-      "metaID": 0
+      "itemID": "mekanismecoenergistics:moreingot",
+      "metaID": 1
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:ironchicken",
@@ -1347,23 +1331,7 @@
       "metaID": 5
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:enderchicken",
-    "parent_2": "morechickens:refinedironchicken"
-  },
-  "morechickens:refinedironchicken": {
-    "name": "refinedironchicken",
-    "is_enabled": true,
-    "lay_coefficient": 1.0,
-    "lay_item": {
-      "itemID": "ic2:itemmisc",
-      "metaID": 53
-    },
-    "drop_item": {
-      "itemID": "ic2:itemmisc",
-      "metaID": 53
-    },
-    "spawn_type": "NONE",
-    "parent_1": "chickens:ironchicken",
-    "parent_2": "chickens:ironchicken"
+    "parent_1": "",
+    "parent_2": ""
   }
 }

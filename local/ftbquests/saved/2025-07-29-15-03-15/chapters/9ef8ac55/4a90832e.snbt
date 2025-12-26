@@ -1,0 +1,38 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"Mutated Ghast's fireball must strike Iron Ore",
+		"Magnet RECOMMENDED"
+	],
+	dependencies: [
+		"42e9964c"
+	],
+	tasks: [{
+		uid: "fef0f042",
+		type: "item",
+		items: [{
+			item: "lostinfinity:superheatedingot"
+		}]
+	}],
+	rewards: [{
+		uid: "06655ddf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "930cda17",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "c546daa3",
+		type: "xp",
+		xp: 100
+	}]
+}

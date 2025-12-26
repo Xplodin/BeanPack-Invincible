@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "2e7ed634",
+		type: "item",
+		items: [{
+			item: "lostinfinity:masterenthralled_emerald"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "36c5112d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

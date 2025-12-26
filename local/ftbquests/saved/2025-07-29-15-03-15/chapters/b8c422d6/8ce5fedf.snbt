@@ -1,0 +1,37 @@
+{
+	x: 10.0d,
+	y: -9.0d,
+	text: [
+		"Needs 100 of these for one singularity"
+	],
+	dependencies: [
+		"326b56c2"
+	],
+	tasks: [{
+		uid: "523a5201",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "eabfcd92",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "474d534b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "498ce627",
+		type: "xp",
+		xp: 100
+	}]
+}

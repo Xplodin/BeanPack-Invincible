@@ -1,0 +1,308 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"Capture this mob, for the sake of your sanity. And make copies too."
+	],
+	dependencies: [
+		"89f03667"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "f86dbfcc",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				DeathTime: 0s,
+				Leashed: 0b,
+				UUIDLeast: -6036680798920218222L,
+				LeftHanded: 0b,
+				OnGround: 1b,
+				AbsorptionAmount: 0.0f,
+				Attributes: [{
+					Name: "potioncore.projectileDamage",
+					Base: 1.0d
+				},
+				{
+					Name: "potioncore.magicDamage",
+					Base: 1.0d
+				},
+				{
+					Name: "potioncore.jumpHeight",
+					Base: 1.0d
+				},
+				{
+					Name: "potioncore.damageResistance",
+					Base: 1.0d
+				},
+				{
+					Name: "potioncore.magicShielding",
+					Base: 0.0d
+				},
+				{
+					Name: "lucraftcore.stepHeight",
+					Base: 1.0d
+				},
+				{
+					Name: "lucraftcore.extraPunchDamage",
+					Base: 0.0d
+				},
+				{
+					Name: "lucraftcore.fallResistance",
+					Base: 0.0d
+				},
+				{
+					Name: "lucraftcore.jumpHeight",
+					Base: 0.0d
+				},
+				{
+					Name: "lucraftcore.sprintSpeed",
+					Base: 0.0d
+				},
+				{
+					Name: "xat.entityRace",
+					Base: 1.0d
+				},
+				{
+					Name: "xat.jump",
+					Base: 0.41999998688697815d
+				},
+				{
+					Name: "xat.stepheight",
+					Base: 0.6000000238418579d
+				},
+				{
+					Name: "xat.entityMagic.maxMana",
+					Base: 100.0d
+				},
+				{
+					Name: "xat.entityMagic.regen",
+					Base: 1.0d
+				},
+				{
+					Name: "xat.entityMagic.regen.cooldown",
+					Base: 1.0d
+				},
+				{
+					Name: "xat.entityMagic.affinity",
+					Base: 0.0d
+				},
+				{
+					Name: "tconevo.flightSpeed",
+					Base: 0.05d
+				},
+				{
+					Name: "tconevo.damageTaken",
+					Base: 1.0d
+				},
+				{
+					Name: "tconevo.evasionChance",
+					Base: 1.0d
+				},
+				{
+					Name: "tconevo.healingReceived",
+					Base: 1.0d
+				},
+				{
+					Name: "generic.maxHealth",
+					Base: 20.0d
+				},
+				{
+					Name: "generic.knockbackResistance",
+					Base: 0.0d
+				},
+				{
+					Name: "generic.movementSpeed",
+					Base: 0.2d
+				},
+				{
+					Name: "generic.armor",
+					Base: 0.0d
+				},
+				{
+					Name: "generic.armorToughness",
+					Base: 0.0d
+				},
+				{
+					Name: "forge.swimSpeed",
+					Base: 1.0d
+				},
+				{
+					Name: "generic.followRange",
+					Base: 16.0d,
+					Modifiers: [{
+						Name: "Random spawn bonus",
+						Amount: 0.05463675003616805d,
+						Operation: 1,
+						UUIDMost: 4953220986727122911L,
+						UUIDLeast: -7065524838324356596L
+					}]
+				}],
+				Invulnerable: 0b,
+				Dimension: 0,
+				ForgeCaps: {
+					"xat:magicstats": {
+						mana: 100.0f,
+						max_mana: 100.0f,
+						bonus_mana: 0.0d
+					},
+					"twilightforest:cap_shield": {
+						tempshields: 0,
+						permshields: 0
+					},
+					"llibrary:extendedentitydatacapability": {},
+					"tinkertoolleveling:entityxp": [],
+					"thaumicaugmentation:portal_state": {
+						inPortal: 0b
+					},
+					"iceandfire:entity_effect": {
+						effectId: "NONE",
+						effectTime: 0,
+						effectAdditionalData: 0
+					},
+					"mahoutsukai:mahou": {
+						MAHOUTSUKAI_PLAYER_CHARGE_RATE: 0.1d,
+						MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES: 0,
+						MAHOUTSUKAI_LAST_RECIPE_CLOTH: 0b,
+						MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT: 0.0f,
+						MAHOUTSUKAI_MANA_UP_COUNTER: 100,
+						MAHOUTSUKAI_PLAYER_MAX_MANA: 100,
+						MAHOUTSUKAI_CANCEL_TIME: -1L,
+						MAHOUTSUKAI_KODOKU_VALUE: 0,
+						MAHOUTSUKAI_AUTHORITY_HIT: 0b,
+						MAHOUTSUKAI_PLAYER_PREV_PITCH: 0.0f,
+						MAHOUTSUKAI_PLAYER_PREV_YAW: 0.0f,
+						MAHOUTSUKAI_PLAYER_OLD_DIMENSION: 0,
+						MAHOUTSUKAI_PLAYER_HAS_MAGIC: 0b,
+						MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES: 0,
+						MAHOUTSUKAI_PLAYER_POSSESSING: 0b,
+						MAHOUTSUKAI_SHOW_MAHOU: 1b,
+						MAHOUTSUKAI_MANA_FULL: 1b,
+						MAHOUTSUKAI_PLAYER_STORED_MANA: 100
+					},
+					"mekanism:radiation": {
+						radiation: 0.0d
+					},
+					"lucraftcore:size_changing": {
+						Size: 1.0f,
+						OrigWidth: 0.6f,
+						SizePerTick: 0.0f,
+						OrigHeight: 1.8f,
+						EstimatedSize: 0.0f,
+						SizeChanger: "lucraftcore:default"
+					},
+					"lucraftcore:superpower_capability": {
+						Data: {
+							SUPERPOWER: {
+								Level: 0,
+								XP: 0
+							},
+							SUIT: {}
+						},
+						HasPlayedBefore: 0b
+					},
+					"twilightforest:cap_boss": {
+						variant: -1,
+						homePos: {
+							X: 0,
+							Y: 0,
+							Z: 0
+						}
+					},
+					"xat:statushandler": {}
+				},
+				HandDropChances: [
+					0.085f,
+					0.085f
+				],
+				UUIDMost: 7549446150228365164L,
+				ArmorDropChances: [
+					0.085f,
+					0.085f,
+					0.085f,
+					0.085f
+				],
+				Rotation: [
+					-89.591736f,
+					0.0f
+				],
+				HurtByTimestamp: 0,
+				UpdateBlocked: 0b,
+				entity: "lostinfinity:dimensionalmerchant",
+				ArmorItems: [{},
+				{},
+				{},
+				{}],
+				HandItems: [{},
+				{}],
+				Air: 300s,
+				ForgeData: {
+					"Potion Core - Health Fix": 20.0f,
+					"Potion Core - Jump Boost Updated": 1b,
+					xat.magicstats: {
+						mana: 100.0f,
+						max_mana: 100.0f,
+						bonus_mana: 0.0d
+					}
+				},
+				PersistenceRequired: 0b,
+				FallDistance: 0.0f,
+				id: 1733,
+				Motion: [
+					0.0d,
+					-0.0784000015258789d,
+					0.0d
+				],
+				Pos: [
+					105.5d,
+					79.0d,
+					206.5d
+				],
+				AABB: [
+					105.19999998807907d,
+					79.0d,
+					206.19999998807907d,
+					105.80000001192093d,
+					80.79999995231628d,
+					206.80000001192093d
+				],
+				CanPickUpLoot: 0b,
+				Health: 20.0f,
+				HurtTime: 0s,
+				FallFlying: 0b,
+				Fire: -1s,
+				PortalCooldown: 0
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "b09fa256",
+		type: "item",
+		items: [{
+			id: "enderio:item_soul_vial",
+			Damage: 1s,
+			tag: {
+				entityId: "lostinfinity:dimensionalmerchant"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "6d9d7938",
+		type: "item",
+		item: "lostinfinity:starlitglobe"
+	},
+	{
+		uid: "c3b9d623",
+		type: "item",
+		item: "lostinfinity:deviantbeef"
+	},
+	{
+		uid: "818869fa",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

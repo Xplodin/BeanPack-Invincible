@@ -1,0 +1,41 @@
+{
+	title: "True Power of Shazam!",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"Stormbreaker and 2 buckets of water"
+	],
+	dependencies: [
+		"94ab2d61"
+	],
+	tasks: [{
+		uid: "6b067604",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "manhattan_project:true_power_of_shazam_1"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f00f375a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "224d4f36",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0118c43e",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "5ec0ab0b",
+		type: "loot",
+		table: 1
+	}]
+}

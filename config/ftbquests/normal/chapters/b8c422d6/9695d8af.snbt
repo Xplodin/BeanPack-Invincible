@@ -6,7 +6,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:machineblock 1 8"
-		}]
+		}],
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "988da1ff",

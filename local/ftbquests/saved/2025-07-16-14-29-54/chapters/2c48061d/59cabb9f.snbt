@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"Clean water from Galacticraft and a finished Infinity Gauntlet can be used to make advanced power serums.",
+		"Clean Water can be found on various GC planets"
+	],
+	dependencies: [
+		"6b77e4c2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fed4b59c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemic_vial"
+		}]
+	}],
+	rewards: [{
+		uid: "5c9d2350",
+		type: "item",
+		item: "avaritia:block_resource 1 1"
+	},
+	{
+		uid: "a734ceb2",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

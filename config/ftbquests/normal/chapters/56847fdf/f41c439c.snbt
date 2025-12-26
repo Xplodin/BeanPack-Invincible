@@ -1,8 +1,14 @@
 {
 	title: "Morning wood",
-	x: 1.5d,
-	y: -1.0d,
+	x: -8.0d,
+	y: -3.0d,
 	shape: "square",
+	text: [
+		"Get out there, there's a world to save! You're set with the familiar task of punching trees. Any hero starts here. Check your keybinds! Look for the 'Open Quest' and 'FTB Ultimine' ones, those are the most important right now. ",
+		"Use your Ultimine powers to help clear some trees! The 'Open Quest' key is also great!",
+		"",
+		"Some quests have text that is too long to fit on screen. Scroll to read them!"
+	],
 	tasks: [{
 		uid: "987447d8",
 		type: "item",
@@ -20,7 +26,7 @@
 				}
 			}
 		}],
-		count: 16L
+		count: 32L
 	}],
 	rewards: [{
 		uid: "208760eb",

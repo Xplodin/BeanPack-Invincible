@@ -1,0 +1,57 @@
+{
+	title: "Rustiest sidepick!",
+	icon: "minecraft:iron_pickaxe",
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"Isn't that Ironic?"
+	],
+	dependencies: [
+		"dc7357d1"
+	],
+	tasks: [{
+		uid: "405093b9",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreIron"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreIron"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ef74a83f",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 3L
+	},
+	{
+		uid: "34392fdf",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba4ef562",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7ee84166",
+		type: "xp",
+		xp: 30
+	}]
+}

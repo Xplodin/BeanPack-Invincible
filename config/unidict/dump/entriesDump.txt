@@ -1,28 +1,26 @@
 Steeleaf
 	singularitySteeleaf
-	blockSteeleaf
 	ingotSteeleaf
+	blockSteeleaf
 
 ConductiveIron
 	nuggetConductiveIron
-	ballConductiveIron
-	blockConductiveIron
 	ingotConductiveIron
-	dustConductiveIron
+	blockConductiveIron
+	ballConductiveIron
 
 Dyonite
 	nuggetDyonite
 	singularityDyonite
-	blockDyonite
 	ingotDyonite
+	blockDyonite
 	dustDyonite
 
 Mithminite
 	nuggetMithminite
 	plateMithminite
-	blockMithminite
 	ingotMithminite
-	dustMithminite
+	blockMithminite
 
 Ytterbium
 	ingotYtterbium
@@ -33,267 +31,212 @@ Bohrium
 Terrasteel
 	nuggetTerrasteel
 	singularityTerrasteel
-	blockTerrasteel
 	ingotTerrasteel
-	dustTerrasteel
+
+Energized
+	gearEnergized
 
 Nihilite
 	nuggetNihilite
 	singularityNihilite
-	blockNihilite
 	ingotNihilite
+	blockNihilite
 	dustNihilite
 
 Adamantium
 	nuggetAdamantium
 	plateAdamantium
-	blockAdamantium
 	ingotAdamantium
+	blockAdamantium
 	dustAdamantium
 
 Osmium
-	crushedPurifiedOsmium
-	blockRawOsmium
-	crystalClusterOsmium
-	dustTinyOsmium
-	crystalOsmium
-	crystalFragmentOsmium
-	oreEndOsmium
+	shardOsmium
 	dustDirtyOsmium
+	crystalOsmium
+	blockRawOsmium
+	clumpOsmium
 	nuggetOsmium
 	oreOsmium
-	crushedOsmium
 	plateOsmium
-	oreNetherOsmium
 	rawOsmium
-	clusterOsmium
-	blockOsmium
 	ingotOsmium
+	blockOsmium
 	dustOsmium
-	shardOsmium
-	clumpOsmium
 
 Yellorium
-	crushedPurifiedYellorium
-	blockRawYellorium
-	crystalClusterYellorium
-	dustTinyYellorium
-	crystalYellorium
-	crystalFragmentYellorium
-	oreEndYellorium
-	dustDirtyYellorium
-	nuggetYellorium
 	oreYellorium
-	crushedYellorium
-	oreNetherYellorium
 	rawYellorium
-	clusterYellorium
-	blockYellorium
 	ingotYellorium
+	blockYellorium
+	blockRawYellorium
 	dustYellorium
-	shardYellorium
-	clumpYellorium
 
 Manyullyn
 	nuggetManyullyn
 	singularityManyullyn
-	blockManyullyn
 	ingotManyullyn
-	dustManyullyn
+	blockManyullyn
 
 Jauxum
-	crushedPurifiedJauxum
 	blockRawJauxum
-	crystalClusterJauxum
-	dustTinyJauxum
-	crystalJauxum
-	crystalFragmentJauxum
-	dustDirtyJauxum
 	nuggetJauxum
 	oreJauxum
 	singularityJauxum
-	crushedJauxum
 	rawJauxum
-	clusterJauxum
-	blockJauxum
 	ingotJauxum
+	blockJauxum
 	dustJauxum
-	shardJauxum
-	clumpJauxum
 
 Blutonium
-	blockBlutonium
 	ingotBlutonium
+	blockBlutonium
 	dustBlutonium
 
 Osram
-	crushedPurifiedOsram
 	blockRawOsram
-	crystalClusterOsram
-	dustTinyOsram
-	crystalOsram
-	crystalFragmentOsram
-	dustDirtyOsram
 	nuggetOsram
 	oreOsram
 	singularityOsram
-	crushedOsram
 	rawOsram
-	clusterOsram
-	blockOsram
 	ingotOsram
+	blockOsram
 	dustOsram
-	shardOsram
-	clumpOsram
 
 Ebony
 	substanceEbony
 
 VibrantAlloy
 	nuggetVibrantAlloy
-	ballVibrantAlloy
-	blockVibrantAlloy
 	ingotVibrantAlloy
-	dustVibrantAlloy
+	blockVibrantAlloy
+	ballVibrantAlloy
 
 Germanium
 	ingotGermanium
 
 EnergeticAlloy
 	nuggetEnergeticAlloy
-	ballEnergeticAlloy
-	blockEnergeticAlloy
 	ingotEnergeticAlloy
-	dustEnergeticAlloy
+	blockEnergeticAlloy
+	ballEnergeticAlloy
 
 Astrium
 	nuggetAstrium
 	singularityAstrium
-	blockAstrium
 	ingotAstrium
+	blockAstrium
 	dustAstrium
 
 Triberium
 	nuggetTriberium
 	singularityTriberium
-	blockTriberium
 	ingotTriberium
+	blockTriberium
 	dustTriberium
 
 Cobalt
-	crushedPurifiedCobalt
-	blockRawCobalt
-	crystalClusterCobalt
-	dustTinyCobalt
-	crystalCobalt
-	crystalFragmentCobalt
-	dustDirtyCobalt
 	nuggetCobalt
 	oreCobalt
 	singularityCobalt
-	crushedCobalt
 	rawCobalt
-	clusterCobalt
-	blockCobalt
 	ingotCobalt
-	dustCobalt
-	shardCobalt
-	clumpCobalt
+	blockCobalt
+	blockRawCobalt
 
 Aurorium
-	crushedPurifiedAurorium
 	blockRawAurorium
-	crystalClusterAurorium
-	dustTinyAurorium
-	crystalAurorium
-	crystalFragmentAurorium
-	dustDirtyAurorium
 	nuggetAurorium
 	oreAurorium
 	singularityAurorium
-	crushedAurorium
 	rawAurorium
-	clusterAurorium
-	blockAurorium
 	ingotAurorium
+	blockAurorium
 	dustAurorium
-	shardAurorium
-	clumpAurorium
 
 Tiberium
-	crushedPurifiedTiberium
-	blockRawTiberium
-	crystalClusterTiberium
-	dustTinyTiberium
 	crystalTiberium
-	crystalFragmentTiberium
-	dustDirtyTiberium
+	blockRawTiberium
 	nuggetTiberium
 	oreTiberium
 	singularityTiberium
-	crushedTiberium
 	rawTiberium
-	clusterTiberium
-	blockTiberium
 	ingotTiberium
+	blockTiberium
 	dustTiberium
-	shardTiberium
-	clumpTiberium
 
 Mirion
 	nuggetMirion
-	blockMirion
 	ingotMirion
-	dustMirion
+	blockMirion
 
 Meat
+	foodGoodMeat
 	foodRedMeat
 	nuggetMeat
-	foodGoodMeat
 	ingotMeat
 
 Ethaxium
 	nuggetEthaxium
-	blockEthaxium
 	ingotEthaxium
-	dustEthaxium
+	blockEthaxium
 
 Skeletal
-	blockSkeletal
 	ingotSkeletal
-	dustSkeletal
+	blockSkeletal
 
 Tennessine
 	ingotTennessine
 
+Diamond
+	oreEndDiamond
+	gemPurpleDiamond
+	oreYellowDiamond
+	gearDiamond
+	chipDiamond
+	oreGreenDiamond
+	gemYellowDiamond
+	oreRedDiamond
+	gemBlueDiamond
+	oreBlueDiamond
+	gemDiamond
+	gemGreenDiamond
+	orePurpleDiamond
+	gemRedDiamond
+	nuggetDiamond
+	oreDiamond
+	singularityDiamond
+	oreNetherDiamond
+	blockDiamond
+	itemCompressedDiamond
+	dustDiamond
+
 DarkSteel
 	nuggetDarkSteel
-	ballDarkSteel
-	blockDarkSteel
 	ingotDarkSteel
-	dustDarkSteel
+	blockDarkSteel
+	ballDarkSteel
 
-EnrichedUranium
-	blockEnrichedUranium
-	ingotEnrichedUranium
-	dustEnrichedUranium
+LightningDragonsteel
+	ingotLightningDragonsteel
+	blockLightningDragonsteel
 
 SentientMetal
 	gearSentientMetal
 	nuggetSentientMetal
 	plateSentientMetal
-	blockSentientMetal
 	ingotSentientMetal
+	blockSentientMetal
 	dustSentientMetal
 
 Cesium
 	ingotCesium
 
 Basalt
-	dustBasalt
 	nuggetBasalt
-	blockBasalt
 	ingotBasalt
+	blockBasalt
+	dustBasalt
 
 Francium
 	ingotFrancium
@@ -306,58 +249,40 @@ IvoryPsi
 
 Abyssalnite
 	oreDreadedAbyssalnite
-	crushedPurifiedAbyssalnite
+	crystalFragmentAbyssalnite
+	crystalAbyssalnite
 	blockRawAbyssalnite
 	crystalClusterAbyssalnite
-	dustTinyAbyssalnite
-	crystalAbyssalnite
-	crystalFragmentAbyssalnite
-	dustDirtyAbyssalnite
 	nuggetAbyssalnite
 	oreAbyssalnite
-	crushedAbyssalnite
 	rawAbyssalnite
-	clusterAbyssalnite
-	blockAbyssalnite
 	ingotAbyssalnite
+	blockAbyssalnite
 	dustAbyssalnite
-	shardAbyssalnite
-	clumpAbyssalnite
 
 Glowing
-	gemGlowing
 	ingotGlowing
 	dustGlowing
+	gemGlowing
 
 Actinium
 	ingotActinium
 
 VividAlloy
 	nuggetVividAlloy
-	ballVividAlloy
-	blockVividAlloy
 	ingotVividAlloy
-	dustVividAlloy
+	blockVividAlloy
+	ballVividAlloy
 
 Eezo
-	crushedPurifiedEezo
 	blockRawEezo
-	crystalClusterEezo
-	dustTinyEezo
-	crystalEezo
-	crystalFragmentEezo
-	dustDirtyEezo
 	nuggetEezo
 	oreEezo
 	singularityEezo
-	crushedEezo
 	rawEezo
-	clusterEezo
-	blockEezo
 	ingotEezo
+	blockEezo
 	dustEezo
-	shardEezo
-	clumpEezo
 
 NaturalAluminum
 	oreNaturalAluminum
@@ -366,24 +291,14 @@ Thulium
 	ingotThulium
 
 Duranite
-	crushedPurifiedDuranite
 	blockRawDuranite
-	crystalClusterDuranite
-	dustTinyDuranite
-	crystalDuranite
-	crystalFragmentDuranite
-	dustDirtyDuranite
 	nuggetDuranite
 	oreDuranite
 	singularityDuranite
-	crushedDuranite
 	rawDuranite
-	clusterDuranite
-	blockDuranite
 	ingotDuranite
+	blockDuranite
 	dustDuranite
-	shardDuranite
-	clumpDuranite
 
 Vanadium
 	ingotVanadium
@@ -394,8 +309,8 @@ Scandium
 Yrdeen
 	nuggetYrdeen
 	singularityYrdeen
-	blockYrdeen
 	ingotYrdeen
+	blockYrdeen
 	dustYrdeen
 
 Chromium
@@ -406,51 +321,49 @@ Roentgenium
 
 ElvenElementium
 	nuggetElvenElementium
-	blockElvenElementium
 	ingotElvenElementium
-	dustElvenElementium
 
 Obsidiorite
 	nuggetObsidiorite
-	blockObsidiorite
 	ingotObsidiorite
+	blockObsidiorite
 	dustObsidiorite
 
 Californium
 	ingotCalifornium
 
 Iron
-	barsIron
 	tinyDustIron
 	ringIron
+	shardIron
+	dustDirtyIron
+	crystalFragmentIron
+	clusterIron
+	crystalIron
 	compressedIron
 	doorIron
 	blockRawIron
-	coinIron
+	clumpIron
 	crystalClusterIron
-	crystalIron
-	crystalFragmentIron
+	coinIron
 	oreEndIron
 	gearIron
-	dustDirtyIron
 	nuggetIron
 	oreIron
 	singularityIron
 	plateIron
 	oreNetherIron
 	rawIron
-	clusterIron
-	blockIron
 	ingotIron
+	blockIron
+	barsIron
 	dustIron
-	shardIron
-	clumpIron
 
 Adamant
-	dustAdamant
 	nuggetAdamant
-	blockAdamant
 	ingotAdamant
+	blockAdamant
+	dustAdamant
 
 Neptunium
 	ingotNeptunium
@@ -459,100 +372,82 @@ Rutherfordium
 	ingotRutherfordium
 
 Steel
-	blockSteel
 	compressedSteel
+	doorSteel
+	coinSteel
 	gearSteel
 	nuggetSteel
 	singularitySteel
-	doorSteel
 	plateSteel
-	coinSteel
 	ingotSteel
+	blockSteel
 	dustSteel
 
 Calcium
-	crystalCalcium
-	crystalFragmentCalcium
 	crystalClusterCalcium
-	blockCalcium
+	crystalFragmentCalcium
+	crystalCalcium
 	ingotCalcium
-	dustCalcium
 
 Dubnium
 	ingotDubnium
 
 Silver
-	woolSilver
-	blockRawSilver
-	coinSilver
-	crystalClusterSilver
-	crystalSilver
-	crystalFragmentSilver
-	oreEndSilver
-	gearSilver
+	shardSilver
 	dustDirtySilver
+	clusterSilver
+	crystalSilver
+	blockRawSilver
+	clumpSilver
+	woolSilver
+	coinSilver
+	gearSilver
 	nuggetSilver
 	oreSilver
 	singularitySilver
 	plateSilver
-	oreNetherSilver
 	rawSilver
-	clusterSilver
-	blockSilver
 	ingotSilver
+	blockSilver
 	dustSilver
-	shardSilver
-	clumpSilver
 
 Enderium
 	coinEnderium
+	itemGrindingBallEnderium
 	gearEnderium
 	nuggetEnderium
 	singularityEnderium
 	plateEnderium
-	itemGrindingBallEnderium
-	blockEnderium
 	ingotEnderium
+	blockEnderium
 	dustEnderium
 
 Elecanium
-	crushedPurifiedElecanium
-	blockRawElecanium
-	crystalClusterElecanium
-	dustTinyElecanium
-	crystalElecanium
-	crystalFragmentElecanium
-	dustDirtyElecanium
 	nuggetElecanium
 	oreElecanium
-	crushedElecanium
 	rawElecanium
-	clusterElecanium
-	blockElecanium
 	ingotElecanium
-	dustElecanium
-	shardElecanium
-	clumpElecanium
+	blockElecanium
+	blockRawElecanium
 
 DraconiumAwakened
 	nuggetDraconiumAwakened
-	blockDraconiumAwakened
 	ingotDraconiumAwakened
-	dustDraconiumAwakened
+	blockDraconiumAwakened
 
 DraconicMetal
 	gearDraconicMetal
 	nuggetDraconicMetal
 	plateDraconicMetal
-	blockDraconicMetal
 	ingotDraconicMetal
+	blockDraconicMetal
 	dustDraconicMetal
 
 Imperomite
 	nuggetImperomite
 	singularityImperomite
-	blockImperomite
 	ingotImperomite
+	blockImperomite
 	dustImperomite
 
 Lawrencium
@@ -561,53 +456,43 @@ Lawrencium
 Proxii
 	nuggetProxii
 	singularityProxii
-	blockProxii
 	ingotProxii
+	blockProxii
 	dustProxii
 
 Infinity
-	gearIronInfinity
-	circuitInfinity
-	ballInfinity
 	alloyInfinity
-	blockInfinity
-	ingotInfinity
-	dustInfinity
+	circuitInfinity
 	cellInfinity
+	ingotInfinity
+	blockInfinity
 	itemCompressedInfinity
+	dustInfinity
+	ballInfinity
 
 Knightmetal
 	oreKnightmetal
 	singularityKnightmetal
-	blockKnightmetal
 	ingotKnightmetal
+	blockKnightmetal
 
 ChaoticMetal
 	gearChaoticMetal
 	nuggetChaoticMetal
 	plateChaoticMetal
-	blockChaoticMetal
 	ingotChaoticMetal
+	blockChaoticMetal
 	dustChaoticMetal
 
 Magnesium
-	crushedPurifiedMagnesium
-	blockRawMagnesium
 	crystalClusterMagnesium
-	dustTinyMagnesium
-	crystalMagnesium
 	crystalFragmentMagnesium
-	dustDirtyMagnesium
-	nuggetMagnesium
 	oreMagnesium
-	crushedMagnesium
+	crystalMagnesium
 	rawMagnesium
-	clusterMagnesium
-	blockMagnesium
 	ingotMagnesium
-	dustMagnesium
-	shardMagnesium
-	clumpMagnesium
+	blockMagnesium
+	blockRawMagnesium
 
 Moscovium
 	ingotMoscovium
@@ -623,100 +508,55 @@ Unknown
 
 Alumite
 	nuggetAlumite
-	blockAlumite
 	ingotAlumite
-	dustAlumite
+	blockAlumite
 
 BaseEssence
 	nuggetBaseEssence
-	blockBaseEssence
 	ingotBaseEssence
-	dustBaseEssence
+	blockBaseEssence
 
 Bismuth
 	ingotBismuth
 
 Emberstone
-	crushedPurifiedEmberstone
-	blockRawEmberstone
-	crystalClusterEmberstone
-	dustTinyEmberstone
-	crystalEmberstone
-	crystalFragmentEmberstone
-	dustDirtyEmberstone
 	nuggetEmberstone
 	oreEmberstone
-	crushedEmberstone
 	rawEmberstone
-	clusterEmberstone
-	blockEmberstone
 	ingotEmberstone
-	dustEmberstone
-	shardEmberstone
-	clumpEmberstone
+	blockEmberstone
+	blockRawEmberstone
 
 Valyrium
-	crushedPurifiedValyrium
 	blockRawValyrium
-	crystalClusterValyrium
-	dustTinyValyrium
-	crystalValyrium
-	crystalFragmentValyrium
-	dustDirtyValyrium
 	nuggetValyrium
 	oreValyrium
 	singularityValyrium
-	crushedValyrium
 	rawValyrium
-	clusterValyrium
-	blockValyrium
 	ingotValyrium
+	blockValyrium
 	dustValyrium
-	shardValyrium
-	clumpValyrium
 
 Sodium
 	ingotSodium
 
-ChargedRunium
-	crushedPurifiedChargedRunium
-	blockRawChargedRunium
-	crystalClusterChargedRunium
-	dustTinyChargedRunium
-	crystalChargedRunium
-	crystalFragmentChargedRunium
-	dustDirtyChargedRunium
-	nuggetChargedRunium
-	oreChargedRunium
-	crushedChargedRunium
-	rawChargedRunium
-	clusterChargedRunium
-	blockChargedRunium
-	ingotChargedRunium
-	dustChargedRunium
-	shardChargedRunium
-	clumpChargedRunium
-
 Manasteel
 	nuggetManasteel
 	singularityManasteel
-	blockManasteel
 	ingotManasteel
-	dustManasteel
 
 Mithrillium
 	nuggetMithrillium
 	plateMithrillium
-	blockMithrillium
 	ingotMithrillium
-	dustMithrillium
+	blockMithrillium
 
 WyvernMetal
 	gearWyvernMetal
 	nuggetWyvernMetal
 	plateWyvernMetal
-	blockWyvernMetal
 	ingotWyvernMetal
+	blockWyvernMetal
 	dustWyvernMetal
 
 Yttrium
@@ -726,117 +566,94 @@ Hassium
 	ingotHassium
 
 Dreadium
-	ingotDreadium
-	crystalDreadium
+	crystalClusterDreadium
 	crystalFragmentDreadium
 	nuggetDreadium
+	crystalDreadium
+	ingotDreadium
 	blockDreadium
-	crystalClusterDreadium
 	dustDreadium
 
 Aluminum
 	compressedAluminum
-	crushedPurifiedAluminum
 	blockRawAluminum
 	coinAluminum
-	dustTinyAluminum
-	crystalAluminum
-	oreEndAluminum
 	gearAluminum
-	dustDirtyAluminum
 	nuggetAluminum
 	oreAluminum
 	singularityAluminum
-	crushedAluminum
 	plateAluminum
-	oreNetherAluminum
 	rawAluminum
-	clusterAluminum
-	blockAluminum
 	ingotAluminum
+	blockAluminum
 	dustAluminum
-	shardAluminum
-	clumpAluminum
 
 Rupee
 	nuggetRupee
 	oreRupee
-	blockRawRupee
 	rawRupee
-	blockRupee
 	ingotRupee
+	blockRupee
+	blockRawRupee
+
+IceDragonsteel
+	ingotIceDragonsteel
+	blockIceDragonsteel
 
 Insanium
-	nuggetInsanium
-	blockInsanium
 	ingotInsanium
-	dustInsanium
+	nuggetInsanium
 	essenceInsanium
+	blockInsanium
 
 Barium
 	ingotBarium
 
 Gaiasteel
-	blockGaiasteel
 	ingotGaiasteel
-	dustGaiasteel
+	blockGaiasteel
 
 Intermedium
+	ingotIntermedium
 	nuggetIntermedium
 	coalIntermedium
-	blockIntermedium
-	ingotIntermedium
-	dustIntermedium
 	essenceIntermedium
+	blockIntermedium
 
 Arsenic
 	ingotArsenic
 
 Void
-	crystalVoid
 	nuggetVoid
 	plateVoid
-	blockVoid
+	crystalVoid
 	ingotVoid
-	dustVoid
+	blockVoid
 
 Rosite
-	crushedPurifiedRosite
-	blockRawRosite
-	crystalClusterRosite
-	dustTinyRosite
-	crystalRosite
-	crystalFragmentRosite
-	dustDirtyRosite
 	nuggetRosite
 	oreRosite
-	crushedRosite
 	rawRosite
-	clusterRosite
-	blockRosite
 	ingotRosite
-	dustRosite
-	shardRosite
-	clumpRosite
+	blockRosite
+	blockRawRosite
 
 CrudeSteel
 	nuggetCrudeSteel
-	ballCrudeSteel
-	blockCrudeSteel
 	ingotCrudeSteel
-	dustCrudeSteel
+	blockCrudeSteel
+	ballCrudeSteel
 
 EndSteel
 	nuggetEndSteel
-	ballEndSteel
-	blockEndSteel
 	ingotEndSteel
-	dustEndSteel
+	blockEndSteel
+	ballEndSteel
 
 Lunar
 	nuggetLunar
-	blockLunar
 	ingotLunar
+	blockLunar
 	dustLunar
 
 FluixSteel
@@ -856,39 +673,28 @@ Thorium
 Niob
 	nuggetNiob
 	singularityNiob
-	blockNiob
 	ingotNiob
+	blockNiob
 	dustNiob
 
 Plutonium
-	blockPlutonium
 	ingotPlutonium
 	dustPlutonium
 
 Abyssum
-	crushedPurifiedAbyssum
 	blockRawAbyssum
-	crystalClusterAbyssum
-	dustTinyAbyssum
-	crystalAbyssum
-	crystalFragmentAbyssum
-	dustDirtyAbyssum
 	nuggetAbyssum
 	oreAbyssum
 	singularityAbyssum
-	crushedAbyssum
 	rawAbyssum
-	clusterAbyssum
-	blockAbyssum
 	ingotAbyssum
+	blockAbyssum
 	dustAbyssum
-	shardAbyssum
-	clumpAbyssum
 
 RefinedObsidian
 	nuggetRefinedObsidian
-	blockRefinedObsidian
 	ingotRefinedObsidian
+	blockRefinedObsidian
 	dustRefinedObsidian
 
 Technetium
@@ -901,42 +707,31 @@ Brass
 	nuggetBrass
 	singularityBrass
 	plateBrass
-	blockBrass
 	ingotBrass
-	dustBrass
+	blockBrass
 
 Carbon
-	crushedPurifiedCarbon
-	blockRawCarbon
 	crystalClusterCarbon
-	itemCompressedCarbon
-	dustTinyCarbon
-	crystalCarbon
+	blockRawCarbon
 	crystalFragmentCarbon
-	dustDirtyCarbon
-	nuggetCarbon
 	oreCarbon
-	crushedCarbon
+	crystalCarbon
 	rawCarbon
-	clusterCarbon
-	blockCarbon
 	ingotCarbon
-	dustCarbon
-	shardCarbon
-	clumpCarbon
+	blockCarbon
+	itemCompressedCarbon
 
 Soularium
 	nuggetSoularium
-	ballSoularium
-	blockSoularium
 	ingotSoularium
+	blockSoularium
 	dustSoularium
+	ballSoularium
 
 Osgloglas
 	nuggetOsgloglas
-	blockOsgloglas
 	ingotOsgloglas
-	dustOsgloglas
+	blockOsgloglas
 
 Radium
 	ingotRadium
@@ -948,65 +743,39 @@ EssenceMetal
 	gearEssenceMetal
 	nuggetEssenceMetal
 	plateEssenceMetal
-	blockEssenceMetal
 	ingotEssenceMetal
+	blockEssenceMetal
 	dustEssenceMetal
 
 Ardite
-	crushedPurifiedArdite
-	blockRawArdite
-	crystalClusterArdite
-	dustTinyArdite
-	crystalArdite
-	crystalFragmentArdite
-	dustDirtyArdite
 	nuggetArdite
 	oreArdite
 	singularityArdite
-	crushedArdite
 	rawArdite
-	clusterArdite
-	blockArdite
 	ingotArdite
-	dustArdite
-	shardArdite
-	clumpArdite
+	blockArdite
+	blockRawArdite
 
 Rhenium
 	ingotRhenium
 
 Osmiridium
 	nuggetOsmiridium
-	blockOsmiridium
 	ingotOsmiridium
-	dustOsmiridium
+	blockOsmiridium
 
 Selenium
 	ingotSelenium
 
 Shyrestone
-	crushedPurifiedShyrestone
-	blockRawShyrestone
-	crystalClusterShyrestone
-	dustTinyShyrestone
-	crystalShyrestone
-	crystalFragmentShyrestone
-	dustDirtyShyrestone
 	nuggetShyrestone
 	oreShyrestone
-	crushedShyrestone
 	rawShyrestone
-	clusterShyrestone
-	blockShyrestone
 	ingotShyrestone
-	dustShyrestone
-	shardShyrestone
-	clumpShyrestone
+	blockShyrestone
+	blockRawShyrestone
 
 RefinedIron
-	blockRefinedIron
-	ingotRefinedIron
-	dustRefinedIron
 
 Einsteinium
 	ingotEinsteinium
@@ -1017,75 +786,56 @@ Lanthanum
 Ignitz
 	nuggetIgnitz
 	singularityIgnitz
-	blockIgnitz
 	ingotIgnitz
+	blockIgnitz
 	dustIgnitz
 
 Tin
+	shardTin
+	dustDirtyTin
+	crystalFragmentTin
+	clusterTin
+	crystalTin
 	compressedTin
 	blockRawTin
-	coinTin
+	clumpTin
 	crystalClusterTin
-	crystalTin
-	crystalFragmentTin
-	oreEndTin
+	coinTin
 	gearTin
-	dustDirtyTin
 	nuggetTin
 	oreTin
 	singularityTin
 	plateTin
-	oreNetherTin
 	rawTin
-	clusterTin
-	blockTin
 	ingotTin
+	blockTin
 	dustTin
-	shardTin
-	clumpTin
 
 ElectrumFlux
 
 Uranium
-	crystalClusterUranium
-	blockRawUranium
-	dropUranium
-	YellowCakeUranium
-	itemCompressedUranium
-	crystalUranium
-	crystalFragmentUranium
-	oreEndUranium
+	shardUranium
 	dustDirtyUranium
+	crystalUranium
+	blockRawUranium
+	clumpUranium
+	YellowCakeUranium
 	nuggetUranium
 	oreUranium
 	plateUranium
-	oreNetherUranium
 	rawUranium
-	clusterUranium
-	blockUranium
 	ingotUranium
+	blockUranium
+	itemCompressedUranium
 	dustUranium
-	shardUranium
-	clumpUranium
 
 Ghastly
-	crushedPurifiedGhastly
-	blockRawGhastly
-	crystalClusterGhastly
-	dustTinyGhastly
-	crystalGhastly
-	crystalFragmentGhastly
-	dustDirtyGhastly
 	nuggetGhastly
 	oreGhastly
-	crushedGhastly
 	rawGhastly
-	clusterGhastly
-	blockGhastly
 	ingotGhastly
-	dustGhastly
-	shardGhastly
-	clumpGhastly
+	blockGhastly
+	blockRawGhastly
 
 Polonium
 	ingotPolonium
@@ -1094,92 +844,64 @@ Mendelevium
 	ingotMendelevium
 
 Ghoulish
-	crushedPurifiedGhoulish
-	blockRawGhoulish
-	crystalClusterGhoulish
-	dustTinyGhoulish
-	crystalGhoulish
-	crystalFragmentGhoulish
-	dustDirtyGhoulish
 	nuggetGhoulish
 	oreGhoulish
-	crushedGhoulish
 	rawGhoulish
-	clusterGhoulish
-	blockGhoulish
 	ingotGhoulish
-	dustGhoulish
-	shardGhoulish
-	clumpGhoulish
+	blockGhoulish
+	blockRawGhoulish
 
 ActivatedGlowstone
 	nuggetActivatedGlowstone
-	blockActivatedGlowstone
 	ingotActivatedGlowstone
-	dustActivatedGlowstone
 
 Baronyte
-	crushedPurifiedBaronyte
-	blockRawBaronyte
-	crystalClusterBaronyte
-	dustTinyBaronyte
-	crystalBaronyte
-	crystalFragmentBaronyte
-	dustDirtyBaronyte
 	nuggetBaronyte
 	oreBaronyte
-	crushedBaronyte
 	rawBaronyte
-	clusterBaronyte
-	blockBaronyte
 	ingotBaronyte
-	dustBaronyte
-	shardBaronyte
-	clumpBaronyte
+	blockBaronyte
+	blockRawBaronyte
 
 Lumix
 	nuggetLumix
 	singularityLumix
-	blockLumix
 	ingotLumix
+	blockLumix
 	dustLumix
 
 BoundMetal
 	gearBoundMetal
 	nuggetBoundMetal
 	plateBoundMetal
-	blockBoundMetal
 	ingotBoundMetal
+	blockBoundMetal
 	dustBoundMetal
 
 Lead
-	blockRawLead
-	coinLead
-	crystalClusterLead
-	crystalLead
-	crystalFragmentLead
-	oreEndLead
-	gearLead
+	shardLead
 	dustDirtyLead
+	clusterLead
+	crystalLead
+	blockRawLead
+	clumpLead
+	coinLead
+	gearLead
 	nuggetLead
 	oreLead
 	singularityLead
 	plateLead
-	oreNetherLead
 	rawLead
-	clusterLead
-	blockLead
 	ingotLead
+	blockLead
 	dustLead
-	shardLead
-	clumpLead
 
 Cerium
 	ingotCerium
 
 BloodInfusedIron
-	blockBloodInfusedIron
 	ingotBloodInfusedIron
+	blockBloodInfusedIron
 
 Rubidium
 	ingotRubidium
@@ -1190,52 +912,42 @@ Lutetium
 Praseodymium
 	ingotPraseodymium
 
+IronInfinity
+	gearIronInfinity
+
 PulsatingIron
 	nuggetPulsatingIron
-	ballPulsatingIron
-	blockPulsatingIron
 	ingotPulsatingIron
-	dustPulsatingIron
+	blockPulsatingIron
+	ballPulsatingIron
 
 Crystal
-	itemWeatherCrystal
-	blockMagicCrystal
+	cellCrystal
 	itemAttractorCrystal
+	singularityMagicCrystal
+	circuitCrystal
 	itemPulsatingCrystal
 	itemVibrantCrystal
 	itemPrecientCrystal
-	alloyCrystal
-	cellCrystal
-	itemEnderCrystal
-	skillCrystal
-	singularityMagicCrystal
-	circuitCrystal
-	crushedPurifiedCrystal
 	blockRawCrystal
-	crystalClusterCrystal
-	itemCompressedCrystal
-	dustTinyCrystal
-	crystalCrystal
-	crystalFragmentCrystal
-	dustDirtyCrystal
-	nuggetCrystal
+	itemWeatherCrystal
+	alloyCrystal
+	blockMagicCrystal
 	oreCrystal
-	crushedCrystal
 	rawCrystal
-	clusterCrystal
-	blockCrystal
+	itemEnderCrystal
 	ingotCrystal
-	dustCrystal
-	shardCrystal
-	clumpCrystal
+	blockCrystal
+	itemCompressedCrystal
+	skillCrystal
 
 Realmite
 	nuggetRealmite
 	oreRealmite
-	blockRawRealmite
 	rawRealmite
-	blockRealmite
 	ingotRealmite
+	blockRealmite
+	blockRawRealmite
 
 Oganesson
 	singularityOganesson
@@ -1245,12 +957,6 @@ Aquatic
 	ingotAquatic
 
 Energium
-	gearEnergium
-	nuggetEnergium
-	plateEnergium
-	blockEnergium
-	ingotEnergium
-	dustEnergium
 
 Niobium
 	ingotNiobium
@@ -1260,19 +966,16 @@ Curium
 
 Unstable
 	nuggetUnstable
-	blockUnstable
 	ingotUnstable
-	dustUnstable
 
 Molybdenum
 	ingotMolybdenum
 
 EnergeticSilver
 	nuggetEnergeticSilver
-	ballEnergeticSilver
-	blockEnergeticSilver
 	ingotEnergeticSilver
-	dustEnergeticSilver
+	blockEnergeticSilver
+	ballEnergeticSilver
 
 Erbium
 	ingotErbium
@@ -1283,9 +986,8 @@ Livermorium
 Adaminite
 	nuggetAdaminite
 	plateAdaminite
-	blockAdaminite
 	ingotAdaminite
-	dustAdaminite
+	blockAdaminite
 
 HoneyComb
 	ingotHoneyComb
@@ -1297,127 +999,88 @@ EbonyPsi
 	ingotEbonyPsi
 
 Mithril
-	crushedPurifiedMithril
 	coinMithril
-	crystalClusterMithril
-	dustTinyMithril
-	crystalMithril
-	crystalFragmentMithril
-	oreEndMithril
 	gearMithril
-	dustDirtyMithril
 	nuggetMithril
 	oreMithril
 	singularityMithril
-	crushedMithril
 	plateMithril
-	oreNetherMithril
-	clusterMithril
-	blockMithril
 	ingotMithril
+	blockMithril
 	dustMithril
-	shardMithril
-	clumpMithril
 
 Invar
-	blockInvar
+	coinInvar
 	gearInvar
 	nuggetInvar
 	singularityInvar
 	plateInvar
-	coinInvar
 	ingotInvar
+	blockInvar
 	dustInvar
 
 CrystalMatrix
 	singularityCrystalMatrix
-	blockCrystalMatrix
 	ingotCrystalMatrix
+	blockCrystalMatrix
 	dustCrystalMatrix
 
 Tritonite
 	nuggetTritonite
 	singularityTritonite
-	blockTritonite
 	ingotTritonite
+	blockTritonite
 	dustTritonite
 
 Manganese
 	ingotManganese
 
 Nickel
-	crushedPurifiedNickel
 	blockRawNickel
 	coinNickel
-	crystalClusterNickel
-	dustTinyNickel
-	crystalNickel
-	crystalFragmentNickel
-	oreEndNickel
 	gearNickel
-	dustDirtyNickel
 	nuggetNickel
 	oreNickel
 	singularityNickel
-	crushedNickel
 	plateNickel
-	oreNetherNickel
 	rawNickel
-	clusterNickel
-	blockNickel
 	ingotNickel
+	blockNickel
 	dustNickel
-	shardNickel
-	clumpNickel
 
 Thaumium
 	nuggetThaumium
 	singularityThaumium
 	plateThaumium
-	blockThaumium
 	ingotThaumium
-	dustThaumium
+	blockThaumium
 
 Shadowium
-	blockShadowium
 	ingotShadowium
-	dustShadowium
 
 Terbium
 	ingotTerbium
 
 Silicon
-	crystalSilicon
+	crystalClusterSilicon
 	crystalFragmentSilicon
 	oreSilicon
-	crystalClusterSilicon
-	blockRawSilicon
+	crystalSilicon
 	rawSilicon
-	gemSilicon
-	blockSilicon
 	ingotSilicon
-	dustSilicon
+	blockSilicon
+	blockRawSilicon
 
 Vibranium
-	crushedPurifiedVibranium
-	blockRawVibranium
-	crystalClusterVibranium
-	dustTinyVibranium
-	crystalVibranium
-	crystalFragmentVibranium
-	dustDirtyVibranium
 	nuggetVibranium
 	oreVibranium
 	singularityVibranium
-	crushedVibranium
 	plateVibranium
 	rawVibranium
-	clusterVibranium
-	blockVibranium
 	ingotVibranium
+	blockVibranium
+	blockRawVibranium
 	dustVibranium
-	shardVibranium
-	clumpVibranium
 
 Seaborgium
 	ingotSeaborgium
@@ -1425,28 +1088,25 @@ Seaborgium
 Violium
 	nuggetViolium
 	singularityViolium
-	blockViolium
 	ingotViolium
+	blockViolium
 	dustViolium
 
 Lithium
-	blockLithium
 	ingotLithium
 	dustLithium
 
 Supremium
+	ingotSupremium
 	nuggetSupremium
 	coalSupremium
-	blockSupremium
-	ingotSupremium
-	dustSupremium
 	essenceSupremium
+	blockSupremium
 
 CosmicNeutronium
 	nuggetCosmicNeutronium
-	blockCosmicNeutronium
 	ingotCosmicNeutronium
-	dustCosmicNeutronium
+	blockCosmicNeutronium
 
 Meitnerium
 	ingotMeitnerium
@@ -1454,104 +1114,78 @@ Meitnerium
 Iox
 	nuggetIox
 	singularityIox
-	blockIox
 	ingotIox
+	blockIox
 	dustIox
 
 Draconium
-	crushedPurifiedDraconium
 	singularityAwakenedDraconium
-	crystalClusterDraconium
-	dustTinyDraconium
-	crystalDraconium
-	crystalFragmentDraconium
-	dustDirtyDraconium
 	nuggetDraconium
 	oreDraconium
 	singularityDraconium
-	crushedDraconium
-	clusterDraconium
-	blockDraconium
 	ingotDraconium
+	blockDraconium
 	dustDraconium
-	shardDraconium
-	clumpDraconium
 
 CrystallineAlloy
 	nuggetCrystallineAlloy
-	ballCrystallineAlloy
-	blockCrystallineAlloy
 	ingotCrystallineAlloy
-	dustCrystallineAlloy
+	blockCrystallineAlloy
+	ballCrystallineAlloy
 
 Tungstensteel
 
 Pigiron
 	nuggetPigiron
-	blockPigiron
 	ingotPigiron
-	dustPigiron
+	blockPigiron
 
 Ludicrite
-	blockLudicrite
 	ingotLudicrite
+	blockLudicrite
 	dustLudicrite
 
 Limonite
-	crushedPurifiedLimonite
-	blockRawLimonite
-	crystalClusterLimonite
-	dustTinyLimonite
-	crystalLimonite
-	crystalFragmentLimonite
-	dustDirtyLimonite
 	nuggetLimonite
 	oreLimonite
-	crushedLimonite
 	rawLimonite
-	clusterLimonite
-	blockLimonite
 	ingotLimonite
-	dustLimonite
-	shardLimonite
-	clumpLimonite
+	blockLimonite
+	blockRawLimonite
+
+Dark
+	blockQuartzDark
+	prismarineDark
+	gearDark
+	blockPrismarineElderDark
+	slabQuartzDark
+	stairQuartzDark
 
 Inferium
-	oreNetherInferium
-	coalInferium
+	ingotInferium
 	oreEndInferium
 	nuggetInferium
 	oreInferium
-	blockRawInferium
+	coalInferium
+	oreNetherInferium
 	rawInferium
-	blockInferium
-	ingotInferium
-	dustInferium
 	essenceInferium
+	blockInferium
+	blockRawInferium
 
 MeatRaw
-	blockMeatRaw
 	ingotMeatRaw
+	blockMeatRaw
 
 Ovium
-	crushedPurifiedOvium
 	blockRawOvium
-	crystalClusterOvium
-	dustTinyOvium
-	crystalOvium
-	crystalFragmentOvium
-	dustDirtyOvium
 	nuggetOvium
 	oreOvium
 	singularityOvium
-	crushedOvium
 	rawOvium
-	clusterOvium
-	blockOvium
 	ingotOvium
+	blockOvium
 	dustOvium
-	shardOvium
-	clumpOvium
 
 Indium
 	ingotIndium
@@ -1559,68 +1193,25 @@ Indium
 Solarium
 	nuggetSolarium
 	singularitySolarium
-	blockSolarium
 	ingotSolarium
+	blockSolarium
 	dustSolarium
 
 GelidEnderium
 
 Tungsten
-	crushedPurifiedTungsten
-	blockRawTungsten
-	crystalClusterTungsten
-	dustTinyTungsten
-	crystalTungsten
-	crystalFragmentTungsten
-	dustDirtyTungsten
-	nuggetTungsten
 	oreTungsten
-	crushedTungsten
 	rawTungsten
-	clusterTungsten
-	blockTungsten
 	ingotTungsten
-	dustTungsten
-	shardTungsten
-	clumpTungsten
-
-Runium
-	crushedPurifiedRunium
-	blockRawRunium
-	crystalClusterRunium
-	dustTinyRunium
-	crystalRunium
-	crystalFragmentRunium
-	dustDirtyRunium
-	nuggetRunium
-	oreRunium
-	crushedRunium
-	rawRunium
-	clusterRunium
-	blockRunium
-	ingotRunium
-	dustRunium
-	shardRunium
-	clumpRunium
+	blockTungsten
+	blockRawTungsten
 
 DarkIron
-	crushedPurifiedDarkIron
-	blockRawDarkIron
-	crystalClusterDarkIron
-	dustTinyDarkIron
-	crystalDarkIron
-	crystalFragmentDarkIron
-	dustDirtyDarkIron
-	nuggetDarkIron
 	oreDarkIron
-	crushedDarkIron
 	rawDarkIron
-	clusterDarkIron
-	blockDarkIron
 	ingotDarkIron
-	dustDarkIron
-	shardDarkIron
-	clumpDarkIron
+	blockDarkIron
+	blockRawDarkIron
 
 Thallium
 	ingotThallium
@@ -1637,9 +1228,28 @@ Constantan
 	nuggetConstantan
 	singularityConstantan
 	plateConstantan
-	blockConstantan
 	ingotConstantan
+	blockConstantan
 	dustConstantan
+
+Wood
+	gearWood
+	chestWood
+	pressurePlateWood
+	bowlWood
+	slabWood
+	doorWood
+	buttonWood
+	barkWood
+	stickWood
+	fenceWood
+	plankWood
+	blockBloodInfusedWood
+	craftingTableWood
+	logWood
+	dustWood
+	stairWood
+	blockMagicalWood
 
 Boron
 	ingotBoron
@@ -1647,31 +1257,27 @@ Boron
 Seismum
 	nuggetSeismum
 	singularitySeismum
-	blockSeismum
 	ingotSeismum
+	blockSeismum
 	dustSeismum
 
 Beryllium
-	crystalBeryllium
-	crystalFragmentBeryllium
 	crystalClusterBeryllium
-	blockBeryllium
+	crystalFragmentBeryllium
+	crystalBeryllium
 	ingotBeryllium
-	dustBeryllium
 
 StellarAlloy
 	nuggetStellarAlloy
-	ballStellarAlloy
-	blockStellarAlloy
 	ingotStellarAlloy
-	dustStellarAlloy
+	blockStellarAlloy
+	ballStellarAlloy
 
 MelodicAlloy
 	nuggetMelodicAlloy
-	ballMelodicAlloy
-	blockMelodicAlloy
 	ingotMelodicAlloy
-	dustMelodicAlloy
+	blockMelodicAlloy
+	ballMelodicAlloy
 
 Nobelium
 	ingotNobelium
@@ -1679,15 +1285,15 @@ Nobelium
 Fractum
 	nuggetFractum
 	singularityFractum
-	blockFractum
 	ingotFractum
+	blockFractum
 	dustFractum
 
 Terrax
 	nuggetTerrax
 	singularityTerrax
-	blockTerrax
 	ingotTerrax
+	blockTerrax
 	dustTerrax
 
 Rhodium
@@ -1696,160 +1302,96 @@ Rhodium
 PinkMetal
 	ingotPinkMetal
 
+FireDragonsteel
+	ingotFireDragonsteel
+	blockFireDragonsteel
+
 Copernicium
 	ingotCopernicium
 
 Meteorite
 	nuggetMeteorite
-	blockMeteorite
 	ingotMeteorite
+	blockMeteorite
 	dustMeteorite
 
 AstralStarmetal
-	crushedPurifiedAstralStarmetal
-	blockRawAstralStarmetal
-	crystalClusterAstralStarmetal
-	dustTinyAstralStarmetal
-	crystalAstralStarmetal
-	crystalFragmentAstralStarmetal
-	dustDirtyAstralStarmetal
-	nuggetAstralStarmetal
 	oreAstralStarmetal
-	crushedAstralStarmetal
 	rawAstralStarmetal
-	clusterAstralStarmetal
-	blockAstralStarmetal
 	ingotAstralStarmetal
+	blockRawAstralStarmetal
 	dustAstralStarmetal
-	shardAstralStarmetal
-	clumpAstralStarmetal
 
 Mercury
-	crushedPurifiedMercury
-	crystalClusterMercury
-	dustTinyMercury
-	crystalMercury
-	crystalFragmentMercury
-	dustDirtyMercury
-	nuggetMercury
 	oreMercury
-	crushedMercury
-	clusterMercury
-	blockMercury
 	ingotMercury
-	dustMercury
-	shardMercury
-	clumpMercury
+	blockMercury
 
 EnchantedMetal
-	dustEnchantedMetal
-	blockEnchantedMetal
 	ingotEnchantedMetal
+	blockEnchantedMetal
 
 DwarfStarAlloy
 	nuggetDwarfStarAlloy
 	oreDwarfStarAlloy
 	plateDwarfStarAlloy
-	blockRawDwarfStarAlloy
 	rawDwarfStarAlloy
-	blockDwarfStarAlloy
 	ingotDwarfStarAlloy
+	blockDwarfStarAlloy
+	blockRawDwarfStarAlloy
 	dustDwarfStarAlloy
 
 Palladium
-	crushedPurifiedPalladium
-	blockRawPalladium
-	crystalClusterPalladium
-	dustTinyPalladium
-	crystalPalladium
-	crystalFragmentPalladium
-	dustDirtyPalladium
 	nuggetPalladium
 	orePalladium
-	crushedPalladium
 	platePalladium
 	rawPalladium
-	clusterPalladium
-	blockPalladium
 	ingotPalladium
+	blockPalladium
+	blockRawPalladium
 	dustPalladium
-	shardPalladium
-	clumpPalladium
 
 Blazium
-	crushedPurifiedBlazium
-	blockRawBlazium
-	crystalClusterBlazium
-	dustTinyBlazium
-	crystalBlazium
-	crystalFragmentBlazium
-	dustDirtyBlazium
 	nuggetBlazium
 	oreBlazium
-	crushedBlazium
 	rawBlazium
-	clusterBlazium
-	blockBlazium
 	ingotBlazium
-	dustBlazium
-	shardBlazium
-	clumpBlazium
+	blockBlazium
+	blockRawBlazium
+
+Titanuim
+	ingotTitanuim
 
 Titanium
-	compressedTitanium
-	crushedPurifiedTitanium
-	blockRawTitanium
-	crystalClusterTitanium
-	itemCompressedTitanium
-	dustTinyTitanium
-	crystalTitanium
-	crystalFragmentTitanium
+	shardTitanium
 	dustDirtyTitanium
+	crystalTitanium
+	compressedTitanium
+	blockRawTitanium
+	clumpTitanium
 	nuggetTitanium
 	oreTitanium
-	crushedTitanium
 	plateTitanium
 	rawTitanium
-	clusterTitanium
-	blockTitanium
 	ingotTitanium
+	blockTitanium
+	itemCompressedTitanium
 	dustTitanium
-	shardTitanium
-	clumpTitanium
 
 UUMatter
-	gearUUMatter
-	nuggetUUMatter
-	plateUUMatter
-	UUMatter
-	blockUUMatter
-	ingotUUMatter
-	dustUUMatter
 
 Photonium
-	blockPhotonium
 	ingotPhotonium
-	dustPhotonium
 
 Karmesine
-	crushedPurifiedKarmesine
 	blockRawKarmesine
-	crystalClusterKarmesine
-	dustTinyKarmesine
-	crystalKarmesine
-	crystalFragmentKarmesine
-	dustDirtyKarmesine
 	nuggetKarmesine
 	oreKarmesine
 	singularityKarmesine
-	crushedKarmesine
 	rawKarmesine
-	clusterKarmesine
-	blockKarmesine
 	ingotKarmesine
+	blockKarmesine
 	dustKarmesine
-	shardKarmesine
-	clumpKarmesine
 
 Ichorium
 	nuggetIchorium
@@ -1857,154 +1399,112 @@ Ichorium
 
 MeteoricIron
 	compressedMeteoricIron
-	crushedPurifiedMeteoricIron
-	blockRawMeteoricIron
-	crystalClusterMeteoricIron
-	dustTinyMeteoricIron
-	crystalMeteoricIron
-	crystalFragmentMeteoricIron
-	dustDirtyMeteoricIron
-	nuggetMeteoricIron
-	oreMeteoricIron
-	crushedMeteoricIron
-	plateMeteoricIron
-	rawMeteoricIron
-	clusterMeteoricIron
-	blockMeteoricIron
 	ingotMeteoricIron
-	dustMeteoricIron
-	shardMeteoricIron
-	clumpMeteoricIron
 
-Holmium
-	ingotHolmium
+Stone
+	dustSkyStone
+	rodStone
+	bricksStone
+	slabStone
+	gearStone
+	infusionStone
+	blockSkyStone
+	brickStone
 
 Europium
 	ingotEuropium
 
 Soulium
 	nuggetSoulium
-	blockSoulium
 	ingotSoulium
-	dustSoulium
+	blockSoulium
 
 Iridium
-	crushedPurifiedIridium
-	blockRawIridium
-	coinIridium
-	crystalClusterIridium
-	itemCompressedIridium
-	dustTinyIridium
-	crystalIridium
-	crystalFragmentIridium
-	oreEndIridium
-	gearIridium
+	shardIridium
 	dustDirtyIridium
+	crystalIridium
+	blockRawIridium
+	clumpIridium
+	coinIridium
+	gearIridium
 	nuggetIridium
 	oreIridium
 	singularityIridium
-	crushedIridium
 	plateIridium
-	oreNetherIridium
 	rawIridium
-	clusterIridium
-	blockIridium
 	ingotIridium
+	blockIridium
+	itemCompressedIridium
 	dustIridium
-	shardIridium
-	clumpIridium
 
 Desh
 	compressedDesh
 	oreDesh
-	blockRawDesh
 	rawDesh
-	blockDesh
 	ingotDesh
+	blockDesh
+	blockRawDesh
 
 Lyon
-	crushedPurifiedLyon
-	blockRawLyon
-	crystalClusterLyon
-	dustTinyLyon
-	crystalLyon
-	crystalFragmentLyon
-	dustDirtyLyon
 	nuggetLyon
 	oreLyon
-	crushedLyon
 	rawLyon
-	clusterLyon
-	blockLyon
 	ingotLyon
-	dustLyon
-	shardLyon
-	clumpLyon
+	blockLyon
+	blockRawLyon
 
 DemonicMetal
-	dustDemonicMetal
-	blockDemonicMetal
 	ingotDemonicMetal
+	blockDemonicMetal
 
 Intertium
 	nuggetIntertium
 	plateIntertium
-	blockIntertium
 	ingotIntertium
+	blockIntertium
 	dustIntertium
 
 Nucleum
 	nuggetNucleum
 	singularityNucleum
-	blockNucleum
 	ingotNucleum
+	blockNucleum
 	dustNucleum
 
 Electrum
-	blockElectrum
+	coinElectrum
 	gearElectrum
 	nuggetElectrum
 	singularityElectrum
 	plateElectrum
-	coinElectrum
 	ingotElectrum
+	blockElectrum
 	dustElectrum
 
 Prometheum
-	crushedPurifiedPrometheum
 	blockRawPrometheum
-	crystalClusterPrometheum
-	dustTinyPrometheum
-	crystalPrometheum
-	crystalFragmentPrometheum
-	dustDirtyPrometheum
 	nuggetPrometheum
 	orePrometheum
 	singularityPrometheum
-	crushedPrometheum
 	rawPrometheum
-	clusterPrometheum
-	blockPrometheum
 	ingotPrometheum
+	blockPrometheum
 	dustPrometheum
-	shardPrometheum
-	clumpPrometheum
 
 Coal
+	oreEndCoal
+	oreCoal
+	nuggetCoal
+	blockInsaniumCoal
+	oreDenseCoal
 	blockIntermediumCoal
 	blockSupremiumCoal
-	blockInferiumCoal
-	crystalCoal
-	oreEndCoal
-	nuggetCoal
-	oreCoal
 	singularityCoal
-	blockInsaniumCoal
+	blockSuperiumCoal
 	oreNetherCoal
-	oreDenseCoal
+	blockInferiumCoal
 	blockCoal
 	dustCoal
-	blockSuperiumCoal
 
 Ironwood
 	oreIronwood
@@ -2013,11 +1513,9 @@ Ironwood
 
 Dilithium
 	crystalDilithium
-	oreEndDilithium
 	nuggetDilithium
-	oreNetherDilithium
-	blockDilithium
 	ingotDilithium
+	blockDilithium
 	dustDilithium
 
 Gallium
@@ -2025,10 +1523,9 @@ Gallium
 
 ElectricalSteel
 	nuggetElectricalSteel
-	ballElectricalSteel
-	blockElectricalSteel
 	ingotElectricalSteel
-	dustElectricalSteel
+	blockElectricalSteel
+	ballElectricalSteel
 
 Fermium
 	ingotFermium
@@ -2041,85 +1538,71 @@ Neodymium
 
 RefinedGlowstone
 	nuggetRefinedGlowstone
-	blockRefinedGlowstone
 	ingotRefinedGlowstone
-	dustRefinedGlowstone
+	blockRefinedGlowstone
 
 Bronze
-	compressedBronze
+	coinBronze
 	gearBronze
 	nuggetBronze
 	singularityBronze
-	coinBronze
 	plateBronze
-	blockBronze
+	compressedBronze
 	ingotBronze
+	blockBronze
 	dustBronze
 
 Zinc
-	crushedPurifiedZinc
-	blockRawZinc
 	crystalClusterZinc
-	dustTinyZinc
-	crystalZinc
 	crystalFragmentZinc
-	oreEndZinc
-	dustDirtyZinc
-	nuggetZinc
 	oreZinc
-	crushedZinc
-	oreNetherZinc
+	crystalZinc
 	rawZinc
-	clusterZinc
-	blockZinc
 	ingotZinc
-	dustZinc
-	shardZinc
-	clumpZinc
+	blockZinc
+	blockRawZinc
 
 Alubrass
 	nuggetAlubrass
-	blockAlubrass
 	ingotAlubrass
-	dustAlubrass
+	blockAlubrass
 
 Promethium
 	ingotPromethium
 
 Cyanite
-	blockCyanite
 	ingotCyanite
+	blockCyanite
 	dustCyanite
 
 Superium
+	essenceSuperium
 	nuggetSuperium
 	coalSuperium
-	blockSuperium
 	ingotSuperium
-	dustSuperium
-	essenceSuperium
+	blockSuperium
 
 Arlemite
 	nuggetArlemite
 	oreArlemite
-	blockRawArlemite
 	rawArlemite
-	blockArlemite
 	ingotArlemite
+	blockArlemite
+	blockRawArlemite
 
 Primordial
 	gearPrimordial
 	nuggetPrimordial
 	platePrimordial
-	blockPrimordial
 	ingotPrimordial
+	blockPrimordial
 	dustPrimordial
 
 GoldTitaniumAlloy
 	nuggetGoldTitaniumAlloy
 	plateGoldTitaniumAlloy
-	blockGoldTitaniumAlloy
 	ingotGoldTitaniumAlloy
+	blockGoldTitaniumAlloy
 	dustGoldTitaniumAlloy
 
 Ruthenium
@@ -2127,27 +1610,16 @@ Ruthenium
 
 Fiery
 	singularityFiery
-	blockFiery
 	ingotFiery
+	blockFiery
 
 Varsium
-	crushedPurifiedVarsium
-	blockRawVarsium
-	crystalClusterVarsium
-	dustTinyVarsium
-	crystalVarsium
-	crystalFragmentVarsium
-	dustDirtyVarsium
 	nuggetVarsium
 	oreVarsium
-	crushedVarsium
 	rawVarsium
-	clusterVarsium
-	blockVarsium
 	ingotVarsium
-	dustVarsium
-	shardVarsium
-	clumpVarsium
+	blockVarsium
+	blockRawVarsium
 
 Darmstadtium
 	ingotDarmstadtium
@@ -2156,58 +1628,51 @@ Antimony
 	ingotAntimony
 
 Uru
-	crushedPurifiedUru
-	blockRawUru
-	crystalClusterUru
-	dustTinyUru
-	crystalUru
-	crystalFragmentUru
-	dustDirtyUru
 	nuggetUru
 	oreUru
-	crushedUru
 	plateUru
 	rawUru
-	clusterUru
-	blockUru
 	ingotUru
+	blockUru
+	blockRawUru
 	dustUru
-	shardUru
-	clumpUru
 
 Gold
 	tinyDustGold
-	blockRawGold
-	coinGold
-	crystalClusterGold
-	itemCompressedGold
-	crystalGold
+	shardGold
+	dustDirtyGold
 	crystalFragmentGold
+	clusterGold
+	crystalGold
+	blockRawGold
+	clumpGold
+	crystalClusterGold
+	coinGold
 	oreEndGold
 	gearGold
-	dustDirtyGold
 	nuggetGold
 	oreGold
 	singularityGold
 	plateGold
 	oreNetherGold
 	rawGold
-	clusterGold
-	blockGold
 	ingotGold
+	blockGold
+	itemCompressedGold
 	dustGold
-	shardGold
-	clumpGold
 
 Graphite
-	blockGraphite
 	ingotGraphite
+	blockGraphite
 	dustGraphite
 
 Psi
-	gemPsi
 	ingotPsi
 	dustPsi
+	gemPsi
+
+Holmium
+	ingotHolmium
 
 Hafnium
 	ingotHafnium
@@ -2216,84 +1681,58 @@ Strontium
 	ingotStrontium
 
 Platinum
-	crushedPurifiedPlatinum
 	blockRawPlatinum
 	coinPlatinum
-	crystalClusterPlatinum
-	dustTinyPlatinum
-	crystalPlatinum
-	crystalFragmentPlatinum
-	oreEndPlatinum
 	gearPlatinum
-	dustDirtyPlatinum
 	nuggetPlatinum
 	orePlatinum
 	singularityPlatinum
-	crushedPlatinum
 	platePlatinum
-	oreNetherPlatinum
 	rawPlatinum
-	clusterPlatinum
-	blockPlatinum
 	ingotPlatinum
+	blockPlatinum
 	dustPlatinum
-	shardPlatinum
-	clumpPlatinum
 
 Potassium
-	crystalPotassium
-	crystalFragmentPotassium
 	crystalClusterPotassium
-	blockPotassium
+	crystalFragmentPotassium
+	crystalPotassium
 	ingotPotassium
-	dustPotassium
 
 Prudentium
-	coalPrudentium
-	nuggetPrudentium
-	blockPrudentium
-	ingotPrudentium
-	dustPrudentium
 	essencePrudentium
+	nuggetPrudentium
+	coalPrudentium
+	ingotPrudentium
+	blockPrudentium
 
 EvilMetal
-	blockEvilMetal
 	ingotEvilMetal
-	dustEvilMetal
+	blockEvilMetal
 
 Orichalcos
-	blockOrichalcos
 	ingotOrichalcos
-	dustOrichalcos
+
+Flerovium
+	ingotFlerovium
 
 Mystite
-	crushedPurifiedMystite
-	blockRawMystite
-	crystalClusterMystite
-	dustTinyMystite
-	crystalMystite
-	crystalFragmentMystite
-	dustDirtyMystite
 	nuggetMystite
 	oreMystite
-	crushedMystite
 	rawMystite
-	clusterMystite
-	blockMystite
 	ingotMystite
-	dustMystite
-	shardMystite
-	clumpMystite
+	blockMystite
+	blockRawMystite
 
 Lumium
-	ingotLumium
+	nuggetLumium
 	coinLumium
 	gearLumium
-	nuggetLumium
+	itemGrindingBallLumium
 	singularityLumium
 	plateLumium
+	ingotLumium
 	blockLumium
-	itemGrindingBallLumium
 	dustLumium
 
 Samarium
@@ -2301,56 +1740,64 @@ Samarium
 
 ConstructionAlloy
 	nuggetConstructionAlloy
-	ballConstructionAlloy
-	blockConstructionAlloy
 	ingotConstructionAlloy
-	dustConstructionAlloy
+	blockConstructionAlloy
+	ballConstructionAlloy
+
+Emerald
+	gemEmerald
+	oreEndEmerald
+	gearEmerald
+	nuggetEmerald
+	oreEmerald
+	singularityEmerald
+	oreNetherEmerald
+	blockEmerald
+	itemCompressedEmerald
+	dustEmerald
 
 Berkelium
 	ingotBerkelium
 
 Signalum
+	nuggetSignalum
 	coinSignalum
 	gearSignalum
-	nuggetSignalum
+	itemGrindingBallSignalum
 	singularitySignalum
 	plateSignalum
-	itemGrindingBallSignalum
-	blockSignalum
 	ingotSignalum
+	blockSignalum
 	dustSignalum
 
 Copper
+	crystalFragmentCopper
+	shardCopper
+	dustDirtyCopper
 	wiringCopper
+	clusterCopper
+	crystalCopper
 	compressedCopper
 	wireCopper
 	blockRawCopper
-	coinCopper
+	clumpCopper
 	crystalClusterCopper
-	crystalCopper
-	crystalFragmentCopper
-	oreEndCopper
+	coinCopper
 	gearCopper
-	dustDirtyCopper
 	nuggetCopper
 	oreCopper
 	singularityCopper
 	plateCopper
-	oreNetherCopper
 	rawCopper
-	clusterCopper
-	blockCopper
 	ingotCopper
+	blockCopper
 	dustCopper
-	shardCopper
-	clumpCopper
 
 BloodInfusedGlitch
 	nuggetBloodInfusedGlitch
-	blockBloodInfusedGlitch
 	ingotBloodInfusedGlitch
-	dustBloodInfusedGlitch
+	blockBloodInfusedGlitch
 
-Flerovium
-	ingotFlerovium
+Vibrant
+	gearVibrant
 

@@ -6,6 +6,7 @@ divinerpg:entities/mortum/mystic
 minecraft:chests/simple_dungeon
 mod_lavacow:entities/ghost_swarmer
 minecraft:entities/vex
+enigmaticlegacy:inject/stronghold_library
 aoa3:entities/mobs/overworld/rammerhead
 thaumcraft:pech
 xreliquary:inject/chests/igloo_chest
@@ -69,6 +70,7 @@ mod_lavacow:entities/parasite_desert
 aoa3:entities/bosses/king_shroomus
 lostinfinity:deviantmooshroom
 aoa3:entities/bosses/clunkhead
+enigmaticlegacy:inject/stronghold_corridor
 lostinfinity:deviantvex
 abyssalcraft:entities/lesser_dreaded_shoggoth
 aoa3:blocks/rune_randomizer
@@ -224,6 +226,7 @@ aoa3:entities/mobs/gardencia/corny
 ebwizardry:gameplay/imbuement_altar/ruined_spell_book_fire
 twilightforest:entities/snow_queen
 aoa3:entities/mobs/overworld/shade
+ancientspellcraft:subsets/rare_artefacts
 mysticalworld:entity/sprout_green
 minecraft:entities/sheep/lime
 aoa3:entities/mobs/overworld/sphinx
@@ -395,6 +398,7 @@ aoa3:entities/mobs/barathos/emperor_beast
 divinerpg:entities/vanilla/pumpkin_spider
 abyssalcraft:entities/anti_zombie
 aoa3:entities/mobs/crystevia/construct_of_resistance
+enigmaticlegacy:inject/desert_pyramid
 aoa3:entities/mobs/overworld/ghostly_night_reaper
 aoa3:entities/npcs/traders/zal_grocer
 mod_lavacow:entities/grave_robber_ghost
@@ -431,6 +435,7 @@ aoa3:entities/mobs/overworld/hag
 aoa3:entities/mobs/shyrelands/lightwalker
 lostinfinity:flutterbee
 aoa3:entities/mobs/haven/seeker
+enigmaticlegacy:inject/simple_dungeon
 twilightforest:structures/aurora_room/aurora_room
 aoa3:entities/mobs/dustopia/merkyre
 mysticalworld:chests/hut
@@ -450,6 +455,7 @@ aoa3:entities/npcs/skillmasters/augury_master
 lostinfinity:deviantpig
 lostinfinity:glangler
 lostinfinity:deviantcow
+enigmaticlegacy:inject/nether_bridge
 lostinfinity:deviantslimestrider
 aoa3:worlds/candyland
 abyssalcraft:chests/omothol/storage_junk
@@ -511,6 +517,7 @@ aoa3:entities/animals/creep_cow
 lostinfinity:deviantslime
 mysticalworld:entity/deer
 aoa3:entities/mobs/overworld/muckopede
+thaumicwonders:entities/corruption_avatar
 twilightforest:entities/death_tome
 divinerpg:entities/eden/sun_archer
 golems:entities/golem_nether_wart
@@ -536,6 +543,7 @@ lostinfinity:supermutantdimtrader
 aoa3:worlds/vox_ponds
 divinerpg:entities/nether/scorcher
 twilightforest:structures/darktower_key/darktower_key
+ancientspellcraft:subsets/epic_artefacts
 aoa3:entities/mobs/celeve/stitches
 lostinfinity:supermutantskyworm
 divinerpg:entities/wildwood/verek
@@ -607,6 +615,7 @@ aoa3:entities/misc/pixons/radiant_pixon_harvest
 golems:entities/golem_wool/purple
 ancientspellcraft:inject/as_shrine
 divinerpg:entities/boss/wreck
+enigmaticlegacy:inject/abandoned_mineshaft
 mod_lavacow:entities/soulworm
 golems:entities/golem_gold
 aoa3:entities/mobs/candyland/cherry_barrager
@@ -812,6 +821,7 @@ golems_tcon:entities/golem_cobalt
 deepmoblearning:loot_hoarder
 ebwizardry:subsets/wizard_armour
 extrabotany:inject/stronghold_corridor
+ancientspellcraft:subsets/uncommon_artefacts
 divinerpg:entities/apalachia/enchanted_warrior
 aoa3:entities/mobs/candyland/cane_bug
 aoa3:entities/mobs/abyss/slimer
@@ -876,6 +886,7 @@ iceandfire:fire_dragon_male_cave
 lostinfinity:glomite
 abyssalcraft:entities/depths_ghoul
 golems:entities/golem_wool/light_blue
+mystcraft:mystcraft_treasure
 aoa3:entities/npcs/ambient/primordial_guide
 aoa3:entities/misc/pixons/blooming_pixon_harvest
 abyssalcraft:entities/shub_offspring
@@ -1134,6 +1145,7 @@ aoa3:entities/mobs/overworld/boneback
 aoa3:structures/lelyetiantower/general
 abyssalcraft:entities/remnant
 divinerpg:entities/vethea/fake_vhraak
+enigmaticlegacy:inject/end_city_treasure
 lostinfinity:galaxysorcerer_blue
 aoa3:worlds/celeve
 aoa3:worlds/runandor
@@ -1142,6 +1154,7 @@ golems:entities/golem_diamond
 aoa3:entities/mobs/barathos/eilosapien
 aoa3:entities/mobs/celeve/koko
 aoa3:entities/mobs/haven/volar
+enigmaticlegacy:inject/jungle_temple
 abyssalcraft:entities/asorah
 aoa3:entities/mobs/overworld/bone_creature
 aoa3:entities/mobs/lunalus/refluct
@@ -1172,7 +1185,6 @@ lostinfinity:reflectal
 lostinfinity:drippler
 divinerpg:entities/vanilla/whale
 golems:entities/golem_coal
-natura:entities/imp
 minecraft:entities/villager
 aoa3:entities/mobs/abyss/apparition
 botania:inject/stronghold_corridor
@@ -1237,6 +1249,7 @@ golems:entities/golem_wool/pink
 lostinfinity:titanllama
 mysticalworld:entity/silkworm
 twilightforest:entities/ice_shooter
+thaumcraft:cultist
 aoa3:entities/mobs/voxponds/gadgetoid
 aoa3:entities/mobs/shyrelands/luxocron
 ebwizardry:subsets/epic_artefacts

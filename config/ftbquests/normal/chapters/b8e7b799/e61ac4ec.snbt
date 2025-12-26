@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "65492151",
+		type: "item",
+		items: [{
+			item: "lostinfinity:masterforged_ingot"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b2c50762",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

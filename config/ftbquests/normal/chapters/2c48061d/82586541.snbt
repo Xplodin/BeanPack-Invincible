@@ -16,14 +16,12 @@
 			tag: {
 				Injection: "manhattan_project:true_power_of_shazam_1"
 			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		}]
 	}],
 	rewards: [{
 		uid: "f00f375a",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 250L
 	},
 	{
 		uid: "224d4f36",

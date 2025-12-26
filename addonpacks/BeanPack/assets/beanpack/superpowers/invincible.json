@@ -1,0 +1,220 @@
+{
+	"name" : {
+		"text": "Invincible"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "beanpack:textures/icons/icon.png"
+	},
+	
+	"max_level": 0,
+	
+	"capsule_color" : 228627,
+	
+	"effects": [{
+			"type": "skin_change",
+			"texture": "beanpack:textures/skins/invincible.png",
+			"conditions": [{
+			"type": "ability_enabled",
+			"ability": "lucraftcore:size_change"
+			}]
+		}		
+    ],
+	
+	"abilities": {
+		"health": {
+			"ability": "lucraftcore:health",
+            "show_in_bar": false,		
+            "title": {"text":"Health"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/health.png"},				
+			"amount": 200,
+			"operation": 0,
+			"uuid": "0158d8f2-bee6-42ab-8374-77c359745479"
+		},
+		"flight": {
+			"ability": "lucraftcore:flight",
+			"speed": 1.7,
+			"sprint_speed": 4,
+			"rotate_arms": true
+		},
+		"healing": {
+			"ability": "lucraftcore:healing",
+            "show_in_bar": false,		
+            "title": {"text":"Soul Healing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/healing.png"},				
+			"frequency": 60,
+			"amount": 3.5
+		},
+		"damage": {
+			"ability": "lucraftcore:punch",
+            "show_in_bar": false,		
+            "title": {"text":"Punch"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/punch.png"},						
+			"amount": 2000,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"		
+	    },
+		"strength": {		
+			"ability": "lucraftcore:strength",
+            "show_in_bar": false,		
+            "title": {"text":"Strength"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/strength.png"},						
+			"amount": 200,
+			"operation": 0,
+			"uuid": "03e4d2f2-bc52-4c1a-97bf-d0ae6b2106da"
+		},
+		"sprint": {		
+			"ability": "lucraftcore:sprint",
+            "show_in_bar": false,		
+            "title": {"text":"Power Sprint"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/sprint_speed.png"},					
+			"amount": 6,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",		
+            "show_in_bar": false,		
+            "title": {"text":"Jump Boost"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/jump_boost.png"},			
+			"amount": 4,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/resistance.png"},					
+			"amount": 50,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fall Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fall_resistance.png"},			
+			"amount": 2000,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"	
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Knockback Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/knockback_resistance.png"},						
+			"amount": 5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"			
+		},
+		"step_assist": {
+			"ability": "lucraftcore:step_assist",
+            "show_in_bar": false,		
+            "title": {"text":"Step Assist"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/step_assist.png"},				
+			"amount": 0.5,
+			"operation": 0,
+			"uuid": "48a5f5da-6271-4c5b-9b0c-97c8e73c52cd"
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing",
+            "show_in_bar": false,		
+            "title": {"text":"Water Breathing"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/water_breathing.png"}		
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+            "show_in_bar": false,		
+            "title": {"text":"Fire Resistance"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/fire_resistance.png"}		
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Lungs"},	
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_lungs.png"}
+		},			
+		"weakness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Weakness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:weakness"
+		},
+		"radiation_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Radiation Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "hbm:potion.hbm_radiation"
+		},
+		"tough_skin": {			
+            "ability": "heroesexpansion:kinetic_energy_absorption",
+            "show_in_bar": false,		
+            "title": {"text":"Tough Skin"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/tough_skin.png"},		
+            "max_energy": 0,
+            "color": [0, 0, 0]
+		},			
+		"night_vision": {
+			"ability": "the-fifth-world:give_potion",
+            "show_in_bar": false,				
+			"title": {"text":"Night Vision"},
+			"potion": "minecraft:night_vision",
+			"amplifier": 1,
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/powers/night_vision.png"}	
+		},
+		"speed_boost": {
+			"ability": "the-fifth-world:give_potion",
+            "show_in_bar": false,				
+			"title": {"text":"Swiftness"},
+			"potion": "minecraft:speed",
+			"amplifier": 2,
+			"icon": {"type": "internal"}	
+		},
+		"poison_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Poison Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:poison"
+		},
+		"wither_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Wither Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:wither"
+		},
+		"slowness_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Slowness Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:slowness"				
+		},
+		"fatigue_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Fatigue Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:mining_fatigue"
+		},	
+		"nausea_immunity": {
+            "ability": "the-fifth-world:potion_immunity",
+            "show_in_bar": false,		
+            "title": {"text":"Nausea Immunity"},		
+			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},		
+            "potion": "minecraft:nausea"
+		},	
+		"water_running": {
+			"ability": "speedsterheroes:water_running",				
+            "show_in_bar": false,		
+            "title": {"text":"Water Running"},		
+			"icon": { "type": "texture", "texture": "nihility:textures/icons/abilities/powers/water_running.png" },		
+			"speed": 1.0				
+		}
+	}
+}

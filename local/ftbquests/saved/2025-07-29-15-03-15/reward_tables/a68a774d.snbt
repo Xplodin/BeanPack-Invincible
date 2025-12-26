@@ -1,0 +1,47 @@
+{
+	title: "MoneyBox",
+	empty_weight: 4,
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		ftb_money: 1L,
+		type: "ftbmoney:money",
+		weight: 5
+	},
+	{
+		ftb_money: 20L,
+		type: "ftbmoney:money",
+		weight: 3
+	},
+	{
+		ftb_money: 30L,
+		type: "ftbmoney:money",
+		weight: 4
+	},
+	{
+		ftb_money: 10L,
+		type: "ftbmoney:money",
+		weight: 6
+	},
+	{
+		ftb_money: 40L,
+		type: "ftbmoney:money",
+		weight: 2
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money"
+	}],
+	loot_crate: {
+		string_id: "moneybox",
+		item_name: "MoneyBox",
+		color: 12478825,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 50,
+			boss: 1
+		}
+	}
+}

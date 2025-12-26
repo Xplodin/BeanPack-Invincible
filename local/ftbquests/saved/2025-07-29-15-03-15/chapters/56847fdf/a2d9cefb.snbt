@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	dependencies: [
+		"3acff5d5"
+	],
+	tasks: [{
+		uid: "ab7a31b5",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b3e61e91",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		uid: "4d4f0319",
+		type: "ftbmoney:money",
+		ftb_money: 90L
+	},
+	{
+		uid: "e5a201e3",
+		type: "item",
+		item: "thermalfoundation:tool.hammer_diamond"
+	}]
+}

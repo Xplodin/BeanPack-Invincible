@@ -1,0 +1,57 @@
+{
+	x: 7.5d,
+	y: -2.0d,
+	text: [
+		"Works similar to RFTools' Enviromental Controller! Can spread potion effects over an area."
+	],
+	dependencies: [
+		"d3a6020d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "df493c4d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 9s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "57ec19f8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "71c3fbdf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "fc66b635",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

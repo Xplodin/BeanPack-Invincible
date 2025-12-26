@@ -1,0 +1,30 @@
+{
+	title: "Get stone!",
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"I thought you said 'Get stoned'! Whatever. Ultimine powers, go!"
+	],
+	dependencies: [
+		"aef5e784"
+	],
+	tasks: [{
+		uid: "d34ac467",
+		type: "item",
+		icon: "minecraft:cobblestone",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ef67f47c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0e666556",
+		type: "xp",
+		xp: 10
+	}]
+}

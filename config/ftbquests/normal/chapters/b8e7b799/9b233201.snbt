@@ -1,0 +1,35 @@
+{
+	title: "Buy a Deviant Shulker here!",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "lostinfinity:deviantshulker"
+			}
+		}
+	},
+	x: -5.5d,
+	y: 6.0d,
+	description: "Typically found in the End",
+	text: [
+		"For those unable to find these either."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "875e9693",
+		type: "ftbmoney:money",
+		value: 2500L
+	}],
+	rewards: [{
+		uid: "80df1a9c",
+		type: "item",
+		item: {
+			id: "enderio:item_soul_vial",
+			Damage: 1s,
+			tag: {
+				entityId: "lostinfinity:deviantshulker"
+			}
+		}
+	}]
+}

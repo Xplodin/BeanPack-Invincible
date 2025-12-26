@@ -12,6 +12,7 @@
 		items: [{
 			item: "lostinfinity:celestialemerald"
 		}],
+		count: 3L,
 		consume_items: true
 	}],
 	rewards: [{

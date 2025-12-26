@@ -1,8 +1,8 @@
 {
-	x: -4.0d,
-	y: 1.5d,
+	x: -8.0d,
+	y: 4.0d,
 	text: [
-		"go to hell (jk)"
+		"go to nether /j"
 	],
 	dependencies: [
 		"65815ced"

@@ -1,0 +1,36 @@
+{
+	title: "MANAAAAAAAAAAAAA",
+	x: -4.5d,
+	y: 3.5d,
+	optional: true,
+	tasks: [{
+		uid: "15386e77",
+		type: "botania_mana",
+		value: 100000000L
+	}],
+	rewards: [{
+		uid: "a16e18a3",
+		type: "item",
+		item: {
+			id: "botania:manaringgreater",
+			tag: {
+				mana: 2000000
+			}
+		}
+	},
+	{
+		uid: "12eebdc0",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "c420acc1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	}]
+}

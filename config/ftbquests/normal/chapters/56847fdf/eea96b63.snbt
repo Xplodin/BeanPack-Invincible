@@ -1,0 +1,591 @@
+{
+	title: "Akashic tome (Filled)",
+	icon: {
+		id: "akashictome:tome",
+		tag: {
+			"akashictome:data": {
+				thaumcraft: {
+					id: "thaumcraft:thaumonomicon",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "thaumcraft"
+					}
+				},
+				tconstruct: {
+					id: "tconstruct:book",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "tconstruct",
+						"akashictome:is_morphing": 1b,
+						mantle: {
+							book: {
+								page: "intro.tmp_intro"
+							}
+						},
+						display: {
+							Name: "§rAkashic Tome (§aMaterials and You§r)"
+						},
+						"akashictome:displayName": "Materials and You"
+					}
+				},
+				patchouli: {
+					id: "patchouli:guide_book",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "patchouli",
+						"patchouli:book": "patchouli:lostinfinity",
+						"akashictome:is_morphing": 1b,
+						display: {
+							Name: "§rAkashic Tome (§aLost Infinity Guidebook§r)"
+						},
+						"akashictome:displayName": "Lost Infinity Guidebook"
+					}
+				},
+				botania: {
+					id: "botania:lexicon",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "botania"
+					}
+				},
+				integratedtunnels: {
+					Damage: 0s,
+					id: "integrateddynamics:on_the_dynamics_of_integration",
+					tag: {
+						"akashictome:definedMod": "integratedtunnels"
+					},
+					Count: 1
+				},
+				hbm: {
+					id: "hbm:book_guide_book",
+					Count: 1,
+					Damage: 3s,
+					tag: {
+						"akashictome:definedMod": "hbm"
+					}
+				},
+				cyclicmagic: {
+					Damage: 0s,
+					id: "guideapi:cyclicmagic-guide",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "cyclicmagic"
+					}
+				},
+				solcarrot: {
+					Damage: 0s,
+					id: "solcarrot:food_book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "solcarrot"
+					}
+				},
+				ebwizardry: {
+					Damage: 0s,
+					id: "ebwizardry:wizard_handbook",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "ebwizardry"
+					}
+				},
+				hbm1: {
+					id: "hbm:book_guide_book",
+					Count: 1,
+					Damage: 1s,
+					tag: {
+						"akashictome:definedMod": "hbm1"
+					}
+				},
+				deepmoblearning: {
+					Damage: 0s,
+					id: "patchouli:guide_book",
+					tag: {
+						"patchouli:book": "deepmoblearning:book",
+						"akashictome:definedMod": "deepmoblearning"
+					},
+					Count: 1
+				},
+				conarm: {
+					Damage: 0s,
+					id: "conarm:book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "conarm",
+						"akashictome:is_morphing": 1b,
+						mantle: {
+							book: {
+								page: "materials.chaotic_metal"
+							}
+						},
+						display: {
+							Name: "§rAkashic Tome (§aMaterials and You - Armory Addendum§r)"
+						},
+						"akashictome:displayName": "Materials and You - Armory Addendum"
+					}
+				},
+				modularrouters: {
+					Damage: 0s,
+					id: "guideapi:modularrouters-guidebook",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "modularrouters"
+					}
+				},
+				hbm2: {
+					id: "hbm:book_guide_book",
+					Count: 1,
+					Damage: 2s,
+					tag: {
+						"akashictome:definedMod": "hbm2",
+						"akashictome:is_morphing": 1b,
+						"akashictome:displayName": "Guide Book",
+						display: {
+							Name: "§rAkashic Tome (§aGuide Book§r)"
+						}
+					}
+				},
+				actuallyadditions: {
+					Damage: 0s,
+					id: "actuallyadditions:item_booklet",
+					tag: {
+						"akashictome:definedMod": "actuallyadditions"
+					},
+					Count: 1
+				},
+				mysticalworld: {
+					Damage: 0s,
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"patchouli:book": "mysticalworld:world_guide",
+						"akashictome:definedMod": "mysticalworld"
+					}
+				},
+				astralsorcery: {
+					id: "astralsorcery:itemjournal",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "astralsorcery"
+					}
+				},
+				twilightforest: {
+					Damage: 0s,
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"patchouli:book": "twilightforest:guide",
+						"akashictome:definedMod": "twilightforest"
+					}
+				},
+				xnet: {
+					id: "xnet:xnet_manual",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "xnet"
+					}
+				},
+				yoyos: {
+					Damage: 0s,
+					id: "yoyos:book",
+					tag: {
+						"akashictome:definedMod": "yoyos"
+					},
+					Count: 1
+				},
+				bloodmagic: {
+					id: "guideapi:bloodmagic-guide",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "bloodmagic"
+					}
+				},
+				bloodarsenal: {
+					id: "guideapi:bloodarsenal-guide",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						"akashictome:definedMod": "bloodarsenal"
+					}
+				},
+				packagedauto: {
+					Damage: 0s,
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"patchouli:book": "packagedauto:guide",
+						"akashictome:definedMod": "packagedauto"
+					}
+				},
+				alchemistry: {
+					Damage: 0s,
+					id: "patchouli:guide_book",
+					tag: {
+						"patchouli:book": "alchemistry:alchemistry_book",
+						"akashictome:definedMod": "alchemistry"
+					},
+					Count: 1
+				},
+				aether_legacy: {
+					Damage: 0s,
+					id: "aether_legacy:lore_book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "aether_legacy"
+					}
+				},
+				bigreactors: {
+					Damage: 0s,
+					id: "patchouli:guide_book",
+					tag: {
+						"patchouli:book": "bigreactors:erguide",
+						"akashictome:definedMod": "bigreactors"
+					},
+					Count: 1
+				},
+				gbook: {
+					id: "gbook:guidebook",
+					Count: 1,
+					Damage: 0s,
+					tag: {
+						Book: "ltta:xml/ltta.xml",
+						"akashictome:definedMod": "gbook",
+						"akashictome:is_morphing": 1b,
+						display: {
+							Name: "§rAkashic Tome (§aLinking Through the Ages§r)"
+						},
+						"akashictome:displayName": "Linking Through the Ages"
+					}
+				},
+				armourers_workshop: {
+					Damage: 0s,
+					id: "armourers_workshop:item.guide-book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "armourers_workshop"
+					}
+				},
+				golems: {
+					Damage: 0s,
+					id: "golems:info_book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "golems"
+					}
+				}
+			},
+			"akashictome:is_morphing": 1b
+		}
+	},
+	x: -10.0d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"The Akashic Tome is essentially a library that can hold any mod's guidebook. Left-clicking with it in your hand while it's transformed into another book will return it to its default state. You start with one, but in case you lose it, you can get another here. ",
+		"",
+		"This one doesn't have the Thaumonomicon because the Thaumonomicon doesn't work until you make it the standard way. ",
+		"",
+		"It also doesn't have the Necronomicon from Abyssalcraft because you'll want to keep it separate, as it holds charge and is used on pedestals while you may want to keep your Akashic Tome on you for other things."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "d6731e2b",
+		type: "checkmark"
+	},
+	{
+		uid: "3c70d3f4",
+		type: "ftbmoney:money",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "381b73e6",
+		type: "item",
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				"akashictome:data": {
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "tconstruct",
+							"akashictome:is_morphing": 1b,
+							mantle: {
+								book: {
+									page: "intro.tmp_intro"
+								}
+							},
+							display: {
+								Name: "§rAkashic Tome (§aMaterials and You§r)"
+							},
+							"akashictome:displayName": "Materials and You"
+						}
+					},
+					patchouli: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "patchouli",
+							"patchouli:book": "patchouli:lostinfinity",
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "§rAkashic Tome (§aLost Infinity Guidebook§r)"
+							},
+							"akashictome:displayName": "Lost Infinity Guidebook"
+						}
+					},
+					botania: {
+						id: "botania:lexicon",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "botania"
+						}
+					},
+					integratedtunnels: {
+						Damage: 0s,
+						id: "integrateddynamics:on_the_dynamics_of_integration",
+						tag: {
+							"akashictome:definedMod": "integratedtunnels"
+						},
+						Count: 1
+					},
+					hbm: {
+						id: "hbm:book_guide_book",
+						Count: 1,
+						Damage: 3s,
+						tag: {
+							"akashictome:definedMod": "hbm"
+						}
+					},
+					cyclicmagic: {
+						Damage: 0s,
+						id: "guideapi:cyclicmagic-guide",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "cyclicmagic"
+						}
+					},
+					solcarrot: {
+						Damage: 0s,
+						id: "solcarrot:food_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "solcarrot"
+						}
+					},
+					ebwizardry: {
+						Damage: 0s,
+						id: "ebwizardry:wizard_handbook",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "ebwizardry"
+						}
+					},
+					hbm1: {
+						id: "hbm:book_guide_book",
+						Count: 1,
+						Damage: 1s,
+						tag: {
+							"akashictome:definedMod": "hbm1"
+						}
+					},
+					deepmoblearning: {
+						Damage: 0s,
+						id: "patchouli:guide_book",
+						tag: {
+							"patchouli:book": "deepmoblearning:book",
+							"akashictome:definedMod": "deepmoblearning"
+						},
+						Count: 1
+					},
+					conarm: {
+						Damage: 0s,
+						id: "conarm:book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "conarm",
+							"akashictome:is_morphing": 1b,
+							mantle: {
+								book: {
+									page: "materials.chaotic_metal"
+								}
+							},
+							display: {
+								Name: "§rAkashic Tome (§aMaterials and You - Armory Addendum§r)"
+							},
+							"akashictome:displayName": "Materials and You - Armory Addendum"
+						}
+					},
+					modularrouters: {
+						Damage: 0s,
+						id: "guideapi:modularrouters-guidebook",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "modularrouters"
+						}
+					},
+					actuallyadditions: {
+						id: "actuallyadditions:item_booklet",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "actuallyadditions",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "Actually Additions Manual",
+							display: {
+								Name: "§rAkashic Tome (§aActually Additions Manual§r)"
+							}
+						}
+					},
+					hbm2: {
+						id: "hbm:book_guide_book",
+						Count: 1,
+						Damage: 2s,
+						tag: {
+							"akashictome:definedMod": "hbm2",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "Guide Book",
+							display: {
+								Name: "§rAkashic Tome (§aGuide Book§r)"
+							}
+						}
+					},
+					mysticalworld: {
+						Damage: 0s,
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"patchouli:book": "mysticalworld:world_guide",
+							"akashictome:definedMod": "mysticalworld"
+						}
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemjournal",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "astralsorcery"
+						}
+					},
+					twilightforest: {
+						Damage: 0s,
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"patchouli:book": "twilightforest:guide",
+							"akashictome:definedMod": "twilightforest"
+						}
+					},
+					xnet: {
+						id: "xnet:xnet_manual",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "xnet"
+						}
+					},
+					yoyos: {
+						Damage: 0s,
+						id: "yoyos:book",
+						tag: {
+							"akashictome:definedMod": "yoyos"
+						},
+						Count: 1
+					},
+					bloodmagic: {
+						id: "guideapi:bloodmagic-guide",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "bloodmagic"
+						}
+					},
+					bloodarsenal: {
+						id: "guideapi:bloodarsenal-guide",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "bloodarsenal"
+						}
+					},
+					packagedauto: {
+						Damage: 0s,
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"patchouli:book": "packagedauto:guide",
+							"akashictome:definedMod": "packagedauto"
+						}
+					},
+					alchemistry: {
+						Damage: 0s,
+						id: "patchouli:guide_book",
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book",
+							"akashictome:definedMod": "alchemistry"
+						},
+						Count: 1
+					},
+					aether_legacy: {
+						Damage: 0s,
+						id: "aether_legacy:lore_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "aether_legacy"
+						}
+					},
+					bigreactors: {
+						Damage: 0s,
+						id: "patchouli:guide_book",
+						tag: {
+							"patchouli:book": "bigreactors:erguide",
+							"akashictome:definedMod": "bigreactors"
+						},
+						Count: 1
+					},
+					gbook: {
+						id: "gbook:guidebook",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							Book: "ltta:xml/ltta.xml",
+							"akashictome:definedMod": "gbook",
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "§rAkashic Tome (§aLinking Through the Ages§r)"
+							},
+							"akashictome:displayName": "Linking Through the Ages"
+						}
+					},
+					armourers_workshop: {
+						Damage: 0s,
+						id: "armourers_workshop:item.guide-book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "armourers_workshop"
+						}
+					},
+					golems: {
+						Damage: 0s,
+						id: "golems:info_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "golems"
+						}
+					}
+				},
+				"akashictome:is_morphing": 1b
+			}
+		}
+	}]
+}

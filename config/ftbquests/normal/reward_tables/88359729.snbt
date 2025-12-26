@@ -1,0 +1,23 @@
+{
+	title: "2x Money or BeanBox",
+	icon: "cfm:present 1 13",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		},
+		count: 2
+	}]
+}

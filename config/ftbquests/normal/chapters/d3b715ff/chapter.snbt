@@ -1,0 +1,10 @@
+{
+	title: "Botania",
+	icon: "botania:dice",
+	description: [
+		"More will come."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

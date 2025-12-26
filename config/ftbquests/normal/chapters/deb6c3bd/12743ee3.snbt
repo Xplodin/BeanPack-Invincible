@@ -1,9 +1,12 @@
 {
 	title: "DONT THROW ME",
-	x: 3.0d,
-	y: 1.5d,
+	x: 2.5d,
+	y: 3.5d,
 	text: [
 		"Unless you want chaos"
+	],
+	dependencies: [
+		"cb09d639"
 	],
 	tasks: [{
 		uid: "f881874d",

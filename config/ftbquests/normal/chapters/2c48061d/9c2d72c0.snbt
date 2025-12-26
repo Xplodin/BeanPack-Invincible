@@ -2,6 +2,7 @@
 	title: "Intrinsic Field",
 	x: 2.0d,
 	y: 2.5d,
+	description: "Honestly pretty god-tier",
 	text: [
 		"Infinity Generator + 5 buckets of Super Soldier Serum"
 	],
@@ -16,13 +17,12 @@
 			tag: {
 				Injection: "manhattan_project:intrinsic_field"
 			}
-		}],
-		ignore_damage: true
+		}]
 	}],
 	rewards: [{
 		uid: "fe9d3676",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 750L
 	},
 	{
 		uid: "e6981a61",

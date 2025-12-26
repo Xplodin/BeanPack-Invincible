@@ -1,0 +1,37 @@
+{
+	x: -5.5d,
+	y: 2.0d,
+	text: [
+		"Used to make crystals"
+	],
+	dependencies: [
+		"8030074f"
+	],
+	tasks: [{
+		uid: "ef101290",
+		type: "item",
+		items: [{
+			item: "mekanism:scrapbox"
+		}]
+	}],
+	rewards: [{
+		uid: "a5464e78",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "df8886cc",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "5d1c59d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	}]
+}

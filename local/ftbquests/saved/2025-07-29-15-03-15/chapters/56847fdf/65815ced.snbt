@@ -1,0 +1,30 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a2d9cefb",
+		"ede24829"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "8ec2fb5b",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "6e239bd0",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "b2c52e91",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

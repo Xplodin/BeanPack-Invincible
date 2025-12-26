@@ -1,0 +1,41 @@
+{
+	title: "Intrinsic Field",
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"Infinity Generator + 5 buckets of Super Soldier Serum"
+	],
+	dependencies: [
+		"94ab2d61"
+	],
+	tasks: [{
+		uid: "dfedd075",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "manhattan_project:intrinsic_field"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fe9d3676",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e6981a61",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bf4c88b6",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7f1ac5ea",
+		type: "loot",
+		table: 1
+	}]
+}

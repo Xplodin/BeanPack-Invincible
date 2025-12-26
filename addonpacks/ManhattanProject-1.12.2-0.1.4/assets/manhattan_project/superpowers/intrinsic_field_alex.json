@@ -441,7 +441,7 @@
 		},
 		"radiation_immunity": {
 			"ability": "the-fifth-world:potion_immunity",
-			"potion": "lucraftcore:radiation",
+			"potion": "hbm:potion.hbm_radiation",
 			"required_level": 15,
 			"title": {
 				"text": "Radiation Immunity"

@@ -1,0 +1,13 @@
+{
+  "printTransformedClasses": false,
+  "checkEnumsWhenRunningTime": false,
+  "runOnAbsoluteSafeEnvironment": false,
+  "type": "block",
+  "contains": [],
+  "prefix": [
+    "com.google.common.util.concurrent.MoreExecutors$DirectExecutor",
+    "com.google.common.util.concurrent.DirectExecutor",
+    "aeternal.ecoenergistics.common.block.states.BlockStateEcoGenerator$EcoGeneratorType"
+  ],
+  "generateConfigWhenCrash": true
+}

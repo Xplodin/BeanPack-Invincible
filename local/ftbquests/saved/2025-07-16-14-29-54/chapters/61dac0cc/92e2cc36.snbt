@@ -1,0 +1,35 @@
+{
+	x: -0.8214285714285694d,
+	y: -1.4285714285714306d,
+	shape: "octagon",
+	text: [
+		"Opens portals to anywhere, also some other neat stuff."
+	],
+	dependencies: [
+		"776d3b21"
+	],
+	tasks: [{
+		uid: "f90ff1db",
+		type: "item",
+		items: [{
+			item: "infinity:space_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6894784",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "2cd08512",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cb5e25b4",
+		type: "loot",
+		table: 2
+	}]
+}

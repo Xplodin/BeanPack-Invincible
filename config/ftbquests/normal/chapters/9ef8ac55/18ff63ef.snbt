@@ -1,0 +1,42 @@
+{
+	x: 3.5d,
+	y: -0.5d,
+	text: [
+		"Obtained by using the DNA Analyzer near chicken, cow, enderman, creeper, and an enderman. All next to eachother. A box room is recommended and Mob Imprisonment Tool to move mobs. :)"
+	],
+	dependencies: [
+		"0a481169"
+	],
+	tasks: [{
+		uid: "b3266504",
+		type: "item",
+		items: [{
+			item: "lostinfinity:variantanalyzerfull"
+		}]
+	}],
+	rewards: [{
+		uid: "1668b6de",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3a694826",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "f6f961f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

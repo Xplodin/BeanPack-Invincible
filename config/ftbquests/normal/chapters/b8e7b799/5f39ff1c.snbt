@@ -1,0 +1,38 @@
+{
+	title: "Buy some energy here!",
+	icon: {
+		id: "mekanism:energycube",
+		tag: {
+			tier: 1,
+			mekData: {
+				energyStored: 8000000.0d
+			}
+		}
+	},
+	x: 2.0d,
+	y: 6.0d,
+	description: "Or make some.",
+	text: [
+		""
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "c2779794",
+		type: "ftbmoney:money",
+		value: 2000L
+	}],
+	rewards: [{
+		uid: "08a5ced1",
+		type: "item",
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1,
+				mekData: {
+					energyStored: 8000000.0d
+				}
+			}
+		}
+	}]
+}

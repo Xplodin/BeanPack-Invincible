@@ -1,0 +1,51 @@
+{
+	title: "T6 Blood Altar Time!",
+	x: 3.5d,
+	y: -3.5d,
+	description: "→→→",
+	text: [
+		"see image on right to assemble"
+	],
+	tasks: [{
+		uid: "8c5fafea",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "2bac9652",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "cee7b4ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "7e683ac1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox_pro"
+			}
+		}
+	},
+	{
+		uid: "d15aa1c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

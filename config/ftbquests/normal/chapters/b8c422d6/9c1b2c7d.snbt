@@ -1,0 +1,39 @@
+{
+	x: -0.5d,
+	y: 9.5d,
+	dependencies: [
+		"e059ef47"
+	],
+	tasks: [{
+		uid: "dbcc43f4",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:morealloy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "29b5a1b8",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "98c200ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	},
+	{
+		uid: "be592b38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	}]
+}

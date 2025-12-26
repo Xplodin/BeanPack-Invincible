@@ -1,0 +1,123 @@
+{
+	title: "BeanBox",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "avaritia:resource 1 2",
+		count: 3
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 6,
+		random_bonus: 10
+	},
+	{
+		xp: 500,
+		type: "xp"
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels"
+	},
+	{
+		item: "xreliquary:glowing_bread",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:block_coal_generator"
+	},
+	{
+		title: "Suspicious Milk",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				Amount: 1000,
+				FluidName: "liquidantimatter",
+				display: {
+					Name: "Suspicious Milk"
+				}
+			}
+		}
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 150L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 200L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "harvestcraft:spagettiandmeatballsitem",
+		count: 5
+	},
+	{
+		item: "randomthings:beans 1 2"
+	},
+	{
+		item: "harvestcraft:beansontoastitem"
+	},
+	{
+		item: "harvestcraft:refriedbeansitem"
+	},
+	{
+		item: "harvestcraft:beanburritoitem"
+	},
+	{
+		item: "harvestcraft:threebeansaladitem"
+	},
+	{
+		item: "harvestcraft:bakedbeansitem"
+	},
+	{
+		item: "harvestcraft:beansandriceitem"
+	},
+	{
+		xp_levels: 5,
+		type: "xp_levels"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "torchmaster:mega_torch"
+	},
+	{
+		item: "astralsorcery:blockcustomore"
+	},
+	{
+		item: "minecraft:emerald_ore"
+	},
+	{
+		item: "minecraft:diamond_ore"
+	},
+	{
+		item: "taiga:eezo_ore"
+	}],
+	loot_crate: {
+		string_id: "beanbox",
+		item_name: "BeanBox",
+		color: 0,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

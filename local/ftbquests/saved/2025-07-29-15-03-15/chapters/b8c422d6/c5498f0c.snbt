@@ -1,0 +1,57 @@
+{
+	x: 3.5d,
+	y: -2.0d,
+	text: [
+		"A not-so-portable creature catcher!"
+	],
+	dependencies: [
+		"d3a6020d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8c73f2ee",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 11s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ccfe8dd0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ddad5b38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "beanbox"
+			}
+		}
+	},
+	{
+		uid: "bef99e94",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "moneybox"
+			}
+		}
+	}]
+}

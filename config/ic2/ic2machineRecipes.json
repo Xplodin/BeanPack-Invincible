@@ -2164,7 +2164,11 @@
   "item.item_material.powder_cobalt_-1705666575": true,
   "item.item_material.powder_ardite_902273374": true,
   "item.item_material.powder_cobalt_1938818540": true,
-  "item.item_material.powder_ardite_251791193": true
+  "item.item_material.powder_ardite_251791193": true,
+  "item.thermalfoundation.material.dustWood_271466121": true,
+  "item.diamondDust_1656142546": true,
+  "item.actuallyadditions.item_dust_emerald_-1460052766": true,
+  "item.redstone_134147916": true
  },
  "extractor": {
   "item.coal_764578481": true,
@@ -3982,7 +3986,16 @@
   "ingotRecycling_ingotPolytetrafluoroethene": true,
   "ingotRecycling_ingotPolydimethylsilylene": true,
   "ingotRecycling_ingotPolymethylsilyleneMethylene": true,
-  "ingotRecycling_ingotActivatedGlowstone": true
+  "ingotRecycling_ingotActivatedGlowstone": true,
+  "ingotRecycling_ingotWood": true,
+  "ingotRecycling_ingotStone": true,
+  "ingotRecycling_ingotDiamond": true,
+  "ingotRecycling_ingotEmerald": true,
+  "ingotRecycling_ingotRedstone": true,
+  "ingotRecycling_ingotIronInfinity": true,
+  "ingotRecycling_ingotEnergized": true,
+  "ingotRecycling_ingotVibrant": true,
+  "ingotRecycling_ingotDark": true
  },
  "sawmill": {
   "tile.wood.oak_-867074482": true,

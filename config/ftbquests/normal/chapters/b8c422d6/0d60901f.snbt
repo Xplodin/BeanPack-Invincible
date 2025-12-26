@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: 0.5d,
+	dependencies: [
+		"4cc8872a"
+	],
+	tasks: [{
+		uid: "58dc8ec0",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fissilefuel",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "0db385de",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e35f9766",
+		type: "loot",
+		table: 2
+	}]
+}

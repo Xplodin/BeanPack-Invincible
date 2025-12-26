@@ -113,7 +113,7 @@
             "show_in_bar": false,		
             "title": {"text":"Radiation Immunity"},		
 			"icon": {"type": "texture", "texture": "wakanda:textures/icons/abilities/stats/basic_icon.png"},	
-            "potion": "lucraftcore:radiation"				
+            "potion": "hbm:potion.hbm_radiation"				
 		},		
 		"self_sustenance": {
 			"ability": "lucraftcore:command_loop",

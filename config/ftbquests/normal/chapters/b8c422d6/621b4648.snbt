@@ -1,6 +1,9 @@
 {
 	x: 2.5d,
 	y: -6.5d,
+	text: [
+		"Can essentially remove enchants from weapons/tools to use on others!"
+	],
 	dependencies: [
 		"1694f0dd"
 	],

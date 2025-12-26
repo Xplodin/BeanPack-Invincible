@@ -1,0 +1,24 @@
+{
+	icon: "minecraft:ladder",
+	x: -10.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Not Spiderman... Yet. Jump at a wall and hold Shift to wall cling! Press Space while clinging to do a wall-jump! Clinging to a wall for more than a second will cause you to slide down. Doing multiple wall-jumps in quick succession will allow you to climb things!"
+	],
+	tasks: [{
+		uid: "99854413",
+		type: "checkmark",
+		title: "Am I Spiderman?!"
+	}],
+	rewards: [{
+		uid: "a5fccc20",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "7e68801b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

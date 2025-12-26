@@ -1,0 +1,21 @@
+{
+	x: -5.797619047619044d,
+	y: 0.8095238095238102d,
+	dependencies: [
+		"352b3e42",
+		"e7bd1a32"
+	],
+	tasks: [{
+		uid: "9a5cdb13",
+		type: "item",
+		items: [{
+			item: "mekanism:emptycrystals"
+		}]
+	}],
+	rewards: [{
+		uid: "61b8bd97",
+		type: "item",
+		item: "mekanism:emptycrystals",
+		count: 32
+	}]
+}

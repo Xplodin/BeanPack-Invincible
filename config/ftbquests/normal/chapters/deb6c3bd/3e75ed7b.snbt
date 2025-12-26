@@ -2,7 +2,10 @@
 	x: -2.0d,
 	y: -0.5d,
 	text: [
-		"This is the compressor that you want, the avaritia one is NOT the correct one"
+		"This is the compressor that you want"
+	],
+	dependencies: [
+		"cb09d639"
 	],
 	tasks: [{
 		uid: "6eba9590",
@@ -20,5 +23,10 @@
 		uid: "a2ae2f4f",
 		type: "loot",
 		table: 0
+	},
+	{
+		uid: "9e6afad5",
+		type: "ftbmoney:money",
+		ftb_money: 750L
 	}]
 }
